@@ -1,0 +1,17 @@
+{
+  "name": "content-engine",
+  "version": "1.0.0",
+  "description": "Content generation engine for Irina's Beehiiv newsletter",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.52.0",
+    "dotenv": "^17.2.3",
+    "express": "^4.18.2"
+  },
+  "author": "Ari (for Irina)",
+  "license": "MIT"
+}

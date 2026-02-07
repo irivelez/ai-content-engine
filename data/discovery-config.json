@@ -1,0 +1,34 @@
+{
+  "sources": {
+    "officialLabs": {
+      "label": "Official AI Labs",
+      "accounts": ["AnthropicAI", "alexalbert__", "OpenAI", "sama", "GoogleAI", "GoogleDeepMind"]
+    },
+    "agenticBuilders": {
+      "label": "Agentic Builders",
+      "accounts": ["LangChainAI", "CrewAI_", "AutoGenAI", "cursor_ai"]
+    },
+    "thoughtLeaders": {
+      "label": "Thought Leaders",
+      "accounts": ["karpathy", "bcherny", "gregisenberg", "joaomdmoura", "alliekmiller", "swyx", "simonw", "hwchase17", "jxnlco", "mckaywrigley", "AravSrinivas"],
+      "critical": ["karpathy", "bcherny"]
+    }
+  },
+  "queries": [
+    "AI productivity tools",
+    "Claude tips tricks",
+    "AI agents workflow",
+    "vibe coding no-code",
+    "AI for business professionals",
+    "AI automation 2026"
+  ],
+  "topicFilters": [
+    "AI tools", "prompts", "automation", "no-code", "productivity",
+    "Claude", "ChatGPT", "workflow", "tutorial", "how-to", "agents"
+  ],
+  "minEngagement": {
+    "likes": 100,
+    "retweets": 20
+  },
+  "maxResults": 20
+}

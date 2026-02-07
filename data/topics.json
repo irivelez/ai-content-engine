@@ -1,0 +1,53 @@
+{
+  "topics": [
+    {
+      "id": "ml67g335",
+      "idea": "Cómo usar Claude Projects para organizar tu trabajo con IA",
+      "source": "manual",
+      "notes": "",
+      "status": "raw",
+      "createdAt": "2026-02-03T06:15:44.033Z"
+    },
+    {
+      "id": "ml8l50r8",
+      "idea": "Deja que la IA haga tu trabajo aburrido: 5 tareas que deberías delegar hoy",
+      "source": "discovery",
+      "notes": "Repurpose angle: PERFECT for Irina's audience. LATAM knowledge workers are buried in reportes, minutas, emails, Excel. They don't need AI to write poetry — they need it to kill the 3 hours of admin they do every day before they can start real work. Make this viscerally practical: 'Here are the 5 tasks eating your day that AI should be doing for you RIGHT NOW.'\nHook: Pasas 3 horas al día en tareas que la IA puede hacer en 3 minutos. Mientras tanto, lo importante se queda sin hacer.\nOriginal: AI should do chores so humans can create, not the other way around",
+      "discoveryId": "d-1770243251185-2",
+      "status": "raw",
+      "createdAt": "2026-02-04T22:14:34.772Z"
+    },
+    {
+      "id": "ml8m1djx",
+      "idea": "como usar Claude Code for normies?",
+      "source": "manual",
+      "notes": "",
+      "status": "expanded",
+      "createdAt": "2026-02-04T22:39:44.349Z",
+      "brief": {
+        "title": "Claude Code para normies: cómo usar la herramienta más potente de Anthropic sin saber programar",
+        "hook": "Hace 2 semanas descubrí Claude Code. No soy developer. Y ya automaticé cosas que antes me tomaban horas.",
+        "angle": "La mayoría del contenido sobre Claude Code está en inglés y dirigido a developers. Esta guía traduce el poder de Claude Code para profesionales que nunca han abierto una terminal — con pasos exactos, zero jargon innecesario, y casos de uso reales para trabajo de oficina.",
+        "audience_pain": "Ven a developers hacer magia con Claude Code en Twitter/X y piensan 'eso no es para mí'. Sienten FOMO tecnológico pero no tienen un punto de entrada claro. Nadie les explica el paso 0: cómo instalarlo, cómo hablarle, y qué pueden lograr SIN saber código.",
+        "key_sections": [
+          "Qué es Claude Code (y por qué NO necesitas ser developer para usarlo)",
+          "Instalación paso a paso: de cero a tu primera conversación en terminal (Mac y Windows)",
+          "Tu primer prompt útil: analizar un archivo, resumir datos, o generar un reporte",
+          "5 casos de uso reales para profesionales no-técnicos (automatizar reportes, limpiar datos en Excel/CSV, generar emails en lote, crear scripts simples, analizar documentos largos)",
+          "Errores comunes de principiante y cómo evitarlos",
+          "Claude Code vs Claude chat: cuándo usar cada uno"
+        ],
+        "actionable_takeaways": [
+          "Instalar Claude Code en menos de 10 minutos con 3 comandos copiados tal cual",
+          "Saber formular prompts efectivos en terminal vs en chat (la diferencia es clave)",
+          "Tener un caso de uso resuelto de su propio trabajo antes de terminar la guía"
+        ],
+        "exercise": "Abre tu terminal, instala Claude Code siguiendo los 3 pasos, y pídele que analice un archivo CSV o documento que tengas en tu escritorio. Copia el prompt exacto que te doy. Tiempo: 5 minutos.",
+        "difficulty": "beginner",
+        "estimated_words": 1100
+      },
+      "expandedAt": "2026-02-04T22:40:04.178Z"
+    }
+  ],
+  "generated": []
+}

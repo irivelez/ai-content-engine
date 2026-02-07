@@ -1,0 +1,562 @@
+{
+  "items": [
+    {
+      "id": "d-1770252928933-0",
+      "originalTitle": "Greg Isenberg: The 2026 SaaS collapse creates the biggest wave of solo entrepreneurs ever",
+      "coreIdea": "Mass layoffs in SaaS companies (driven by AI productivity gains) will force 100K+ workers to become founders — building AI-first micro-businesses with 1-10 people, no VC, and real revenue. The bottleneck isn't code anymore, it's distribution.",
+      "viralReason": "Taps into three powerful emotions simultaneously: fear (layoffs coming), hope (you can build your own thing), and vindication (the system is broken, go solo). The thread format with short punchy lines creates momentum. Greg's credibility as a serial entrepreneur makes the prediction feel authoritative, not speculative. The 'glad they got fired' ending reframes trauma as opportunity — classic viral inversion.",
+      "latamScore": 9,
+      "repurposeAngle": "LATAM professionals are ALREADY living this reality — corporate restructuring, hiring freezes, and economic instability aren't predictions, they're Tuesday. Irina should position this not as 'what's coming to the US' but as 'what's already happening here, and why AI levels the playing field for LATAM founders.' Key twist: in LATAM, distribution IS the advantage — warm networks, WhatsApp culture, regional expertise that US AI tools ignore. Irina can flip Greg's 'struggle with distribution' point into 'tu red de contactos en LATAM es tu moat.' Focus on concrete AI tools that let a solo founder in Bogotá or CDMX compete with a 50-person SF startup.",
+      "suggestedTopic": "Cómo construir un negocio de 1 persona con AI: la guía práctica para profesionales en LATAM que quieren dejar de depender de un empleo corporativo",
+      "suggestedHook": "En 2026 van a despedir a 100,000 personas de empresas SaaS. Greg Isenberg dice que la mayoría se convertirán en founders. Pero lo que él no dice es esto: los profesionales en LATAM tienen una ventaja que Silicon Valley no puede copiar.",
+      "priority": "high",
+      "tags": [
+        "solopreneurship",
+        "AI tools",
+        "future of work",
+        "LATAM opportunity",
+        "career pivot",
+        "micro-SaaS",
+        "no-code"
+      ],
+      "raw": {
+        "title": "Greg Isenberg: The 2026 SaaS collapse creates the biggest wave of solo entrepreneurs ever",
+        "content": "Greg Isenberg prediction thread on X (viral, major engagement): saas stocks see a massive correction. pressure to boost profits. saas companies see BIG productivity gains from AI. saas companies lay OFF 100,000+ workers in 2026. hiring slows down. laid off workers cant find jobs. many become founders out of necessity. build software companies with AI. most struggle with distribution, not code. new SaaS model emerges. tons of new AI-first companies. fewer employees, more automation. most dont raise money. they sell early, reinvest cash, and stay independent. glad they got fired. 10x the amount of entrepreneurs. fewer unicorns, more real businesses. boom in 1-10 person businesses. becomes the dream thx old boss.",
+        "author": "@gregisenberg",
+        "source": "x",
+        "likes": 5000,
+        "retweets": 800
+      },
+      "discoveredAt": "2026-02-05T00:55:28.933Z",
+      "status": "generated",
+      "outputFile": "guide-disc-1770252992957.md",
+      "updatedAt": "2026-02-05T00:56:32.959Z"
+    },
+    {
+      "id": "d-1770244336175-0",
+      "originalTitle": "Karpathy: 1 year of vibe coding → now agentic engineering",
+      "coreIdea": "Vibe coding was the experiment phase. Now in 2026, professionals don't write code — they orchestrate AI agents. The skill isn't programming, it's directing agents effectively. Karpathy calls this 'agentic engineering' and says it's a learnable discipline.",
+      "viralReason": "Karpathy coined 'vibe coding' — him declaring the next phase carries authority. The framing gives people permission to take AI-assisted work seriously as a real skill, not a hack. It validates what many already feel but couldn't articulate.",
+      "latamScore": 9,
+      "repurposeAngle": "Frame this as career evolution for LATAM professionals: you don't need to become a developer — you need to become an 'ingeniero agéntico.' Show concrete examples of what orchestrating agents looks like for a project manager, a marketer, a business analyst. This directly addresses the fear that AI is only for coders.",
+      "suggestedTopic": "Ingeniería Agéntica: La nueva habilidad profesional que no requiere saber programar",
+      "suggestedHook": "Hace un año te dijeron que 'programar con vibes' era el futuro. Se equivocaron. El verdadero cambio es este — y no necesitas escribir una sola línea de código.",
+      "priority": "high",
+      "tags": [
+        "AI skills",
+        "career evolution",
+        "agentic workflows",
+        "non-developers"
+      ],
+      "raw": {
+        "title": "Karpathy: 1 year of vibe coding → now agentic engineering",
+        "content": "Karpathy reflects on 1 year since coining vibe coding. Key insight: vibe coding was for throwaway projects. Now in 2026, programming via LLM agents is the DEFAULT workflow for professionals, with oversight and scrutiny. His new term: agentic engineering. Agentic because you are not writing code 99% of the time, you are orchestrating agents. Engineering because there is art and science to it, something you can learn and get better at. 2202 likes, 153 RTs.",
+        "author": "@karpathy",
+        "source": "x",
+        "likes": 2202,
+        "retweets": 153
+      },
+      "discoveredAt": "2026-02-04T22:32:16.175Z",
+      "status": "generated",
+      "outputFile": "guide-disc-1770245676552.md",
+      "updatedAt": "2026-02-04T22:54:36.557Z"
+    },
+    {
+      "id": "d-1770244337373-1",
+      "originalTitle": "Sam Altman fires back at Anthropic ad-free stance, defends free AI access",
+      "coreIdea": "The AI industry is splitting into two models: free-with-ads/data vs. premium-and-private. Altman argues free access = democratization. Anthropic argues premium = integrity. The real insight: which AI you choose reflects your values and budget.",
+      "viralReason": "Drama between billionaire CEOs. Takes sides format. 'Free vs. paid' is universally relatable. The numbers (more Texans on ChatGPT than total Claude users) create shareable shock value.",
+      "latamScore": 7,
+      "repurposeAngle": "Skip the drama. Focus on what matters for LATAM professionals with limited budgets: which free AI tools actually deliver professional-grade results? Create a practical comparison — what can you do for $0, $20, and $200/month. Address the elephant in the room: in LATAM, price sensitivity is real, so how do you get maximum value?",
+      "suggestedTopic": "ChatGPT gratis vs. Claude de pago: Guía honesta de qué conviene según tu presupuesto",
+      "suggestedHook": "Sam Altman dice que la IA debe ser gratis. Anthropic dice que lo barato sale caro. ¿Quién tiene razón? Depende de cuánto vale tu tiempo.",
+      "priority": "medium",
+      "tags": [
+        "AI tools comparison",
+        "budget",
+        "ChatGPT",
+        "Claude",
+        "accessibility"
+      ],
+      "raw": {
+        "title": "Sam Altman fires back at Anthropic ad-free stance, defends free AI access",
+        "content": "Sam Altman responds to Anthropic Claude ad-free announcement. Key points: Anthropic serves expensive product to rich people. OpenAI committed to free access because access creates agency. More Texans use ChatGPT free than total US Claude users. Announces Codex app hit 500K downloads since Monday launch. Claims Codex is going to win. Calls Anthropic authoritarian. This is the AI industry drama of the week.",
+        "author": "@sama",
+        "source": "x",
+        "likes": 5000,
+        "retweets": 800
+      },
+      "discoveredAt": "2026-02-04T22:32:17.373Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770244337373-2",
+      "originalTitle": "Greg Isenberg: Turn Claude Code into a real-time research engine with a skill",
+      "coreIdea": "You can extend AI tools with 'skills' that pull live data from X, Reddit, and the web — so your AI works with current information, not stale training data. Greg went from researching trends to building a product competitor live, with almost zero hand-written code.",
+      "viralReason": "Live demo format showing real-time results. 'Install in 30 seconds' lowers the barrier. The promise of turning AI from a generic assistant into a personalized research engine hits a pain point everyone feels — AI giving outdated advice.",
+      "latamScore": 8,
+      "repurposeAngle": "Teach LATAM professionals how to make AI tools work with real-time data instead of outdated knowledge. Frame it as 'tu asistente de IA sabe lo que pasó ayer' — show how to combine AI with live research for market analysis, competitive intelligence, or content creation. Don't focus on Claude Code specifically — focus on the principle of feeding fresh context to any AI tool.",
+      "suggestedTopic": "Cómo hacer que tu IA deje de darte información vieja (y empiece a investigar en tiempo real)",
+      "suggestedHook": "Tu IA sigue respondiendo con datos del año pasado. Hay una forma de que investigue lo que pasó hace 30 minutos. Te la enseño.",
+      "priority": "high",
+      "tags": [
+        "AI research",
+        "real-time data",
+        "productivity",
+        "skills",
+        "content creation"
+      ],
+      "raw": {
+        "title": "Greg Isenberg: Turn Claude Code into a real-time research engine with a skill",
+        "content": "Greg Isenberg demos a Claude Code skill called /last30days that pulls trending content from X, Reddit, and the web, then feeds that context into your prompts so you stop building off stale advice. They went from trending rap songs to cold email frameworks to researching and building a competitor live, with almost zero hand-written code. Installable in 30 seconds. This is the agentic workflow in action for non-developers.",
+        "author": "@gregisenberg",
+        "source": "x",
+        "likes": 1500,
+        "retweets": 200
+      },
+      "discoveredAt": "2026-02-04T22:32:17.373Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770244337373-3",
+      "originalTitle": "Anthropic: Claude now integrated directly into Xcode for Apple development",
+      "coreIdea": "AI coding agents are no longer third-party add-ons — they're being built directly into the official development tools of the world's largest companies. Apple integrating Claude into Xcode signals that AI-assisted development is now the default, not the exception.",
+      "viralReason": "Apple + AI = attention. Enterprise legitimacy. Developers see their daily tool getting superpowers. The implicit message: if Apple is doing this, resistance is futile.",
+      "latamScore": 5,
+      "repurposeAngle": "Don't cover the technical Xcode angle — Irina's audience aren't iOS developers. Instead, use this as evidence for a bigger story: the largest companies in the world are embedding AI into their core tools. What does this mean for YOUR industry? Frame it as a signal piece — 'if Apple already decided AI is standard, what's your company waiting for?'",
+      "suggestedTopic": "Apple ya integró IA en sus herramientas internas. ¿Tu empresa todavía debate si 'conviene'?",
+      "suggestedHook": "Apple dejó de debatir si la IA sirve. La metió directo en su herramienta principal de trabajo. Mientras tanto, en tu empresa siguen pidiendo 'un piloto de 6 meses.'",
+      "priority": "low",
+      "tags": [
+        "enterprise AI",
+        "adoption signals",
+        "corporate change",
+        "Apple"
+      ],
+      "raw": {
+        "title": "Anthropic: Claude now integrated directly into Xcode for Apple development",
+        "content": "Apple Xcode now has direct integration with Claude Agent SDK. Developers get full Claude Code functionality for building on Apple platforms - iPhone, Mac, Apple Vision Pro. This is a major enterprise move: AI coding agents are now built into the official IDE of the world largest company.",
+        "author": "@AnthropicAI",
+        "source": "x",
+        "likes": 3000,
+        "retweets": 400
+      },
+      "discoveredAt": "2026-02-04T22:32:17.373Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770244337373-4",
+      "originalTitle": "Codex app launches - Sam says its the coding future, 500K downloads in days",
+      "coreIdea": "OpenAI's Codex app hit 500K downloads in days. The coding tool war (Codex vs. Claude Code vs. Cursor) is accelerating. But the real insight for non-developers: these tools let you build functional software through conversation, not code.",
+      "viralReason": "500K downloads creates FOMO. 'Good coders have already switched' is a status play. The tool war narrative creates a horse race people want to follow. The '2X productivity' claim is a concrete, shareable number.",
+      "latamScore": 8,
+      "repurposeAngle": "Focus on the democratization angle: professionals in LATAM can now build tools, automate workflows, and create prototypes by describing what they want in plain language. Don't make it about which coding tool wins — make it about the fact that 'building things' is no longer exclusive to developers. Show a concrete example: a marketing manager building a lead tracker, a project manager building a dashboard.",
+      "suggestedTopic": "Cómo construir tu propia herramienta de trabajo sin saber programar (guía paso a paso con IA)",
+      "suggestedHook": "500,000 personas descargaron una app para construir software hablando. No escribiendo código — hablando. Esta es la guía para que tú también lo hagas.",
+      "priority": "high",
+      "tags": [
+        "AI tools",
+        "no-code",
+        "productivity",
+        "building",
+        "democratization"
+      ],
+      "raw": {
+        "title": "Codex app launches - Sam says its the coding future, 500K downloads in days",
+        "content": "OpenAI Codex app launched on macOS. Mckay Wrigley says it easily 2Xd his productivity. Sam Altman says good coders have already switched to Codex. 500,000 app downloads since Monday launch. The coding tool war is heating up between Claude Code, Cursor, and Codex. Key insight for non-developers: these tools make building accessible to everyone through conversation.",
+        "author": "@mckaywrigley",
+        "source": "x",
+        "likes": 800,
+        "retweets": 100
+      },
+      "discoveredAt": "2026-02-04T22:32:17.373Z",
+      "status": "generated",
+      "outputFile": "guide-disc-1770245389464.md",
+      "updatedAt": "2026-02-04T22:49:49.467Z"
+    },
+    {
+      "id": "d-1770244337373-5",
+      "originalTitle": "Karpathy: Bring back RSS feeds - higher quality, less slop",
+      "coreIdea": "Social media algorithms feed you slop. RSS feeds let you curate exactly what you consume. Karpathy shares 92 quality blogs and advocates for taking control of your information diet. The meta-insight: in the AI age, the quality of what you feed your brain (and your AI) matters more than ever.",
+      "viralReason": "8,873 likes — highest engagement of all 7 items. Anti-algorithm sentiment is universally felt. Nostalgia for 'the old internet.' Karpathy sharing his personal list of 92 feeds gives immediate, actionable value. People are tired of slop and this validates that frustration.",
+      "latamScore": 7,
+      "repurposeAngle": "Adapt as 'dieta informativa para profesionales de IA.' Curate a list of the best Spanish and English sources for LATAM professionals to stay current on AI without drowning in noise. Teach them to set up a simple RSS reader in 10 minutes. Position it as: if you want to be the AI expert in your company, you need better inputs than LinkedIn and TikTok.",
+      "suggestedTopic": "Tu dieta de información es basura (y por eso tu IA también da respuestas mediocres). Cómo arreglarla en 10 minutos.",
+      "suggestedHook": "Si lo único que lees sobre IA es lo que te muestra el algoritmo de LinkedIn, estás comiendo basura informativa. Karpathy acaba de compartir cómo él se informa — y tú puedes copiarlo.",
+      "priority": "medium",
+      "tags": [
+        "information diet",
+        "RSS",
+        "curation",
+        "productivity",
+        "learning"
+      ],
+      "raw": {
+        "title": "Karpathy: Bring back RSS feeds - higher quality, less slop",
+        "content": "Karpathy advocates for RSS feeds over social media. Says any product with the same incentive structures converges to the same black hole. RSS is open, pervasive, hackable. Shares list of 92 RSS feeds of blogs most popular on HN in 2025. 8873 likes, 874 RTs. The message: curate your information diet, stop consuming algorithmic slop.",
+        "author": "@karpathy",
+        "source": "x",
+        "likes": 8873,
+        "retweets": 874
+      },
+      "discoveredAt": "2026-02-04T22:32:17.373Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770244337373-6",
+      "originalTitle": "Alex Albert: Claude drove a Mars rover - first AI-planned drive on another planet",
+      "coreIdea": "Claude planned and executed the first AI-driven drive of NASA's Perseverance rover on Mars. This isn't a demo or a prototype — it's AI making real decisions on another planet. AI has moved from 'useful chatbot' to 'trusted with billion-dollar space missions.'",
+      "viralReason": "Mars. That's it. The sheer audacity of the claim is scroll-stopping. It bridges the gap between 'AI writes emails' and 'AI explores planets.' It's a credibility and wonder story — hard to argue AI is a fad when it's driving on Mars.",
+      "latamScore": 6,
+      "repurposeAngle": "Use as an 'opening anecdote' story, not a full guide. Start a newsletter or post with 'La semana pasada, una IA manejó un rover en Marte. Y tú todavía no la usas para organizar tu bandeja de entrada.' The contrast between Mars-level AI and mundane daily tasks creates urgency and humor. It's a motivational hook, not a technical deep-dive.",
+      "suggestedTopic": "Una IA ya maneja en Marte. ¿Tú todavía le tienes miedo a usarla en el trabajo?",
+      "suggestedHook": "El 8 de diciembre, una IA manejó un rover en Marte por primera vez en la historia. Y esta mañana tú seguiste escribiendo ese reporte a mano. Hablemos de prioridades.",
+      "priority": "medium",
+      "tags": [
+        "AI credibility",
+        "inspiration",
+        "NASA",
+        "adoption motivation",
+        "storytelling"
+      ],
+      "raw": {
+        "title": "Alex Albert: Claude drove a Mars rover - first AI-planned drive on another planet",
+        "content": "On December 8, the Perseverance rover on Mars had its first AI-planned drive, and it was planned by Claude. This is not vaporware - Claude is literally driving on Mars. This is the kind of credibility story that makes AI feel real and transformative beyond just chatbots and coding tools.",
+        "author": "@alexalbert__",
+        "source": "x",
+        "likes": 2000,
+        "retweets": 300
+      },
+      "discoveredAt": "2026-02-04T22:32:17.373Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770243251185-0",
+      "originalTitle": "Anthropic declares Claude will remain ad-free forever",
+      "coreIdea": "AI assistants are becoming intimate thinking partners — not search engines. The trust model is fundamentally different. Users share salary info, health concerns, business strategy. Ads would poison that relationship.",
+      "viralReason": "Anti-ad sentiment + trust anxiety. People are tired of being the product. A major AI company taking a principled stand feels rare and refreshing. The 'space to think' framing elevated it beyond a business decision into a philosophy.",
+      "latamScore": 7,
+      "repurposeAngle": "LATAM professionals are adopting AI tools fast but many still treat Claude/ChatGPT like Google — typing keywords, getting surface answers. Irina can reframe HOW to use AI: it's your thinking partner, not a search bar. Share what you'd share with a trusted colleague. The more context you give, the better it works. This is a mindset shift piece.",
+      "suggestedTopic": "Cómo usar Claude como tu socio de pensamiento (no como Google)",
+      "suggestedHook": "Estás usando Claude como si fuera Google. Por eso los resultados que te da son mediocres.",
+      "priority": "medium",
+      "tags": [
+        "Claude",
+        "mindset",
+        "productivity",
+        "trust"
+      ],
+      "raw": {
+        "title": "Anthropic declares Claude will remain ad-free forever",
+        "content": "Anthropic published Claude is a Space to Think. AI conversations are fundamentally different from search or social media. Users share deeply personal context, use it for complex work and thinking. Ads would undermine trust. 2100+ upvotes Reddit, 284+ points HN.",
+        "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+        "source": "x-AnthropicAI",
+        "likes": 2100,
+        "author": "@AnthropicAI"
+      },
+      "discoveredAt": "2026-02-04T22:14:11.185Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770243251185-1",
+      "originalTitle": "AI is killing B2B SaaS",
+      "coreIdea": "AI agents are replacing entire software categories. Instead of paying for 5 separate tools (CRM, analytics, project management), one AI assistant handles workflows across all of them. The unbundling of SaaS has begun.",
+      "viralReason": "Touches real money anxiety — both for SaaS founders and for companies paying $500+/month in subscriptions. The 'which category dies first' debate drove massive engagement because everyone has skin in the game.",
+      "latamScore": 9,
+      "repurposeAngle": "GOLDMINE for Irina's audience. LATAM professionals and small businesses often overpay for SaaS tools they barely use. Show them concrete examples: 'I replaced [tool] with a Claude workflow and saved $X/month.' Make it a practical cost-saving guide — money talks in every language. Include a before/after of a real workflow.",
+      "suggestedTopic": "Las 5 suscripciones SaaS que puedes cancelar hoy y reemplazar con IA",
+      "suggestedHook": "Estás pagando $200 al mes en herramientas que la IA ya puede hacer gratis. Te muestro cuáles cancelar.",
+      "priority": "high",
+      "tags": [
+        "SaaS",
+        "cost savings",
+        "AI workflows",
+        "tools",
+        "automation"
+      ],
+      "raw": {
+        "title": "AI is killing B2B SaaS",
+        "content": "AI agents now do what previously required entire SaaS products - CRM, analytics, project management. A single AI assistant handles tasks across domains. Companies canceling subscriptions replacing with AI workflows. 161 HN comments debating which categories die first.",
+        "source": "web",
+        "likes": 103,
+        "author": "namanyayg"
+      },
+      "discoveredAt": "2026-02-04T22:14:11.185Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770243251185-2",
+      "originalTitle": "AI should do chores so humans can create, not the other way around",
+      "coreIdea": "The correct use of AI is eliminating busywork so humans can focus on creative, strategic, high-value thinking. Most people have it backwards — they use AI for the fun parts and still drown in admin.",
+      "viralReason": "13K+ upvotes because it crystallizes a frustration everyone feels but couldn't articulate. The laundry/art metaphor is instantly shareable. It validates the 'something feels wrong' gut feeling about how AI is being marketed.",
+      "latamScore": 10,
+      "repurposeAngle": "PERFECT for Irina's audience. LATAM knowledge workers are buried in reportes, minutas, emails, Excel. They don't need AI to write poetry — they need it to kill the 3 hours of admin they do every day before they can start real work. Make this viscerally practical: 'Here are the 5 tasks eating your day that AI should be doing for you RIGHT NOW.'",
+      "suggestedTopic": "Deja que la IA haga tu trabajo aburrido: 5 tareas que deberías delegar hoy",
+      "suggestedHook": "Pasas 3 horas al día en tareas que la IA puede hacer en 3 minutos. Mientras tanto, lo importante se queda sin hacer.",
+      "priority": "high",
+      "tags": [
+        "productivity",
+        "mindset",
+        "busywork",
+        "automation",
+        "time management"
+      ],
+      "raw": {
+        "title": "AI should do chores so humans can create, not the other way around",
+        "content": "Joanna Maciejewska viral quote: I want AI to do my laundry and dishes so I can do art, not for AI to do my art so I can do laundry. 13757 upvotes. Smart professionals use AI to ELIMINATE busywork, not replace thinking.",
+        "source": "reddit",
+        "likes": 13757,
+        "author": "r/ChatGPT"
+      },
+      "discoveredAt": "2026-02-04T22:14:11.185Z",
+      "status": "imported",
+      "importedAt": "2026-02-04T22:14:34.789Z",
+      "topicId": "ml8l50r8"
+    },
+    {
+      "id": "d-1770243251185-3",
+      "originalTitle": "Claude Code for Infrastructure - AI agents doing DevOps",
+      "coreIdea": "AI coding agents are expanding beyond writing app code into managing servers, deployments, and cloud infrastructure through natural language conversation.",
+      "viralReason": "Niche but high-signal for technical audiences. DevOps is painful and expensive — the idea of conversational infrastructure management is compelling for anyone who's wrestled with AWS configs at 2am.",
+      "latamScore": 3,
+      "repurposeAngle": "Too technical for Irina's core audience (non-developers). SKIP as a standalone piece. But extract one useful nugget: even highly technical work like server management is becoming conversational. Use this as a supporting example in a broader 'AI is changing who can do what' piece — proof that the barrier to technical work is collapsing.",
+      "suggestedTopic": null,
+      "suggestedHook": null,
+      "priority": "low",
+      "tags": [
+        "DevOps",
+        "technical",
+        "coding",
+        "infrastructure"
+      ],
+      "raw": {
+        "title": "Claude Code for Infrastructure - AI agents doing DevOps",
+        "content": "Practical guide using Claude Code for infra management - servers, deployments, cloud config. AI coding agents beyond app code into ops. Real examples managing AWS, Docker, CI/CD through conversation. 62 HN comments.",
+        "source": "web",
+        "likes": 73,
+        "author": "aspectrr"
+      },
+      "discoveredAt": "2026-02-04T22:14:11.185Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770243251185-4",
+      "originalTitle": "The IDE is dead: Codex shows coding becomes review, not writing",
+      "coreIdea": "Software creation is shifting from writing code to describing what you want and reviewing what AI builds. Non-developers become builders. Developers become architects and reviewers.",
+      "viralReason": "Identity disruption — challenges who gets to call themselves a 'builder.' The democratization angle is both exciting (anyone can build!) and threatening (what's my job now?). Strong opinion drives engagement.",
+      "latamScore": 8,
+      "repurposeAngle": "Reframe for LATAM professionals: you don't need to learn to code anymore to build tools for your team. The new skill is knowing what to ask for and evaluating what you get back. This is HUGE for Irina's audience — managers and knowledge workers who always depended on IT departments or expensive developers. Show a concrete example: 'I described what I needed in Spanish, and AI built it.'",
+      "suggestedTopic": "Ya no necesitas saber programar para crear tus propias herramientas con IA",
+      "suggestedHook": "Tu equipo de IT tarda 3 meses en hacerte una herramienta simple. Con IA, la puedes crear tú en una tarde. Sin escribir una línea de código.",
+      "priority": "high",
+      "tags": [
+        "no-code",
+        "builders",
+        "democratization",
+        "Codex",
+        "empowerment"
+      ],
+      "raw": {
+        "title": "The IDE is dead: Codex shows coding becomes review, not writing",
+        "content": "OpenAIs Codex app: instead of writing code in an IDE, describe what you want in natural language. The GUI becomes a REVIEW interface. Changes who can build software. Non-developers become builders. Developers become reviewers and architects.",
+        "source": "web",
+        "likes": 19,
+        "author": "benshoemaker"
+      },
+      "discoveredAt": "2026-02-04T22:14:11.185Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770243176538-0",
+      "originalTitle": "Interactive California Budget built entirely with Claude Code",
+      "coreIdea": "You can build fully functional data visualizations and web apps by describing what you want in plain language — no coding skills needed. 'Vibe coding' turns ideas into working software.",
+      "viralReason": "Proof-of-concept that's visually impressive and immediately credible. Government budget = serious data, not a toy demo. The gap between 'zero code written' and 'polished interactive app' is shocking and shareable.",
+      "latamScore": 9,
+      "repurposeAngle": "LATAM professionals (managers, analysts, consultants) constantly need to present data to leadership but depend on dev teams or expensive BI tools. Show them how to build their own dashboards and interactive reports with Claude Code — using a LATAM-relevant dataset (e.g., company sales by region, marketing spend breakdown, or a public budget from Mexico/Colombia). Step-by-step guide from prompt to published visualization.",
+      "suggestedTopic": "Cómo crear dashboards interactivos con IA sin saber programar (usando Claude Code)",
+      "suggestedHook": "Un tipo acaba de crear una visualización interactiva del presupuesto de California — sin escribir una sola línea de código. Lo hizo solo hablándole a la IA. Te muestro cómo hacer lo mismo con los datos de TU empresa.",
+      "priority": "high",
+      "tags": [
+        "Claude Code",
+        "vibe coding",
+        "data visualization",
+        "no-code",
+        "productividad",
+        "análisis de datos"
+      ],
+      "raw": {
+        "title": "Interactive California Budget built entirely with Claude Code",
+        "content": "Someone built a full interactive data visualization of the California state budget using only Claude Code. No manual coding. Vibe coding in action: describe what you want, AI builds it.",
+        "source": "web",
+        "likes": 13
+      },
+      "discoveredAt": "2026-02-04T22:12:56.538Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770243163933-0",
+      "originalTitle": "Anthropic declares Claude will remain ad-free forever",
+      "coreIdea": "AI assistants are becoming intimate thinking partners, not just search tools. The trust dynamic is fundamentally different — you share salary info, health concerns, business strategy. Ad-free = aligned incentives.",
+      "viralReason": "Taps into growing distrust of big tech monetization. People are tired of being the product. 2100+ Reddit upvotes show this hit a nerve about AI trust and privacy.",
+      "latamScore": 7,
+      "repurposeAngle": "LATAM professionals are adopting AI tools fast but many don't think about trust/privacy implications. Irina can position this as a 'how to choose your AI tool' framework — what to look for beyond features. Practical angle: what you should (and shouldn't) share with different AI tools, and why the business model matters.",
+      "suggestedTopic": "Cómo elegir tu herramienta de IA: por qué el modelo de negocio importa más que las features",
+      "suggestedHook": "Le cuentas a tu IA cosas que no le cuentas ni a tu jefe. ¿Ya te preguntaste quién más está escuchando?",
+      "priority": "medium",
+      "tags": [
+        "AI trust",
+        "privacy",
+        "tool selection",
+        "Claude"
+      ],
+      "raw": {
+        "title": "Anthropic declares Claude will remain ad-free forever",
+        "content": "Anthropic published Claude is a Space to Think. They committed to keeping Claude ad-free. Key argument: AI conversations are fundamentally different from search or social media. Users share deeply personal context, use it for complex work and thinking. Ads would undermine trust. They want Claude to act unambiguously in users interests. 2100+ upvotes Reddit, 284+ points HN.",
+        "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+        "source": "x-AnthropicAI",
+        "likes": 2100,
+        "author": "@AnthropicAI"
+      },
+      "discoveredAt": "2026-02-04T22:12:43.933Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770243163938-1",
+      "originalTitle": "AI is killing B2B SaaS - the entire software category is being disrupted",
+      "coreIdea": "A single AI assistant can replace 5-10 SaaS subscriptions. CRM, analytics, project management — AI agents handle cross-domain tasks that previously required specialized tools. Fewer tools, more AI skills.",
+      "viralReason": "161 HN comments = heated debate. Touches everyone's wallet (SaaS fatigue is real) and career anxiety (what happens to people who built careers around specific tools?).",
+      "latamScore": 9,
+      "repurposeAngle": "HUGE for LATAM. Companies there pay for Salesforce, HubSpot, Monday, etc. — often overkill for their size. Irina can show how a manager or small team can replace 3-5 tools with AI workflows. Direct money savings + competitive advantage. This is the 'skip a generation of tech' opportunity LATAM loves.",
+      "suggestedTopic": "5 herramientas SaaS que puedes reemplazar HOY con IA (y cuánto te ahorras al mes)",
+      "suggestedHook": "Tu empresa paga $500/mes en herramientas que una IA puede reemplazar en una tarde. Te muestro cuáles.",
+      "priority": "high",
+      "tags": [
+        "AI workflows",
+        "SaaS replacement",
+        "cost savings",
+        "productivity",
+        "tools"
+      ],
+      "raw": {
+        "title": "AI is killing B2B SaaS - the entire software category is being disrupted",
+        "content": "AI agents can now do what previously required entire SaaS products - from CRM to analytics to project management. A single AI assistant handles tasks across domains, removing the need for specialized tools. Companies are canceling SaaS subscriptions and replacing them with AI workflows. 161 comments HN, heated debate about which categories die first. Implications for knowledge workers: fewer tools to learn, more AI skills needed.",
+        "url": "https://nmn.gl",
+        "source": "web",
+        "likes": 103,
+        "author": "namanyayg"
+      },
+      "discoveredAt": "2026-02-04T22:12:43.939Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770243163939-2",
+      "originalTitle": "Interactive California Budget built ENTIRELY with Claude Code - zero manual coding",
+      "coreIdea": "Non-developers can now build polished, functional web apps by describing what they want in plain language. Vibe coding = conversation replaces code. The barrier to building software just collapsed.",
+      "viralReason": "Proof over theory — a real, live, working app built without writing a line of code. Tangible evidence that 'anyone can build' is no longer hype.",
+      "latamScore": 8,
+      "repurposeAngle": "LATAM professionals constantly need internal tools, dashboards, small apps — but dev resources are expensive and scarce. Irina can frame this as 'you don't need a developer anymore for 80% of what you need built.' Step-by-step guide showing a non-technical person building something useful.",
+      "suggestedTopic": "Cómo construí una app sin saber programar usando solo Claude (paso a paso)",
+      "suggestedHook": "No soy programadora. La semana pasada construí una app funcional en 2 horas. Solo le dije a la IA qué quería.",
+      "priority": "high",
+      "tags": [
+        "vibe coding",
+        "no-code",
+        "Claude Code",
+        "building",
+        "empowerment"
+      ],
+      "raw": {
+        "title": "Interactive California Budget built ENTIRELY with Claude Code - zero manual coding",
+        "content": "A developer built california-budget.com - a full interactive data visualization of state budget using only Claude Code. No manual coding. This is vibe coding in action: describe what you want, AI builds it. A polished, useful web app created by conversation, not code. Perfect example of what non-developers can now build.",
+        "url": "https://california-budget.com",
+        "source": "web",
+        "likes": 13,
+        "author": "sberens"
+      },
+      "discoveredAt": "2026-02-04T22:12:43.939Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770243163939-3",
+      "originalTitle": "Karpathy-style insight: AI should do chores so humans can create",
+      "coreIdea": "The winning AI strategy: use AI to eliminate grunt work (reports, data entry, formatting, emails) so YOU keep the creative and strategic work. Not the other way around. AI as force multiplier for busywork, not replacement for thinking.",
+      "viralReason": "13,757 upvotes — monster virality. Captures the emotional tension EVERYONE feels about AI. Simple, quotable, shareable. Takes a complex debate and distills it into one perfect contrast.",
+      "latamScore": 10,
+      "repurposeAngle": "This is Irina's CORE message. LATAM professionals fear AI will replace them. She flips the narrative: AI replaces the parts of your job you HATE. The people getting promoted are using AI for the boring stuff and showing up with better strategic work. Perfect for a manifesto-style post + practical guide combo.",
+      "suggestedTopic": "La regla de oro de la IA: que haga lo que odias, no lo que amas",
+      "suggestedHook": "Hay dos tipos de profesionales con IA: los que le piden que piense por ellos, y los que le piden que haga el trabajo aburrido. Solo uno de los dos va a seguir siendo relevante.",
+      "priority": "high",
+      "tags": [
+        "AI mindset",
+        "productivity",
+        "career strategy",
+        "philosophy",
+        "busywork"
+      ],
+      "raw": {
+        "title": "Karpathy-style insight: AI should do chores so humans can create, not the other way around",
+        "content": "Joanna Maciejewska viral quote: I want AI to do my laundry and dishes so that I can do art and writing, not for AI to do my art and writing so that I can do my laundry and dishes. 13,757 upvotes on Reddit. This captures the fundamental tension in AI adoption. The contrarian take: smart professionals use AI to ELIMINATE busywork, not to replace thinking. The people winning with AI are those who use it as a force multiplier for grunt work while keeping creative control.",
+        "source": "reddit",
+        "likes": 13757,
+        "author": "r/ChatGPT"
+      },
+      "discoveredAt": "2026-02-04T22:12:43.939Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770243163939-4",
+      "originalTitle": "Claude Code for Infrastructure - AI coding agents are now doing DevOps",
+      "coreIdea": "AI coding agents are expanding beyond app development into infrastructure, servers, and cloud management. DevOps through conversation.",
+      "viralReason": "Technical audience resonated because it pushes AI capabilities into a domain considered 'too risky' for automation. Challenges assumptions about what AI can handle.",
+      "latamScore": 4,
+      "repurposeAngle": "Too technical for Irina's core audience. BUT there's a meta-insight worth extracting: AI keeps expanding into territories people said were 'safe.' The lesson for managers: no domain is immune. Could work as a brief mention in a broader piece about AI's expanding reach, not a standalone guide.",
+      "suggestedTopic": "Lo que los técnicos ya saben (y tu jefe todavía no): la IA ya maneja servidores",
+      "suggestedHook": "Cada mes la IA entra a un territorio que 'nadie creía posible.' Este mes: la infraestructura de tu empresa.",
+      "priority": "low",
+      "tags": [
+        "DevOps",
+        "technical",
+        "AI expansion",
+        "infrastructure"
+      ],
+      "raw": {
+        "title": "Claude Code for Infrastructure - AI coding agents are now doing DevOps",
+        "content": "Practical guide on using Claude Code for infrastructure management - servers, deployments, cloud config. AI coding agents moving beyond app code into ops territory. Shows real examples of managing AWS, Docker, CI/CD pipelines through conversation. 62 comments on HN discussing whether this changes the DevOps role.",
+        "url": "https://fluid.sh",
+        "source": "web",
+        "likes": 73,
+        "author": "aspectrr"
+      },
+      "discoveredAt": "2026-02-04T22:12:43.939Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770243163939-5",
+      "originalTitle": "The IDE is shifting left: coding GUIs becoming review interfaces",
+      "coreIdea": "The future of software: you DESCRIBE what you want, AI builds it, you REVIEW the result. Writing code becomes reviewing code. This unlocks a new class of builders — anyone who can describe a problem clearly.",
+      "viralReason": "Reframes the entire coding paradigm. 'Describe → Review' is a simple mental model that makes the shift tangible. Implications for who gets to build are massive.",
+      "latamScore": 7,
+      "repurposeAngle": "For LATAM managers and knowledge workers: the skill that matters now is DESCRIBING problems clearly, not coding. Clear communication and domain expertise become the new 'technical skill.' Irina can position prompt engineering and problem description as THE career skill for 2025-2026. Tie it to vibe coding item #3 for a powerful combo piece.",
+      "suggestedTopic": "La nueva habilidad técnica que no requiere código: saber describir lo que necesitas",
+      "suggestedHook": "En 2024 necesitabas un programador. En 2025 necesitas saber explicar bien lo que quieres. La IA se encarga del resto.",
+      "priority": "medium",
+      "tags": [
+        "vibe coding",
+        "career skills",
+        "prompt engineering",
+        "future of work",
+        "non-developers"
+      ],
+      "raw": {
+        "title": "The IDE is shifting left: Codex app shows coding GUIs becoming review interfaces",
+        "content": "OpenAIs Codex app represents a fundamental shift: instead of writing code in an IDE, you describe what you want in natural language. The coding GUI becomes a REVIEW interface, not a writing interface. This changes who can build software. Implications: vibe coding becomes the default, traditional coding becomes optimization. Non-developers become builders. Professional developers become reviewers and architects.",
+        "source": "web",
+        "likes": 19,
+        "author": "benshoemaker"
+      },
+      "discoveredAt": "2026-02-04T22:12:43.939Z",
+      "status": "new"
+    }
+  ],
+  "lastSearch": null
+}

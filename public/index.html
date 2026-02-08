@@ -428,6 +428,19 @@
     .status-dot.green { background: var(--success); }
     .status-dot.red { background: #ef4444; }
     .status-dot.yellow { background: var(--warning); }
+
+    .format-btn {
+      padding: 0.5rem 0.75rem;
+      font-size: 0.85rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .format-btn:hover { background: var(--surface-2); color: var(--text); }
+    .format-btn.active { background: var(--accent); border-color: var(--accent); color: white; }
   </style>
 </head>
 <body>
@@ -511,14 +524,24 @@
     <div id="autonomous" class="panel">
       <div class="grid-2">
         <div class="card">
-          <h2>Generate How-To Guide</h2>
+          <h2>Generate Newsletter Edition</h2>
           <p style="color: var(--text-muted); margin-bottom: 1rem; font-size: 0.9rem;">
-            Enter a topic and I'll create a complete, publication-ready guide.
+            Choose a format, enter a topic, and get a publication-ready edition.
           </p>
+          <div id="formatSelector" style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem;">
+            <button class="format-btn active" data-format="guia_practica" onclick="selectFormat(this)">📘 Guía Práctica</button>
+            <button class="format-btn" data-format="experimento" onclick="selectFormat(this)">🧪 Experimento</button>
+            <button class="format-btn" data-format="comparacion" onclick="selectFormat(this)">⚖️ Comparación</button>
+            <button class="format-btn" data-format="contrario" onclick="selectFormat(this)">🔥 Contrario</button>
+            <button class="format-btn" data-format="curacion" onclick="selectFormat(this)">🌎 Curación</button>
+          </div>
+          <div id="formatDesc" style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem; padding: 0.5rem 0.75rem; background: var(--surface-2); border-radius: 6px; border-left: 3px solid var(--accent);">
+            Concepto → Analogía → Demo → Ejercicio (tu formato signature)
+          </div>
           <input type="text" id="autoTopic" placeholder="e.g., Cómo usar Claude Projects para organizar tu trabajo">
           <textarea id="autoInstructions" placeholder="Additional instructions (optional)..." style="min-height: 100px; margin-top: 0.75rem;"></textarea>
           <div class="btn-row">
-            <button id="generateBtn" onclick="generateAutonomous()">🚀 Generate Guide</button>
+            <button id="generateBtn" onclick="generateAutonomous()">🚀 Generate</button>
           </div>
         </div>
         <div class="card">
@@ -607,6 +630,22 @@
     // State
     let currentGuide = '';
     let topics = [];
+    let selectedFormat = 'guia_practica';
+
+    const FORMAT_DESCS = {
+      guia_practica: 'Concepto → Analogía → Demo → Ejercicio (tu formato signature)',
+      experimento: '"Probé X por 2 semanas..." — narrativa en primera persona con resultados',
+      comparacion: 'Por tarea: qué herramienta usar, cuándo y por qué — con veredictos claros',
+      contrario: '"Deja de usar X" — desafía lo convencional, respaldado con evidencia real',
+      curacion: 'Tendencia en inglés → adaptada para LATAM con tu perspectiva y ángulo propio'
+    };
+
+    function selectFormat(btn) {
+      document.querySelectorAll('.format-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      selectedFormat = btn.dataset.format;
+      document.getElementById('formatDesc').textContent = FORMAT_DESCS[selectedFormat] || '';
+    }
 
     // Tab switching
     document.querySelectorAll('.tab').forEach(tab => {
@@ -638,7 +677,7 @@
         const res = await fetch('/api/generate/autonomous', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ topic, customInstructions: instructions })
+          body: JSON.stringify({ topic, format: selectedFormat, customInstructions: instructions })
         });
         
         const data = await res.json();

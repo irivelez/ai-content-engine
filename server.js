@@ -21,12 +21,26 @@ if (!process.env.OPENCLAW_GATEWAY_TOKEN) {
 }
 
 const { 
-  AUTONOMOUS_SYSTEM, 
+  GUIA_PRACTICA_SYSTEM,
+  EXPERIMENTO_SYSTEM,
+  COMPARACION_SYSTEM,
+  CONTRARIO_SYSTEM,
+  CURACION_SYSTEM,
+  AUTONOMOUS_SYSTEM,
   DRAFT_SYSTEM, 
   TOPIC_EXPANSION_SYSTEM,
   ANGLE_GENERATOR_SYSTEM,
   DISCOVERY_GENERATION_SYSTEM
 } = require('./lib/prompts');
+
+// Format selector
+const FORMAT_SYSTEMS = {
+  guia_practica: GUIA_PRACTICA_SYSTEM,
+  experimento: EXPERIMENTO_SYSTEM,
+  comparacion: COMPARACION_SYSTEM,
+  contrario: CONTRARIO_SYSTEM,
+  curacion: CURACION_SYSTEM,
+};
 
 const discovery = require('./lib/discovery');
 
@@ -93,6 +107,19 @@ async function generateContent(systemPrompt, userPrompt, options = {}) {
 // Health check
 app.get('/api/health', (req, res) => {
   res.json({ status: 'ok', timestamp: new Date().toISOString() });
+});
+
+// Available formats
+app.get('/api/formats', (req, res) => {
+  res.json({
+    formats: [
+      { id: 'guia_practica', name: '📘 Guía Práctica', desc: 'Concepto → Analogía → Demo → Ejercicio (tu formato signature)' },
+      { id: 'experimento', name: '🧪 Experimento Personal', desc: '"Probé X por 2 semanas..." — narrativa en primera persona' },
+      { id: 'comparacion', name: '⚖️ Comparación de Herramientas', desc: 'Por tarea: qué usar, cuándo y por qué' },
+      { id: 'contrario', name: '🔥 Take Contrario', desc: '"Deja de usar X" — desafía lo convencional con evidencia' },
+      { id: 'curacion', name: '🌎 Curación con Ángulo', desc: 'Tendencia en inglés → adaptada para LATAM con tu perspectiva' },
+    ]
+  });
 });
 
 // ---- TOPIC BANK ----
@@ -204,7 +231,7 @@ app.delete('/api/topics/:id', async (req, res) => {
 // Generate complete guide from topic
 app.post('/api/generate/autonomous', async (req, res) => {
   try {
-    const { topicId, topic, customInstructions = '' } = req.body;
+    const { topicId, topic, format = 'guia_practica', customInstructions = '' } = req.body;
     
     let topicData = topic;
     
@@ -221,28 +248,20 @@ app.post('/api/generate/autonomous', async (req, res) => {
       return res.status(400).json({ error: 'Topic required' });
     }
 
-    const voiceProfile = await loadVoiceProfile();
+    const selectedSystem = FORMAT_SYSTEMS[format] || GUIA_PRACTICA_SYSTEM;
     
     const prompt = `
-Create a complete, publication-ready how-to guide for Beehiiv newsletter.
+Create a complete, publication-ready newsletter edition for Beehiiv.
 
 Topic: ${topicData}
+Format: ${format}
 
 ${customInstructions ? `Additional instructions: ${customInstructions}` : ''}
 
-Requirements:
-- Write entirely in Spanish (except tech terms in English)
-- Make it ACTIONABLE - every section should have something the reader can DO
-- Include specific examples, not vague advice
-- Add a practical exercise at the end
-- Format for email newsletter (no markdown tables)
-- Target: 800-1200 words
-- Audience: LATAM professionals who are NOT developers but want to use AI effectively
-
-Write the complete guide now:
+Write the complete newsletter edition now:
 `;
 
-    const guide = await generateContent(AUTONOMOUS_SYSTEM, prompt, { maxTokens: 6000 });
+    const guide = await generateContent(selectedSystem, prompt, { maxTokens: 6000 });
     
     // Save to output
     const filename = `guide-${Date.now()}.md`;

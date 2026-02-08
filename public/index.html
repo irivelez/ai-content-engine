@@ -296,98 +296,19 @@
       justify-content: space-between;
       align-items: flex-start;
       margin-bottom: 0.75rem;
-      gap: 0.75rem;
-    }
-
-    .discovery-title-area {
-      flex: 1;
-      min-width: 0;
-    }
-
-    .discovery-badges {
-      display: flex;
-      gap: 0.4rem;
-      flex-wrap: wrap;
-      margin-bottom: 0.5rem;
     }
 
     .discovery-topic {
       font-size: 1rem;
       font-weight: 600;
       color: var(--text);
+      flex: 1;
     }
 
     .discovery-meta {
       display: flex;
       gap: 0.5rem;
       align-items: center;
-      flex-shrink: 0;
-    }
-
-    /* Source type badges */
-    .source-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.3rem;
-      font-size: 0.7rem;
-      font-weight: 600;
-      padding: 0.2rem 0.6rem;
-      border-radius: 9999px;
-      letter-spacing: 0.3px;
-      white-space: nowrap;
-    }
-
-    .source-badge.trusted {
-      background: #065f46;
-      color: #6ee7b7;
-    }
-
-    .source-badge.discovery {
-      background: #312e81;
-      color: #c4b5fd;
-    }
-
-    /* Platform badges */
-    .platform-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.3rem;
-      font-size: 0.7rem;
-      font-weight: 500;
-      padding: 0.2rem 0.6rem;
-      border-radius: 9999px;
-      white-space: nowrap;
-    }
-
-    .platform-badge.x { background: #1c1c1c; color: #a0a0a0; border: 1px solid #333; }
-    .platform-badge.reddit { background: #1a0f00; color: #ff8b60; border: 1px solid #3d2000; }
-    .platform-badge.hackernews { background: #1a0f00; color: #ff6600; border: 1px solid #3d2000; }
-    .platform-badge.rss { background: #0c1929; color: #60a5fa; border: 1px solid #1e3a5f; }
-    .platform-badge.manual { background: #1a1a1a; color: #888; border: 1px solid #333; }
-    .platform-badge.web { background: #1a1a1a; color: #888; border: 1px solid #333; }
-
-    .author-badge {
-      display: inline-flex;
-      align-items: center;
-      font-size: 0.7rem;
-      font-weight: 500;
-      padding: 0.2rem 0.5rem;
-      border-radius: 9999px;
-      background: var(--surface);
-      color: var(--text-muted);
-      border: 1px solid var(--border);
-    }
-
-    .engagement-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.25rem;
-      font-size: 0.7rem;
-      padding: 0.2rem 0.5rem;
-      border-radius: 9999px;
-      background: var(--surface);
-      color: var(--text-muted);
-      border: 1px solid var(--border);
     }
 
     .score-badge {
@@ -495,9 +416,8 @@
       background: var(--surface-2);
       border-radius: 8px;
       margin-bottom: 1rem;
-      font-size: 0.85rem;
+      font-size: 0.9rem;
       color: var(--text-muted);
-      flex-wrap: wrap;
     }
     .status-dot {
       width: 8px;
@@ -508,45 +428,6 @@
     .status-dot.green { background: var(--success); }
     .status-dot.red { background: #ef4444; }
     .status-dot.yellow { background: var(--warning); }
-
-    .source-indicator {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.3rem;
-      font-size: 0.75rem;
-      padding: 0.15rem 0.5rem;
-      border-radius: 4px;
-      background: var(--surface);
-      border: 1px solid var(--border);
-    }
-    .source-indicator.active { border-color: var(--success); color: var(--success); }
-    .source-indicator.inactive { border-color: var(--border); color: var(--text-muted); opacity: 0.5; }
-
-    /* Keyword chips */
-    .keyword-chips {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-      margin-top: 0.75rem;
-    }
-
-    .keyword-chip {
-      display: inline-flex;
-      align-items: center;
-      font-size: 0.8rem;
-      padding: 0.35rem 0.75rem;
-      background: var(--surface-2);
-      border: 1px solid var(--border);
-      border-radius: 9999px;
-      color: var(--text-muted);
-      cursor: pointer;
-      transition: all 0.2s;
-    }
-    .keyword-chip:hover {
-      border-color: var(--accent);
-      color: var(--text);
-      background: rgba(124, 58, 237, 0.1);
-    }
 
     /* Briefing display */
     .briefing-display {
@@ -649,11 +530,6 @@
               <button class="secondary" onclick="runAutoSearch()" id="autoSearchBtn">⚡ Auto Search</button>
             </div>
           </div>
-
-          <div id="keywordChipsSection" style="margin-top: 1rem; display: none;">
-            <h3 style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.5rem;">🔑 Keyword Combos</h3>
-            <div id="keywordChips" class="keyword-chips"></div>
-          </div>
         </div>
 
         <div class="card">
@@ -679,9 +555,8 @@
           <h2>💡 Discoveries</h2>
           <div class="discovery-filters">
             <button class="filter-btn active" onclick="filterDiscoveries('all', this)">All</button>
-            <button class="filter-btn" onclick="filterDiscoveries('trusted', this)">👤 Trusted</button>
-            <button class="filter-btn" onclick="filterDiscoveries('discovery', this)">🔍 Discovery</button>
             <button class="filter-btn" onclick="filterDiscoveries('high', this)">🔥 High</button>
+            <button class="filter-btn" onclick="filterDiscoveries('medium', this)">⚡ Medium</button>
             <button class="filter-btn" onclick="filterDiscoveries('new', this)">🆕 New</button>
           </div>
         </div>
@@ -828,24 +703,6 @@
       comparacion: 'Por tarea: qué herramienta usar, cuándo y por qué — con veredictos claros',
       contrario: '"Deja de usar X" — desafía lo convencional, respaldado con evidencia real',
       curacion: 'Tendencia en inglés → adaptada para LATAM con tu perspectiva y ángulo propio'
-    };
-
-    const PLATFORM_ICONS = {
-      x: '𝕏',
-      reddit: '🟠',
-      hackernews: '🟧',
-      rss: '📡',
-      manual: '✍️',
-      web: '🌐',
-    };
-
-    const PLATFORM_NAMES = {
-      x: 'X',
-      reddit: 'Reddit',
-      hackernews: 'HN',
-      rss: 'RSS',
-      manual: 'Manual',
-      web: 'Web',
     };
 
     function selectFormat(btn) {
@@ -1002,6 +859,7 @@
       const topic = topics.find(t => t.id === id);
       if (!topic) return;
 
+      // Switch to autonomous tab and generate
       document.querySelector('[data-tab="autonomous"]').click();
       document.getElementById('autoTopic').value = topic.brief?.title || topic.idea;
       generateAutonomous();
@@ -1177,6 +1035,7 @@
 
     function renderSources(sources) {
       if (!sources || !sources.length) return '';
+      // Group by author
       const byAuthor = {};
       for (const s of sources) {
         const key = s.author || 'Unknown';
@@ -1244,7 +1103,6 @@
 
     let allDiscoveries = [];
     let currentFilter = 'all';
-    let configKeywords = [];
 
     async function checkDiscoveryStatus() {
       try {
@@ -1253,58 +1111,16 @@
         const bar = document.getElementById('discoverStatus');
         const btn = document.getElementById('autoSearchBtn');
         
-        const xOk = data.birdAuthenticated;
-        const rssCount = data.config?.rssFeeds?.length || 0;
-        const subCount = data.config?.subreddits?.length || 0;
-        const hnCount = data.config?.hnQueries?.length || 0;
-
-        // Build source indicators
-        let sources = `
-          <span class="source-indicator ${xOk ? 'active' : 'inactive'}">𝕏 X</span>
-          <span class="source-indicator active">🟠 Reddit (${subCount})</span>
-          <span class="source-indicator active">🟧 HN (${hnCount})</span>
-          <span class="source-indicator active">📡 RSS (${rssCount})</span>
-        `;
-
-        bar.innerHTML = `
-          <div class="status-dot ${xOk ? 'green' : 'yellow'}"></div>
-          <span>${data.discoveryCount} discoveries</span>
-          <span style="color:var(--border)">|</span>
-          ${sources}
-        `;
-
-        // Auto search always available (HN, Reddit, RSS work without auth)
-        btn.disabled = false;
-
-        // Show keyword chips
-        configKeywords = data.config?.keywordCombos || [];
-        if (configKeywords.length > 0) {
-          document.getElementById('keywordChipsSection').style.display = 'block';
-          document.getElementById('keywordChips').innerHTML = configKeywords.map(kw =>
-            `<span class="keyword-chip" onclick="searchKeyword('${kw.replace(/'/g, "\\'")}')">${kw}</span>`
-          ).join('');
+        if (data.birdAuthenticated) {
+          bar.innerHTML = '<div class="status-dot green"></div> X search available (bird authenticated) • ' + data.discoveryCount + ' discoveries';
+          btn.disabled = false;
+        } else {
+          bar.innerHTML = '<div class="status-dot yellow"></div> Manual mode — paste content or URLs to analyze • <span style="font-size:0.8rem">Log into x.com in Safari/Chrome to enable auto search</span>';
+          btn.disabled = true;
+          btn.style.opacity = '0.4';
         }
       } catch (e) {
         document.getElementById('discoverStatus').innerHTML = '<div class="status-dot red"></div> Discovery engine offline';
-      }
-    }
-
-    async function searchKeyword(keyword) {
-      const list = document.getElementById('discoveryList');
-      list.innerHTML = `<div class="loading"><div class="spinner"></div>Searching for "${keyword}"...</div>`;
-
-      try {
-        // Use the feed endpoint with a manual search
-        const res = await fetch('/api/discover/feed', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ items: [{ title: keyword, content: `Keyword search: ${keyword}`, text: keyword, source: 'manual' }] })
-        });
-        const data = await res.json();
-        if (data.error) throw new Error(data.error);
-        loadDiscoveries();
-      } catch (e) {
-        list.innerHTML = `<div style="color: #ef4444; padding: 1rem;">Error: ${e.message}</div>`;
       }
     }
 
@@ -1318,6 +1134,7 @@
         return;
       }
 
+      // Support multiple items separated by ---
       const rawItems = content.split(/\n---\n/).filter(Boolean);
       const items = rawItems.map((text, i) => ({
         title: i === 0 ? title : '',
@@ -1327,6 +1144,7 @@
         source: url ? 'web' : 'manual'
       }));
 
+      // If single item with no split
       if (items.length === 1 && !items[0].title && title) {
         items[0].title = title;
       }
@@ -1343,6 +1161,7 @@
         const data = await res.json();
         if (data.error) throw new Error(data.error);
 
+        // Clear form
         document.getElementById('feedTitle').value = '';
         document.getElementById('feedContent').value = '';
         document.getElementById('feedUrl').value = '';
@@ -1355,7 +1174,7 @@
 
     async function runAutoSearch() {
       const list = document.getElementById('discoveryList');
-      list.innerHTML = '<div class="loading"><div class="spinner"></div>Searching X, Reddit, HN, and RSS feeds...</div>';
+      list.innerHTML = '<div class="loading"><div class="spinner"></div>Searching for viral AI content...</div>';
 
       try {
         const res = await fetch('/api/discover/search', { method: 'POST' });
@@ -1397,9 +1216,8 @@
       let items = allDiscoveries.filter(d => d.status !== 'dismissed');
 
       if (currentFilter === 'high') items = items.filter(d => d.priority === 'high');
+      else if (currentFilter === 'medium') items = items.filter(d => d.priority === 'medium');
       else if (currentFilter === 'new') items = items.filter(d => d.status === 'new');
-      else if (currentFilter === 'trusted') items = items.filter(d => d.sourceType === 'trusted');
-      else if (currentFilter === 'discovery') items = items.filter(d => d.sourceType === 'discovery');
 
       if (items.length === 0) {
         list.innerHTML = '<div class="empty">No discoveries match this filter.</div>';
@@ -1409,35 +1227,11 @@
       list.innerHTML = items.map(d => {
         const scoreClass = (d.latamScore || 0) >= 7 ? 'high' : (d.latamScore || 0) >= 4 ? 'med' : 'low';
         const priorityClass = d.priority || 'medium';
-        const raw = d.raw || {};
-        const platform = d.platform || raw.source || 'web';
-        const sourceType = d.sourceType || 'unknown';
-        const author = raw.author || '';
-        const likes = raw.likes || 0;
-        const retweets = raw.retweets || 0;
-
-        // Build engagement text
-        let engagementHtml = '';
-        if (platform === 'x' && (likes || retweets)) {
-          engagementHtml = `<span class="engagement-badge">❤️ ${likes.toLocaleString()} · 🔁 ${retweets.toLocaleString()}</span>`;
-        } else if (platform === 'reddit' && likes) {
-          engagementHtml = `<span class="engagement-badge">⬆️ ${likes.toLocaleString()}</span>`;
-        } else if (platform === 'hackernews' && likes) {
-          engagementHtml = `<span class="engagement-badge">▲ ${likes.toLocaleString()} pts</span>`;
-        }
-
+        
         return `
         <div class="discovery-item" id="disc-${d.id}">
           <div class="discovery-header">
-            <div class="discovery-title-area">
-              <div class="discovery-badges">
-                <span class="source-badge ${sourceType}">${sourceType === 'trusted' ? '👤 Trusted' : sourceType === 'discovery' ? '🔍 Discovery' : '📝 Manual'}</span>
-                <span class="platform-badge ${platform}">${PLATFORM_ICONS[platform] || '🌐'} ${PLATFORM_NAMES[platform] || platform}</span>
-                ${author ? `<span class="author-badge">${author}</span>` : ''}
-                ${engagementHtml}
-              </div>
-              <div class="discovery-topic">${d.suggestedTopic || d.coreIdea || 'Untitled'}</div>
-            </div>
+            <div class="discovery-topic">${d.suggestedTopic || d.coreIdea || 'Untitled'}</div>
             <div class="discovery-meta">
               <span class="score-badge score-${scoreClass}">LATAM ${d.latamScore || '?'}/10</span>
               <span class="priority-badge priority-${priorityClass}">${priorityClass}</span>
@@ -1477,6 +1271,7 @@
       const d = allDiscoveries.find(i => i.id === id);
       if (!d) return;
 
+      // Switch to autonomous tab and show generation in progress
       document.querySelector('[data-tab="autonomous"]').click();
       document.getElementById('autoTopic').value = d.suggestedTopic || d.coreIdea || '';
       document.getElementById('autoInstructions').value = 

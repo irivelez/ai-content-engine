@@ -14,6 +14,7 @@
     "agenticBuilders": {
       "label": "Agentic Builders",
       "accounts": [
+        "LangChainAI",
         "CrewAI_",
         "AutoGenAI",
         "cursor_ai"
@@ -67,92 +68,52 @@
   },
   "maxResults": 20,
   "subreddits": [
-    "ClaudeAI",
-    "ClaudeCode",
     "ChatGPT",
-    "AI_Agents",
-    "artificial"
-  ],
-  "hnQueries": [
-    "claude code",
-    "ai agent",
-    "anthropic",
-    "openai gpt",
-    "cursor AI",
-    "vibe coding",
-    "no-code AI",
-    "AI for beginners"
+    "artificial",
+    "ClaudeAI",
+    "LocalLLaMA",
+    "MachineLearning"
   ],
   "rssFeeds": [
     {
-      "name": "Anthropic",
-      "url": "https://www.anthropic.com/rss.xml",
-      "priority": "critical",
-      "weight": 2.0
-    },
-    {
-      "name": "Karpathy",
-      "url": "https://karpathy.substack.com/feed",
-      "priority": "critical",
-      "weight": 1.5
-    },
-    {
-      "name": "Allie K. Miller",
-      "url": "https://alliekmiller.substack.com/feed",
-      "priority": "high",
-      "weight": 1.4
-    },
-    {
-      "name": "Greg Isenberg",
-      "url": "https://gregisenberg.substack.com/feed",
-      "priority": "high",
-      "weight": 1.3
-    },
-    {
-      "name": "swyx (Latent Space)",
-      "url": "https://www.latent.space/feed",
-      "priority": "high",
-      "weight": 1.3
-    },
-    {
       "name": "Simon Willison",
-      "url": "https://simonwillison.net/atom/everything/",
-      "priority": "high",
-      "weight": 1.2
+      "url": "https://simonwillison.net/atom/everything/"
     },
     {
-      "name": "Unwind AI (Shubham Saboo)",
-      "url": "https://unwindai.substack.com/feed",
-      "priority": "high",
-      "weight": 1.3
+      "name": "The Verge AI",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
     },
     {
-      "name": "One Useful Thing (Ethan Mollick)",
-      "url": "https://www.oneusefulthing.org/feed",
-      "priority": "high",
-      "weight": 1.3
+      "name": "MIT Tech Review AI",
+      "url": "https://www.technologyreview.com/feed/"
+    },
+    {
+      "name": "Anthropic Blog",
+      "url": "https://www.anthropic.com/rss.xml"
     },
     {
       "name": "OpenAI Blog",
-      "url": "https://openai.com/blog/rss.xml",
-      "priority": "high",
-      "weight": 1.5
+      "url": "https://openai.com/blog/rss.xml"
+    },
+    {
+      "name": "Lenny Rachitsky",
+      "url": "https://www.lennysnewsletter.com/feed"
+    },
+    {
+      "name": "Ben Thompson (Stratechery)",
+      "url": "https://stratechery.com/feed/"
+    },
+    {
+      "name": "One Useful Thing (Ethan Mollick)",
+      "url": "https://www.oneusefulthing.org/feed"
+    },
+    {
+      "name": "Ruben Hassid",
+      "url": "https://rubenhassid.substack.com/feed"
+    },
+    {
+      "name": "Allie K. Miller",
+      "url": "https://alliekmiller.substack.com/feed"
     }
-  ],
-  "keywordCombos": [
-    "\"how to\" AI beginner",
-    "\"step by step\" Claude OR ChatGPT",
-    "\"I built\" AI agent",
-    "AI \"for non-technical\" OR \"for beginners\" OR \"for normies\"",
-    "\"no-code\" AI automation",
-    "\"replaced\" AI workflow",
-    "\"prompt\" that saved",
-    "AI startup \"side project\"",
-    "AI \"for non-dev\" OR \"no code\""
-  ],
-  "engagementThresholds": {
-    "x": { "likes": 500, "retweets": 100 },
-    "reddit": { "upvotes": 200 },
-    "hn": { "points": 100 }
-  }
+  ]
 }

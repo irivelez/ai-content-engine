@@ -1,6 +1,2620 @@
 {
   "items": [
     {
+      "id": "d-1770531878219-0",
+      "originalTitle": "Show HN: LocalGPT – A local-first AI assistant in Rust with persistent memory",
+      "coreIdea": "AI assistants that run locally on your computer, keeping data private",
+      "viralReason": "Privacy + local-first resonates with devs tired of cloud dependency",
+      "latamScore": 5,
+      "repurposeAngle": "Frame as data sovereignty — LATAM companies worried about sending data to US servers",
+      "suggestedTopic": "IA sin nube: herramientas que funcionan en tu computadora",
+      "suggestedHook": "¿Te da miedo que tus datos terminen en un servidor gringo? Hay otra opción.",
+      "priority": "low",
+      "tags": [
+        "privacy",
+        "AI tools",
+        "local AI"
+      ],
+      "raw": {
+        "title": "Show HN: LocalGPT – A local-first AI assistant in Rust with persistent memory",
+        "content": "Show HN: LocalGPT – A local-first AI assistant in Rust with persistent memory\nI built LocalGPT over 4 nights as a Rust reimagining of the OpenClaw assistant pattern (markdown-based persistent memory, autonomous heartbeat tasks, skills system).<p>It compiles to a single ~27MB binary — no Node.js, Docker, or Python required.<p>Key features:<p>- Persistent memory via markdown files (MEMORY, HEARTBEAT, SOUL markdown files) — compatible with OpenClaw&#x27;s format\n- Full-text search (SQLite FTS5) + semantic search (local embeddings, no API key needed)\n- Autonomous heartbeat runner that checks tasks on a configurable interval\n- CLI + web interface + desktop GUI\n- Multi-provider: Anthropic, OpenAI, Ollama etc\n- Apache 2.0<p>Install: `cargo install localgpt`<p>I use it daily as a knowledge accumulator, research assistant, and autonomous task runner for my side projects. The memory compounds — every session makes the next one better.<p>GitHub: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;localgpt-app&#x2F;localgpt\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;localgpt-app&#x2F;localgpt</a>\nWebsite: <a href=\"https:&#x2F;&#x2F;localgpt.app\" rel=\"nofollow\">https:&#x2F;&#x2F;localgpt.app</a><p>Would love feedback on the architecture or feature ideas.",
+        "text": "Show HN: LocalGPT – A local-first AI assistant in Rust with persistent memory",
+        "author": "yi_wang",
+        "url": "https://github.com/localgpt-app/localgpt",
+        "likes": 138,
+        "retweets": 0,
+        "comments": 40,
+        "source": "hackernews"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.219Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878219-1",
+      "originalTitle": "Haskell for all: Beyond agentic coding",
+      "coreIdea": "AI coding agents have limits — knowing when NOT to use them matters",
+      "viralReason": "Contrarian take against the agentic hype wave",
+      "latamScore": 3,
+      "repurposeAngle": "Too technical for Irina's audience. Skip or simplify to 'when AI coding fails'",
+      "suggestedTopic": "Los límites de la IA para programar",
+      "suggestedHook": "La IA no puede programar todo. Aquí es donde falla.",
+      "priority": "low",
+      "tags": [
+        "coding",
+        "AI limits"
+      ],
+      "raw": {
+        "title": "Haskell for all: Beyond agentic coding",
+        "content": "Haskell for all: Beyond agentic coding",
+        "text": "Haskell for all: Beyond agentic coding",
+        "author": "RebelPotato",
+        "url": "https://haskellforall.com/2026/02/beyond-agentic-coding",
+        "likes": 59,
+        "retweets": 0,
+        "comments": 14,
+        "source": "hackernews"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.219Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878219-2",
+      "originalTitle": "Software factories and the agentic moment",
+      "coreIdea": "Companies are building 'software factories' where AI agents produce software at scale with minimal human code review",
+      "viralReason": "200 likes — touches the existential fear/excitement about AI replacing software teams",
+      "latamScore": 7,
+      "repurposeAngle": "LATAM has huge outsourcing/dev shops. Frame as: your software team's job is changing, here's how to stay relevant",
+      "suggestedTopic": "Las 'fábricas de software' con IA: qué significa para tu equipo de desarrollo",
+      "suggestedHook": "Empresas ya están creando software sin que nadie revise el código. ¿Tu equipo está listo?",
+      "priority": "high",
+      "tags": [
+        "agentic AI",
+        "future of work",
+        "software development"
+      ],
+      "raw": {
+        "title": "Software factories and the agentic moment",
+        "content": "Software factories and the agentic moment\nSee also <a href=\"https:&#x2F;&#x2F;simonwillison.net&#x2F;2026&#x2F;Feb&#x2F;7&#x2F;software-factory&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;simonwillison.net&#x2F;2026&#x2F;Feb&#x2F;7&#x2F;software-factory&#x2F;</a>",
+        "text": "Software factories and the agentic moment",
+        "author": "mellosouls",
+        "url": "https://factory.strongdm.ai/",
+        "likes": 200,
+        "retweets": 0,
+        "comments": 353,
+        "source": "hackernews"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.219Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878219-3",
+      "originalTitle": "LLMs as the new high level language",
+      "coreIdea": "Natural language is becoming the new programming language — LLMs as an abstraction layer",
+      "viralReason": "Elegant reframe that helps non-coders see their value in the AI era",
+      "latamScore": 8,
+      "repurposeAngle": "Perfect for Irina's audience: you don't need to code, your language IS the code now",
+      "suggestedTopic": "El español es tu nuevo lenguaje de programación",
+      "suggestedHook": "No necesitas aprender Python. Tu idioma ya es un lenguaje de programación.",
+      "priority": "high",
+      "tags": [
+        "no-code",
+        "prompting",
+        "democratization"
+      ],
+      "raw": {
+        "title": "LLMs as the new high level language",
+        "content": "LLMs as the new high level language",
+        "text": "LLMs as the new high level language",
+        "author": "swah",
+        "url": "https://federicopereiro.com/llm-high/",
+        "likes": 67,
+        "retweets": 0,
+        "comments": 122,
+        "source": "hackernews"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.219Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878219-4",
+      "originalTitle": "Al Lowe on model trains, funny deaths and working with Disney",
+      "coreIdea": "Retro gaming legend interview — nostalgia content",
+      "viralReason": "Nostalgia + gaming culture",
+      "latamScore": 2,
+      "repurposeAngle": "Not relevant for Irina's audience",
+      "suggestedTopic": "N/A",
+      "suggestedHook": "N/A",
+      "priority": "low",
+      "tags": [
+        "gaming",
+        "not AI"
+      ],
+      "raw": {
+        "title": "Al Lowe on model trains, funny deaths and working with Disney",
+        "content": "Al Lowe on model trains, funny deaths and working with Disney",
+        "text": "Al Lowe on model trains, funny deaths and working with Disney",
+        "author": "thelok",
+        "url": "https://spillhistorie.no/2026/02/06/interview-with-sierra-veteran-al-lowe/",
+        "likes": 105,
+        "retweets": 0,
+        "comments": 24,
+        "source": "hackernews"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.219Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878219-5",
+      "originalTitle": "FDA intends to take action against non-FDA-approved GLP-1 drugs",
+      "coreIdea": "Regulatory crackdown on compounded weight loss drugs",
+      "viralReason": "GLP-1 drugs are culturally huge right now",
+      "latamScore": 2,
+      "repurposeAngle": "Not relevant — health/pharma, not AI",
+      "suggestedTopic": "N/A",
+      "suggestedHook": "N/A",
+      "priority": "low",
+      "tags": [
+        "health",
+        "not AI"
+      ],
+      "raw": {
+        "title": "FDA intends to take action against non-FDA-approved GLP-1 drugs",
+        "content": "FDA intends to take action against non-FDA-approved GLP-1 drugs",
+        "text": "FDA intends to take action against non-FDA-approved GLP-1 drugs",
+        "author": "randycupertino",
+        "url": "https://www.fda.gov/news-events/press-announcements/fda-intends-take-action-against-non-fda-approved-glp-1-drugs",
+        "likes": 112,
+        "retweets": 0,
+        "comments": 236,
+        "source": "hackernews"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.219Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878219-6",
+      "originalTitle": "The AI boom is causing shortages everywhere else",
+      "coreIdea": "AI infrastructure spending is sucking resources from other sectors — energy, chips, talent",
+      "viralReason": "308 likes — contrarian angle on AI hype, real-world consequences",
+      "latamScore": 8,
+      "repurposeAngle": "LATAM feels this: energy costs, talent drain to US, infrastructure gaps. Frame as the hidden cost of AI for developing economies",
+      "suggestedTopic": "El costo oculto del boom de IA que nadie te cuenta en LATAM",
+      "suggestedHook": "La IA está consumiendo la energía, los chips y el talento del mundo. ¿Cómo nos afecta en América Latina?",
+      "priority": "high",
+      "tags": [
+        "AI economics",
+        "LATAM",
+        "infrastructure"
+      ],
+      "raw": {
+        "title": "The AI boom is causing shortages everywhere else",
+        "content": "The AI boom is causing shortages everywhere else",
+        "text": "The AI boom is causing shortages everywhere else",
+        "author": "1vuio0pswjnm7",
+        "url": "https://www.washingtonpost.com/technology/2026/02/07/ai-spending-economy-shortages/",
+        "likes": 308,
+        "retweets": 0,
+        "comments": 490,
+        "source": "hackernews"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.219Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878219-7",
+      "originalTitle": "Monty: A minimal, secure Python interpreter written in Rust for use by AI",
+      "coreIdea": "Secure sandboxed environments for AI to run code safely",
+      "viralReason": "312 likes — Pydantic brand + safety for AI agents is hot",
+      "latamScore": 3,
+      "repurposeAngle": "Too technical. Could extract the meta-lesson: AI needs guardrails to run safely",
+      "suggestedTopic": "Por qué la IA necesita una 'caja de seguridad' para funcionar",
+      "suggestedHook": "Dejarías a un empleado nuevo tocar todo sin supervisión? Con la IA es igual.",
+      "priority": "low",
+      "tags": [
+        "AI safety",
+        "developer tools"
+      ],
+      "raw": {
+        "title": "Monty: A minimal, secure Python interpreter written in Rust for use by AI",
+        "content": "Monty: A minimal, secure Python interpreter written in Rust for use by AI",
+        "text": "Monty: A minimal, secure Python interpreter written in Rust for use by AI",
+        "author": "dmpetrov",
+        "url": "https://github.com/pydantic/monty",
+        "likes": 312,
+        "retweets": 0,
+        "comments": 157,
+        "source": "hackernews"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.219Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878219-8",
+      "originalTitle": "Show HN: If you lose your memory, how to regain access to your computer?",
+      "coreIdea": "Digital estate planning — what happens to your digital life if you can't remember passwords",
+      "viralReason": "371 likes — universal fear, personal stakes",
+      "latamScore": 4,
+      "repurposeAngle": "Tangential — could tie to AI password managers but it's a stretch",
+      "suggestedTopic": "N/A",
+      "suggestedHook": "N/A",
+      "priority": "low",
+      "tags": [
+        "security",
+        "not AI"
+      ],
+      "raw": {
+        "title": "Show HN: If you lose your memory, how to regain access to your computer?",
+        "content": "Show HN: If you lose your memory, how to regain access to your computer?\nDue to bike-induced concussions, I&#x27;ve been worried for a while about losing my memory and not being able to log back in.<p>I combined shamir secret sharing (hashicorp vault&#x27;s implementation) with age-encryption, and packaged it using WASM for a neat in-browser offline UX.<p>The idea is that if something happens to me, my friends and family would help me get back access to the data that matters most to me. 5 out of 7 friends need to agree for the vault to unlock.<p>Try out the demo in the website, it runs entirely in your browser!",
+        "text": "Show HN: If you lose your memory, how to regain access to your computer?",
+        "author": "eljojo",
+        "url": "https://eljojo.github.io/rememory/",
+        "likes": 371,
+        "retweets": 0,
+        "comments": 218,
+        "source": "hackernews"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.219Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878219-9",
+      "originalTitle": "Coding agents have replaced every framework I used",
+      "coreIdea": "AI coding agents are so good they replace entire software frameworks — you describe what you want, AI builds it",
+      "viralReason": "323 likes — bold claim that resonates with frustrated devs",
+      "latamScore": 7,
+      "repurposeAngle": "Frame for managers: your dev team's toolkit is changing. What you need to understand about 'agentic coding'",
+      "suggestedTopic": "Tu equipo de desarrollo ya no necesita frameworks. Necesita saber usar agentes de IA.",
+      "suggestedHook": "Un programador dejó de usar todas sus herramientas favoritas. Las reemplazó por IA.",
+      "priority": "medium",
+      "tags": [
+        "coding agents",
+        "software development",
+        "future of work"
+      ],
+      "raw": {
+        "title": "Coding agents have replaced every framework I used",
+        "content": "Coding agents have replaced every framework I used",
+        "text": "Coding agents have replaced every framework I used",
+        "author": "alainrk",
+        "url": "https://blog.alaindichiappari.dev/p/software-engineering-is-back",
+        "likes": 323,
+        "retweets": 0,
+        "comments": 520,
+        "source": "hackernews"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.219Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878219-10",
+      "originalTitle": "How to effectively write quality code with AI",
+      "coreIdea": "Practical guide to getting good code output from AI — prompt structure, review practices",
+      "viralReason": "330 likes — actionable how-to in a sea of hype",
+      "latamScore": 6,
+      "repurposeAngle": "Adapt for LATAM tech leads managing teams that use AI coding tools",
+      "suggestedTopic": "Guía para líderes técnicos: cómo tu equipo debe usar IA para programar",
+      "suggestedHook": "Tu equipo ya usa IA para programar. La pregunta es si lo hace bien.",
+      "priority": "medium",
+      "tags": [
+        "coding",
+        "best practices",
+        "AI tools"
+      ],
+      "raw": {
+        "title": "How to effectively write quality code with AI",
+        "content": "How to effectively write quality code with AI",
+        "text": "How to effectively write quality code with AI",
+        "author": "i5heu",
+        "url": "https://heidenstedt.org/posts/2026/how-to-effectively-write-quality-code-with-ai/",
+        "likes": 330,
+        "retweets": 0,
+        "comments": 290,
+        "source": "hackernews"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.219Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878219-11",
+      "originalTitle": "Quoting Thomas Ptacek",
+      "coreIdea": "Security expert quote — likely about AI security implications",
+      "viralReason": "Simon Willison curation signal",
+      "latamScore": 3,
+      "repurposeAngle": "Insufficient content to assess",
+      "suggestedTopic": "N/A",
+      "suggestedHook": "N/A",
+      "priority": "low",
+      "tags": [
+        "security",
+        "quotes"
+      ],
+      "raw": {
+        "title": "Quoting Thomas Ptacek",
+        "content": "Quoting Thomas Ptacek",
+        "text": "Quoting Thomas Ptacek",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Feb/8/thomas-ptacek/#atom-everything",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "Simon Willison"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.220Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878220-12",
+      "originalTitle": "Vouch",
+      "coreIdea": "Unknown — title only",
+      "viralReason": "Simon Willison signal",
+      "latamScore": 2,
+      "repurposeAngle": "Insufficient content",
+      "suggestedTopic": "N/A",
+      "suggestedHook": "N/A",
+      "priority": "low",
+      "tags": [
+        "unknown"
+      ],
+      "raw": {
+        "title": "Vouch",
+        "content": "Vouch",
+        "text": "Vouch",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Feb/7/vouch/#atom-everything",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "Simon Willison"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.220Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878220-13",
+      "originalTitle": "Claude: Speed up responses with fast mode",
+      "coreIdea": "Claude now has a fast mode for quicker responses — practical tip",
+      "viralReason": "Actionable Claude tip from trusted source",
+      "latamScore": 7,
+      "repurposeAngle": "Quick practical tip for Claude users — Irina's audience uses Claude (she teaches it!)",
+      "suggestedTopic": "Truco rápido: cómo hacer que Claude responda más rápido",
+      "suggestedHook": "¿Claude te parece lento? Activa esto y nota la diferencia.",
+      "priority": "medium",
+      "tags": [
+        "Claude",
+        "tips",
+        "productivity"
+      ],
+      "raw": {
+        "title": "Claude: Speed up responses with fast mode",
+        "content": "Claude: Speed up responses with fast mode",
+        "text": "Claude: Speed up responses with fast mode",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Feb/7/claude-fast-mode/#atom-everything",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "Simon Willison"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.220Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878220-14",
+      "originalTitle": "Quoting David Crawshaw",
+      "coreIdea": "Unknown — title only",
+      "viralReason": "Willison curation",
+      "latamScore": 2,
+      "repurposeAngle": "Insufficient content",
+      "suggestedTopic": "N/A",
+      "suggestedHook": "N/A",
+      "priority": "low",
+      "tags": [
+        "unknown"
+      ],
+      "raw": {
+        "title": "Quoting David Crawshaw",
+        "content": "Quoting David Crawshaw",
+        "text": "Quoting David Crawshaw",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Feb/7/david-crawshaw/#atom-everything",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "Simon Willison"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.220Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878220-15",
+      "originalTitle": "How StrongDM's AI team build serious software without even looking at the code",
+      "coreIdea": "An AI team ships production software without manual code review — full agentic pipeline",
+      "viralReason": "Provocative claim about the future of software development",
+      "latamScore": 7,
+      "repurposeAngle": "Same angle as Item 3 — software factories. Combine into one piece for LATAM tech managers",
+      "suggestedTopic": "Empresas que ya no revisan código: el futuro de los equipos de software",
+      "suggestedHook": "Este equipo lanza software sin leer una sola línea de código. ¿Locura o futuro?",
+      "priority": "medium",
+      "tags": [
+        "agentic AI",
+        "software development",
+        "future of work"
+      ],
+      "raw": {
+        "title": "How StrongDM's AI team build serious software without even looking at the code",
+        "content": "How StrongDM's AI team build serious software without even looking at the code",
+        "text": "How StrongDM's AI team build serious software without even looking at the code",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Feb/7/software-factory/#atom-everything",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "Simon Willison"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.220Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878220-16",
+      "originalTitle": "Quoting Tom Dale",
+      "coreIdea": "Unknown — title only",
+      "viralReason": "Willison curation",
+      "latamScore": 2,
+      "repurposeAngle": "Insufficient content",
+      "suggestedTopic": "N/A",
+      "suggestedHook": "N/A",
+      "priority": "low",
+      "tags": [
+        "unknown"
+      ],
+      "raw": {
+        "title": "Quoting Tom Dale",
+        "content": "Quoting Tom Dale",
+        "text": "Quoting Tom Dale",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Feb/6/tom-dale/#atom-everything",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "Simon Willison"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.220Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878220-17",
+      "originalTitle": "Running Pydantic's Monty Rust sandboxed Python subset in WebAssembly",
+      "coreIdea": "Technical sandbox for AI code execution in browsers",
+      "viralReason": "Developer tooling interest",
+      "latamScore": 2,
+      "repurposeAngle": "Too technical for Irina's audience",
+      "suggestedTopic": "N/A",
+      "suggestedHook": "N/A",
+      "priority": "low",
+      "tags": [
+        "developer tools",
+        "technical"
+      ],
+      "raw": {
+        "title": "Running Pydantic's Monty Rust sandboxed Python subset in WebAssembly",
+        "content": "Running Pydantic's Monty Rust sandboxed Python subset in WebAssembly",
+        "text": "Running Pydantic's Monty Rust sandboxed Python subset in WebAssembly",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Feb/6/pydantic-monty/#atom-everything",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "Simon Willison"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.220Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878220-18",
+      "originalTitle": "An Update on Heroku",
+      "coreIdea": "Heroku platform updates",
+      "viralReason": "Nostalgia + developer platform interest",
+      "latamScore": 2,
+      "repurposeAngle": "Not relevant",
+      "suggestedTopic": "N/A",
+      "suggestedHook": "N/A",
+      "priority": "low",
+      "tags": [
+        "platforms",
+        "not AI"
+      ],
+      "raw": {
+        "title": "An Update on Heroku",
+        "content": "An Update on Heroku",
+        "text": "An Update on Heroku",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Feb/6/an-update-on-heroku/#atom-everything",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "Simon Willison"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.220Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878220-19",
+      "originalTitle": "Quoting Karel D'Oosterlinck",
+      "coreIdea": "Unknown — title only",
+      "viralReason": "Willison curation",
+      "latamScore": 2,
+      "repurposeAngle": "Insufficient content",
+      "suggestedTopic": "N/A",
+      "suggestedHook": "N/A",
+      "priority": "low",
+      "tags": [
+        "unknown"
+      ],
+      "raw": {
+        "title": "Quoting Karel D'Oosterlinck",
+        "content": "Quoting Karel D'Oosterlinck",
+        "text": "Quoting Karel D'Oosterlinck",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Feb/6/karel-doosterlinck/#atom-everything",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "Simon Willison"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.220Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878220-20",
+      "originalTitle": "Mitchell Hashimoto: My AI Adoption Journey",
+      "coreIdea": "HashiCorp founder shares his personal journey adopting AI tools — from skeptic to power user",
+      "viralReason": "Credible tech leader being vulnerable about learning AI",
+      "latamScore": 9,
+      "repurposeAngle": "PERFECT for Irina. A famous tech founder's honest AI adoption story mirrors her audience's journey. Adapt as 'even experts had to learn — here's the path'",
+      "suggestedTopic": "El fundador de HashiCorp cuenta cómo aprendió a usar IA (y tú también puedes)",
+      "suggestedHook": "El creador de Terraform no sabía usar IA hace un año. Así fue su camino.",
+      "priority": "high",
+      "tags": [
+        "AI adoption",
+        "personal story",
+        "leadership"
+      ],
+      "raw": {
+        "title": "Mitchell Hashimoto: My AI Adoption Journey",
+        "content": "Mitchell Hashimoto: My AI Adoption Journey",
+        "text": "Mitchell Hashimoto: My AI Adoption Journey",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Feb/5/ai-adoption-journey/#atom-everything",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "Simon Willison"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.220Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878220-21",
+      "originalTitle": "Super Bowl LX ads: all AI everything",
+      "coreIdea": "Every Super Bowl ad featured AI — AI has become mainstream consumer marketing",
+      "viralReason": "Cultural moment — AI goes fully mainstream",
+      "latamScore": 7,
+      "repurposeAngle": "Cultural signal for LATAM professionals: AI isn't just tech anymore, it's in every industry's marketing. If you're not using it, you're behind.",
+      "suggestedTopic": "El Super Bowl lo confirmó: la IA ya no es cosa de techies",
+      "suggestedHook": "Todos los anuncios del Super Bowl usaron IA. ¿Qué te dice eso sobre tu industria?",
+      "priority": "medium",
+      "tags": [
+        "AI mainstream",
+        "culture",
+        "marketing"
+      ],
+      "raw": {
+        "title": "Super Bowl LX ads: all AI everything",
+        "content": "Super Bowl LX ads: all AI everything",
+        "text": "Super Bowl LX ads: all AI everything",
+        "author": "The Verge AI",
+        "url": "https://www.theverge.com/entertainment/874504/super-bowl-lx-ads-big-game",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "The Verge AI"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.220Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878220-22",
+      "originalTitle": "Apple might let you use ChatGPT from CarPlay",
+      "coreIdea": "ChatGPT integration in cars via Apple CarPlay",
+      "viralReason": "Apple + ChatGPT = massive consumer interest",
+      "latamScore": 6,
+      "repurposeAngle": "AI is coming to your car — the everyday integration story",
+      "suggestedTopic": "ChatGPT en tu carro: la IA llega a CarPlay",
+      "suggestedHook": "Pronto podrás hablar con ChatGPT mientras manejas. ¿Estamos listos?",
+      "priority": "low",
+      "tags": [
+        "Apple",
+        "ChatGPT",
+        "consumer AI"
+      ],
+      "raw": {
+        "title": "Apple might let you use ChatGPT from CarPlay",
+        "content": "Apple might let you use ChatGPT from CarPlay",
+        "text": "Apple might let you use ChatGPT from CarPlay",
+        "author": "The Verge AI",
+        "url": "https://www.theverge.com/transportation/875199/apple-carplay-third-party-chatbots-rumor",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "The Verge AI"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.220Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878220-23",
+      "originalTitle": "What happens when Waymo runs into a tornado? Or an elephant?",
+      "coreIdea": "Waymo uses simulation/world models to handle edge cases in self-driving",
+      "viralReason": "Absurd scenarios + serious AI implications",
+      "latamScore": 4,
+      "repurposeAngle": "Tangential — self-driving isn't big in LATAM yet",
+      "suggestedTopic": "N/A",
+      "suggestedHook": "N/A",
+      "priority": "low",
+      "tags": [
+        "autonomous vehicles",
+        "simulation"
+      ],
+      "raw": {
+        "title": "What happens when Waymo runs into a tornado? Or an elephant?",
+        "content": "What happens when Waymo runs into a tornado? Or an elephant?",
+        "text": "What happens when Waymo runs into a tornado? Or an elephant?",
+        "author": "The Verge AI",
+        "url": "https://www.theverge.com/transportation/874771/waymo-world-model-simulation-google-deepmind-genie-3",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "The Verge AI"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.220Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878220-24",
+      "originalTitle": "How Epstein became a tech influencer",
+      "coreIdea": "Tech industry's dark connections to Epstein",
+      "viralReason": "Scandal + tech power dynamics",
+      "latamScore": 3,
+      "repurposeAngle": "Not relevant for Irina's content focus",
+      "suggestedTopic": "N/A",
+      "suggestedHook": "N/A",
+      "priority": "low",
+      "tags": [
+        "tech ethics",
+        "scandal"
+      ],
+      "raw": {
+        "title": "How Epstein became a tech influencer",
+        "content": "How Epstein became a tech influencer",
+        "text": "How Epstein became a tech influencer",
+        "author": "The Verge AI",
+        "url": "https://www.theverge.com/podcast/874768/epstein-files-tech-anthropic-ads-vergecast",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "The Verge AI"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.220Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878220-25",
+      "originalTitle": "How the men in the Epstein files defeated #MeToo",
+      "coreIdea": "Power dynamics in tech industry",
+      "viralReason": "Scandal coverage",
+      "latamScore": 2,
+      "repurposeAngle": "Not relevant",
+      "suggestedTopic": "N/A",
+      "suggestedHook": "N/A",
+      "priority": "low",
+      "tags": [
+        "tech ethics",
+        "not AI"
+      ],
+      "raw": {
+        "title": "How the men in the Epstein files defeated #MeToo",
+        "content": "How the men in the Epstein files defeated #MeToo",
+        "text": "How the men in the Epstein files defeated #MeToo",
+        "author": "The Verge AI",
+        "url": "https://www.theverge.com/tech/874721/epstein-thiel-musk-trump-metoo",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "The Verge AI"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.220Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878220-26",
+      "originalTitle": "Claude has been having a moment — can it keep it up?",
+      "coreIdea": "Anthropic's Claude is surging in popularity, especially for coding — is the hype sustainable?",
+      "viralReason": "Claude is THE hot AI tool right now, people want to understand why",
+      "latamScore": 9,
+      "repurposeAngle": "Irina literally teaches a Claude course. This is her bread and butter. Explain why Claude is winning and what it means for her audience.",
+      "suggestedTopic": "Por qué Claude está ganando la guerra de la IA (y por qué te importa)",
+      "suggestedHook": "Claude está en su mejor momento. Te explico por qué todos están hablando de él.",
+      "priority": "high",
+      "tags": [
+        "Claude",
+        "AI models",
+        "trends"
+      ],
+      "raw": {
+        "title": "Claude has been having a moment — can it keep it up?",
+        "content": "Claude has been having a moment — can it keep it up?",
+        "text": "Claude has been having a moment — can it keep it up?",
+        "author": "The Verge AI",
+        "url": "https://www.theverge.com/report/874308/anthropic-claude-code-opus-hype-moment",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "The Verge AI"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.220Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878220-27",
+      "originalTitle": "Anthropic debuts new model with hopes to corner the market beyond coding",
+      "coreIdea": "Anthropic's Opus 4.6 targets non-coding use cases — business, writing, analysis",
+      "viralReason": "New model launch from hot company",
+      "latamScore": 9,
+      "repurposeAngle": "Direct tie to Irina's course: Claude's newest model is designed for NON-developers. Perfect for her audience.",
+      "suggestedTopic": "El nuevo modelo de Claude está hecho para ti (aunque no programes)",
+      "suggestedHook": "Anthropic acaba de lanzar un modelo pensado para profesionales, no solo programadores.",
+      "priority": "high",
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "AI models",
+        "non-technical"
+      ],
+      "raw": {
+        "title": "Anthropic debuts new model with hopes to corner the market beyond coding",
+        "content": "Anthropic debuts new model with hopes to corner the market beyond coding",
+        "text": "Anthropic debuts new model with hopes to corner the market beyond coding",
+        "author": "The Verge AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/874440/anthropic-opus-4-6-new-model-claude",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "The Verge AI"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.220Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878220-28",
+      "originalTitle": "Nvidia's RTX 50-series Super refresh is delayed",
+      "coreIdea": "GPU delays affecting AI hardware pipeline",
+      "viralReason": "Hardware scarcity narrative",
+      "latamScore": 3,
+      "repurposeAngle": "Too hardware-specific",
+      "suggestedTopic": "N/A",
+      "suggestedHook": "N/A",
+      "priority": "low",
+      "tags": [
+        "hardware",
+        "Nvidia"
+      ],
+      "raw": {
+        "title": "Nvidia&#8217;s RTX 50-series Super refresh is delayed, and the RTX 60-series might miss 2027",
+        "content": "Nvidia&#8217;s RTX 50-series Super refresh is delayed, and the RTX 60-series might miss 2027",
+        "text": "Nvidia&#8217;s RTX 50-series Super refresh is delayed, and the RTX 60-series might miss 2027",
+        "author": "The Verge AI",
+        "url": "https://www.theverge.com/tech/874439/nvidia-rtx-50-super-60-series-delay",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "The Verge AI"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.220Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878220-29",
+      "originalTitle": "Reality is losing the deepfake war",
+      "coreIdea": "Deepfakes are outpacing detection — we can't tell real from fake anymore",
+      "viralReason": "Fear + urgency around AI-generated misinformation",
+      "latamScore": 8,
+      "repurposeAngle": "LATAM is vulnerable to deepfakes in elections, scams, and WhatsApp misinformation. Highly relevant.",
+      "suggestedTopic": "Cómo identificar deepfakes: guía práctica para no caer en desinformación",
+      "suggestedHook": "Ya no puedes confiar en lo que ves. Los deepfakes están ganando la guerra.",
+      "priority": "high",
+      "tags": [
+        "deepfakes",
+        "misinformation",
+        "AI literacy"
+      ],
+      "raw": {
+        "title": "Reality is losing the deepfake war",
+        "content": "Reality is losing the deepfake war",
+        "text": "Reality is losing the deepfake war",
+        "author": "The Verge AI",
+        "url": "https://www.theverge.com/podcast/874038/ai-deepfakes-war-on-reality-c2pa-labels",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "The Verge AI"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.220Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878220-30",
+      "originalTitle": "OpenAI Frontier is a single platform to control your AI agents",
+      "coreIdea": "OpenAI launches enterprise platform to manage AI agents centrally",
+      "viralReason": "Enterprise AI management is the next big market",
+      "latamScore": 7,
+      "repurposeAngle": "For LATAM enterprise managers: the tools to manage AI agents at scale are arriving. What you need to know.",
+      "suggestedTopic": "OpenAI Frontier: la plataforma para gestionar agentes de IA en tu empresa",
+      "suggestedHook": "OpenAI lanzó una plataforma para controlar todos tus agentes de IA. ¿La necesitas?",
+      "priority": "medium",
+      "tags": [
+        "OpenAI",
+        "enterprise",
+        "AI agents"
+      ],
+      "raw": {
+        "title": "OpenAI Frontier is a single platform to control your AI agents",
+        "content": "OpenAI Frontier is a single platform to control your AI agents",
+        "text": "OpenAI Frontier is a single platform to control your AI agents",
+        "author": "The Verge AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/874258/openai-frontier-ai-agent-platform-management",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "The Verge AI"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.220Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878220-31",
+      "originalTitle": "Moltbook was peak AI theater",
+      "coreIdea": "A social network for AI bots went viral — highlights the absurdity and fascination with AI personas",
+      "viralReason": "Novelty + commentary on AI hype culture",
+      "latamScore": 6,
+      "repurposeAngle": "Fun, light content: 'we built a social network where only bots talk to each other. What does that say about us?'",
+      "suggestedTopic": "Crearon una red social solo para bots. Y se hizo viral.",
+      "suggestedHook": "¿Una red social donde solo hablan bots? Existió por una semana y fue fascinante.",
+      "priority": "low",
+      "tags": [
+        "AI culture",
+        "social media",
+        "novelty"
+      ],
+      "raw": {
+        "title": "Moltbook was peak AI theater",
+        "content": "For a few days this week the hottest new hangout on the internet was a vibe-coded Reddit clone called Moltbook, which billed itself as a social network for bots. As the website’s tagline puts it: “Where AI agents share, discuss, and upvote. Humans welcome to observe.” We observed! Launched on January 28 by Matt Schlicht,&#8230;",
+        "text": "For a few days this week the hottest new hangout on the internet was a vibe-coded Reddit clone called Moltbook, which billed itself as a social network for bots. As the website’s tagline puts it: “Where AI agents share, discuss, and upvote. Humans welcome to observe.” We observed! Launched on January 28 by Matt Schlicht,&#8230;",
+        "author": "MIT Tech Review AI",
+        "url": "https://www.technologyreview.com/2026/02/06/1132448/moltbook-was-peak-ai-theater/",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "MIT Tech Review AI"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.220Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878220-32",
+      "originalTitle": "The Download: helping cancer survivors to give birth",
+      "coreIdea": "Medical innovation, not AI-focused",
+      "viralReason": "Human interest health story",
+      "latamScore": 2,
+      "repurposeAngle": "Not relevant",
+      "suggestedTopic": "N/A",
+      "suggestedHook": "N/A",
+      "priority": "low",
+      "tags": [
+        "health",
+        "not AI"
+      ],
+      "raw": {
+        "title": "The Download: helping cancer survivors to give birth, and cleaning up Bangladesh&#8217;s garment industry",
+        "content": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. An experimental surgery is helping cancer survivors give birth An experimental surgical procedure that’s helping people have babies after they’ve had  treatment for bowel or rectal cancer. Radiation and chemo can have pretty&#8230;",
+        "text": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. An experimental surgery is helping cancer survivors give birth An experimental surgical procedure that’s helping people have babies after they’ve had  treatment for bowel or rectal cancer. Radiation and chemo can have pretty&#8230;",
+        "author": "MIT Tech Review AI",
+        "url": "https://www.technologyreview.com/2026/02/06/1132375/the-download-helping-cancer-survivors-to-give-birth-and-cleaning-up-bangladeshs-garment-industry/",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "MIT Tech Review AI"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.220Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878220-33",
+      "originalTitle": "An experimental surgery is helping cancer survivors give birth",
+      "coreIdea": "Medical innovation",
+      "viralReason": "Human interest",
+      "latamScore": 2,
+      "repurposeAngle": "Not relevant",
+      "suggestedTopic": "N/A",
+      "suggestedHook": "N/A",
+      "priority": "low",
+      "tags": [
+        "health",
+        "not AI"
+      ],
+      "raw": {
+        "title": "An experimental surgery is helping cancer survivors give birth",
+        "content": "This week I want to tell you about an experimental surgical procedure that’s helping people have babies. Specifically, it’s helping people who have had treatment for bowel or rectal cancer. Radiation and chemo can have pretty damaging side effects that mess up the uterus and ovaries. Surgeons are pioneering a potential solution: simply stitch those&#8230;",
+        "text": "This week I want to tell you about an experimental surgical procedure that’s helping people have babies. Specifically, it’s helping people who have had treatment for bowel or rectal cancer. Radiation and chemo can have pretty damaging side effects that mess up the uterus and ovaries. Surgeons are pioneering a potential solution: simply stitch those&#8230;",
+        "author": "MIT Tech Review AI",
+        "url": "https://www.technologyreview.com/2026/02/06/1132319/experimental-surgery-colorectal-cancer-survivors-pregnant-birth/",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "MIT Tech Review AI"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.220Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878220-34",
+      "originalTitle": "Consolidating systems for AI with iPaaS",
+      "coreIdea": "Enterprises need to consolidate their tech stack before AI can work — integration platforms (iPaaS) are key",
+      "viralReason": "Enterprise pain point — AI doesn't work if your systems are fragmented",
+      "latamScore": 8,
+      "repurposeAngle": "LATAM enterprises have messy tech stacks. This is the 'before you buy AI tools, fix your data' message.",
+      "suggestedTopic": "Antes de implementar IA, ordena tus sistemas: guía para empresas en LATAM",
+      "suggestedHook": "¿Quieres implementar IA en tu empresa? Primero arregla esto.",
+      "priority": "high",
+      "tags": [
+        "enterprise",
+        "integration",
+        "data strategy"
+      ],
+      "raw": {
+        "title": "Consolidating systems for AI with iPaaS",
+        "content": "For decades, enterprises reacted to shifting business pressures with stopgap technology solutions. To rein in rising infrastructure costs, they adopted cloud services that could scale on demand. When customers shifted their lives onto smartphones, companies rolled out mobile apps to keep pace. And when businesses began needing real-time visibility into factories and stockrooms, they layered&#8230;",
+        "text": "For decades, enterprises reacted to shifting business pressures with stopgap technology solutions. To rein in rising infrastructure costs, they adopted cloud services that could scale on demand. When customers shifted their lives onto smartphones, companies rolled out mobile apps to keep pace. And when businesses began needing real-time visibility into factories and stockrooms, they layered&#8230;",
+        "author": "MIT Tech Review AI",
+        "url": "https://www.technologyreview.com/2026/02/05/1132200/consolidating-systems-for-ai-with-ipaas/",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "MIT Tech Review AI"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.220Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878220-35",
+      "originalTitle": "The Download: attempting to track AI, and next-gen nuclear power",
+      "coreIdea": "AI benchmarking is misunderstood — tracking progress is harder than it looks",
+      "viralReason": "Newsletter roundup",
+      "latamScore": 4,
+      "repurposeAngle": "The 'misunderstood graph' angle is interesting — see Item 38",
+      "suggestedTopic": "N/A",
+      "suggestedHook": "N/A",
+      "priority": "low",
+      "tags": [
+        "AI benchmarks",
+        "newsletter"
+      ],
+      "raw": {
+        "title": "The Download: attempting to track AI, and the next generation of nuclear power",
+        "content": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. This is the most misunderstood graph in AI Every time OpenAI, Google, or Anthropic drops a new frontier large language model, the AI community holds its breath. It doesn’t exhale until METR, an&#8230;",
+        "text": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. This is the most misunderstood graph in AI Every time OpenAI, Google, or Anthropic drops a new frontier large language model, the AI community holds its breath. It doesn’t exhale until METR, an&#8230;",
+        "author": "MIT Tech Review AI",
+        "url": "https://www.technologyreview.com/2026/02/05/1132270/the-download-attempting-to-track-ai-and-the-next-generation-of-nuclear-power/",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "MIT Tech Review AI"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.220Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878220-36",
+      "originalTitle": "Three questions about next-generation nuclear power, answered",
+      "coreIdea": "Nuclear power for AI data centers",
+      "viralReason": "Energy + AI intersection",
+      "latamScore": 4,
+      "repurposeAngle": "Tangential — energy infrastructure isn't Irina's focus",
+      "suggestedTopic": "N/A",
+      "suggestedHook": "N/A",
+      "priority": "low",
+      "tags": [
+        "energy",
+        "infrastructure"
+      ],
+      "raw": {
+        "title": "Three questions about next-generation nuclear power, answered",
+        "content": "Nuclear power continues to be one of the hottest topics in energy today, and in our recent online Roundtables discussion about next-generation nuclear power, hyperscale AI data centers, and the grid, we got dozens of great audience questions. These ran the gamut, and while we answered quite a few (and I’m keeping some in mind&#8230;",
+        "text": "Nuclear power continues to be one of the hottest topics in energy today, and in our recent online Roundtables discussion about next-generation nuclear power, hyperscale AI data centers, and the grid, we got dozens of great audience questions. These ran the gamut, and while we answered quite a few (and I’m keeping some in mind&#8230;",
+        "author": "MIT Tech Review AI",
+        "url": "https://www.technologyreview.com/2026/02/05/1132197/nuclear-questions/",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "MIT Tech Review AI"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.220Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878220-37",
+      "originalTitle": "This is the most misunderstood graph in AI",
+      "coreIdea": "AI benchmark charts are misleading — progress looks different than headlines suggest",
+      "viralReason": "Contrarian + educational — challenges common AI narrative",
+      "latamScore": 7,
+      "repurposeAngle": "Help LATAM professionals cut through AI hype: how to actually read AI progress claims",
+      "suggestedTopic": "Cómo leer las noticias de IA sin caer en el hype",
+      "suggestedHook": "Cada vez que sale un modelo nuevo, te muestran esta gráfica. Y la estás leyendo mal.",
+      "priority": "medium",
+      "tags": [
+        "AI literacy",
+        "benchmarks",
+        "critical thinking"
+      ],
+      "raw": {
+        "title": "This is the most misunderstood graph in AI",
+        "content": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Every time OpenAI, Google, or Anthropic drops a new frontier large language model, the AI community holds its breath. It doesn’t exhale until METR, an AI&#8230;",
+        "text": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Every time OpenAI, Google, or Anthropic drops a new frontier large language model, the AI community holds its breath. It doesn’t exhale until METR, an AI&#8230;",
+        "author": "MIT Tech Review AI",
+        "url": "https://www.technologyreview.com/2026/02/05/1132254/this-is-the-most-misunderstood-graph-in-ai/",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "MIT Tech Review AI"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.220Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878220-38",
+      "originalTitle": "From guardrails to governance: A CEO's guide for securing agentic systems",
+      "coreIdea": "CEOs need governance frameworks for AI agents, not just technical guardrails",
+      "viralReason": "Board-level urgency about AI risk",
+      "latamScore": 8,
+      "repurposeAngle": "Perfect for LATAM managers/executives: how to govern AI agents in your organization",
+      "suggestedTopic": "Guía para directivos: cómo gobernar la IA en tu empresa (sin ser técnico)",
+      "suggestedHook": "Tu junta directiva va a preguntar sobre riesgo de IA. ¿Tienes respuesta?",
+      "priority": "high",
+      "tags": [
+        "AI governance",
+        "leadership",
+        "enterprise",
+        "risk"
+      ],
+      "raw": {
+        "title": "From guardrails to governance: A CEO’s guide for securing agentic systems",
+        "content": "The previous article in this series, “Rules fail at the prompt, succeed at the boundary,” focused on the first AI-orchestrated espionage campaign and the failure of prompt-level control. This article is the prescription. The question every CEO is now getting from their board is some version of: What do we do about agent risk? Across&#8230;",
+        "text": "The previous article in this series, “Rules fail at the prompt, succeed at the boundary,” focused on the first AI-orchestrated espionage campaign and the failure of prompt-level control. This article is the prescription. The question every CEO is now getting from their board is some version of: What do we do about agent risk? Across&#8230;",
+        "author": "MIT Tech Review AI",
+        "url": "https://www.technologyreview.com/2026/02/04/1131014/from-guardrails-to-governance-a-ceos-guide-for-securing-agentic-systems/",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "MIT Tech Review AI"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.220Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878220-39",
+      "originalTitle": "The Download: the future of nuclear power plants, and social media-fueled AI hype",
+      "coreIdea": "AI hype fueled by social media creates unrealistic expectations",
+      "viralReason": "Newsletter roundup",
+      "latamScore": 5,
+      "repurposeAngle": "The social media hype angle is relevant — covered better in other items",
+      "suggestedTopic": "N/A",
+      "suggestedHook": "N/A",
+      "priority": "low",
+      "tags": [
+        "AI hype",
+        "newsletter"
+      ],
+      "raw": {
+        "title": "The Download: the future of nuclear power plants, and social media-fueled AI hype",
+        "content": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Why AI companies are betting on next-gen nuclear AI is driving unprecedented investment for massive data centers and an energy supply that can support its huge computational appetite. One potential source of electricity&#8230;",
+        "text": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Why AI companies are betting on next-gen nuclear AI is driving unprecedented investment for massive data centers and an energy supply that can support its huge computational appetite. One potential source of electricity&#8230;",
+        "author": "MIT Tech Review AI",
+        "url": "https://www.technologyreview.com/2026/02/04/1132115/the-download-the-future-of-nuclear-power-plants-and-social-media-fueled-ai-hype/",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "MIT Tech Review AI"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.220Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878220-40",
+      "originalTitle": "The Download: squeezing more metal out of aging mines, and AI's truth crisis",
+      "coreIdea": "AI's truth/hallucination crisis",
+      "viralReason": "Newsletter roundup",
+      "latamScore": 5,
+      "repurposeAngle": "AI trust is a real issue — covered better in deepfakes item",
+      "suggestedTopic": "N/A",
+      "suggestedHook": "N/A",
+      "priority": "low",
+      "tags": [
+        "AI trust",
+        "newsletter"
+      ],
+      "raw": {
+        "title": "The Download: squeezing more metal out of aging mines, and AI&#8217;s truth crisis",
+        "content": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Microbes could extract the metal needed for cleantech In a pine forest on Michigan’s Upper Peninsula, the only active nickel mine in the US is nearing the end of its life. At a&#8230;",
+        "text": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Microbes could extract the metal needed for cleantech In a pine forest on Michigan’s Upper Peninsula, the only active nickel mine in the US is nearing the end of its life. At a&#8230;",
+        "author": "MIT Tech Review AI",
+        "url": "https://www.technologyreview.com/2026/02/03/1132105/the-download-squeezing-more-metal-out-of-aging-mines-and-ais-truth-crisis/",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "MIT Tech Review AI"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.220Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878220-41",
+      "originalTitle": "Making AI work for everyone, everywhere: our approach to localization",
+      "coreIdea": "OpenAI is investing in AI localization — adapting models to local languages, laws, and cultures",
+      "viralReason": "Global accessibility of AI — resonates with non-English speakers",
+      "latamScore": 10,
+      "repurposeAngle": "THIS IS IRINA'S EXACT THESIS. OpenAI itself acknowledges the localization gap she's filling. Use as validation.",
+      "suggestedTopic": "OpenAI lo admite: la IA necesita adaptarse a tu idioma y cultura",
+      "suggestedHook": "OpenAI acaba de confirmar lo que yo llevo meses diciendo: la IA en inglés no es suficiente.",
+      "priority": "high",
+      "tags": [
+        "localization",
+        "Spanish AI",
+        "LATAM",
+        "OpenAI"
+      ],
+      "raw": {
+        "title": "Making AI work for everyone, everywhere: our approach to localization",
+        "content": "OpenAI shares its approach to AI localization, showing how globally shared frontier models can be adapted to local languages, laws, and cultures without compromising safety.",
+        "text": "OpenAI shares its approach to AI localization, showing how globally shared frontier models can be adapted to local languages, laws, and cultures without compromising safety.",
+        "author": "OpenAI Blog",
+        "url": "https://openai.com/index/our-approach-to-localization",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "OpenAI Blog"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.220Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878220-42",
+      "originalTitle": "Korea privacy policy",
+      "coreIdea": "OpenAI Korea privacy compliance",
+      "viralReason": "Legal/compliance",
+      "latamScore": 1,
+      "repurposeAngle": "Not relevant",
+      "suggestedTopic": "N/A",
+      "suggestedHook": "N/A",
+      "priority": "low",
+      "tags": [
+        "legal",
+        "not relevant"
+      ],
+      "raw": {
+        "title": "Korea privacy policy",
+        "content": "Korea privacy policy",
+        "text": "Korea privacy policy",
+        "author": "OpenAI Blog",
+        "url": "https://openai.com/policies/kr-privacy-policy",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "OpenAI Blog"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.220Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878220-43",
+      "originalTitle": "GPT-5 lowers the cost of cell-free protein synthesis",
+      "coreIdea": "AI + biotech: GPT-5 cut lab costs 40% through autonomous experimentation",
+      "viralReason": "Concrete ROI of AI in science — not just chatbots",
+      "latamScore": 6,
+      "repurposeAngle": "Frame as: AI isn't just for writing emails — it's doing science. Expand your mental model.",
+      "suggestedTopic": "La IA no solo escribe correos: está haciendo ciencia (y ahorrando millones)",
+      "suggestedHook": "GPT-5 redujo costos de laboratorio en 40%. ¿Sigues pensando que la IA solo sirve para chatear?",
+      "priority": "medium",
+      "tags": [
+        "AI applications",
+        "science",
+        "ROI"
+      ],
+      "raw": {
+        "title": "GPT-5 lowers the cost of cell-free protein synthesis",
+        "content": "An autonomous lab combining OpenAI’s GPT-5 with Ginkgo Bioworks’ cloud automation cut cell-free protein synthesis costs by 40% through closed-loop experimentation.",
+        "text": "An autonomous lab combining OpenAI’s GPT-5 with Ginkgo Bioworks’ cloud automation cut cell-free protein synthesis costs by 40% through closed-loop experimentation.",
+        "author": "OpenAI Blog",
+        "url": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "OpenAI Blog"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.220Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878220-44",
+      "originalTitle": "Introducing Trusted Access for Cyber",
+      "coreIdea": "OpenAI creates trust framework for cybersecurity AI access",
+      "viralReason": "Cybersecurity + AI governance",
+      "latamScore": 4,
+      "repurposeAngle": "Too niche for general audience",
+      "suggestedTopic": "N/A",
+      "suggestedHook": "N/A",
+      "priority": "low",
+      "tags": [
+        "cybersecurity",
+        "enterprise"
+      ],
+      "raw": {
+        "title": "Introducing Trusted Access for Cyber",
+        "content": "OpenAI introduces Trusted Access for Cyber, a trust-based framework that expands access to frontier cyber capabilities while strengthening safeguards against misuse.",
+        "text": "OpenAI introduces Trusted Access for Cyber, a trust-based framework that expands access to frontier cyber capabilities while strengthening safeguards against misuse.",
+        "author": "OpenAI Blog",
+        "url": "https://openai.com/index/trusted-access-for-cyber",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "OpenAI Blog"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.220Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878220-45",
+      "originalTitle": "Introducing OpenAI Frontier",
+      "coreIdea": "Enterprise platform for building, deploying and managing AI agents with governance",
+      "viralReason": "Major OpenAI product launch",
+      "latamScore": 7,
+      "repurposeAngle": "Same as Item 31 — enterprise AI management. Combine.",
+      "suggestedTopic": "OpenAI Frontier: lo que significa para tu empresa",
+      "suggestedHook": "OpenAI quiere ser el 'sistema operativo' de tus agentes de IA.",
+      "priority": "medium",
+      "tags": [
+        "OpenAI",
+        "enterprise",
+        "AI agents"
+      ],
+      "raw": {
+        "title": "Introducing OpenAI Frontier",
+        "content": "OpenAI Frontier is an enterprise platform for building, deploying, and managing AI agents with shared context, onboarding, permissions, and governance.",
+        "text": "OpenAI Frontier is an enterprise platform for building, deploying, and managing AI agents with shared context, onboarding, permissions, and governance.",
+        "author": "OpenAI Blog",
+        "url": "https://openai.com/index/introducing-openai-frontier",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "OpenAI Blog"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.220Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878220-46",
+      "originalTitle": "Navigating health questions with ChatGPT",
+      "coreIdea": "Real family used ChatGPT to prepare for cancer treatment decisions alongside doctors",
+      "viralReason": "Emotional human story + practical AI use",
+      "latamScore": 8,
+      "repurposeAngle": "Powerful story for LATAM where healthcare access is limited. AI as health information companion (NOT replacement).",
+      "suggestedTopic": "Cómo una familia usó ChatGPT para entender el diagnóstico de cáncer de su hijo",
+      "suggestedHook": "Una familia usó ChatGPT para prepararse para una decisión médica crítica. Así lo hicieron.",
+      "priority": "high",
+      "tags": [
+        "health",
+        "ChatGPT",
+        "real stories",
+        "practical AI"
+      ],
+      "raw": {
+        "title": "Navigating health questions with ChatGPT",
+        "content": "A family shares how ChatGPT helped them prepare for critical cancer treatment decisions for their son alongside expert guidance from his doctors.",
+        "text": "A family shares how ChatGPT helped them prepare for critical cancer treatment decisions for their son alongside expert guidance from his doctors.",
+        "author": "OpenAI Blog",
+        "url": "https://openai.com/index/navigating-health-questions",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "OpenAI Blog"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.220Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878220-47",
+      "originalTitle": "GPT-5.3-Codex System Card",
+      "coreIdea": "Technical documentation for OpenAI's latest coding model",
+      "viralReason": "Model release documentation",
+      "latamScore": 3,
+      "repurposeAngle": "Too technical — the news angle is covered in Item 49",
+      "suggestedTopic": "N/A",
+      "suggestedHook": "N/A",
+      "priority": "low",
+      "tags": [
+        "technical",
+        "OpenAI"
+      ],
+      "raw": {
+        "title": "GPT-5.3-Codex System Card",
+        "content": "GPT‑5.3-Codex is the most capable agentic coding model to date, combining the frontier coding performance of GPT‑5.2-Codex with the reasoning and professional knowledge capabilities of GPT‑5.2.",
+        "text": "GPT‑5.3-Codex is the most capable agentic coding model to date, combining the frontier coding performance of GPT‑5.2-Codex with the reasoning and professional knowledge capabilities of GPT‑5.2.",
+        "author": "OpenAI Blog",
+        "url": "https://openai.com/index/gpt-5-3-codex-system-card",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "OpenAI Blog"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.220Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-48",
+      "originalTitle": "Introducing GPT-5.3-Codex",
+      "coreIdea": "OpenAI's most capable coding agent — handles long, complex real-world technical work",
+      "viralReason": "Major model launch",
+      "latamScore": 5,
+      "repurposeAngle": "For tech-adjacent audience: the coding AI race is accelerating. What it means for LATAM tech teams.",
+      "suggestedTopic": "La guerra de los agentes de programación: GPT vs Claude",
+      "suggestedHook": "OpenAI y Anthropic compiten por crear el mejor programador de IA. ¿Quién va ganando?",
+      "priority": "medium",
+      "tags": [
+        "coding AI",
+        "OpenAI",
+        "competition"
+      ],
+      "raw": {
+        "title": "Introducing GPT-5.3-Codex",
+        "content": "GPT-5.3-Codex is a Codex-native agent that pairs frontier coding performance with general reasoning to support long-horizon, real-world technical work.",
+        "text": "GPT-5.3-Codex is a Codex-native agent that pairs frontier coding performance with general reasoning to support long-horizon, real-world technical work.",
+        "author": "OpenAI Blog",
+        "url": "https://openai.com/index/introducing-gpt-5-3-codex",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "OpenAI Blog"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-49",
+      "originalTitle": "Unlocking the Codex harness: how we built the App Server",
+      "coreIdea": "Technical deep dive on Codex infrastructure",
+      "viralReason": "Developer tooling",
+      "latamScore": 2,
+      "repurposeAngle": "Too technical",
+      "suggestedTopic": "N/A",
+      "suggestedHook": "N/A",
+      "priority": "low",
+      "tags": [
+        "technical",
+        "developer tools"
+      ],
+      "raw": {
+        "title": "Unlocking the Codex harness: how we built the App Server",
+        "content": "Learn how to embed the Codex agent using the Codex App Server, a bidirectional JSON-RPC API powering streaming progress, tool use, approvals, and diffs.",
+        "text": "Learn how to embed the Codex agent using the Codex App Server, a bidirectional JSON-RPC API powering streaming progress, tool use, approvals, and diffs.",
+        "author": "OpenAI Blog",
+        "url": "https://openai.com/index/unlocking-the-codex-harness",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "OpenAI Blog"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-50",
+      "originalTitle": "VfL Wolfsburg turns ChatGPT into a club-wide capability",
+      "coreIdea": "A football club rolled out ChatGPT across the entire organization — not just IT, everyone",
+      "viralReason": "Relatable org + unexpected AI adoption story",
+      "latamScore": 9,
+      "repurposeAngle": "FOOTBALL + AI = perfect LATAM hook. A Bundesliga club made everyone use AI. Show how any organization can do this.",
+      "suggestedTopic": "Un club de fútbol alemán hizo que TODOS usen ChatGPT. Así lo lograron.",
+      "suggestedHook": "El Wolfsburg no solo usa IA para analizar partidos. La usa en TODO el club.",
+      "priority": "high",
+      "tags": [
+        "AI adoption",
+        "organization",
+        "football",
+        "case study"
+      ],
+      "raw": {
+        "title": "VfL Wolfsburg turns ChatGPT into a club-wide capability",
+        "content": "By focusing on people, not pilots, the Bundesliga club is scaling efficiency, creativity, and knowledge—without losing its football identity.",
+        "text": "By focusing on people, not pilots, the Bundesliga club is scaling efficiency, creativity, and knowledge—without losing its football identity.",
+        "author": "OpenAI Blog",
+        "url": "https://openai.com/index/vfl-wolfsburg",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "OpenAI Blog"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-51",
+      "originalTitle": "Community Wisdom: Common mistakes when hiring a growth PM...",
+      "coreIdea": "Community roundup — hiring, AI for bug reporting, consulting",
+      "viralReason": "Lenny's community engagement",
+      "latamScore": 4,
+      "repurposeAngle": "The 'AI to speed up bug reporting' angle could be a quick tip",
+      "suggestedTopic": "N/A",
+      "suggestedHook": "N/A",
+      "priority": "low",
+      "tags": [
+        "product management",
+        "community"
+      ],
+      "raw": {
+        "title": "🧠 Community Wisdom: Common mistakes when hiring a growth PM, using AI to speed up bug reporting, launching a solo consulting practice, resume titles for engineers transitioning to PM, and more",
+        "content": "Community Wisdom 172",
+        "text": "Community Wisdom 172",
+        "author": "Lenny Rachitsky",
+        "url": "https://www.lennysnewsletter.com/p/community-wisdom-common-mistakes",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "Lenny Rachitsky"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-52",
+      "originalTitle": "Automate the tasks you hate + v0 bringing Git workflows to vibe coding",
+      "coreIdea": "Automate the tasks you hate with AI + vibe coding is getting more professional",
+      "viralReason": "Practical AI automation + v0 hype",
+      "latamScore": 7,
+      "repurposeAngle": "'Automate what you hate' is a great frame for LATAM professionals drowning in admin work",
+      "suggestedTopic": "Automatiza lo que odias de tu trabajo: guía paso a paso con IA",
+      "suggestedHook": "¿Qué parte de tu trabajo odias? Esa es exactamente la que deberías automatizar con IA.",
+      "priority": "high",
+      "tags": [
+        "automation",
+        "productivity",
+        "practical AI"
+      ],
+      "raw": {
+        "title": "🎙️ This week on How I AI: Automate the tasks you hate + “Anyone can cook”: How v0 is bringing Git workflows to vibe coding",
+        "content": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+        "text": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+        "author": "Lenny Rachitsky",
+        "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-automate-the",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "Lenny Rachitsky"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-53",
+      "originalTitle": "Guillermo Rauch: Vercel CEO on how v0 hit 3,200 PRs merged per day",
+      "coreIdea": "v0 lets anyone ship production code — democratizing software development",
+      "viralReason": "Vercel CEO + 'anyone can cook' framing",
+      "latamScore": 7,
+      "repurposeAngle": "The 'anyone can cook' metaphor is brilliant for LATAM. You don't need to be a chef (developer) to build things.",
+      "suggestedTopic": "Cualquiera puede 'cocinar' software: cómo v0 está democratizando la programación",
+      "suggestedHook": "No necesitas ser programador para crear software. v0 lo demuestra.",
+      "priority": "medium",
+      "tags": [
+        "no-code",
+        "vibe coding",
+        "democratization"
+      ],
+      "raw": {
+        "title": "Guillermo Rauch: Vercel CEO on how v0 hit 3,200 PRs merged per day (and lets anyone ship)",
+        "content": "Watch now | &#127897;&#65039; Vercel&#8217;s CEO demonstrates how v0&#8217;s new Git workflow integration enables anyone to contribute production-ready code changes while maintaining engineering best practices",
+        "text": "Watch now | &#127897;&#65039; Vercel&#8217;s CEO demonstrates how v0&#8217;s new Git workflow integration enables anyone to contribute production-ready code changes while maintaining engineering best practices",
+        "author": "Lenny Rachitsky",
+        "url": "https://www.lennysnewsletter.com/p/anyone-can-cook-how-v0-is-bringing",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "Lenny Rachitsky"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-54",
+      "originalTitle": "How to build AI product sense",
+      "coreIdea": "Use Cursor (AI coding tool) for non-technical work to build intuition about AI products",
+      "viralReason": "Counterintuitive advice from respected newsletter",
+      "latamScore": 8,
+      "repurposeAngle": "The meta-lesson: to understand AI products, USE them for your actual work. Build intuition through practice, not theory.",
+      "suggestedTopic": "Cómo desarrollar 'sentido de producto' para IA (sin ser técnico)",
+      "suggestedHook": "El secreto para entender productos de IA: usa herramientas de programación para trabajo NO técnico.",
+      "priority": "high",
+      "tags": [
+        "AI product sense",
+        "learning",
+        "career"
+      ],
+      "raw": {
+        "title": "How to build AI product sense",
+        "content": "The secret is using Cursor for non-technical work (inside: 75 free days of Cursor Pro to try this out!)",
+        "text": "The secret is using Cursor for non-technical work (inside: 75 free days of Cursor Pro to try this out!)",
+        "author": "Lenny Rachitsky",
+        "url": "https://www.lennysnewsletter.com/p/how-to-build-ai-product-sense",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "Lenny Rachitsky"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-55",
+      "originalTitle": "How this PM uses MCPs to automate meeting prep, CRM updates, and customer feedback",
+      "coreIdea": "Using MCP (Model Context Protocol) to connect Claude with 8,000+ apps for real work automation",
+      "viralReason": "Practical MCP tutorial from real PM use case",
+      "latamScore": 9,
+      "repurposeAngle": "MCPs are the next big thing for non-devs. Show LATAM professionals how to connect Claude to their actual tools.",
+      "suggestedTopic": "Qué son los MCPs y cómo conectar Claude con tus herramientas de trabajo",
+      "suggestedHook": "Un gerente de producto conectó Claude con 8,000 apps. Así automatizó su día.",
+      "priority": "high",
+      "tags": [
+        "MCP",
+        "Claude",
+        "automation",
+        "productivity"
+      ],
+      "raw": {
+        "title": "How this PM uses MCPs to automate his meeting prep, CRM updates, and customer feedback synthesis | Reid Robinson (Zapier)",
+        "content": "Watch now | &#127897;&#65039; How to use Zapier's MCP server to connect Claude with 8,000+ apps: automating CRM updates, meeting preparation, and creating a virtuous cycle of customer feedback",
+        "text": "Watch now | &#127897;&#65039; How to use Zapier's MCP server to connect Claude with 8,000+ apps: automating CRM updates, meeting preparation, and creating a virtuous cycle of customer feedback",
+        "author": "Lenny Rachitsky",
+        "url": "https://www.lennysnewsletter.com/p/how-this-pm-uses-mcps-to-automate",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "Lenny Rachitsky"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-56",
+      "originalTitle": "A child psychologist's guide to working with difficult adults",
+      "coreIdea": "Psychology insights for managing difficult people — repair > perfection, boundaries",
+      "viralReason": "Universal human challenge + unexpected angle",
+      "latamScore": 5,
+      "repurposeAngle": "Not AI-related but could tie to AI-era soft skills. Stretch.",
+      "suggestedTopic": "N/A",
+      "suggestedHook": "N/A",
+      "priority": "low",
+      "tags": [
+        "psychology",
+        "leadership",
+        "not AI"
+      ],
+      "raw": {
+        "title": "A child psychologist’s guide to working with difficult adults | Dr. Becky Kennedy",
+        "content": "Clinical psychologist Dr. Becky Kennedy on why repair is more important than perfection, how to set boundaries that work, the power of \"I believe you\" and \"I believe in you,\" and more",
+        "text": "Clinical psychologist Dr. Becky Kennedy on why repair is more important than perfection, how to set boundaries that work, the power of \"I believe you\" and \"I believe in you,\" and more",
+        "author": "Lenny Rachitsky",
+        "url": "https://www.lennysnewsletter.com/p/dr-becky-on-the-surprising-overlap",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "Lenny Rachitsky"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-57",
+      "originalTitle": "Community Wisdom: How you feel about your job right now, what to do while waiting for AI responses...",
+      "coreIdea": "What to do while waiting for AI responses — people's relationship with AI at work is evolving",
+      "viralReason": "Relatable workplace friction with AI",
+      "latamScore": 6,
+      "repurposeAngle": "Fun angle: 'qué haces mientras esperas que la IA responda' — relatable for anyone using AI at work",
+      "suggestedTopic": "¿Qué haces mientras esperas que la IA responda?",
+      "suggestedHook": "Todos estamos en el mismo barco: esperando que ChatGPT piense. Aprovecha ese tiempo así.",
+      "priority": "low",
+      "tags": [
+        "AI at work",
+        "productivity",
+        "humor"
+      ],
+      "raw": {
+        "title": "🧠 Community Wisdom: How you feel about your job right now, what to do while waiting for AI responses, making your product roadmap public, chasing big exits vs. sustainable bootstrapping, and more",
+        "content": "Community Wisdom 171",
+        "text": "Community Wisdom 171",
+        "author": "Lenny Rachitsky",
+        "url": "https://www.lennysnewsletter.com/p/community-wisdom-lennys-poll-driving",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "Lenny Rachitsky"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-58",
+      "originalTitle": "Marc Andreessen: The real AI boom hasn't even started yet",
+      "coreIdea": "a16z founder says AI disruption is still early — job fears overblown, career paths are shifting not disappearing",
+      "viralReason": "Major tech figure + reassuring message about AI jobs",
+      "latamScore": 9,
+      "repurposeAngle": "LATAM professionals fear AI will take jobs. Marc Andreessen says the opposite. Use his credibility to frame the opportunity.",
+      "suggestedTopic": "Marc Andreessen dice que el boom real de IA ni ha empezado. ¿Qué significa para tu carrera?",
+      "suggestedHook": "El inversionista más famoso de Silicon Valley dice que NO vas a perder tu trabajo por la IA. Pero sí va a cambiar.",
+      "priority": "high",
+      "tags": [
+        "future of work",
+        "careers",
+        "AI economy",
+        "leadership"
+      ],
+      "raw": {
+        "title": "Marc Andreessen: The real AI boom hasn’t even started yet",
+        "content": "On raising kids, why job loss fears are overblown, the future of PM/eng/design careers, and the macro force you should pay attention to",
+        "text": "On raising kids, why job loss fears are overblown, the future of PM/eng/design careers, and the macro force you should pay attention to",
+        "author": "Lenny Rachitsky",
+        "url": "https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "Lenny Rachitsky"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-59",
+      "originalTitle": "I gave Clawdbot (aka Moltbot) full access to my computer. It broke my family calendar and joined my podcast.",
+      "coreIdea": "What happens when you give an autonomous AI agent full computer access — chaos and learning",
+      "viralReason": "Entertaining cautionary tale + relatable fear",
+      "latamScore": 7,
+      "repurposeAngle": "Fun, relatable content: the reality of AI agents vs the promise. What actually happens when AI runs free.",
+      "suggestedTopic": "Le di acceso total a un agente de IA. Esto es lo que pasó.",
+      "suggestedHook": "Un podcaster le dio acceso a toda su computadora a una IA. Arruinó su calendario familiar.",
+      "priority": "medium",
+      "tags": [
+        "AI agents",
+        "cautionary tale",
+        "humor"
+      ],
+      "raw": {
+        "title": "🎙️ Today on How I AI: I gave Clawdbot (aka Moltbot) full access to my computer. It broke my family calendar and joined my podcast.",
+        "content": "What happens when you give an autonomous AI agent full access to your computer?",
+        "text": "What happens when you give an autonomous AI agent full access to your computer?",
+        "author": "Lenny Rachitsky",
+        "url": "https://www.lennysnewsletter.com/p/today-on-how-i-ai-i-gave-clawdbot",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "Lenny Rachitsky"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-60",
+      "originalTitle": "I gave Clawdbot (now Moltbot) access to my computer, calendar, and emails: Here's what happened",
+      "coreIdea": "Same as above — detailed version",
+      "viralReason": "Same as above",
+      "latamScore": 7,
+      "repurposeAngle": "Combine with Item 60 for one piece",
+      "suggestedTopic": "Cuando la IA tiene acceso a todo: lecciones del experimento de Lenny",
+      "suggestedHook": "Este experimento con IA salió MUY mal. Pero las lecciones valen oro.",
+      "priority": "medium",
+      "tags": [
+        "AI agents",
+        "experiment",
+        "lessons learned"
+      ],
+      "raw": {
+        "title": "I gave Clawdbot (aka Moltbot) access to my computer, calendar, and emails: Here’s what happened",
+        "content": "What happens when you invite an autonomous AI agent onto your podcast&#8212;and your computer?",
+        "text": "What happens when you invite an autonomous AI agent onto your podcast&#8212;and your computer?",
+        "author": "Lenny Rachitsky",
+        "url": "https://www.lennysnewsletter.com/p/i-gave-clawdbot-now-moltbot-access",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "Lenny Rachitsky"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-61",
+      "originalTitle": "SaaSmageddon and the Super Bowl",
+      "coreIdea": "SaaS companies face existential threat from AI — 'SaaSmageddon'",
+      "viralReason": "Ben Thompson coining a term for the SaaS apocalypse",
+      "latamScore": 7,
+      "repurposeAngle": "LATAM companies buy tons of SaaS. If SaaS is dying, their vendor landscape changes. Frame as strategic planning.",
+      "suggestedTopic": "SaaSmageddon: por qué tus herramientas de software favoritas están en peligro",
+      "suggestedHook": "Las herramientas SaaS que usas cada día podrían desaparecer. La IA las está matando.",
+      "priority": "medium",
+      "tags": [
+        "SaaS",
+        "industry disruption",
+        "strategy"
+      ],
+      "raw": {
+        "title": "2026.06: SaaSmageddon and the Super Bowl",
+        "content": "The best Stratechery content from the week of February 2, 2025, including the future of software, SaaSmageddon and Super Bowl ads, and madness in basketball and football.",
+        "text": "The best Stratechery content from the week of February 2, 2025, including the future of software, SaaSmageddon and Super Bowl ads, and madness in basketball and football.",
+        "author": "Ben Thompson (Stratechery)",
+        "url": "https://stratechery.com/2026/saasmageddon-and-the-super-bowl/",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "Ben Thompson (Stratechery)"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-62",
+      "originalTitle": "An Interview with Benedict Evans About AI and Software",
+      "coreIdea": "The crisis facing software, the future of corporations, and defining the LLM paradigm",
+      "viralReason": "Two top tech analysts discussing AI's fundamental impact",
+      "latamScore": 7,
+      "repurposeAngle": "Distill key insights about how AI changes organizations — relevant for LATAM executives",
+      "suggestedTopic": "¿Cómo cambia la IA el futuro de las empresas? Lo que dicen los expertos",
+      "suggestedHook": "Dos de los analistas más respetados de tech discuten cómo la IA cambiará tu empresa.",
+      "priority": "medium",
+      "tags": [
+        "strategy",
+        "future of work",
+        "enterprise"
+      ],
+      "raw": {
+        "title": "An Interview with Benedict Evans About AI and Software",
+        "content": "An interview with Benedict Evans about the crisis facing software, the future of the corporation, OpenAI, and the struggle to define the LLM paradigm.",
+        "text": "An interview with Benedict Evans about the crisis facing software, the future of the corporation, OpenAI, and the struggle to define the LLM paradigm.",
+        "author": "Ben Thompson (Stratechery)",
+        "url": "https://stratechery.com/2026/an-interview-with-benedict-evans-about-ai-and-software/",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "Ben Thompson (Stratechery)"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-63",
+      "originalTitle": "Apple Earnings, Supply Chain Speculation, China and Industrial Design",
+      "coreIdea": "Apple chip shortages + China design wins",
+      "viralReason": "Apple earnings analysis",
+      "latamScore": 3,
+      "repurposeAngle": "Not relevant for Irina's audience",
+      "suggestedTopic": "N/A",
+      "suggestedHook": "N/A",
+      "priority": "low",
+      "tags": [
+        "Apple",
+        "earnings",
+        "not AI"
+      ],
+      "raw": {
+        "title": "Apple Earnings, Supply Chain Speculation, China and Industrial Design",
+        "content": "Apple's earnings could have been higher but the company couldn't get enough chips; then, once again a new design meant higher sales in China.",
+        "text": "Apple's earnings could have been higher but the company couldn't get enough chips; then, once again a new design meant higher sales in China.",
+        "author": "Ben Thompson (Stratechery)",
+        "url": "https://stratechery.com/2026/apple-earnings-supply-chain-speculation-china-and-industrial-design/",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "Ben Thompson (Stratechery)"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-64",
+      "originalTitle": "Microsoft and Software Survival",
+      "coreIdea": "Microsoft is betting everything on AI — the software that wins will use AI to replace other software",
+      "viralReason": "Microsoft's existential AI strategy",
+      "latamScore": 7,
+      "repurposeAngle": "LATAM enterprises run on Microsoft. If Microsoft is going all-in on AI, your Microsoft tools are about to change dramatically.",
+      "suggestedTopic": "Microsoft apuesta todo a la IA. Así van a cambiar las herramientas que usas cada día.",
+      "suggestedHook": "Si usas Excel, Teams o Outlook, esto te importa: Microsoft está cambiando todo por IA.",
+      "priority": "high",
+      "tags": [
+        "Microsoft",
+        "enterprise",
+        "Copilot",
+        "strategy"
+      ],
+      "raw": {
+        "title": "Microsoft and Software Survival",
+        "content": "Microsoft got hammered on Wall Street for capacity allocation decisions that were the right ones: the software that wins will use AI to usurp other software.",
+        "text": "Microsoft got hammered on Wall Street for capacity allocation decisions that were the right ones: the software that wins will use AI to usurp other software.",
+        "author": "Ben Thompson (Stratechery)",
+        "url": "https://stratechery.com/2026/microsoft-and-software-survival/",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "Ben Thompson (Stratechery)"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-65",
+      "originalTitle": "Personal Day — Sick",
+      "coreIdea": "N/A",
+      "viralReason": "N/A",
+      "latamScore": 1,
+      "repurposeAngle": "Not relevant",
+      "suggestedTopic": "N/A",
+      "suggestedHook": "N/A",
+      "priority": "low",
+      "tags": [
+        "not relevant"
+      ],
+      "raw": {
+        "title": "Personal Day — Sick",
+        "content": "Personal Day — Sick",
+        "text": "Personal Day — Sick",
+        "author": "Ben Thompson (Stratechery)",
+        "url": "https://stratechery.com/2026/personal-day-sick/",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "Ben Thompson (Stratechery)"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-66",
+      "originalTitle": "The Chip Fly in the AI Ointment",
+      "coreIdea": "Chip shortages threaten to slow AI progress",
+      "viralReason": "Supply-side constraint on AI narrative",
+      "latamScore": 5,
+      "repurposeAngle": "Context for LATAM: why AI costs might not drop as fast as promised",
+      "suggestedTopic": "N/A",
+      "suggestedHook": "N/A",
+      "priority": "low",
+      "tags": [
+        "chips",
+        "infrastructure"
+      ],
+      "raw": {
+        "title": "2026.05: The Chip Fly in the AI Ointment",
+        "content": "The best Stratechery content from the week of January 26, 2026, including tech's looming chip problem, what Meta is doing and why, and disappearing PLA generals and \"De-Risking\".",
+        "text": "The best Stratechery content from the week of January 26, 2026, including tech's looming chip problem, what Meta is doing and why, and disappearing PLA generals and \"De-Risking\".",
+        "author": "Ben Thompson (Stratechery)",
+        "url": "https://stratechery.com/2026/the-chip-fly-in-the-ai-ointment/",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "Ben Thompson (Stratechery)"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-67",
+      "originalTitle": "Meta Earnings, Turning Dials, Zuckerberg's Motivation",
+      "coreIdea": "Meta is spending massively on AI because Zuckerberg sees it as existential",
+      "viralReason": "Meta's AI investment thesis",
+      "latamScore": 6,
+      "repurposeAngle": "Meta/WhatsApp is HUGE in LATAM. If Meta goes all-in on AI, WhatsApp and Instagram will change.",
+      "suggestedTopic": "Meta apuesta todo a la IA: cómo cambiará WhatsApp e Instagram",
+      "suggestedHook": "Zuckerberg dice que la IA es cuestión de supervivencia. ¿Cómo te afecta en WhatsApp?",
+      "priority": "medium",
+      "tags": [
+        "Meta",
+        "WhatsApp",
+        "social media",
+        "LATAM"
+      ],
+      "raw": {
+        "title": "Meta Earnings, Turning Dials, Zuckerberg&#8217;s Motivation",
+        "content": "Meta is up, despite massive CapEx plans. The company is turning every dial to drive revenue, because Mark Zuckerberg thinks winning in AI is existential.",
+        "text": "Meta is up, despite massive CapEx plans. The company is turning every dial to drive revenue, because Mark Zuckerberg thinks winning in AI is existential.",
+        "author": "Ben Thompson (Stratechery)",
+        "url": "https://stratechery.com/2026/meta-earnings-turning-dials-zuckerbergs-motivation/",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "Ben Thompson (Stratechery)"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-68",
+      "originalTitle": "An Interview with Kalshi CEO About Prediction Markets",
+      "coreIdea": "Prediction markets as information tool",
+      "viralReason": "Prediction markets trending",
+      "latamScore": 3,
+      "repurposeAngle": "Not relevant",
+      "suggestedTopic": "N/A",
+      "suggestedHook": "N/A",
+      "priority": "low",
+      "tags": [
+        "prediction markets",
+        "not AI"
+      ],
+      "raw": {
+        "title": "An Interview with Kalshi CEO Tarek Mansour About Prediction Markets",
+        "content": "An interview with Kalshi co-founder and CEO Tarek Mansour about the value of prediction markets.",
+        "text": "An interview with Kalshi co-founder and CEO Tarek Mansour about the value of prediction markets.",
+        "author": "Ben Thompson (Stratechery)",
+        "url": "https://stratechery.com/2026/an-interview-with-kalshi-ceo-tarek-monsour-about-prediction-markets/",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "Ben Thompson (Stratechery)"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-69",
+      "originalTitle": "Intel Earnings, The Agentic Opportunity, Intel's Mistaken Pessimism",
+      "coreIdea": "Intel is missing the agentic AI opportunity by selling off capacity",
+      "viralReason": "Intel decline narrative",
+      "latamScore": 4,
+      "repurposeAngle": "Tangential — could mention in chips/infrastructure context",
+      "suggestedTopic": "N/A",
+      "suggestedHook": "N/A",
+      "priority": "low",
+      "tags": [
+        "Intel",
+        "chips",
+        "enterprise"
+      ],
+      "raw": {
+        "title": "Intel Earnings, The Agentic Opportunity, Intel&#8217;s Mistaken Pessimism",
+        "content": "Intel's earnings were disappointing because the company is missing a huge opportunity by virtue of selling off its capacity.",
+        "text": "Intel's earnings were disappointing because the company is missing a huge opportunity by virtue of selling off its capacity.",
+        "author": "Ben Thompson (Stratechery)",
+        "url": "https://stratechery.com/2026/intel-earnings-the-agentic-opportunity-intels-mistaken-pessimism/",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "Ben Thompson (Stratechery)"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-70",
+      "originalTitle": "TSMC Risk",
+      "coreIdea": "AI industry depends dangerously on one chip manufacturer (TSMC)",
+      "viralReason": "Geopolitical risk + AI supply chain",
+      "latamScore": 4,
+      "repurposeAngle": "Too infrastructure-focused for Irina's audience",
+      "suggestedTopic": "N/A",
+      "suggestedHook": "N/A",
+      "priority": "low",
+      "tags": [
+        "chips",
+        "geopolitics"
+      ],
+      "raw": {
+        "title": "TSMC Risk",
+        "content": "If hyperscalers and chip companies don't build up a TSMC competitor they are set to forego billions of dollars in revenue and stunt the AI revolution.",
+        "text": "If hyperscalers and chip companies don't build up a TSMC competitor they are set to forego billions of dollars in revenue and stunt the AI revolution.",
+        "author": "Ben Thompson (Stratechery)",
+        "url": "https://stratechery.com/2026/tsmc-risk/",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "Ben Thompson (Stratechery)"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-71",
+      "originalTitle": "Management as AI superpower",
+      "coreIdea": "Management skills become MORE valuable in an AI world — managing AI agents is like managing teams",
+      "viralReason": "Reassuring reframe for managers worried about AI",
+      "latamScore": 10,
+      "repurposeAngle": "PERFECT for Irina's LATAM manager audience. Your management skills ARE your AI superpower. You already know how to delegate, review, and coordinate.",
+      "suggestedTopic": "Tu experiencia como gerente es tu superpoder en la era de IA",
+      "suggestedHook": "Buenas noticias: saber gerenciar equipos es exactamente lo que necesitas para dominar la IA.",
+      "priority": "high",
+      "tags": [
+        "management",
+        "AI adoption",
+        "career",
+        "leadership"
+      ],
+      "raw": {
+        "title": "Management as AI superpower",
+        "content": "Thriving in a world of agents",
+        "text": "Thriving in a world of agents",
+        "author": "One Useful Thing (Ethan Mollick)",
+        "url": "https://www.oneusefulthing.org/p/management-as-ai-superpower",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "One Useful Thing (Ethan Mollick)"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-72",
+      "originalTitle": "Claude Code and What Comes Next",
+      "coreIdea": "With the right tools, AI can accomplish impressive things — Claude Code as a paradigm shift",
+      "viralReason": "Ethan Mollick (most trusted AI voice) on Claude's coding breakthrough",
+      "latamScore": 7,
+      "repurposeAngle": "Tie to Irina's Claude course — show what's possible with Claude beyond chat",
+      "suggestedTopic": "Claude Code: lo que viene después del chatbot",
+      "suggestedHook": "Claude ya no es solo un chat. Ahora programa, crea y ejecuta. ¿Estás aprovechándolo?",
+      "priority": "medium",
+      "tags": [
+        "Claude",
+        "Claude Code",
+        "AI tools"
+      ],
+      "raw": {
+        "title": "Claude Code and What Comes Next",
+        "content": "With the right tools, AI can accomplish impressive things",
+        "text": "With the right tools, AI can accomplish impressive things",
+        "author": "One Useful Thing (Ethan Mollick)",
+        "url": "https://www.oneusefulthing.org/p/claude-code-and-what-comes-next",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "One Useful Thing (Ethan Mollick)"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-73",
+      "originalTitle": "The Shape of AI: Jaggedness, Bottlenecks and Salients",
+      "coreIdea": "AI is 'jagged' — amazing at some things, terrible at others. Understanding the shape helps you use it better.",
+      "viralReason": "Mollick's 'jagged frontier' concept is hugely influential",
+      "latamScore": 9,
+      "repurposeAngle": "Explain the jagged frontier concept in Spanish. Help LATAM professionals understand WHERE AI excels vs fails for THEIR work.",
+      "suggestedTopic": "La 'frontera irregular' de la IA: dónde es genial y dónde falla",
+      "suggestedHook": "La IA es increíble en unas cosas y terrible en otras. Saber cuáles es tu ventaja competitiva.",
+      "priority": "high",
+      "tags": [
+        "AI literacy",
+        "jagged frontier",
+        "practical AI"
+      ],
+      "raw": {
+        "title": "The Shape of AI: Jaggedness, Bottlenecks and Salients",
+        "content": "And why Nano Banana Pro is such a big deal",
+        "text": "And why Nano Banana Pro is such a big deal",
+        "author": "One Useful Thing (Ethan Mollick)",
+        "url": "https://www.oneusefulthing.org/p/the-shape-of-ai-jaggedness-bottlenecks",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "One Useful Thing (Ethan Mollick)"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-74",
+      "originalTitle": "Three Years from GPT-3 to Gemini 3",
+      "coreIdea": "The evolution from simple chatbots to autonomous agents in just 3 years",
+      "viralReason": "Historical perspective on AI's rapid evolution",
+      "latamScore": 7,
+      "repurposeAngle": "Timeline piece for LATAM: show how fast AI evolved and what's next",
+      "suggestedTopic": "De chatbot a agente: 3 años que cambiaron todo en IA",
+      "suggestedHook": "Hace 3 años, ChatGPT apenas existía. Hoy la IA trabaja sola. ¿Qué viene en los próximos 3?",
+      "priority": "medium",
+      "tags": [
+        "AI history",
+        "trends",
+        "agents"
+      ],
+      "raw": {
+        "title": "Three Years from GPT-3 to Gemini 3",
+        "content": "From chatbots to agents",
+        "text": "From chatbots to agents",
+        "author": "One Useful Thing (Ethan Mollick)",
+        "url": "https://www.oneusefulthing.org/p/three-years-from-gpt-3-to-gemini",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "One Useful Thing (Ethan Mollick)"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-75",
+      "originalTitle": "Giving your AI a Job Interview",
+      "coreIdea": "You should 'interview' your AI — test it, assess its advice quality before trusting it",
+      "viralReason": "Practical framework for AI trust assessment",
+      "latamScore": 9,
+      "repurposeAngle": "Brilliant for LATAM professionals: don't blindly trust AI. Interview it like you'd interview a new hire.",
+      "suggestedTopic": "Cómo 'entrevistar' a tu IA antes de confiar en ella",
+      "suggestedHook": "¿Confiarías en un empleado nuevo sin entrevistarlo? Haz lo mismo con la IA.",
+      "priority": "high",
+      "tags": [
+        "AI trust",
+        "practical AI",
+        "critical thinking"
+      ],
+      "raw": {
+        "title": "Giving your AI a Job Interview",
+        "content": "As AI advice becomes more important, we are going to need to get better at assessing it",
+        "text": "As AI advice becomes more important, we are going to need to get better at assessing it",
+        "author": "One Useful Thing (Ethan Mollick)",
+        "url": "https://www.oneusefulthing.org/p/giving-your-ai-a-job-interview",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "One Useful Thing (Ethan Mollick)"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-76",
+      "originalTitle": "An Opinionated Guide to Using AI Right Now",
+      "coreIdea": "Practical, opinionated guide on which AI tools to use and how — cuts through the noise",
+      "viralReason": "People crave clear guidance amid AI tool overwhelm",
+      "latamScore": 9,
+      "repurposeAngle": "Create the LATAM version: 'qué herramienta de IA usar para qué' adapted for tools available and useful in the region",
+      "suggestedTopic": "Guía sin rodeos: qué herramienta de IA usar para cada cosa (edición LATAM)",
+      "suggestedHook": "Hay 500 herramientas de IA. Solo necesitas 3. Te digo cuáles.",
+      "priority": "high",
+      "tags": [
+        "AI tools",
+        "guide",
+        "practical AI"
+      ],
+      "raw": {
+        "title": "An Opinionated Guide to Using AI Right Now",
+        "content": "What AI to use in late 2025",
+        "text": "What AI to use in late 2025",
+        "author": "One Useful Thing (Ethan Mollick)",
+        "url": "https://www.oneusefulthing.org/p/an-opinionated-guide-to-using-ai",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "One Useful Thing (Ethan Mollick)"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-77",
+      "originalTitle": "Real AI Agents and Real Work",
+      "coreIdea": "The gap between AI agent demos and real work — infinite PowerPoints vs actual productivity",
+      "viralReason": "Honest assessment of agentic AI hype vs reality",
+      "latamScore": 8,
+      "repurposeAngle": "For LATAM managers being sold AI agent solutions: what actually works vs what's marketing",
+      "suggestedTopic": "Agentes de IA: ¿qué funciona de verdad y qué es puro marketing?",
+      "suggestedHook": "Te venden agentes de IA que 'hacen todo'. La realidad es muy diferente.",
+      "priority": "high",
+      "tags": [
+        "AI agents",
+        "reality check",
+        "enterprise"
+      ],
+      "raw": {
+        "title": "Real AI Agents and Real Work",
+        "content": "The race between human-centered work and infinite PowerPoints",
+        "text": "The race between human-centered work and infinite PowerPoints",
+        "author": "One Useful Thing (Ethan Mollick)",
+        "url": "https://www.oneusefulthing.org/p/real-ai-agents-and-real-work",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "One Useful Thing (Ethan Mollick)"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-78",
+      "originalTitle": "On Working with Wizards",
+      "coreIdea": "How to verify AI's work on the jagged frontier — trust but verify",
+      "viralReason": "Practical framework for working with imperfect AI",
+      "latamScore": 8,
+      "repurposeAngle": "Teach LATAM professionals how to check AI's work — the skill of verification",
+      "suggestedTopic": "Cómo verificar el trabajo de la IA (sin ser experto)",
+      "suggestedHook": "La IA a veces se equivoca con mucha confianza. Así la atrapas.",
+      "priority": "high",
+      "tags": [
+        "AI verification",
+        "critical thinking",
+        "practical AI"
+      ],
+      "raw": {
+        "title": "On Working with Wizards",
+        "content": "Verifying magic on the jagged frontier",
+        "text": "Verifying magic on the jagged frontier",
+        "author": "One Useful Thing (Ethan Mollick)",
+        "url": "https://www.oneusefulthing.org/p/on-working-with-wizards",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "One Useful Thing (Ethan Mollick)"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-79",
+      "originalTitle": "Mass Intelligence",
+      "coreIdea": "Powerful AI is becoming accessible to everyone — from GPT-5 to tiny models on phones",
+      "viralReason": "Democratization narrative is hopeful and empowering",
+      "latamScore": 9,
+      "repurposeAngle": "Key message for LATAM: you don't need expensive hardware or enterprise plans. Powerful AI is available to everyone NOW.",
+      "suggestedTopic": "IA poderosa y gratuita: lo que ya puedes usar sin pagar nada",
+      "suggestedHook": "La IA más poderosa del mundo ya está disponible para ti. Gratis. Así la aprovechas.",
+      "priority": "high",
+      "tags": [
+        "democratization",
+        "accessibility",
+        "free AI tools"
+      ],
+      "raw": {
+        "title": "Mass Intelligence",
+        "content": "From GPT-5 to nano banana: everyone is getting access to powerful AI",
+        "text": "From GPT-5 to nano banana: everyone is getting access to powerful AI",
+        "author": "One Useful Thing (Ethan Mollick)",
+        "url": "https://www.oneusefulthing.org/p/mass-intelligence",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "One Useful Thing (Ethan Mollick)"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-80",
+      "originalTitle": "GPT-5: It Just Does Stuff",
+      "coreIdea": "GPT-5 represents a shift from 'chat' to 'do' — AI that takes action, not just answers questions",
+      "viralReason": "Paradigm shift framing from trusted voice",
+      "latamScore": 8,
+      "repurposeAngle": "Help LATAM professionals shift mental model: AI isn't just for asking questions anymore. It DOES things.",
+      "suggestedTopic": "GPT-5 no responde preguntas. Hace cosas. ¿Estás listo?",
+      "suggestedHook": "La IA dejó de ser un chatbot. Ahora ejecuta tareas. Tu forma de trabajar acaba de cambiar.",
+      "priority": "high",
+      "tags": [
+        "GPT-5",
+        "AI agents",
+        "paradigm shift"
+      ],
+      "raw": {
+        "title": "GPT-5: It Just Does Stuff",
+        "content": "Putting the AI in Charge",
+        "text": "Putting the AI in Charge",
+        "author": "One Useful Thing (Ethan Mollick)",
+        "url": "https://www.oneusefulthing.org/p/gpt-5-it-just-does-stuff",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "One Useful Thing (Ethan Mollick)"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-81",
+      "originalTitle": "🦥 Slow.",
+      "coreIdea": "You feel slow in the superintelligence era — the psychological toll of AI speed",
+      "viralReason": "Emotionally resonant — everyone feels this anxiety",
+      "latamScore": 8,
+      "repurposeAngle": "Address the AI anxiety LATAM professionals feel: everyone thinks they're behind. You're not alone.",
+      "suggestedTopic": "¿Sientes que no puedes seguirle el paso a la IA? No estás solo.",
+      "suggestedHook": "Vivimos en la era de la superinteligencia. Entonces, ¿por qué te sientes tan lento?",
+      "priority": "high",
+      "tags": [
+        "AI anxiety",
+        "mental health",
+        "productivity"
+      ],
+      "raw": {
+        "title": "🦥 Slow.",
+        "content": "You live in the super-intelligence era. So why do you feel so (awfully) slow?",
+        "text": "You live in the super-intelligence era. So why do you feel so (awfully) slow?",
+        "author": "Ruben Hassid",
+        "url": "https://ruben.substack.com/p/slow",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "Ruben Hassid"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-82",
+      "originalTitle": "Quit ChatGPT.",
+      "coreIdea": "Provocative: stopped using ChatGPT for 30 days — exploring alternatives",
+      "viralReason": "Contrarian clickbait from AI influencer",
+      "latamScore": 7,
+      "repurposeAngle": "Challenge LATAM's ChatGPT-only mindset. There are other (sometimes better) tools.",
+      "suggestedTopic": "¿Y si dejas ChatGPT por 30 días? Las alternativas que deberías probar",
+      "suggestedHook": "Un experto en IA dejó de usar ChatGPT por 30 días. Lo que descubrió te sorprenderá.",
+      "priority": "medium",
+      "tags": [
+        "ChatGPT alternatives",
+        "AI tools",
+        "contrarian"
+      ],
+      "raw": {
+        "title": "Quit ChatGPT.",
+        "content": "I haven&#8217;t opened ChatGPT in the last 30 days.",
+        "text": "I haven&#8217;t opened ChatGPT in the last 30 days.",
+        "author": "Ruben Hassid",
+        "url": "https://ruben.substack.com/p/quit-chatgpt",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "Ruben Hassid"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-83",
+      "originalTitle": "🪞 Mirror.",
+      "coreIdea": "You're using AI backwards — it reflects your own limitations back at you",
+      "viralReason": "Provocative self-reflection angle",
+      "latamScore": 8,
+      "repurposeAngle": "Powerful reframe: AI isn't bad, YOUR inputs are bad. If you don't like the output, look at what you're putting in.",
+      "suggestedTopic": "La IA es un espejo: si no te gusta lo que produce, el problema eres tú",
+      "suggestedHook": "Odias lo que la IA genera. Pero el problema no es la IA. Eres tú.",
+      "priority": "high",
+      "tags": [
+        "prompting",
+        "self-improvement",
+        "AI literacy"
+      ],
+      "raw": {
+        "title": "🪞 Mirror.",
+        "content": "Here's why you hate what you see:",
+        "text": "Here's why you hate what you see:",
+        "author": "Ruben Hassid",
+        "url": "https://ruben.substack.com/p/youre-using-ai-backwards",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "Ruben Hassid"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-84",
+      "originalTitle": "How to install Claude Excel.",
+      "coreIdea": "Claude integration with Excel — AI finally comes to spreadsheets properly",
+      "viralReason": "Excel is universal + Claude is hot = massive overlap",
+      "latamScore": 9,
+      "repurposeAngle": "LATAM professionals LIVE in Excel. This is a direct, practical win. Step-by-step guide.",
+      "suggestedTopic": "Cómo instalar Claude en Excel: guía paso a paso",
+      "suggestedHook": "Si vives en Excel, esto te va a cambiar la vida. Claude ahora trabaja dentro de tus hojas de cálculo.",
+      "priority": "high",
+      "tags": [
+        "Claude",
+        "Excel",
+        "tutorial",
+        "productivity"
+      ],
+      "raw": {
+        "title": "How to install Claude Excel.",
+        "content": "The future of Excel is finally now.",
+        "text": "The future of Excel is finally now.",
+        "author": "Ruben Hassid",
+        "url": "https://ruben.substack.com/p/ai-couldnt-do-excel",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "Ruben Hassid"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-85",
+      "originalTitle": "You forgot 70% of yesterday's meeting.",
+      "coreIdea": "We forget most of what's said in meetings — AI meeting tools solve this without being 'a bot'",
+      "viralReason": "Universal pain point + surprising stat",
+      "latamScore": 9,
+      "repurposeAngle": "LATAM corporate culture is meeting-heavy. This addresses a daily pain point with a practical solution.",
+      "suggestedTopic": "Olvidaste el 70% de tu reunión de ayer. La IA puede recordarlo por ti.",
+      "suggestedHook": "Olvidaste el 70% de lo que dijeron en tu reunión de ayer. Y no, la solución NO es un bot.",
+      "priority": "high",
+      "tags": [
+        "meetings",
+        "productivity",
+        "practical AI"
+      ],
+      "raw": {
+        "title": "You forgot 70% of yesterday's meeting.",
+        "content": "And the AI solution that is NOT a bot:",
+        "text": "And the AI solution that is NOT a bot:",
+        "author": "Ruben Hassid",
+        "url": "https://ruben.substack.com/p/you-forgot-70-of-yesterdays-meeting",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "Ruben Hassid"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-86",
+      "originalTitle": "I am just a text file.",
+      "coreIdea": "AI can represent you better than you represent yourself — the power of structured personal context",
+      "viralReason": "Existential + provocative identity question",
+      "latamScore": 6,
+      "repurposeAngle": "Interesting philosophical angle but might be too abstract for practical audience",
+      "suggestedTopic": "¿Puede un archivo de texto ser mejor 'tú' que tú mismo?",
+      "suggestedHook": "Una IA me conoce mejor de lo que yo me conozco. Y solo es un archivo de texto.",
+      "priority": "low",
+      "tags": [
+        "AI philosophy",
+        "identity",
+        "personal AI"
+      ],
+      "raw": {
+        "title": "I am just a text file.",
+        "content": "Or on \"How AI is better at being me than me.\"",
+        "text": "Or on \"How AI is better at being me than me.\"",
+        "author": "Ruben Hassid",
+        "url": "https://ruben.substack.com/p/i-am-just-a-text-file",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "Ruben Hassid"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-87",
+      "originalTitle": "Your prompt sucks.",
+      "coreIdea": "Most people write terrible prompts and no tool will fix that — you need to learn the skill",
+      "viralReason": "Provocative truth-telling + universal pain",
+      "latamScore": 9,
+      "repurposeAngle": "Direct tie to Irina's Claude course. 'Your prompt sucks' is the hook, the course is the solution.",
+      "suggestedTopic": "Tu prompt apesta. Y ChatGPT no lo va a arreglar por ti.",
+      "suggestedHook": "¿La IA te da respuestas genéricas? El problema es tu prompt. Aquí te enseño a mejorarlo.",
+      "priority": "high",
+      "tags": [
+        "prompting",
+        "AI skills",
+        "course tie-in"
+      ],
+      "raw": {
+        "title": "Your prompt sucks.",
+        "content": "And no, ChatGPT won't fix it for you.",
+        "text": "And no, ChatGPT won't fix it for you.",
+        "author": "Ruben Hassid",
+        "url": "https://ruben.substack.com/p/your-prompt-sucks",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "Ruben Hassid"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-88",
+      "originalTitle": "How to better use AI (before prompting):",
+      "coreIdea": "There's a setting/preparation step before writing prompts that most people skip",
+      "viralReason": "Curiosity gap — 'what do I turn on?'",
+      "latamScore": 9,
+      "repurposeAngle": "Perfect for Irina's beginner audience: the thing you do BEFORE typing a prompt matters more than the prompt itself",
+      "suggestedTopic": "Lo que debes hacer ANTES de escribir tu primer prompt",
+      "suggestedHook": "Antes de escribir un solo prompt, activa esto. Tu IA será 10x mejor.",
+      "priority": "high",
+      "tags": [
+        "prompting",
+        "beginner AI",
+        "tips"
+      ],
+      "raw": {
+        "title": "how to better use AI (before prompting):",
+        "content": "&#8594; before typing any prompt, turn this on:",
+        "text": "&#8594; before typing any prompt, turn this on:",
+        "author": "Ruben Hassid",
+        "url": "https://ruben.substack.com/p/how-to-better-use-ai-before-prompting",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "Ruben Hassid"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-89",
+      "originalTitle": "Rovo.",
+      "coreIdea": "Atlassian's AI tool Rovo for teams with 100+ employees",
+      "viralReason": "Enterprise AI tool review",
+      "latamScore": 6,
+      "repurposeAngle": "Relevant for LATAM companies using Atlassian/Jira — enterprise AI adoption",
+      "suggestedTopic": "Rovo: la IA de Atlassian para equipos grandes",
+      "suggestedHook": "Si tu empresa usa Jira o Confluence, necesitas conocer Rovo.",
+      "priority": "low",
+      "tags": [
+        "enterprise AI",
+        "Atlassian",
+        "tools"
+      ],
+      "raw": {
+        "title": "Rovo.",
+        "content": "If you have less than 100 colleagues, skip this AI guide.",
+        "text": "If you have less than 100 colleagues, skip this AI guide.",
+        "author": "Ruben Hassid",
+        "url": "https://ruben.substack.com/p/rovo",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "Ruben Hassid"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
+      "id": "d-1770531878221-90",
+      "originalTitle": "Grok.",
+      "coreIdea": "Grok (xAI) as ChatGPT alternative — reasons to switch",
+      "viralReason": "Tool comparison + contrarian take",
+      "latamScore": 6,
+      "repurposeAngle": "Add to the 'alternatives to ChatGPT' narrative for LATAM",
+      "suggestedTopic": "Grok vs ChatGPT: ¿vale la pena cambiar?",
+      "suggestedHook": "Un experto dejó ChatGPT por Grok. ¿Tiene razón?",
+      "priority": "medium",
+      "tags": [
+        "Grok",
+        "ChatGPT alternatives",
+        "AI tools"
+      ],
+      "raw": {
+        "title": "Grok.",
+        "content": "I stopped using ChatGPT because of Grok.",
+        "text": "I stopped using ChatGPT because of Grok.",
+        "author": "Ruben Hassid",
+        "url": "https://ruben.substack.com/p/grok-chatgpt",
+        "likes": 0,
+        "retweets": 0,
+        "source": "rss",
+        "feedName": "Ruben Hassid"
+      },
+      "discoveredAt": "2026-02-08T06:24:38.221Z",
+      "status": "new"
+    },
+    {
       "id": "d-1770252928933-0",
       "originalTitle": "Greg Isenberg: The 2026 SaaS collapse creates the biggest wave of solo entrepreneurs ever",
       "coreIdea": "Mass layoffs in SaaS companies (driven by AI productivity gains) will force 100K+ workers to become founders — building AI-first micro-businesses with 1-10 people, no VC, and real revenue. The bottleneck isn't code anymore, it's distribution.",
@@ -25,12 +2639,13 @@
         "author": "@gregisenberg",
         "source": "x",
         "likes": 5000,
-        "retweets": 800
+        "retweets": 800,
+        "url": "https://x.com/gregisenberg"
       },
       "discoveredAt": "2026-02-05T00:55:28.933Z",
       "status": "generated",
-      "outputFile": "guide-disc-1770252992957.md",
-      "updatedAt": "2026-02-05T00:56:32.959Z"
+      "outputFile": "guide-disc-1770525610843.md",
+      "updatedAt": "2026-02-08T04:40:10.847Z"
     },
     {
       "id": "d-1770244336175-0",
@@ -54,7 +2669,8 @@
         "author": "@karpathy",
         "source": "x",
         "likes": 2202,
-        "retweets": 153
+        "retweets": 153,
+        "url": "https://x.com/karpathy"
       },
       "discoveredAt": "2026-02-04T22:32:16.175Z",
       "status": "generated",
@@ -84,7 +2700,8 @@
         "author": "@sama",
         "source": "x",
         "likes": 5000,
-        "retweets": 800
+        "retweets": 800,
+        "url": "https://x.com/sama"
       },
       "discoveredAt": "2026-02-04T22:32:17.373Z",
       "status": "new"
@@ -112,7 +2729,8 @@
         "author": "@gregisenberg",
         "source": "x",
         "likes": 1500,
-        "retweets": 200
+        "retweets": 200,
+        "url": "https://x.com/gregisenberg"
       },
       "discoveredAt": "2026-02-04T22:32:17.373Z",
       "status": "new"
@@ -139,7 +2757,8 @@
         "author": "@AnthropicAI",
         "source": "x",
         "likes": 3000,
-        "retweets": 400
+        "retweets": 400,
+        "url": "https://x.com/AnthropicAI"
       },
       "discoveredAt": "2026-02-04T22:32:17.373Z",
       "status": "new"
@@ -167,7 +2786,8 @@
         "author": "@mckaywrigley",
         "source": "x",
         "likes": 800,
-        "retweets": 100
+        "retweets": 100,
+        "url": "https://x.com/mckaywrigley"
       },
       "discoveredAt": "2026-02-04T22:32:17.373Z",
       "status": "generated",
@@ -197,7 +2817,8 @@
         "author": "@karpathy",
         "source": "x",
         "likes": 8873,
-        "retweets": 874
+        "retweets": 874,
+        "url": "https://x.com/karpathy"
       },
       "discoveredAt": "2026-02-04T22:32:17.373Z",
       "status": "new"
@@ -225,7 +2846,8 @@
         "author": "@alexalbert__",
         "source": "x",
         "likes": 2000,
-        "retweets": 300
+        "retweets": 300,
+        "url": "https://x.com/alexalbert__"
       },
       "discoveredAt": "2026-02-04T22:32:17.373Z",
       "status": "new"
@@ -256,307 +2878,7 @@
       },
       "discoveredAt": "2026-02-04T22:14:11.185Z",
       "status": "new"
-    },
-    {
-      "id": "d-1770243251185-1",
-      "originalTitle": "AI is killing B2B SaaS",
-      "coreIdea": "AI agents are replacing entire software categories. Instead of paying for 5 separate tools (CRM, analytics, project management), one AI assistant handles workflows across all of them. The unbundling of SaaS has begun.",
-      "viralReason": "Touches real money anxiety — both for SaaS founders and for companies paying $500+/month in subscriptions. The 'which category dies first' debate drove massive engagement because everyone has skin in the game.",
-      "latamScore": 9,
-      "repurposeAngle": "GOLDMINE for Irina's audience. LATAM professionals and small businesses often overpay for SaaS tools they barely use. Show them concrete examples: 'I replaced [tool] with a Claude workflow and saved $X/month.' Make it a practical cost-saving guide — money talks in every language. Include a before/after of a real workflow.",
-      "suggestedTopic": "Las 5 suscripciones SaaS que puedes cancelar hoy y reemplazar con IA",
-      "suggestedHook": "Estás pagando $200 al mes en herramientas que la IA ya puede hacer gratis. Te muestro cuáles cancelar.",
-      "priority": "high",
-      "tags": [
-        "SaaS",
-        "cost savings",
-        "AI workflows",
-        "tools",
-        "automation"
-      ],
-      "raw": {
-        "title": "AI is killing B2B SaaS",
-        "content": "AI agents now do what previously required entire SaaS products - CRM, analytics, project management. A single AI assistant handles tasks across domains. Companies canceling subscriptions replacing with AI workflows. 161 HN comments debating which categories die first.",
-        "source": "web",
-        "likes": 103,
-        "author": "namanyayg"
-      },
-      "discoveredAt": "2026-02-04T22:14:11.185Z",
-      "status": "new"
-    },
-    {
-      "id": "d-1770243251185-2",
-      "originalTitle": "AI should do chores so humans can create, not the other way around",
-      "coreIdea": "The correct use of AI is eliminating busywork so humans can focus on creative, strategic, high-value thinking. Most people have it backwards — they use AI for the fun parts and still drown in admin.",
-      "viralReason": "13K+ upvotes because it crystallizes a frustration everyone feels but couldn't articulate. The laundry/art metaphor is instantly shareable. It validates the 'something feels wrong' gut feeling about how AI is being marketed.",
-      "latamScore": 10,
-      "repurposeAngle": "PERFECT for Irina's audience. LATAM knowledge workers are buried in reportes, minutas, emails, Excel. They don't need AI to write poetry — they need it to kill the 3 hours of admin they do every day before they can start real work. Make this viscerally practical: 'Here are the 5 tasks eating your day that AI should be doing for you RIGHT NOW.'",
-      "suggestedTopic": "Deja que la IA haga tu trabajo aburrido: 5 tareas que deberías delegar hoy",
-      "suggestedHook": "Pasas 3 horas al día en tareas que la IA puede hacer en 3 minutos. Mientras tanto, lo importante se queda sin hacer.",
-      "priority": "high",
-      "tags": [
-        "productivity",
-        "mindset",
-        "busywork",
-        "automation",
-        "time management"
-      ],
-      "raw": {
-        "title": "AI should do chores so humans can create, not the other way around",
-        "content": "Joanna Maciejewska viral quote: I want AI to do my laundry and dishes so I can do art, not for AI to do my art so I can do laundry. 13757 upvotes. Smart professionals use AI to ELIMINATE busywork, not replace thinking.",
-        "source": "reddit",
-        "likes": 13757,
-        "author": "r/ChatGPT"
-      },
-      "discoveredAt": "2026-02-04T22:14:11.185Z",
-      "status": "imported",
-      "importedAt": "2026-02-04T22:14:34.789Z",
-      "topicId": "ml8l50r8"
-    },
-    {
-      "id": "d-1770243251185-3",
-      "originalTitle": "Claude Code for Infrastructure - AI agents doing DevOps",
-      "coreIdea": "AI coding agents are expanding beyond writing app code into managing servers, deployments, and cloud infrastructure through natural language conversation.",
-      "viralReason": "Niche but high-signal for technical audiences. DevOps is painful and expensive — the idea of conversational infrastructure management is compelling for anyone who's wrestled with AWS configs at 2am.",
-      "latamScore": 3,
-      "repurposeAngle": "Too technical for Irina's core audience (non-developers). SKIP as a standalone piece. But extract one useful nugget: even highly technical work like server management is becoming conversational. Use this as a supporting example in a broader 'AI is changing who can do what' piece — proof that the barrier to technical work is collapsing.",
-      "suggestedTopic": null,
-      "suggestedHook": null,
-      "priority": "low",
-      "tags": [
-        "DevOps",
-        "technical",
-        "coding",
-        "infrastructure"
-      ],
-      "raw": {
-        "title": "Claude Code for Infrastructure - AI agents doing DevOps",
-        "content": "Practical guide using Claude Code for infra management - servers, deployments, cloud config. AI coding agents beyond app code into ops. Real examples managing AWS, Docker, CI/CD through conversation. 62 HN comments.",
-        "source": "web",
-        "likes": 73,
-        "author": "aspectrr"
-      },
-      "discoveredAt": "2026-02-04T22:14:11.185Z",
-      "status": "new"
-    },
-    {
-      "id": "d-1770243251185-4",
-      "originalTitle": "The IDE is dead: Codex shows coding becomes review, not writing",
-      "coreIdea": "Software creation is shifting from writing code to describing what you want and reviewing what AI builds. Non-developers become builders. Developers become architects and reviewers.",
-      "viralReason": "Identity disruption — challenges who gets to call themselves a 'builder.' The democratization angle is both exciting (anyone can build!) and threatening (what's my job now?). Strong opinion drives engagement.",
-      "latamScore": 8,
-      "repurposeAngle": "Reframe for LATAM professionals: you don't need to learn to code anymore to build tools for your team. The new skill is knowing what to ask for and evaluating what you get back. This is HUGE for Irina's audience — managers and knowledge workers who always depended on IT departments or expensive developers. Show a concrete example: 'I described what I needed in Spanish, and AI built it.'",
-      "suggestedTopic": "Ya no necesitas saber programar para crear tus propias herramientas con IA",
-      "suggestedHook": "Tu equipo de IT tarda 3 meses en hacerte una herramienta simple. Con IA, la puedes crear tú en una tarde. Sin escribir una línea de código.",
-      "priority": "high",
-      "tags": [
-        "no-code",
-        "builders",
-        "democratization",
-        "Codex",
-        "empowerment"
-      ],
-      "raw": {
-        "title": "The IDE is dead: Codex shows coding becomes review, not writing",
-        "content": "OpenAIs Codex app: instead of writing code in an IDE, describe what you want in natural language. The GUI becomes a REVIEW interface. Changes who can build software. Non-developers become builders. Developers become reviewers and architects.",
-        "source": "web",
-        "likes": 19,
-        "author": "benshoemaker"
-      },
-      "discoveredAt": "2026-02-04T22:14:11.185Z",
-      "status": "new"
-    },
-    {
-      "id": "d-1770243176538-0",
-      "originalTitle": "Interactive California Budget built entirely with Claude Code",
-      "coreIdea": "You can build fully functional data visualizations and web apps by describing what you want in plain language — no coding skills needed. 'Vibe coding' turns ideas into working software.",
-      "viralReason": "Proof-of-concept that's visually impressive and immediately credible. Government budget = serious data, not a toy demo. The gap between 'zero code written' and 'polished interactive app' is shocking and shareable.",
-      "latamScore": 9,
-      "repurposeAngle": "LATAM professionals (managers, analysts, consultants) constantly need to present data to leadership but depend on dev teams or expensive BI tools. Show them how to build their own dashboards and interactive reports with Claude Code — using a LATAM-relevant dataset (e.g., company sales by region, marketing spend breakdown, or a public budget from Mexico/Colombia). Step-by-step guide from prompt to published visualization.",
-      "suggestedTopic": "Cómo crear dashboards interactivos con IA sin saber programar (usando Claude Code)",
-      "suggestedHook": "Un tipo acaba de crear una visualización interactiva del presupuesto de California — sin escribir una sola línea de código. Lo hizo solo hablándole a la IA. Te muestro cómo hacer lo mismo con los datos de TU empresa.",
-      "priority": "high",
-      "tags": [
-        "Claude Code",
-        "vibe coding",
-        "data visualization",
-        "no-code",
-        "productividad",
-        "análisis de datos"
-      ],
-      "raw": {
-        "title": "Interactive California Budget built entirely with Claude Code",
-        "content": "Someone built a full interactive data visualization of the California state budget using only Claude Code. No manual coding. Vibe coding in action: describe what you want, AI builds it.",
-        "source": "web",
-        "likes": 13
-      },
-      "discoveredAt": "2026-02-04T22:12:56.538Z",
-      "status": "new"
-    },
-    {
-      "id": "d-1770243163933-0",
-      "originalTitle": "Anthropic declares Claude will remain ad-free forever",
-      "coreIdea": "AI assistants are becoming intimate thinking partners, not just search tools. The trust dynamic is fundamentally different — you share salary info, health concerns, business strategy. Ad-free = aligned incentives.",
-      "viralReason": "Taps into growing distrust of big tech monetization. People are tired of being the product. 2100+ Reddit upvotes show this hit a nerve about AI trust and privacy.",
-      "latamScore": 7,
-      "repurposeAngle": "LATAM professionals are adopting AI tools fast but many don't think about trust/privacy implications. Irina can position this as a 'how to choose your AI tool' framework — what to look for beyond features. Practical angle: what you should (and shouldn't) share with different AI tools, and why the business model matters.",
-      "suggestedTopic": "Cómo elegir tu herramienta de IA: por qué el modelo de negocio importa más que las features",
-      "suggestedHook": "Le cuentas a tu IA cosas que no le cuentas ni a tu jefe. ¿Ya te preguntaste quién más está escuchando?",
-      "priority": "medium",
-      "tags": [
-        "AI trust",
-        "privacy",
-        "tool selection",
-        "Claude"
-      ],
-      "raw": {
-        "title": "Anthropic declares Claude will remain ad-free forever",
-        "content": "Anthropic published Claude is a Space to Think. They committed to keeping Claude ad-free. Key argument: AI conversations are fundamentally different from search or social media. Users share deeply personal context, use it for complex work and thinking. Ads would undermine trust. They want Claude to act unambiguously in users interests. 2100+ upvotes Reddit, 284+ points HN.",
-        "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
-        "source": "x-AnthropicAI",
-        "likes": 2100,
-        "author": "@AnthropicAI"
-      },
-      "discoveredAt": "2026-02-04T22:12:43.933Z",
-      "status": "new"
-    },
-    {
-      "id": "d-1770243163938-1",
-      "originalTitle": "AI is killing B2B SaaS - the entire software category is being disrupted",
-      "coreIdea": "A single AI assistant can replace 5-10 SaaS subscriptions. CRM, analytics, project management — AI agents handle cross-domain tasks that previously required specialized tools. Fewer tools, more AI skills.",
-      "viralReason": "161 HN comments = heated debate. Touches everyone's wallet (SaaS fatigue is real) and career anxiety (what happens to people who built careers around specific tools?).",
-      "latamScore": 9,
-      "repurposeAngle": "HUGE for LATAM. Companies there pay for Salesforce, HubSpot, Monday, etc. — often overkill for their size. Irina can show how a manager or small team can replace 3-5 tools with AI workflows. Direct money savings + competitive advantage. This is the 'skip a generation of tech' opportunity LATAM loves.",
-      "suggestedTopic": "5 herramientas SaaS que puedes reemplazar HOY con IA (y cuánto te ahorras al mes)",
-      "suggestedHook": "Tu empresa paga $500/mes en herramientas que una IA puede reemplazar en una tarde. Te muestro cuáles.",
-      "priority": "high",
-      "tags": [
-        "AI workflows",
-        "SaaS replacement",
-        "cost savings",
-        "productivity",
-        "tools"
-      ],
-      "raw": {
-        "title": "AI is killing B2B SaaS - the entire software category is being disrupted",
-        "content": "AI agents can now do what previously required entire SaaS products - from CRM to analytics to project management. A single AI assistant handles tasks across domains, removing the need for specialized tools. Companies are canceling SaaS subscriptions and replacing them with AI workflows. 161 comments HN, heated debate about which categories die first. Implications for knowledge workers: fewer tools to learn, more AI skills needed.",
-        "url": "https://nmn.gl",
-        "source": "web",
-        "likes": 103,
-        "author": "namanyayg"
-      },
-      "discoveredAt": "2026-02-04T22:12:43.939Z",
-      "status": "new"
-    },
-    {
-      "id": "d-1770243163939-2",
-      "originalTitle": "Interactive California Budget built ENTIRELY with Claude Code - zero manual coding",
-      "coreIdea": "Non-developers can now build polished, functional web apps by describing what they want in plain language. Vibe coding = conversation replaces code. The barrier to building software just collapsed.",
-      "viralReason": "Proof over theory — a real, live, working app built without writing a line of code. Tangible evidence that 'anyone can build' is no longer hype.",
-      "latamScore": 8,
-      "repurposeAngle": "LATAM professionals constantly need internal tools, dashboards, small apps — but dev resources are expensive and scarce. Irina can frame this as 'you don't need a developer anymore for 80% of what you need built.' Step-by-step guide showing a non-technical person building something useful.",
-      "suggestedTopic": "Cómo construí una app sin saber programar usando solo Claude (paso a paso)",
-      "suggestedHook": "No soy programadora. La semana pasada construí una app funcional en 2 horas. Solo le dije a la IA qué quería.",
-      "priority": "high",
-      "tags": [
-        "vibe coding",
-        "no-code",
-        "Claude Code",
-        "building",
-        "empowerment"
-      ],
-      "raw": {
-        "title": "Interactive California Budget built ENTIRELY with Claude Code - zero manual coding",
-        "content": "A developer built california-budget.com - a full interactive data visualization of state budget using only Claude Code. No manual coding. This is vibe coding in action: describe what you want, AI builds it. A polished, useful web app created by conversation, not code. Perfect example of what non-developers can now build.",
-        "url": "https://california-budget.com",
-        "source": "web",
-        "likes": 13,
-        "author": "sberens"
-      },
-      "discoveredAt": "2026-02-04T22:12:43.939Z",
-      "status": "new"
-    },
-    {
-      "id": "d-1770243163939-3",
-      "originalTitle": "Karpathy-style insight: AI should do chores so humans can create",
-      "coreIdea": "The winning AI strategy: use AI to eliminate grunt work (reports, data entry, formatting, emails) so YOU keep the creative and strategic work. Not the other way around. AI as force multiplier for busywork, not replacement for thinking.",
-      "viralReason": "13,757 upvotes — monster virality. Captures the emotional tension EVERYONE feels about AI. Simple, quotable, shareable. Takes a complex debate and distills it into one perfect contrast.",
-      "latamScore": 10,
-      "repurposeAngle": "This is Irina's CORE message. LATAM professionals fear AI will replace them. She flips the narrative: AI replaces the parts of your job you HATE. The people getting promoted are using AI for the boring stuff and showing up with better strategic work. Perfect for a manifesto-style post + practical guide combo.",
-      "suggestedTopic": "La regla de oro de la IA: que haga lo que odias, no lo que amas",
-      "suggestedHook": "Hay dos tipos de profesionales con IA: los que le piden que piense por ellos, y los que le piden que haga el trabajo aburrido. Solo uno de los dos va a seguir siendo relevante.",
-      "priority": "high",
-      "tags": [
-        "AI mindset",
-        "productivity",
-        "career strategy",
-        "philosophy",
-        "busywork"
-      ],
-      "raw": {
-        "title": "Karpathy-style insight: AI should do chores so humans can create, not the other way around",
-        "content": "Joanna Maciejewska viral quote: I want AI to do my laundry and dishes so that I can do art and writing, not for AI to do my art and writing so that I can do my laundry and dishes. 13,757 upvotes on Reddit. This captures the fundamental tension in AI adoption. The contrarian take: smart professionals use AI to ELIMINATE busywork, not to replace thinking. The people winning with AI are those who use it as a force multiplier for grunt work while keeping creative control.",
-        "source": "reddit",
-        "likes": 13757,
-        "author": "r/ChatGPT"
-      },
-      "discoveredAt": "2026-02-04T22:12:43.939Z",
-      "status": "new"
-    },
-    {
-      "id": "d-1770243163939-4",
-      "originalTitle": "Claude Code for Infrastructure - AI coding agents are now doing DevOps",
-      "coreIdea": "AI coding agents are expanding beyond app development into infrastructure, servers, and cloud management. DevOps through conversation.",
-      "viralReason": "Technical audience resonated because it pushes AI capabilities into a domain considered 'too risky' for automation. Challenges assumptions about what AI can handle.",
-      "latamScore": 4,
-      "repurposeAngle": "Too technical for Irina's core audience. BUT there's a meta-insight worth extracting: AI keeps expanding into territories people said were 'safe.' The lesson for managers: no domain is immune. Could work as a brief mention in a broader piece about AI's expanding reach, not a standalone guide.",
-      "suggestedTopic": "Lo que los técnicos ya saben (y tu jefe todavía no): la IA ya maneja servidores",
-      "suggestedHook": "Cada mes la IA entra a un territorio que 'nadie creía posible.' Este mes: la infraestructura de tu empresa.",
-      "priority": "low",
-      "tags": [
-        "DevOps",
-        "technical",
-        "AI expansion",
-        "infrastructure"
-      ],
-      "raw": {
-        "title": "Claude Code for Infrastructure - AI coding agents are now doing DevOps",
-        "content": "Practical guide on using Claude Code for infrastructure management - servers, deployments, cloud config. AI coding agents moving beyond app code into ops territory. Shows real examples of managing AWS, Docker, CI/CD pipelines through conversation. 62 comments on HN discussing whether this changes the DevOps role.",
-        "url": "https://fluid.sh",
-        "source": "web",
-        "likes": 73,
-        "author": "aspectrr"
-      },
-      "discoveredAt": "2026-02-04T22:12:43.939Z",
-      "status": "new"
-    },
-    {
-      "id": "d-1770243163939-5",
-      "originalTitle": "The IDE is shifting left: coding GUIs becoming review interfaces",
-      "coreIdea": "The future of software: you DESCRIBE what you want, AI builds it, you REVIEW the result. Writing code becomes reviewing code. This unlocks a new class of builders — anyone who can describe a problem clearly.",
-      "viralReason": "Reframes the entire coding paradigm. 'Describe → Review' is a simple mental model that makes the shift tangible. Implications for who gets to build are massive.",
-      "latamScore": 7,
-      "repurposeAngle": "For LATAM managers and knowledge workers: the skill that matters now is DESCRIBING problems clearly, not coding. Clear communication and domain expertise become the new 'technical skill.' Irina can position prompt engineering and problem description as THE career skill for 2025-2026. Tie it to vibe coding item #3 for a powerful combo piece.",
-      "suggestedTopic": "La nueva habilidad técnica que no requiere código: saber describir lo que necesitas",
-      "suggestedHook": "En 2024 necesitabas un programador. En 2025 necesitas saber explicar bien lo que quieres. La IA se encarga del resto.",
-      "priority": "medium",
-      "tags": [
-        "vibe coding",
-        "career skills",
-        "prompt engineering",
-        "future of work",
-        "non-developers"
-      ],
-      "raw": {
-        "title": "The IDE is shifting left: Codex app shows coding GUIs becoming review interfaces",
-        "content": "OpenAIs Codex app represents a fundamental shift: instead of writing code in an IDE, you describe what you want in natural language. The coding GUI becomes a REVIEW interface, not a writing interface. This changes who can build software. Implications: vibe coding becomes the default, traditional coding becomes optimization. Non-developers become builders. Professional developers become reviewers and architects.",
-        "source": "web",
-        "likes": 19,
-        "author": "benshoemaker"
-      },
-      "discoveredAt": "2026-02-04T22:12:43.939Z",
-      "status": "new"
     }
   ],
-  "lastSearch": null
+  "lastSearch": "2026-02-08T06:24:38.221Z"
 }

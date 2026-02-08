@@ -296,19 +296,98 @@
       justify-content: space-between;
       align-items: flex-start;
       margin-bottom: 0.75rem;
+      gap: 0.75rem;
+    }
+
+    .discovery-title-area {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .discovery-badges {
+      display: flex;
+      gap: 0.4rem;
+      flex-wrap: wrap;
+      margin-bottom: 0.5rem;
     }
 
     .discovery-topic {
       font-size: 1rem;
       font-weight: 600;
       color: var(--text);
-      flex: 1;
     }
 
     .discovery-meta {
       display: flex;
       gap: 0.5rem;
       align-items: center;
+      flex-shrink: 0;
+    }
+
+    /* Source type badges */
+    .source-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      font-size: 0.7rem;
+      font-weight: 600;
+      padding: 0.2rem 0.6rem;
+      border-radius: 9999px;
+      letter-spacing: 0.3px;
+      white-space: nowrap;
+    }
+
+    .source-badge.trusted {
+      background: #065f46;
+      color: #6ee7b7;
+    }
+
+    .source-badge.discovery {
+      background: #312e81;
+      color: #c4b5fd;
+    }
+
+    /* Platform badges */
+    .platform-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      font-size: 0.7rem;
+      font-weight: 500;
+      padding: 0.2rem 0.6rem;
+      border-radius: 9999px;
+      white-space: nowrap;
+    }
+
+    .platform-badge.x { background: #1c1c1c; color: #a0a0a0; border: 1px solid #333; }
+    .platform-badge.reddit { background: #1a0f00; color: #ff8b60; border: 1px solid #3d2000; }
+    .platform-badge.hackernews { background: #1a0f00; color: #ff6600; border: 1px solid #3d2000; }
+    .platform-badge.rss { background: #0c1929; color: #60a5fa; border: 1px solid #1e3a5f; }
+    .platform-badge.manual { background: #1a1a1a; color: #888; border: 1px solid #333; }
+    .platform-badge.web { background: #1a1a1a; color: #888; border: 1px solid #333; }
+
+    .author-badge {
+      display: inline-flex;
+      align-items: center;
+      font-size: 0.7rem;
+      font-weight: 500;
+      padding: 0.2rem 0.5rem;
+      border-radius: 9999px;
+      background: var(--surface);
+      color: var(--text-muted);
+      border: 1px solid var(--border);
+    }
+
+    .engagement-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      font-size: 0.7rem;
+      padding: 0.2rem 0.5rem;
+      border-radius: 9999px;
+      background: var(--surface);
+      color: var(--text-muted);
+      border: 1px solid var(--border);
     }
 
     .score-badge {
@@ -416,8 +495,9 @@
       background: var(--surface-2);
       border-radius: 8px;
       margin-bottom: 1rem;
-      font-size: 0.9rem;
+      font-size: 0.85rem;
       color: var(--text-muted);
+      flex-wrap: wrap;
     }
     .status-dot {
       width: 8px;
@@ -428,6 +508,90 @@
     .status-dot.green { background: var(--success); }
     .status-dot.red { background: #ef4444; }
     .status-dot.yellow { background: var(--warning); }
+
+    .source-indicator {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      font-size: 0.75rem;
+      padding: 0.15rem 0.5rem;
+      border-radius: 4px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+    }
+    .source-indicator.active { border-color: var(--success); color: var(--success); }
+    .source-indicator.inactive { border-color: var(--border); color: var(--text-muted); opacity: 0.5; }
+
+    /* Keyword chips */
+    .keyword-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 0.75rem;
+    }
+
+    .keyword-chip {
+      display: inline-flex;
+      align-items: center;
+      font-size: 0.8rem;
+      padding: 0.35rem 0.75rem;
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: 9999px;
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .keyword-chip:hover {
+      border-color: var(--accent);
+      color: var(--text);
+      background: rgba(124, 58, 237, 0.1);
+    }
+
+    /* Briefing display */
+    .briefing-display {
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem 2rem;
+      line-height: 1.8;
+      font-size: 0.95rem;
+    }
+    .briefing-display h3 {
+      color: var(--text);
+      font-size: 1.1rem;
+      margin: 1.5rem 0 0.75rem 0;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .briefing-display h3:first-child { margin-top: 0; }
+    .briefing-display p { margin: 0.5rem 0; color: var(--text); }
+    .briefing-display ul { margin: 0.5rem 0 0.5rem 1.5rem; padding: 0; }
+    .briefing-display li { margin-bottom: 0.4rem; color: var(--text); }
+    .briefing-display strong { color: var(--accent); }
+    .briefing-display blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 0.5rem 0.75rem;
+      margin: 0.5rem 0;
+      background: var(--surface);
+      border-radius: 0 6px 6px 0;
+      font-style: italic;
+    }
+
+    .briefing-history-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.6rem 1rem;
+      background: var(--surface);
+      border-radius: 6px;
+      margin-bottom: 0.5rem;
+      cursor: pointer;
+      transition: all 0.2s;
+      font-size: 0.9rem;
+    }
+    .briefing-history-item:hover { background: var(--border); }
+    .briefing-history-item.active { border: 1px solid var(--accent); }
 
     .format-btn {
       padding: 0.5rem 0.75rem;
@@ -455,6 +619,7 @@
 
     <div class="tabs">
       <button class="tab active" data-tab="discover">🔍 Discover</button>
+      <button class="tab" data-tab="briefings">📋 Briefings</button>
       <button class="tab" data-tab="autonomous">🚀 Autonomous</button>
       <button class="tab" data-tab="draft">✏️ Draft Mode</button>
       <button class="tab" data-tab="topics">📚 Topic Bank</button>
@@ -481,8 +646,13 @@
             <input type="text" id="feedUrl" placeholder="Source URL (optional)">
             <div class="btn-row">
               <button onclick="feedDiscovery()">🔍 Analyze Content</button>
-              <button class="secondary" onclick="runAutoSearch()" id="autoSearchBtn">⚡ Auto Search (X)</button>
+              <button class="secondary" onclick="runAutoSearch()" id="autoSearchBtn">⚡ Auto Search</button>
             </div>
+          </div>
+
+          <div id="keywordChipsSection" style="margin-top: 1rem; display: none;">
+            <h3 style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.5rem;">🔑 Keyword Combos</h3>
+            <div id="keywordChips" class="keyword-chips"></div>
           </div>
         </div>
 
@@ -509,13 +679,33 @@
           <h2>💡 Discoveries</h2>
           <div class="discovery-filters">
             <button class="filter-btn active" onclick="filterDiscoveries('all', this)">All</button>
+            <button class="filter-btn" onclick="filterDiscoveries('trusted', this)">👤 Trusted</button>
+            <button class="filter-btn" onclick="filterDiscoveries('discovery', this)">🔍 Discovery</button>
             <button class="filter-btn" onclick="filterDiscoveries('high', this)">🔥 High</button>
-            <button class="filter-btn" onclick="filterDiscoveries('medium', this)">⚡ Medium</button>
             <button class="filter-btn" onclick="filterDiscoveries('new', this)">🆕 New</button>
           </div>
         </div>
         <div id="discoveryList">
           <div class="empty">No discoveries yet. Feed some viral content above or run auto search!</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BRIEFINGS -->
+    <div id="briefings" class="panel">
+      <div class="card">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+          <h2>📋 Weekly AI Intelligence Briefing</h2>
+          <div class="btn-row" style="margin-top: 0;">
+            <button onclick="generateBriefing()" id="briefingBtn">⚡ Generate Briefing</button>
+          </div>
+        </div>
+        <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1rem;">
+          Consolidated analysis across all collected sources — themes, key data, hottest takes, and LATAM relevance.
+        </p>
+        <div id="briefingContent">
+          <div id="briefingLoading" style="display:none" class="loading"><div class="spinner"></div>Generating consolidated briefing from all sources...</div>
+          <div id="briefingList"></div>
         </div>
       </div>
     </div>
@@ -638,6 +828,24 @@
       comparacion: 'Por tarea: qué herramienta usar, cuándo y por qué — con veredictos claros',
       contrario: '"Deja de usar X" — desafía lo convencional, respaldado con evidencia real',
       curacion: 'Tendencia en inglés → adaptada para LATAM con tu perspectiva y ángulo propio'
+    };
+
+    const PLATFORM_ICONS = {
+      x: '𝕏',
+      reddit: '🟠',
+      hackernews: '🟧',
+      rss: '📡',
+      manual: '✍️',
+      web: '🌐',
+    };
+
+    const PLATFORM_NAMES = {
+      x: 'X',
+      reddit: 'Reddit',
+      hackernews: 'HN',
+      rss: 'RSS',
+      manual: 'Manual',
+      web: 'Web',
     };
 
     function selectFormat(btn) {
@@ -794,7 +1002,6 @@
       const topic = topics.find(t => t.id === id);
       if (!topic) return;
 
-      // Switch to autonomous tab and generate
       document.querySelector('[data-tab="autonomous"]').click();
       document.getElementById('autoTopic').value = topic.brief?.title || topic.idea;
       generateAutonomous();
@@ -884,10 +1091,160 @@
       if (e.key === 'Enter') addTopic();
     });
 
+    // ---- BRIEFINGS ----
+
+    let briefings = [];
+
+    async function loadBriefings() {
+      try {
+        const res = await fetch('/api/briefings');
+        const data = await res.json();
+        briefings = data.briefings || [];
+        renderBriefings();
+      } catch (e) {
+        console.error('Failed to load briefings:', e);
+      }
+    }
+
+    function renderBriefings() {
+      const container = document.getElementById('briefingList');
+      if (briefings.length === 0) {
+        container.innerHTML = '<div class="empty">No briefings yet. Collect some content in Discover, then hit "Generate Briefing" to get your consolidated analysis.</div>';
+        return;
+      }
+
+      const latest = briefings[0];
+      const history = briefings.slice(1);
+
+      container.innerHTML = `
+        <div class="briefing-display">${markdownToHtml(latest.content)}</div>
+        ${renderSources(latest.sources)}
+        <div style="margin-top:0.75rem; display:flex; justify-content:space-between; align-items:center;">
+          <span style="font-size:0.8rem; color:var(--text-muted)">
+            Generated: ${new Date(latest.generatedAt).toLocaleString()} · ${latest.sourceCount} sources
+          </span>
+          <button class="secondary" onclick="copyBriefing()" style="font-size:0.85rem; padding:0.4rem 0.8rem;">📋 Copy</button>
+        </div>
+        ${history.length ? `
+          <div style="margin-top:1.5rem;">
+            <h3 style="font-size:0.9rem; color:var(--text-muted); margin-bottom:0.75rem;">Previous Briefings</h3>
+            ${history.map((b, i) => `
+              <div class="briefing-history-item" onclick="showBriefing(${i + 1})">
+                <span>${new Date(b.generatedAt).toLocaleDateString()} — ${b.sourceCount} sources</span>
+                <span style="color:var(--text-muted);font-size:0.8rem">${new Date(b.generatedAt).toLocaleTimeString()}</span>
+              </div>
+            `).join('')}
+          </div>
+        ` : ''}
+      `;
+    }
+
+    function showBriefing(index) {
+      const b = briefings[index];
+      if (!b) return;
+      const container = document.getElementById('briefingList');
+      const display = container.querySelector('.briefing-display');
+      if (display) {
+        display.innerHTML = markdownToHtml(b.content);
+        const meta = display.nextElementSibling;
+        if (meta) {
+          meta.querySelector('span').textContent = `Generated: ${new Date(b.generatedAt).toLocaleString()} · ${b.sourceCount} sources`;
+        }
+      }
+    }
+
+    async function generateBriefing() {
+      const btn = document.getElementById('briefingBtn');
+      const loading = document.getElementById('briefingLoading');
+      const list = document.getElementById('briefingList');
+      
+      btn.disabled = true;
+      loading.style.display = 'flex';
+      list.innerHTML = '';
+
+      try {
+        const res = await fetch('/api/briefings/generate', { method: 'POST' });
+        const data = await res.json();
+        if (data.error) throw new Error(data.error);
+        await loadBriefings();
+      } catch (e) {
+        list.innerHTML = `<div style="color:#ef4444;padding:1rem;">Error: ${e.message}</div>`;
+      } finally {
+        btn.disabled = false;
+        loading.style.display = 'none';
+      }
+    }
+
+    function renderSources(sources) {
+      if (!sources || !sources.length) return '';
+      const byAuthor = {};
+      for (const s of sources) {
+        const key = s.author || 'Unknown';
+        if (!byAuthor[key]) byAuthor[key] = [];
+        byAuthor[key].push(s);
+      }
+      
+      const rows = Object.entries(byAuthor)
+        .sort((a, b) => {
+          const engA = a[1].reduce((sum, s) => sum + (s.likes || 0) + (s.retweets || 0) * 3, 0);
+          const engB = b[1].reduce((sum, s) => sum + (s.likes || 0) + (s.retweets || 0) * 3, 0);
+          return engB - engA;
+        })
+        .map(([author, items]) => {
+          const totalLikes = items.reduce((s, i) => s + (i.likes || 0), 0);
+          const totalRTs = items.reduce((s, i) => s + (i.retweets || 0), 0);
+          const titles = items.map(i => {
+            const title = i.title.length > 80 ? i.title.slice(0, 77) + '...' : i.title;
+            return i.url 
+              ? `<a href="${i.url}" target="_blank" style="color:var(--text);text-decoration:none;border-bottom:1px dotted var(--text-muted)">${title}</a>`
+              : `<span>${title}</span>`;
+          }).join('<br>');
+          return `<tr>
+            <td style="padding:0.5rem 0.75rem;font-weight:500;color:var(--accent);white-space:nowrap;vertical-align:top">${author}</td>
+            <td style="padding:0.5rem 0.75rem;font-size:0.85rem;line-height:1.5">${titles}</td>
+            <td style="padding:0.5rem 0.75rem;text-align:right;white-space:nowrap;color:var(--text-muted);font-size:0.85rem;vertical-align:top">❤️ ${totalLikes.toLocaleString()} · 🔁 ${totalRTs.toLocaleString()}</td>
+          </tr>`;
+        }).join('');
+
+      return `
+        <div style="margin-top:1.5rem;border:1px solid var(--border);border-radius:8px;overflow:hidden">
+          <div style="padding:0.75rem 1rem;background:var(--surface);font-weight:500;font-size:0.9rem">📚 Sources (${sources.length})</div>
+          <table style="width:100%;border-collapse:collapse">
+            ${rows}
+          </table>
+        </div>`;
+    }
+
+    function copyBriefing() {
+      if (briefings.length > 0) {
+        navigator.clipboard.writeText(briefings[0].content);
+      }
+    }
+
+    // Simple markdown to HTML
+    function markdownToHtml(md) {
+      if (!md) return '';
+      return md
+        .replace(/### (.*)/g, '<h3>$1</h3>')
+        .replace(/## (.*)/g, '<h3>$1</h3>')
+        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+        .replace(/\*(.*?)\*/g, '<em>$1</em>')
+        .replace(/^- (.*)/gm, '<li>$1</li>')
+        .replace(/(<li>.*<\/li>\n?)+/g, (m) => `<ul>${m}</ul>`)
+        .replace(/^> (.*)/gm, '<blockquote>$1</blockquote>')
+        .replace(/\n\n/g, '</p><p>')
+        .replace(/\n/g, '<br>')
+        .replace(/^(.+)$/gm, (line) => {
+          if (line.startsWith('<')) return line;
+          return line;
+        });
+    }
+
     // ---- DISCOVERY ENGINE ----
 
     let allDiscoveries = [];
     let currentFilter = 'all';
+    let configKeywords = [];
 
     async function checkDiscoveryStatus() {
       try {
@@ -896,16 +1253,58 @@
         const bar = document.getElementById('discoverStatus');
         const btn = document.getElementById('autoSearchBtn');
         
-        if (data.birdAuthenticated) {
-          bar.innerHTML = '<div class="status-dot green"></div> X search available (bird authenticated) • ' + data.discoveryCount + ' discoveries';
-          btn.disabled = false;
-        } else {
-          bar.innerHTML = '<div class="status-dot yellow"></div> Manual mode — paste content or URLs to analyze • <span style="font-size:0.8rem">Log into x.com in Safari/Chrome to enable auto search</span>';
-          btn.disabled = true;
-          btn.style.opacity = '0.4';
+        const xOk = data.birdAuthenticated;
+        const rssCount = data.config?.rssFeeds?.length || 0;
+        const subCount = data.config?.subreddits?.length || 0;
+        const hnCount = data.config?.hnQueries?.length || 0;
+
+        // Build source indicators
+        let sources = `
+          <span class="source-indicator ${xOk ? 'active' : 'inactive'}">𝕏 X</span>
+          <span class="source-indicator active">🟠 Reddit (${subCount})</span>
+          <span class="source-indicator active">🟧 HN (${hnCount})</span>
+          <span class="source-indicator active">📡 RSS (${rssCount})</span>
+        `;
+
+        bar.innerHTML = `
+          <div class="status-dot ${xOk ? 'green' : 'yellow'}"></div>
+          <span>${data.discoveryCount} discoveries</span>
+          <span style="color:var(--border)">|</span>
+          ${sources}
+        `;
+
+        // Auto search always available (HN, Reddit, RSS work without auth)
+        btn.disabled = false;
+
+        // Show keyword chips
+        configKeywords = data.config?.keywordCombos || [];
+        if (configKeywords.length > 0) {
+          document.getElementById('keywordChipsSection').style.display = 'block';
+          document.getElementById('keywordChips').innerHTML = configKeywords.map(kw =>
+            `<span class="keyword-chip" onclick="searchKeyword('${kw.replace(/'/g, "\\'")}')">${kw}</span>`
+          ).join('');
         }
       } catch (e) {
         document.getElementById('discoverStatus').innerHTML = '<div class="status-dot red"></div> Discovery engine offline';
+      }
+    }
+
+    async function searchKeyword(keyword) {
+      const list = document.getElementById('discoveryList');
+      list.innerHTML = `<div class="loading"><div class="spinner"></div>Searching for "${keyword}"...</div>`;
+
+      try {
+        // Use the feed endpoint with a manual search
+        const res = await fetch('/api/discover/feed', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ items: [{ title: keyword, content: `Keyword search: ${keyword}`, text: keyword, source: 'manual' }] })
+        });
+        const data = await res.json();
+        if (data.error) throw new Error(data.error);
+        loadDiscoveries();
+      } catch (e) {
+        list.innerHTML = `<div style="color: #ef4444; padding: 1rem;">Error: ${e.message}</div>`;
       }
     }
 
@@ -919,7 +1318,6 @@
         return;
       }
 
-      // Support multiple items separated by ---
       const rawItems = content.split(/\n---\n/).filter(Boolean);
       const items = rawItems.map((text, i) => ({
         title: i === 0 ? title : '',
@@ -929,7 +1327,6 @@
         source: url ? 'web' : 'manual'
       }));
 
-      // If single item with no split
       if (items.length === 1 && !items[0].title && title) {
         items[0].title = title;
       }
@@ -946,7 +1343,6 @@
         const data = await res.json();
         if (data.error) throw new Error(data.error);
 
-        // Clear form
         document.getElementById('feedTitle').value = '';
         document.getElementById('feedContent').value = '';
         document.getElementById('feedUrl').value = '';
@@ -959,7 +1355,7 @@
 
     async function runAutoSearch() {
       const list = document.getElementById('discoveryList');
-      list.innerHTML = '<div class="loading"><div class="spinner"></div>Searching X for viral AI content...</div>';
+      list.innerHTML = '<div class="loading"><div class="spinner"></div>Searching X, Reddit, HN, and RSS feeds...</div>';
 
       try {
         const res = await fetch('/api/discover/search', { method: 'POST' });
@@ -1001,8 +1397,9 @@
       let items = allDiscoveries.filter(d => d.status !== 'dismissed');
 
       if (currentFilter === 'high') items = items.filter(d => d.priority === 'high');
-      else if (currentFilter === 'medium') items = items.filter(d => d.priority === 'medium');
       else if (currentFilter === 'new') items = items.filter(d => d.status === 'new');
+      else if (currentFilter === 'trusted') items = items.filter(d => d.sourceType === 'trusted');
+      else if (currentFilter === 'discovery') items = items.filter(d => d.sourceType === 'discovery');
 
       if (items.length === 0) {
         list.innerHTML = '<div class="empty">No discoveries match this filter.</div>';
@@ -1012,11 +1409,35 @@
       list.innerHTML = items.map(d => {
         const scoreClass = (d.latamScore || 0) >= 7 ? 'high' : (d.latamScore || 0) >= 4 ? 'med' : 'low';
         const priorityClass = d.priority || 'medium';
-        
+        const raw = d.raw || {};
+        const platform = d.platform || raw.source || 'web';
+        const sourceType = d.sourceType || 'unknown';
+        const author = raw.author || '';
+        const likes = raw.likes || 0;
+        const retweets = raw.retweets || 0;
+
+        // Build engagement text
+        let engagementHtml = '';
+        if (platform === 'x' && (likes || retweets)) {
+          engagementHtml = `<span class="engagement-badge">❤️ ${likes.toLocaleString()} · 🔁 ${retweets.toLocaleString()}</span>`;
+        } else if (platform === 'reddit' && likes) {
+          engagementHtml = `<span class="engagement-badge">⬆️ ${likes.toLocaleString()}</span>`;
+        } else if (platform === 'hackernews' && likes) {
+          engagementHtml = `<span class="engagement-badge">▲ ${likes.toLocaleString()} pts</span>`;
+        }
+
         return `
         <div class="discovery-item" id="disc-${d.id}">
           <div class="discovery-header">
-            <div class="discovery-topic">${d.suggestedTopic || d.coreIdea || 'Untitled'}</div>
+            <div class="discovery-title-area">
+              <div class="discovery-badges">
+                <span class="source-badge ${sourceType}">${sourceType === 'trusted' ? '👤 Trusted' : sourceType === 'discovery' ? '🔍 Discovery' : '📝 Manual'}</span>
+                <span class="platform-badge ${platform}">${PLATFORM_ICONS[platform] || '🌐'} ${PLATFORM_NAMES[platform] || platform}</span>
+                ${author ? `<span class="author-badge">${author}</span>` : ''}
+                ${engagementHtml}
+              </div>
+              <div class="discovery-topic">${d.suggestedTopic || d.coreIdea || 'Untitled'}</div>
+            </div>
             <div class="discovery-meta">
               <span class="score-badge score-${scoreClass}">LATAM ${d.latamScore || '?'}/10</span>
               <span class="priority-badge priority-${priorityClass}">${priorityClass}</span>
@@ -1056,7 +1477,6 @@
       const d = allDiscoveries.find(i => i.id === id);
       if (!d) return;
 
-      // Switch to autonomous tab and show generation in progress
       document.querySelector('[data-tab="autonomous"]').click();
       document.getElementById('autoTopic').value = d.suggestedTopic || d.coreIdea || '';
       document.getElementById('autoInstructions').value = 
@@ -1100,6 +1520,7 @@
     // Init
     checkDiscoveryStatus();
     loadDiscoveries();
+    loadBriefings();
     loadTopics();
     loadOutputFiles();
   </script>

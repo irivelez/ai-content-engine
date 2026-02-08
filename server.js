@@ -487,11 +487,11 @@ app.post('/api/output/approve/:filename', async (req, res) => {
 // Check if bird CLI is authenticated
 app.get('/api/discover/status', async (req, res) => {
   try {
-    const birdOk = discovery.isBirdAvailable();
+    const xOk = discovery.isXAvailable();
     const config = await discovery.loadConfig();
     const { items, lastSearch } = await discovery.getDiscoveries();
     res.json({ 
-      birdAuthenticated: birdOk, 
+      birdAuthenticated: xOk, 
       config,
       discoveryCount: items.length,
       lastSearch
@@ -559,6 +559,125 @@ app.delete('/api/discover/:id', async (req, res) => {
     res.json({ success: true });
   } catch (e) {
     res.status(500).json({ error: e.message });
+  }
+});
+
+// ---- BRIEFINGS ----
+
+// Generate consolidated briefing from all discoveries
+app.post('/api/briefings/generate', async (req, res) => {
+  try {
+    const { items } = await discovery.getDiscoveries();
+    const activeItems = items.filter(d => d.status !== 'dismissed');
+    
+    if (activeItems.length === 0) {
+      return res.status(400).json({ error: 'No discoveries to brief. Run a search first.' });
+    }
+
+    // Build raw content summary for Claude
+    const rawSummary = activeItems.map((d, i) => {
+      const raw = d.raw || {};
+      return `--- Source ${i + 1} ---
+Title: ${d.originalTitle || ''}
+Author: ${raw.author || 'Unknown'}
+Source: ${raw.source || 'web'}
+Engagement: ${raw.likes || 0} likes, ${raw.retweets || 0} RTs
+Content: ${raw.content || raw.text || d.coreIdea || ''}
+URL: ${raw.url || ''}`;
+    }).join('\n\n');
+
+    const briefingPrompt = `You are a senior tech analyst preparing a weekly AI intelligence briefing for Irina, a LATAM-focused AI educator.
+
+Below are ${activeItems.length} pieces of raw content collected from X, Reddit, Hacker News, and the web.
+
+YOUR JOB: Produce a consolidated intelligence briefing — NOT individual summaries. Synthesize across sources.
+
+## FORMAT:
+
+### 🌊 The Big Picture
+2-3 sentences: What's the dominant narrative in AI this week? What's the mood?
+
+### 🔑 Key Themes
+Group the content into 3-5 themes. For each theme:
+- **Theme name** (bold, clear)
+- What's happening (2-3 sentences synthesizing MULTIPLE sources)
+- Key voices: who's saying what (with engagement numbers)
+- Notable data points or claims
+
+### 📊 Numbers That Matter
+Bullet list of the most impactful stats, numbers, and data points across all sources. Only the ones that tell a story.
+
+### 🔥 Hottest Takes
+The 2-3 most provocative or contrarian opinions — direct quotes or paraphrases with attribution.
+
+### 🌎 LATAM Relevance
+Which of these themes matter MOST for Latin American professionals? Why? What's the local angle? (IN SPANISH)
+
+### ⚡ Quick Hits
+Anything noteworthy that doesn't fit the themes above — one line each.
+
+RULES:
+- Write in English EXCEPT the LATAM Relevance section (Spanish)
+- Be opinionated — flag what's signal vs noise
+- Include specific numbers and names, don't generalize
+- This should read like a sharp analyst's memo, not a generic summary
+
+RAW CONTENT:
+${rawSummary}`;
+
+    const result = await generate(briefingPrompt, {
+      system: 'You are a senior tech intelligence analyst. Be sharp, specific, and opinionated. No filler.',
+      maxTokens: 4096
+    });
+
+    // Build sources list
+    const sources = activeItems.map(d => {
+      const raw = d.raw || {};
+      return {
+        title: d.originalTitle || raw.title || '',
+        author: raw.author || 'Unknown',
+        source: raw.source || 'web',
+        url: raw.url || '',
+        likes: raw.likes || 0,
+        retweets: raw.retweets || 0,
+      };
+    });
+
+    // Save briefing
+    const briefing = {
+      id: `brief-${Date.now()}`,
+      generatedAt: new Date().toISOString(),
+      sourceCount: activeItems.length,
+      sources,
+      content: result
+    };
+
+    // Load existing briefings
+    const briefingsPath = path.join(DATA_DIR, 'briefings.json');
+    let briefings = [];
+    try {
+      briefings = JSON.parse(await fs.readFile(briefingsPath, 'utf-8'));
+    } catch {}
+    
+    briefings.unshift(briefing);
+    // Keep last 20 briefings
+    if (briefings.length > 20) briefings = briefings.slice(0, 20);
+    await fs.writeFile(briefingsPath, JSON.stringify(briefings, null, 2));
+
+    res.json(briefing);
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// Get saved briefings
+app.get('/api/briefings', async (req, res) => {
+  try {
+    const briefingsPath = path.join(DATA_DIR, 'briefings.json');
+    const briefings = JSON.parse(await fs.readFile(briefingsPath, 'utf-8'));
+    res.json({ briefings });
+  } catch {
+    res.json({ briefings: [] });
   }
 });
 

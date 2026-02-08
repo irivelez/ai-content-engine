@@ -2,16 +2,42 @@
   "sources": {
     "officialLabs": {
       "label": "Official AI Labs",
-      "accounts": ["AnthropicAI", "alexalbert__", "OpenAI", "sama", "GoogleAI", "GoogleDeepMind"]
+      "accounts": [
+        "AnthropicAI",
+        "alexalbert__",
+        "OpenAI",
+        "sama",
+        "GoogleAI",
+        "GoogleDeepMind"
+      ]
     },
     "agenticBuilders": {
       "label": "Agentic Builders",
-      "accounts": ["LangChainAI", "CrewAI_", "AutoGenAI", "cursor_ai"]
+      "accounts": [
+        "CrewAI_",
+        "AutoGenAI",
+        "cursor_ai"
+      ]
     },
     "thoughtLeaders": {
       "label": "Thought Leaders",
-      "accounts": ["karpathy", "bcherny", "gregisenberg", "joaomdmoura", "alliekmiller", "swyx", "simonw", "hwchase17", "jxnlco", "mckaywrigley", "AravSrinivas"],
-      "critical": ["karpathy", "bcherny"]
+      "accounts": [
+        "karpathy",
+        "bcherny",
+        "gregisenberg",
+        "joaomdmoura",
+        "alliekmiller",
+        "swyx",
+        "simonw",
+        "hwchase17",
+        "jxnlco",
+        "mckaywrigley",
+        "AravSrinivas"
+      ],
+      "critical": [
+        "karpathy",
+        "bcherny"
+      ]
     }
   },
   "queries": [
@@ -23,12 +49,110 @@
     "AI automation 2026"
   ],
   "topicFilters": [
-    "AI tools", "prompts", "automation", "no-code", "productivity",
-    "Claude", "ChatGPT", "workflow", "tutorial", "how-to", "agents"
+    "AI tools",
+    "prompts",
+    "automation",
+    "no-code",
+    "productivity",
+    "Claude",
+    "ChatGPT",
+    "workflow",
+    "tutorial",
+    "how-to",
+    "agents"
   ],
   "minEngagement": {
     "likes": 100,
     "retweets": 20
   },
-  "maxResults": 20
+  "maxResults": 20,
+  "subreddits": [
+    "ClaudeAI",
+    "ClaudeCode",
+    "ChatGPT",
+    "AI_Agents",
+    "artificial"
+  ],
+  "hnQueries": [
+    "claude code",
+    "ai agent",
+    "anthropic",
+    "openai gpt",
+    "cursor AI",
+    "vibe coding",
+    "no-code AI",
+    "AI for beginners"
+  ],
+  "rssFeeds": [
+    {
+      "name": "Anthropic",
+      "url": "https://www.anthropic.com/rss.xml",
+      "priority": "critical",
+      "weight": 2.0
+    },
+    {
+      "name": "Karpathy",
+      "url": "https://karpathy.substack.com/feed",
+      "priority": "critical",
+      "weight": 1.5
+    },
+    {
+      "name": "Allie K. Miller",
+      "url": "https://alliekmiller.substack.com/feed",
+      "priority": "high",
+      "weight": 1.4
+    },
+    {
+      "name": "Greg Isenberg",
+      "url": "https://gregisenberg.substack.com/feed",
+      "priority": "high",
+      "weight": 1.3
+    },
+    {
+      "name": "swyx (Latent Space)",
+      "url": "https://www.latent.space/feed",
+      "priority": "high",
+      "weight": 1.3
+    },
+    {
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net/atom/everything/",
+      "priority": "high",
+      "weight": 1.2
+    },
+    {
+      "name": "Unwind AI (Shubham Saboo)",
+      "url": "https://unwindai.substack.com/feed",
+      "priority": "high",
+      "weight": 1.3
+    },
+    {
+      "name": "One Useful Thing (Ethan Mollick)",
+      "url": "https://www.oneusefulthing.org/feed",
+      "priority": "high",
+      "weight": 1.3
+    },
+    {
+      "name": "OpenAI Blog",
+      "url": "https://openai.com/blog/rss.xml",
+      "priority": "high",
+      "weight": 1.5
+    }
+  ],
+  "keywordCombos": [
+    "\"how to\" AI beginner",
+    "\"step by step\" Claude OR ChatGPT",
+    "\"I built\" AI agent",
+    "AI \"for non-technical\" OR \"for beginners\" OR \"for normies\"",
+    "\"no-code\" AI automation",
+    "\"replaced\" AI workflow",
+    "\"prompt\" that saved",
+    "AI startup \"side project\"",
+    "AI \"for non-dev\" OR \"no code\""
+  ],
+  "engagementThresholds": {
+    "x": { "likes": 500, "retweets": 100 },
+    "reddit": { "upvotes": 200 },
+    "hn": { "points": 100 }
+  }
 }

@@ -29,11 +29,13 @@
     "AndrewYNg",
     "DrJimFan",
     "EMostaque",
-    "steipete"
+    "steipete",
+    "nikitabier"
   ],
   "broadSearchQualityFilter": {
+    "minViews": 5000,
+    "minLikes": 100,
     "minFollowers": 10000,
-    "minEngagementRate": 0.005,
     "bioKeywords": ["AI", "ML", "machine learning", "deep learning", "LLM", "agent", "founder", "researcher", "engineer", "professor", "PhD", "CTO", "CEO", "VP"]
   },
   "queries": [

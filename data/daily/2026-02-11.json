@@ -1,0 +1,1363 @@
+{
+  "date": "2026-02-11",
+  "generatedAt": "2026-02-11T23:25:29.786Z",
+  "bigPicture": "The agentic coding war just went nuclear: OpenAI's Codex hit 1M downloads in a week while Anthropic faces quality complaints on Claude Code — the battle for developer workflows is now the central front in the AI race, and neither side can afford to stumble.",
+  "dataPoints": [
+    {
+      "stat": "1M+ downloads in first week",
+      "context": "Codex App adoption signals agentic coding has crossed into mainstream developer tooling"
+    },
+    {
+      "stat": "632 upvotes, 433 comments",
+      "context": "HN thread on Claude Code quality regression — the largest community backlash signal this cycle"
+    },
+    {
+      "stat": "3 frontier models in one week",
+      "context": "GPT-5.3 Codex, GLM-5, and Opus 4.6 all shipped — model release cadence is compressing to days"
+    },
+    {
+      "stat": "ASL-4 threshold approaching",
+      "context": "Anthropic's own safety framework flags autonomous capabilities nearing the highest risk tier yet"
+    }
+  ],
+  "tldr": [
+    "OpenAI is flooding the zone: GPT-5.3 Codex in Cursor/VS Code, 1M+ Codex downloads, Skills API, and shell tool — a full-stack assault on Claude Code's agentic developer niche",
+    "Claude Code faces a credibility test: massive HN debate on quality regression hits just as OpenAI accelerates — Anthropic needs to respond with capability, not just safety messaging",
+    "Agentic infrastructure is crystallizing fast: hooks, custom agents via .md files, semantic crons, and repo-specific test harnesses show the tooling layer maturing around coding agents",
+    "The multi-agent pattern is going production: Perplexity's Model Council, AI boardroom simulations, and C-suite advisors naming agentic platforms signal enterprise adoption is real",
+    "New frontier models (GLM-5, GPT-5.3, Opus 4.6) are all positioning around agentic coding — this is no longer a feature, it's the entire product thesis"
+  ],
+  "items": [
+    {
+      "id": "item-1770852278541-57",
+      "title": "Claude Code Is Being Dumbed Down?",
+      "source": "hackernews",
+      "sourceName": "WXLCKNO",
+      "url": "https://symmetrybreak.ing/blog/claude-code-is-being-dumbed-down/",
+      "insight": "632 upvotes, 433 comments — massive community debate on Claude Code quality regression",
+      "relevance": 10,
+      "tags": [
+        "claude-code",
+        "agentic",
+        "tools"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 632,
+        "comments": 433
+      },
+      "publishedAt": "2026-02-11T18:23:39.000Z"
+    },
+    {
+      "id": "item-1770852176914-10",
+      "title": "GPT-5.3-Codex launches in Cursor, GitHub, and VS Code",
+      "source": "x",
+      "sourceName": "@sama",
+      "url": "https://x.com/sama/status/2020940847190356092",
+      "insight": "OpenAI's coding model now native in top IDEs — direct challenge to Claude Code's developer workflow",
+      "relevance": 9,
+      "tags": [
+        "agentic",
+        "claude-code",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 7243,
+        "comments": 0
+      },
+      "publishedAt": "Mon Feb 09 19:20:19 +0000 2026"
+    },
+    {
+      "id": "item-1770852213026-30",
+      "title": "How to build an AI boardroom in Claude Code",
+      "source": "x",
+      "sourceName": "@alliekmiller",
+      "url": "https://x.com/alliekmiller/status/2021578555034149188",
+      "insight": "High-engagement tutorial on multi-agent boardroom simulation using Claude Code",
+      "relevance": 9,
+      "tags": [
+        "claude-code",
+        "multi-agent",
+        "agentic",
+        "tutorials"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 322,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 13:34:21 +0000 2026"
+    },
+    {
+      "id": "item-1770852222988-34",
+      "title": "OpenAI introduces Skills to their API via shell tool",
+      "source": "x",
+      "sourceName": "@simonw",
+      "url": "https://x.com/simonw/status/2021665686020620384",
+      "insight": "OpenAI adding agent capabilities (shell tool) to API — direct competition with Claude Code's agentic approach",
+      "relevance": 9,
+      "tags": [
+        "agentic",
+        "tools",
+        "claude-code"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 56,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 19:20:34 +0000 2026"
+    },
+    {
+      "id": "item-1770852240283-41",
+      "title": "Perplexity upgrades Deep Research to Claude Opus 4.6",
+      "source": "x",
+      "sourceName": "@AravSrinivas",
+      "url": "https://x.com/AravSrinivas/status/2021002795726536977",
+      "insight": "Opus 4.6 now powering Perplexity's most advanced research agent — fast adoption cycle",
+      "relevance": 9,
+      "tags": [
+        "models",
+        "agentic",
+        "research"
+      ],
+      "category": "models",
+      "engagement": {
+        "likes": 51,
+        "comments": 0
+      },
+      "publishedAt": "Mon Feb 09 23:26:29 +0000 2026"
+    },
+    {
+      "id": "item-1770852257306-45",
+      "title": "OpenAI: 10 Tips for Reliable Multi-Hour Agent Workflows",
+      "source": "x",
+      "sourceName": "@OpenAIDevs",
+      "url": "https://x.com/OpenAIDevs/status/2021725246244671606",
+      "insight": "OpenAI shares practical primitives and reliability tips for long-running agentic workflows",
+      "relevance": 9,
+      "tags": [
+        "agentic",
+        "multi-agent"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 51,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 23:17:15 +0000 2026"
+    },
+    {
+      "id": "item-1770852291945-65",
+      "title": "Structured Context Engineering for File-Native Agentic Systems",
+      "source": "rss",
+      "sourceName": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Feb/9/structured-context-engineering-for-file-native-agentic-systems/#atom-everything",
+      "insight": "Deep dive on context engineering for file-based agents like Claude Code — directly on-niche",
+      "relevance": 9,
+      "tags": [
+        "agentic",
+        "claude-code",
+        "research"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-02-09T23:56:51+00:00"
+    },
+    {
+      "id": "item-1770852176914-1",
+      "title": "Anthropic approaches ASL-4 threshold with Claude Opus 4.5",
+      "source": "x",
+      "sourceName": "@AnthropicAI",
+      "url": "https://x.com/AnthropicAI/status/2021397952791707696",
+      "insight": "Autonomous AI capabilities nearing ASL-4 — key context for anyone building agentic systems",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "models",
+        "research"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 5445,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 01:36:42 +0000 2026"
+    },
+    {
+      "id": "item-1770852176914-4",
+      "title": "Deep Research now powered by GPT-5.2",
+      "source": "x",
+      "sourceName": "@OpenAI",
+      "url": "https://x.com/OpenAI/status/2021299935678026168",
+      "insight": "Major model upgrade for OpenAI's research agent — direct competitor to Claude's deep analysis capabilities",
+      "relevance": 8,
+      "tags": [
+        "models",
+        "agentic"
+      ],
+      "category": "models",
+      "engagement": {
+        "likes": 4954,
+        "comments": 0
+      },
+      "publishedAt": "Tue Feb 10 19:07:13 +0000 2026"
+    },
+    {
+      "id": "item-1770852176914-8",
+      "title": "Codex App hits 1M+ downloads in first week",
+      "source": "x",
+      "sourceName": "@sama",
+      "url": "https://x.com/sama/status/2020977975081177343",
+      "insight": "Massive adoption of OpenAI's coding agent — agentic coding tools are going mainstream fast",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "claude-code",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 7084,
+        "comments": 0
+      },
+      "publishedAt": "Mon Feb 09 21:47:51 +0000 2026"
+    },
+    {
+      "id": "item-1770852185529-13",
+      "title": "GPT-5.3 Codex now available in Cursor",
+      "source": "x",
+      "sourceName": "@cursor_ai",
+      "url": "https://x.com/cursor_ai/status/2020921643145519249",
+      "insight": "GPT-5.3 Codex faster than 5.2, becoming preferred model for AI-assisted coding",
+      "relevance": 8,
+      "tags": [
+        "models",
+        "tools"
+      ],
+      "category": "models",
+      "engagement": {
+        "likes": 3305,
+        "comments": 0
+      },
+      "publishedAt": "Mon Feb 09 18:04:01 +0000 2026"
+    },
+    {
+      "id": "item-1770852185529-14",
+      "title": "Karpathy explains LLM architecture from atomic principles",
+      "source": "x",
+      "sourceName": "@karpathy",
+      "url": "https://x.com/karpathy/status/2021695367507529825",
+      "insight": "Karpathy breaking down LLM internals to first principles — high educational value",
+      "relevance": 8,
+      "tags": [
+        "models",
+        "tutorials"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 454,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 21:18:31 +0000 2026"
+    },
+    {
+      "id": "item-1770852195705-15",
+      "title": "Karpathy: GPT in 243 lines of pure Python",
+      "source": "x",
+      "sourceName": "@karpathy",
+      "url": "https://x.com/karpathy/status/2021694437152157847",
+      "insight": "Minimal dependency-free GPT implementation — great educational reference for understanding transformers from scratch",
+      "relevance": 8,
+      "tags": [
+        "models",
+        "tutorials"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 2001,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 21:14:49 +0000 2026"
+    },
+    {
+      "id": "item-1770852195705-18",
+      "title": "Claude Code: hooks for deterministic lifecycle control",
+      "source": "x",
+      "sourceName": "@bcherny",
+      "url": "https://x.com/bcherny/status/2021701059253874861",
+      "insight": "Hooks let you route prompts, auto-lint, enforce patterns — key for agentic workflows",
+      "relevance": 8,
+      "tags": [
+        "claude-code",
+        "agentic"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 17,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 21:41:08 +0000 2026"
+    },
+    {
+      "id": "item-1770852203246-22",
+      "title": "Claude Code: Create custom agents with .md files",
+      "source": "x",
+      "sourceName": "@bcherny",
+      "url": "https://x.com/bcherny/status/2021700144039903699",
+      "insight": "Drop .md files in .claude/agents to create named agents with custom configs",
+      "relevance": 8,
+      "tags": [
+        "claude-code",
+        "agentic"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 55,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 21:37:30 +0000 2026"
+    },
+    {
+      "id": "item-1770852203246-23",
+      "title": "Claude Code: Install Plugins, MCPs, and Skills",
+      "source": "x",
+      "sourceName": "@bcherny",
+      "url": "https://x.com/bcherny/status/2021699862522364149",
+      "insight": "LSPs for every major language, MCP and skill plugin system now available",
+      "relevance": 8,
+      "tags": [
+        "claude-code",
+        "tools"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 35,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 21:36:23 +0000 2026"
+    },
+    {
+      "id": "item-1770852213026-27",
+      "title": "C-suite AI advisor: agentic platforms are the inflection point",
+      "source": "x",
+      "sourceName": "@alliekmiller",
+      "url": "https://x.com/alliekmiller/status/2021610678931570834",
+      "insight": "Enterprise AI advisor names Claude Code, Codex, OpenClaw as key agentic platforms for C-suite",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "claude-code",
+        "business"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 108,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 15:42:00 +0000 2026"
+    },
+    {
+      "id": "item-1770852231030-35",
+      "title": "Semantic Crons: Fuzzy Event-Driven Agent Triggers",
+      "source": "x",
+      "sourceName": "@hwchase17",
+      "url": "https://x.com/hwchase17/status/2021696693268345179",
+      "insight": "Novel agentic pattern — trigger actions on fuzzy/unstructured events instead of fixed schedules",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "multi-agent"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 30,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 21:23:47 +0000 2026"
+    },
+    {
+      "id": "item-1770852240283-39",
+      "title": "Perplexity launches Model Council with memory integration",
+      "source": "x",
+      "sourceName": "@AravSrinivas",
+      "url": "https://x.com/AravSrinivas/status/2021718927139909956",
+      "insight": "Multi-model reasoning over user data — practical multi-agent pattern in production",
+      "relevance": 8,
+      "tags": [
+        "multi-agent",
+        "models",
+        "agentic"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 1,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 22:52:08 +0000 2026"
+    },
+    {
+      "id": "item-1770852247922-43",
+      "title": "Claude Code can create full working apps, not just prototypes",
+      "source": "x",
+      "sourceName": "@ClayCampaigne",
+      "url": "https://x.com/ClayCampaigne/status/2021726290475462746",
+      "insight": "User reports Claude Code building and testing complete apps like a human developer",
+      "relevance": 8,
+      "tags": [
+        "claude-code",
+        "agentic"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 0,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 23:21:24 +0000 2026"
+    },
+    {
+      "id": "item-1770852257306-47",
+      "title": "How OpenAI Uses Codex Agents with Repo-Specific Test Harnesses",
+      "source": "x",
+      "sourceName": "@rohanpaul_ai",
+      "url": "https://x.com/rohanpaul_ai/status/2021716525825335674",
+      "insight": "OpenAI details their internal Codex agent setup with tests, linters, and observability",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 3,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 22:42:36 +0000 2026"
+    },
+    {
+      "id": "item-1770852278541-56",
+      "title": "GLM-5: From Vibe Coding to Agentic Engineering",
+      "source": "hackernews",
+      "sourceName": "meetpateltech",
+      "url": "https://z.ai/blog/glm-5",
+      "insight": "New model positioning around agentic coding workflows — direct competitor to Claude Code",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "models",
+        "claude-code"
+      ],
+      "category": "models",
+      "engagement": {
+        "likes": 352,
+        "comments": 191
+      },
+      "publishedAt": "2026-02-11T16:41:33.000Z"
+    },
+    {
+      "id": "item-1770852291945-60",
+      "title": "GLM-5 Released on Z.ai Platform",
+      "source": "hackernews",
+      "sourceName": "CuriouslyC",
+      "url": "https://chat.z.ai/",
+      "insight": "New frontier model launch with 205 HN upvotes and heavy discussion — competitive landscape shift",
+      "relevance": 8,
+      "tags": [
+        "models"
+      ],
+      "category": "models",
+      "engagement": {
+        "likes": 205,
+        "comments": 182
+      },
+      "publishedAt": "2026-02-11T13:42:16.000Z"
+    },
+    {
+      "id": "item-1770852291945-61",
+      "title": "Rowboat: AI Coworker That Turns Work into a Knowledge Graph (OSS)",
+      "source": "hackernews",
+      "sourceName": "segmenta",
+      "url": "https://github.com/rowboatlabs/rowboat",
+      "insight": "Open-source agentic tool that auto-builds knowledge graphs from work context — directly relevant pattern",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 191,
+        "comments": 53
+      },
+      "publishedAt": "2026-02-10T16:47:29.000Z"
+    },
+    {
+      "id": "item-1770852291945-62",
+      "title": "Skills in OpenAI API",
+      "source": "rss",
+      "sourceName": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Feb/11/skills-in-openai-api/#atom-everything",
+      "insight": "OpenAI adding skills abstraction to their API — important agentic infrastructure move to track",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-02-11T19:19:22+00:00"
+    },
+    {
+      "id": "item-1770852291945-63",
+      "title": "GLM-5: From Vibe Coding to Agentic Engineering",
+      "source": "rss",
+      "sourceName": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Feb/11/glm-5/#atom-everything",
+      "insight": "Simon Willison's take on GLM-5 and the shift from vibe coding to structured agentic work",
+      "relevance": 8,
+      "tags": [
+        "models",
+        "agentic"
+      ],
+      "category": "models",
+      "engagement": {
+        "likes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-02-11T18:56:14+00:00"
+    },
+    {
+      "id": "item-1770852291945-64",
+      "title": "Showboat and Rodney: Agents That Demo What They've Built",
+      "source": "rss",
+      "sourceName": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Feb/10/showboat-and-rodney/#atom-everything",
+      "insight": "New tools letting agents present their own work — key UX pattern for agentic systems",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-02-10T17:45:29+00:00"
+    },
+    {
+      "id": "item-1770852176914-0",
+      "title": "Anthropic preemptively adopts ASL-4 safety standards",
+      "source": "x",
+      "sourceName": "@AnthropicAI",
+      "url": "https://x.com/AnthropicAI/status/2021397953848672557",
+      "insight": "Anthropic raising safety bar ahead of schedule — signals how frontier labs self-regulate as capabilities grow",
+      "relevance": 7,
+      "tags": [
+        "models",
+        "research"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 1496,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 01:36:42 +0000 2026"
+    },
+    {
+      "id": "item-1770852176914-3",
+      "title": "OpenAI Deep Research gets app integrations and site-specific search",
+      "source": "x",
+      "sourceName": "@OpenAI",
+      "url": "https://x.com/OpenAI/status/2021299936948781095",
+      "insight": "Deep research now connects to external apps — moves toward agentic tool-use in research workflows",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 1433,
+        "comments": 0
+      },
+      "publishedAt": "Tue Feb 10 19:07:13 +0000 2026"
+    },
+    {
+      "id": "item-1770852176914-6",
+      "title": "Sam Altman: Codex winning faster than expected",
+      "source": "x",
+      "sourceName": "@sama",
+      "url": "https://x.com/sama/status/2021606985469211065",
+      "insight": "OpenAI's coding agent gaining traction fast — validates agentic coding as the dominant paradigm",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "claude-code",
+        "tools"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 4723,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 15:27:19 +0000 2026"
+    },
+    {
+      "id": "item-1770852176914-9",
+      "title": "GPT-5.3-Codex rated high for cybersecurity, rolling out to API",
+      "source": "x",
+      "sourceName": "@sama",
+      "url": "https://x.com/sama/status/2020940848159130094",
+      "insight": "First OpenAI model rated high for cybersecurity — relevant for enterprise/API builders evaluating models",
+      "relevance": 7,
+      "tags": [
+        "models",
+        "agentic"
+      ],
+      "category": "models",
+      "engagement": {
+        "likes": 1723,
+        "comments": 0
+      },
+      "publishedAt": "Mon Feb 09 19:20:20 +0000 2026"
+    },
+    {
+      "id": "item-1770852185529-11",
+      "title": "Gemini Deep Research as AI research collaborator",
+      "source": "x",
+      "sourceName": "@GoogleDeepMind",
+      "url": "https://x.com/GoogleDeepMind/status/2021632302070026581",
+      "insight": "DeepMind shows Gemini as agentic research collaborator — relevant to agentic AI workflows",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "research",
+        "models"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 759,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 17:07:55 +0000 2026"
+    },
+    {
+      "id": "item-1770852185529-12",
+      "title": "Cursor ships Composer 1.5 — balancing intelligence and speed",
+      "source": "x",
+      "sourceName": "@cursor_ai",
+      "url": "https://x.com/cursor_ai/status/2020968661142380971",
+      "insight": "Cursor's new Composer 1.5 targets the speed/quality tradeoff in agentic coding tools",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 1833,
+        "comments": 0
+      },
+      "publishedAt": "Mon Feb 09 21:10:51 +0000 2026"
+    },
+    {
+      "id": "item-1770852195705-16",
+      "title": "Karpathy on DeepWiki and software malleability",
+      "source": "x",
+      "sourceName": "@karpathy",
+      "url": "https://x.com/karpathy/status/2021633574089416993",
+      "insight": "Karpathy argues AI-generated docs make codebases more malleable, reducing dependency on libraries",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 3303,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 17:12:58 +0000 2026"
+    },
+    {
+      "id": "item-1770852195705-17",
+      "title": "Claude Code tips: customization settings",
+      "source": "x",
+      "sourceName": "@bcherny",
+      "url": "https://x.com/bcherny/status/2021701636075458648",
+      "insight": "Official Claude Code customization guide — CLAUDE.md, model config, permissions",
+      "relevance": 7,
+      "tags": [
+        "claude-code",
+        "tools"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 24,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 21:43:26 +0000 2026"
+    },
+    {
+      "id": "item-1770852195705-20",
+      "title": "Claude Code: sandboxing for safer execution",
+      "source": "x",
+      "sourceName": "@bcherny",
+      "url": "https://x.com/bcherny/status/2021700506465579443",
+      "insight": "Open source sandbox runtime for Claude Code improves safety while keeping tool use enabled",
+      "relevance": 7,
+      "tags": [
+        "claude-code",
+        "agentic",
+        "tools"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 30,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 21:38:56 +0000 2026"
+    },
+    {
+      "id": "item-1770852203246-21",
+      "title": "Claude Code: Pre-approve common permissions",
+      "source": "x",
+      "sourceName": "@bcherny",
+      "url": "https://x.com/bcherny/status/2021700332292911228",
+      "insight": "Permission system tips for Claude Code power users — reduce friction in agentic workflows",
+      "relevance": 7,
+      "tags": [
+        "claude-code",
+        "agentic"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 32,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 21:38:15 +0000 2026"
+    },
+    {
+      "id": "item-1770852203246-24",
+      "title": "Claude Code: Adjust effort level",
+      "source": "x",
+      "sourceName": "@bcherny",
+      "url": "https://x.com/bcherny/status/2021699860869902424",
+      "insight": "Token/cost optimization via effort levels — practical for daily agentic coding",
+      "relevance": 7,
+      "tags": [
+        "claude-code"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 72,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 21:36:22 +0000 2026"
+    },
+    {
+      "id": "item-1770852213026-28",
+      "title": "Claude Cowork Legal plugin for NDA triage",
+      "source": "x",
+      "sourceName": "@alliekmiller",
+      "url": "https://x.com/alliekmiller/status/2021586268573024337",
+      "insight": "Real-world demo of Claude Code plugin automating legal NDA review against custom rules",
+      "relevance": 7,
+      "tags": [
+        "claude-code",
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 506,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 14:05:00 +0000 2026"
+    },
+    {
+      "id": "item-1770852213026-29",
+      "title": "Open-source prompt for Claude Code legal plugin",
+      "source": "x",
+      "sourceName": "@alliekmiller",
+      "url": "https://x.com/alliekmiller/status/2021584631082922032",
+      "insight": "Full prompt and command details shared for building legal triage in Claude Code",
+      "relevance": 7,
+      "tags": [
+        "claude-code",
+        "tutorials"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 13,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 13:58:29 +0000 2026"
+    },
+    {
+      "id": "item-1770852213026-31",
+      "title": "Claude Code /redact skill using tesseract OCR",
+      "source": "x",
+      "sourceName": "@alliekmiller",
+      "url": "https://x.com/alliekmiller/status/2021557831510487238",
+      "insight": "Practical Claude Code skill combining screenshot OCR with automated redaction",
+      "relevance": 7,
+      "tags": [
+        "claude-code",
+        "tools"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 26,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 12:12:00 +0000 2026"
+    },
+    {
+      "id": "item-1770852222988-32",
+      "title": "Cursor Arena Mode leaderboard launches with 40K votes in first week",
+      "source": "x",
+      "sourceName": "@swyx",
+      "url": "https://x.com/swyx/status/2021704463820705846",
+      "insight": "First in-product arena for coding agents — useful signal for comparing agentic coding tools",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 26,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 21:54:40 +0000 2026"
+    },
+    {
+      "id": "item-1770852222988-33",
+      "title": "GLM-5 open weights model at 1.5TB released",
+      "source": "x",
+      "sourceName": "@simonw",
+      "url": "https://x.com/simonw/status/2021665936328306924",
+      "insight": "Massive new open-weights model — signals continued scaling in open source frontier models",
+      "relevance": 7,
+      "tags": [
+        "models"
+      ],
+      "category": "models",
+      "engagement": {
+        "likes": 33,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 19:21:34 +0000 2026"
+    },
+    {
+      "id": "item-1770852231030-36",
+      "title": "DeepAgents CLI Major Update",
+      "source": "x",
+      "sourceName": "@hwchase17",
+      "url": "https://x.com/hwchase17/status/2021309944931192950",
+      "insight": "New features in DeepAgents CLI — relevant to agentic coding tool landscape",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 16,
+        "comments": 0
+      },
+      "publishedAt": "Tue Feb 10 19:46:59 +0000 2026"
+    },
+    {
+      "id": "item-1770852240283-40",
+      "title": "Perplexity fixes search over conversation history",
+      "source": "x",
+      "sourceName": "@AravSrinivas",
+      "url": "https://x.com/AravSrinivas/status/2021717769071603976",
+      "insight": "Persistent memory + retrieval over past threads now reliable — table stakes for agentic UX",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 69,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 22:47:32 +0000 2026"
+    },
+    {
+      "id": "item-1770852247922-44",
+      "title": "Claude + Codex workflow: Plan, code, review",
+      "source": "x",
+      "sourceName": "@betocmn",
+      "url": "https://x.com/betocmn/status/2021720899842715794",
+      "insight": "Practitioner shares multi-model workflow: Claude for planning/coding, Codex for review",
+      "relevance": 7,
+      "tags": [
+        "claude-code",
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 1,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 22:59:58 +0000 2026"
+    },
+    {
+      "id": "item-1770852257306-46",
+      "title": "YC Request for Startups: AI-Native Agencies Playbook",
+      "source": "x",
+      "sourceName": "@DTrembois",
+      "url": "https://x.com/DTrembois/status/2021722495301431680",
+      "insight": "YC signals AI-native agencies as a key startup category — relevant for business positioning",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "business"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 1,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 23:06:19 +0000 2026"
+    },
+    {
+      "id": "item-1770852270056-50",
+      "title": "Opus 4.6 changing daily workflows for vibe coders",
+      "source": "x",
+      "sourceName": "@IshitaJindal17",
+      "url": "https://x.com/IshitaJindal17/status/2021715385289154666",
+      "insight": "Practitioner report: Claude Opus 4.6 significantly shifting day-to-day dev work patterns",
+      "relevance": 7,
+      "tags": [
+        "claude-code",
+        "models",
+        "agentic"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 1,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 22:38:04 +0000 2026"
+    },
+    {
+      "id": "item-1770852270056-51",
+      "title": "AI perception gap across industries",
+      "source": "x",
+      "sourceName": "@ponchodelosrios",
+      "url": "https://x.com/ponchodelosrios/status/2021722830946365951",
+      "insight": "Tech people vs non-tech have wildly different AI perceptions — key for LATAM adoption narrative",
+      "relevance": 7,
+      "tags": [
+        "business",
+        "latam"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 3,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 23:07:39 +0000 2026"
+    },
+    {
+      "id": "item-1770852270056-53",
+      "title": "Fully automated AI agency is a fantasy",
+      "source": "x",
+      "sourceName": "@HeavisideGroup",
+      "url": "https://x.com/HeavisideGroup/status/2021719660664652175",
+      "insight": "Reality check on AI agency hype — automation still needs human oversight",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "multi-agent",
+        "business"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 0,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 22:55:03 +0000 2026"
+    },
+    {
+      "id": "item-1770852291945-58",
+      "title": "AI Agents Play SimCity Through a REST API",
+      "source": "hackernews",
+      "sourceName": "aed",
+      "url": "https://hallucinatingsplines.com",
+      "insight": "Fun demo of agentic systems controlling complex simulations via API — relevant pattern for multi-agent tooling",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 161,
+        "comments": 68
+      },
+      "publishedAt": "2026-02-09T15:54:33.000Z"
+    },
+    {
+      "id": "item-1770852291945-59",
+      "title": "AI-First Company Memos",
+      "source": "hackernews",
+      "sourceName": "bobismyuncle",
+      "url": "https://the-ai-native.company/",
+      "insight": "Collection of real company memos on AI adoption — useful signal on how orgs are restructuring around AI",
+      "relevance": 7,
+      "tags": [
+        "business",
+        "agentic"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 113,
+        "comments": 176
+      },
+      "publishedAt": "2026-02-11T15:41:18.000Z"
+    },
+    {
+      "id": "item-1770852291945-66",
+      "title": "AI Doesn't Reduce Work — It Intensifies It",
+      "source": "rss",
+      "sourceName": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Feb/9/ai-intensifies-work/#atom-everything",
+      "insight": "Contrarian take on AI productivity claims — good angle for LATAM audience managing expectations",
+      "relevance": 7,
+      "tags": [
+        "business"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-02-09T16:43:07+00:00"
+    },
+    {
+      "id": "item-1770852298250-68",
+      "title": "Is a secure AI assistant possible?",
+      "source": "rss",
+      "sourceName": "MIT Tech Review AI",
+      "url": "https://www.technologyreview.com/2026/02/11/1132768/is-a-secure-ai-assistant-possible/",
+      "insight": "Core question for anyone building agentic systems — security vs capability tradeoff",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "research"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 0,
+        "comments": 0
+      },
+      "publishedAt": "Wed, 11 Feb 2026 20:08:35 +0000"
+    },
+    {
+      "id": "item-1770852176914-2",
+      "title": "Claude Opus 4.6 free for nonprofits on Team/Enterprise",
+      "source": "x",
+      "sourceName": "@AnthropicAI",
+      "url": "https://x.com/AnthropicAI/status/2020908471936323584",
+      "insight": "Most capable Claude model now accessible to nonprofits — expands who can build with frontier models",
+      "relevance": 6,
+      "tags": [
+        "models",
+        "business"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 1892,
+        "comments": 0
+      },
+      "publishedAt": "Mon Feb 09 17:11:41 +0000 2026"
+    },
+    {
+      "id": "item-1770852176914-5",
+      "title": "OpenAI starts testing ads in ChatGPT",
+      "source": "x",
+      "sourceName": "@OpenAI",
+      "url": "https://x.com/OpenAI/status/2020936703763153010",
+      "insight": "Ads in ChatGPT signals business model shift — could reshape how AI assistants monetize and what 'free' means",
+      "relevance": 6,
+      "tags": [
+        "business"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 3546,
+        "comments": 0
+      },
+      "publishedAt": "Mon Feb 09 19:03:52 +0000 2026"
+    },
+    {
+      "id": "item-1770852176914-7",
+      "title": "GPT-5.2 instant model updated in ChatGPT",
+      "source": "x",
+      "sourceName": "@sama",
+      "url": "https://x.com/sama/status/2021452911511998557",
+      "insight": "Incremental GPT-5.2 improvement — keeps pressure on Claude as default conversational model",
+      "relevance": 6,
+      "tags": [
+        "models"
+      ],
+      "category": "models",
+      "engagement": {
+        "likes": 6244,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 05:15:05 +0000 2026"
+    },
+    {
+      "id": "item-1770852195705-19",
+      "title": "Claude Code: custom status lines",
+      "source": "x",
+      "sourceName": "@bcherny",
+      "url": "https://x.com/bcherny/status/2021700784019452195",
+      "insight": "Status lines show model, directory, token usage below composer — useful for power users",
+      "relevance": 6,
+      "tags": [
+        "claude-code",
+        "tools"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 61,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 21:40:02 +0000 2026"
+    },
+    {
+      "id": "item-1770852203246-25",
+      "title": "Claude Code: Configure your terminal",
+      "source": "x",
+      "sourceName": "@bcherny",
+      "url": "https://x.com/bcherny/status/2021699859359883608",
+      "insight": "Theme, notifications, and terminal setup basics for Claude Code",
+      "relevance": 6,
+      "tags": [
+        "claude-code"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 61,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 21:36:22 +0000 2026"
+    },
+    {
+      "id": "item-1770852213026-26",
+      "title": "CrewAI building novel memory system",
+      "source": "x",
+      "sourceName": "@joaomdmoura",
+      "url": "https://x.com/joaomdmoura/status/2020903589246308778",
+      "insight": "CrewAI founder hints at entirely new memory architecture for agents",
+      "relevance": 6,
+      "tags": [
+        "multi-agent",
+        "agentic"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 0,
+        "comments": 0
+      },
+      "publishedAt": "Mon Feb 09 16:52:16 +0000 2026"
+    },
+    {
+      "id": "item-1770852231030-37",
+      "title": "Jason Liu Joining an AI Lab",
+      "source": "x",
+      "sourceName": "@jxnlco",
+      "url": "https://x.com/jxnlco/status/2021636978417316314",
+      "insight": "Instructor/Pydantic creator signaling move to AI lab — industry talent shift worth watching",
+      "relevance": 6,
+      "tags": [
+        "business"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 50,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 17:26:30 +0000 2026"
+    },
+    {
+      "id": "item-1770852240283-38",
+      "title": "McKay Wrigley recorded 4hr AI work session to track tooling evolution",
+      "source": "x",
+      "sourceName": "@mckaywrigley",
+      "url": "https://x.com/mckaywrigley/status/2021688045561671963",
+      "insight": "Interesting signal: AI-native devs documenting workflows expecting radical change within a year",
+      "relevance": 6,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 25,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 20:49:25 +0000 2026"
+    },
+    {
+      "id": "item-1770852247922-42",
+      "title": "GitHub Copilot advanced features for workflow optimization",
+      "source": "x",
+      "sourceName": "@isaacrlevin",
+      "url": "https://x.com/isaacrlevin/status/2021720963046592687",
+      "insight": "Practical tips on using Copilot's advanced features beyond basic autocomplete",
+      "relevance": 6,
+      "tags": [
+        "tools",
+        "tutorials"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 0,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 23:00:14 +0000 2026"
+    },
+    {
+      "id": "item-1770852257306-48",
+      "title": "Live Pixel Dashboard for 7-Agent OpenClaw Crew",
+      "source": "x",
+      "sourceName": "@Lam9addam",
+      "url": "https://x.com/Lam9addam/status/2021722546853363979",
+      "insight": "Creative vibe-coded monitoring UI for multi-agent OpenClaw setup — practical inspiration",
+      "relevance": 6,
+      "tags": [
+        "multi-agent",
+        "claude-code",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 0,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 23:06:31 +0000 2026"
+    },
+    {
+      "id": "item-1770852270056-49",
+      "title": "Claude Code exposed that most people can't market",
+      "source": "x",
+      "sourceName": "@Sebastian_A",
+      "url": "https://x.com/Sebastian_A/status/2021721916956885318",
+      "insight": "Vibe coding tools reveal the gap between building and marketing — relevant for AI builders",
+      "relevance": 6,
+      "tags": [
+        "claude-code",
+        "business"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 1,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 23:04:01 +0000 2026"
+    },
+    {
+      "id": "item-1770852270056-52",
+      "title": "Hiring managers now evaluate AI tool usage",
+      "source": "x",
+      "sourceName": "@iwangulenko",
+      "url": "https://x.com/iwangulenko/status/2021721928197976386",
+      "insight": "AI proficiency becoming a hiring signal — use should be invisible and productive",
+      "relevance": 6,
+      "tags": [
+        "business",
+        "agentic"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 0,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 23:04:04 +0000 2026"
+    },
+    {
+      "id": "item-1770852270056-54",
+      "title": "Grok on Matt Shumer's AI-as-COVID-moment analogy",
+      "source": "x",
+      "sourceName": "@grok",
+      "url": "https://x.com/grok/status/2021716388620951868",
+      "insight": "AI growth compared to early COVID trajectory — dismissal followed by rapid disruption",
+      "relevance": 6,
+      "tags": [
+        "business"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 0,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 22:42:03 +0000 2026"
+    },
+    {
+      "id": "item-1770852278541-55",
+      "title": "xAI All-Hands: Co-founder Exodus and Reorg into 4 Divisions",
+      "source": "x",
+      "sourceName": "@grok",
+      "url": "https://x.com/grok/status/2021721295675670809",
+      "insight": "6 of 12 co-founders gone; xAI restructures into Grok, coding, multimedia, auto — signals instability",
+      "relevance": 6,
+      "tags": [
+        "models",
+        "business"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 0,
+        "comments": 0
+      },
+      "publishedAt": "Wed Feb 11 23:01:33 +0000 2026"
+    },
+    {
+      "id": "item-1770852298250-67",
+      "title": "ChatGPT deep research adds built-in document viewer",
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/876775/openai-deep-research-chatgpt-full-screen-report-viewer",
+      "insight": "OpenAI improving agentic research UX — relevant to how AI tools present long-form outputs",
+      "relevance": 6,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-02-10T18:02:32-05:00"
+    }
+  ],
+  "stats": {
+    "rawFetched": 227,
+    "kept": 69,
+    "sourceBreakdown": {
+      "x": 177,
+      "hackernews": 13,
+      "rss": 37
+    }
+  }
+}

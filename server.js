@@ -10,6 +10,7 @@ const fs = require('fs').promises;
 const path = require('path');
 const { generate } = require('./lib/openclaw-client');
 const pipeline = require('./lib/pipeline');
+const autonomousPipeline = require('./lib/autonomous-pipeline');
 
 if (!process.env.OPENCLAW_GATEWAY_TOKEN) {
   console.error('\n❌ OPENCLAW_GATEWAY_TOKEN not found in .env\n');
@@ -39,27 +40,60 @@ const DATA_DIR = path.join(__dirname, 'data');
 const OUTPUT_DIR = path.join(__dirname, 'output');
 
 async function ensureDirs() {
-  for (const dir of [DATA_DIR, path.join(OUTPUT_DIR, 'ready'), path.join(OUTPUT_DIR, 'review')]) {
+  for (const dir of [DATA_DIR, path.join(DATA_DIR, 'daily'), path.join(OUTPUT_DIR, 'ready'), path.join(OUTPUT_DIR, 'review')]) {
     await fs.mkdir(dir, { recursive: true });
   }
 }
+
+// ============ DAILY / AUTONOMOUS API ============
+
+app.get('/api/daily/latest', async (req, res) => {
+  try {
+    const data = await autonomousPipeline.getLatestData();
+    if (!data) return res.status(404).json({ error: 'No data yet' });
+    res.json(data);
+  } catch (e) { res.status(500).json({ error: e.message }); }
+});
+
+app.get('/api/daily/:date', async (req, res) => {
+  try {
+    const data = await autonomousPipeline.getDailyData(req.params.date);
+    res.json(data);
+  } catch (e) { res.status(404).json({ error: 'No data for this date' }); }
+});
+
+app.get('/api/days', async (req, res) => {
+  const days = await autonomousPipeline.getAvailableDays();
+  res.json({ days });
+});
 
 // ============ PIPELINE API ============
 
 // Get pipeline status (polling endpoint)
 app.get('/api/pipeline/status', (req, res) => {
+  const autoStatus = autonomousPipeline.getStatus();
+  if (autoStatus.stage !== 'idle') return res.json(autoStatus);
   res.json(pipeline.getStatus());
 });
 
-// Run full pipeline: fetch → curate → briefing
+// Run autonomous pipeline
 app.post('/api/pipeline/run', async (req, res) => {
+  const status = autonomousPipeline.getStatus();
+  if (status.stage !== 'idle' && status.stage !== 'complete' && status.stage !== 'error') {
+    return res.status(409).json({ error: 'Pipeline already running', status });
+  }
+  autonomousPipeline.runAutonomousPipeline().catch(e => console.error('Autonomous pipeline error:', e));
+  res.json({ started: true, message: 'Autonomous pipeline started. Poll /api/pipeline/status for progress.' });
+});
+
+// Legacy: run old pipeline
+app.post('/api/pipeline/run-legacy', async (req, res) => {
   const status = pipeline.getStatus();
   if (status.stage === 'running' || status.stage === 'fetching') {
     return res.status(409).json({ error: 'Pipeline already running', status });
   }
-  // Run async — client polls /status
   pipeline.runPipeline().catch(e => console.error('Pipeline error:', e));
-  res.json({ started: true, message: 'Pipeline started. Poll /api/pipeline/status for progress.' });
+  res.json({ started: true, message: 'Legacy pipeline started.' });
 });
 
 // Get current pipeline data (curated items + briefing + stats)

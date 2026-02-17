@@ -1,0 +1,1315 @@
+{
+  "date": "2026-02-12",
+  "generatedAt": "2026-02-12T14:06:20.041Z",
+  "bigPicture": "The AI coding agent war just went mainstream — with Codex hitting 1M downloads and GPT-5.3 shipping natively in every major IDE, we've crossed from 'will agents replace developers?' to 'which agent wins?' Meanwhile, the productivity gains everyone promised are proving stubbornly elusive beyond raw coding speed.",
+  "dataPoints": [
+    {
+      "stat": "1M downloads in first week",
+      "context": "Codex app adoption with 60% growth — coding agents are now a mass-market category, not a developer niche"
+    },
+    {
+      "stat": "93,000 lines of code in 5 days",
+      "context": "Real production output from Claude Opus 4.6 vs GPT-5.3 Codex head-to-head — the scale agents operate at now"
+    },
+    {
+      "stat": "10x speed, 1.25x productivity",
+      "context": "The AI coding paradox: coding is a small slice of dev work, so raw speed gains barely move the overall needle"
+    },
+    {
+      "stat": "12-18 months",
+      "context": "Microsoft AI CEO's timeline for all white-collar work automation — the boldest industry claim setting 2026's narrative"
+    }
+  ],
+  "tldr": [
+    "Coding agents hit an inflection point: GPT-5.3 Codex ships in Cursor/VS Code/GitHub while Codex app crosses 1M downloads — the IDE is now an agent runtime, not a text editor",
+    "Anthropic plays the safety card hard: Opus 4.5 approaches ASL-4 autonomous thresholds, they preemptively adopt stricter standards, and commit to absorbing data center energy costs — positioning as the 'responsible frontier' lab",
+    "The productivity paradox gets louder: multiple signals confirm AI makes coding 10x faster but overall dev productivity barely budges, and contrarian research argues AI intensifies work rather than reducing it",
+    "Agentic infrastructure is maturing fast: semantic crons, structured context engineering, model councils with memory, and deep research with app integrations all point to agents becoming persistent, orchestrated systems rather than chat toys",
+    "OpenAI goes full platform war: Skills API for agentic capabilities, deep research upgrades to GPT-5.2 with external app access, and ads in ChatGPT — they're building the everything-app while monetizing the free tier"
+  ],
+  "items": [
+    {
+      "id": "item-1770904963790-3",
+      "title": "Claude Opus 4.5 approaches ASL-4 autonomous capability threshold",
+      "source": "x",
+      "sourceName": "@AnthropicAI",
+      "url": "https://x.com/AnthropicAI/status/2021397952791707696",
+      "insight": "Anthropic confirms frontier models nearing autonomous agent safety thresholds",
+      "relevance": 9,
+      "tags": [
+        "agentic",
+        "models"
+      ],
+      "category": "models",
+      "engagement": {
+        "likes": 6058,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Feb 11 01:36:42 +0000 2026"
+    },
+    {
+      "id": "item-1770904963791-10",
+      "title": "GPT-5.3-Codex launches in Cursor, GitHub, and VS Code",
+      "source": "x",
+      "sourceName": "@sama",
+      "url": "https://x.com/sama/status/2020940847190356092",
+      "insight": "OpenAI's coding model ships natively in major IDEs — direct Claude Code competitor",
+      "relevance": 9,
+      "tags": [
+        "agentic",
+        "claude-code",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 7254,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Mon Feb 09 19:20:19 +0000 2026"
+    },
+    {
+      "id": "item-1770904984468-17",
+      "title": "Karpathy: Train and inference GPT in 243 lines of pure Python",
+      "source": "x",
+      "sourceName": "@karpathy",
+      "url": "https://x.com/karpathy/status/2021694437152157847",
+      "insight": "Full GPT training+inference in 243 lines, zero dependencies — essential educational reference",
+      "relevance": 9,
+      "tags": [
+        "research",
+        "tutorials",
+        "contrarian"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 9505,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Feb 11 21:14:49 +0000 2026"
+    },
+    {
+      "id": "item-1770905031832-27",
+      "title": "OpenAI introduces Skills to their API via shell tool",
+      "source": "x",
+      "sourceName": "@simonw",
+      "url": "https://x.com/simonw/status/2021665686020620384",
+      "insight": "OpenAI adding agentic capabilities to API — direct competition to Claude Code's tool-use approach",
+      "relevance": 9,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 128,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Feb 11 19:20:34 +0000 2026"
+    },
+    {
+      "id": "item-1770905131495-50",
+      "title": "Structured Context Engineering for File-Native Agentic Systems",
+      "source": "rss",
+      "sourceName": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Feb/9/structured-context-engineering-for-file-native-agentic-systems/#atom-everything",
+      "insight": "Framework for managing context in file-based agent architectures — directly applicable to Claude Code workflows",
+      "relevance": 9,
+      "tags": [
+        "agentic",
+        "claude-code",
+        "multi-agent",
+        "research"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-02-09T23:56:51+00:00"
+    },
+    {
+      "id": "item-1770905147973-59",
+      "title": "Claude Opus 4.6 vs GPT-5.3 Codex: 93,000 lines of code in 5 days",
+      "source": "rss",
+      "sourceName": "Lenny Rachitsky",
+      "url": "https://www.lennysnewsletter.com/p/claude-opus-46-vs-gpt-53-codex-how",
+      "insight": "Head-to-head coding agent comparison with real production numbers — directly relevant to tool selection",
+      "relevance": 9,
+      "tags": [
+        "claude-code",
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed, 11 Feb 2026 13:02:52 GMT"
+    },
+    {
+      "id": "item-1770904963790-2",
+      "title": "Anthropic preemptively adopts ASL-4 safety standards",
+      "source": "x",
+      "sourceName": "@AnthropicAI",
+      "url": "https://x.com/AnthropicAI/status/2021397953848672557",
+      "insight": "Raising own safety bar before required — sets industry benchmark for frontier models",
+      "relevance": 8,
+      "tags": [
+        "models",
+        "agentic"
+      ],
+      "category": "models",
+      "engagement": {
+        "likes": 1649,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Feb 11 01:36:42 +0000 2026"
+    },
+    {
+      "id": "item-1770904963791-9",
+      "title": "Codex App hits 1M downloads in first week, 60% growth",
+      "source": "x",
+      "sourceName": "@sama",
+      "url": "https://x.com/sama/status/2020977975081177343",
+      "insight": "Massive adoption of AI coding agent — validates agentic dev tools as mainstream category",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "tools",
+        "business"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 7112,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Mon Feb 09 21:47:51 +0000 2026"
+    },
+    {
+      "id": "item-1770904984468-15",
+      "title": "GPT-5.3 Codex now available in Cursor",
+      "source": "x",
+      "sourceName": "@cursor_ai",
+      "url": "https://x.com/cursor_ai/status/2020921643145519249",
+      "insight": "GPT-5.3 Codex lands in Cursor — faster than 5.2, becoming preferred model for coding agents",
+      "relevance": 8,
+      "tags": [
+        "models",
+        "tools",
+        "agentic"
+      ],
+      "category": "models",
+      "engagement": {
+        "likes": 3316,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Mon Feb 09 18:04:01 +0000 2026"
+    },
+    {
+      "id": "item-1770904996146-18",
+      "title": "Karpathy on DeepWiki and the increasing malleability of software",
+      "source": "x",
+      "sourceName": "@karpathy",
+      "url": "https://x.com/karpathy/status/2021633574089416993",
+      "insight": "Karpathy argues AI-generated docs make codebases more malleable, reducing dependency on libraries",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "tools",
+        "contrarian"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 5747,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Feb 11 17:12:58 +0000 2026"
+    },
+    {
+      "id": "item-1770904996146-20",
+      "title": "Claude Code customization guide: settings, CLAUDE.md, and project config",
+      "source": "x",
+      "sourceName": "@bcherny",
+      "url": "https://x.com/bcherny/status/2021701636075458648",
+      "insight": "Official tips on customizing Claude Code behavior via config files and project-level settings",
+      "relevance": 8,
+      "tags": [
+        "claude-code",
+        "agentic",
+        "tutorials"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 103,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Feb 11 21:43:26 +0000 2026"
+    },
+    {
+      "id": "item-1770905038647-28",
+      "title": "Semantic Crons: Event-Driven Automation Without Structured Metrics",
+      "source": "x",
+      "sourceName": "@hwchase17",
+      "url": "https://x.com/hwchase17/status/2021696693268345179",
+      "insight": "LangChain founder proposes fuzzy event triggers for agentic workflows — next evolution of agent orchestration",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "multi-agent"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 198,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Feb 11 21:23:47 +0000 2026"
+    },
+    {
+      "id": "item-1770905049383-30",
+      "title": "Perplexity launches Model Council with Memory",
+      "source": "x",
+      "sourceName": "@AravSrinivas",
+      "url": "https://x.com/AravSrinivas/status/2021717769071603976",
+      "insight": "Arav Srinivas announces multiple frontier reasoning models can now collaborate on user data via Memory",
+      "relevance": 8,
+      "tags": [
+        "multi-agent",
+        "models",
+        "agentic"
+      ],
+      "category": "models",
+      "engagement": {
+        "likes": 341,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Feb 11 22:47:32 +0000 2026"
+    },
+    {
+      "id": "item-1770905058321-32",
+      "title": "Perplexity upgrades Deep Research to Opus 4.6",
+      "source": "x",
+      "sourceName": "@AravSrinivas",
+      "url": "https://x.com/AravSrinivas/status/2020969022154735736",
+      "insight": "Perplexity shipping Opus 4.6 for deep research within days of release — fast model adoption cycle",
+      "relevance": 8,
+      "tags": [
+        "models",
+        "agentic"
+      ],
+      "category": "models",
+      "engagement": {
+        "likes": 519,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Mon Feb 09 21:12:17 +0000 2026"
+    },
+    {
+      "id": "item-1770905077692-33",
+      "title": "AI Coding Paradox: 10x Speed, 1.25x Productivity",
+      "source": "x",
+      "sourceName": "@vmblog",
+      "url": "https://x.com/vmblog/status/2021945690822230254",
+      "insight": "Coding is small slice of dev work — AI speed gains don't translate linearly to overall productivity",
+      "relevance": 8,
+      "tags": [
+        "contrarian",
+        "business"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Feb 12 13:53:13 +0000 2026"
+    },
+    {
+      "id": "item-1770905107818-44",
+      "title": "Microsoft AI CEO: all white-collar work automated in 12-18 months",
+      "source": "x",
+      "sourceName": "@Evan_ss6",
+      "url": "https://x.com/Evan_ss6/status/2021945791703871711",
+      "insight": "Bold claim from MS AI lead drawing industrial revolution parallels — sets the narrative for 2026",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "business"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 20,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Feb 12 13:53:37 +0000 2026"
+    },
+    {
+      "id": "item-1770905131495-48",
+      "title": "GLM-5: From Vibe Coding to Agentic Engineering",
+      "source": "rss",
+      "sourceName": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Feb/11/glm-5/#atom-everything",
+      "insight": "New model positions itself for agentic coding workflows — direct competition to Claude Code territory",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "claude-code",
+        "models"
+      ],
+      "category": "models",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-02-11T18:56:14+00:00"
+    },
+    {
+      "id": "item-1770905131495-51",
+      "title": "AI Doesn't Reduce Work — It Intensifies It",
+      "source": "rss",
+      "sourceName": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Feb/9/ai-intensifies-work/#atom-everything",
+      "insight": "Contrarian take backed by evidence: AI shifts work rather than eliminating it — critical for enterprise adoption strategy",
+      "relevance": 8,
+      "tags": [
+        "contrarian",
+        "business"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-02-09T16:43:07+00:00"
+    },
+    {
+      "id": "item-1770905147973-55",
+      "title": "Is a secure AI assistant possible?",
+      "source": "rss",
+      "sourceName": "MIT Tech Review AI",
+      "url": "https://www.technologyreview.com/2026/02/11/1132768/is-a-secure-ai-assistant-possible/",
+      "insight": "Core question for anyone deploying agentic AI: can you actually trust an AI assistant with real access?",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "research"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed, 11 Feb 2026 20:08:35 +0000"
+    },
+    {
+      "id": "item-1770905147973-57",
+      "title": "Harness engineering: leveraging Codex in an agent-first world",
+      "source": "rss",
+      "sourceName": "OpenAI Blog",
+      "url": "https://openai.com/index/harness-engineering",
+      "insight": "Real engineering org's playbook for integrating coding agents into production workflows",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "claude-code",
+        "tools"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed, 11 Feb 2026 09:00:00 GMT"
+    },
+    {
+      "id": "item-1770905147973-58",
+      "title": "Engineers are becoming sorcerers — OpenAI's Sherwin Wu on the future of software dev",
+      "source": "rss",
+      "sourceName": "Lenny Rachitsky",
+      "url": "https://www.lennysnewsletter.com/p/engineers-are-becoming-sorcerers",
+      "insight": "OpenAI exec's vision for how AI agents reshape engineering roles and team structures",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "business"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu, 12 Feb 2026 13:31:43 GMT"
+    },
+    {
+      "id": "item-1770904963790-1",
+      "title": "Anthropic commits to cover data center electricity price increases",
+      "source": "x",
+      "sourceName": "@AnthropicAI",
+      "url": "https://x.com/AnthropicAI/status/2021694494215901314",
+      "insight": "Major precedent: AI lab absorbing energy costs instead of passing to ratepayers",
+      "relevance": 7,
+      "tags": [
+        "business",
+        "contrarian"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 4672,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Feb 11 21:15:03 +0000 2026"
+    },
+    {
+      "id": "item-1770904963790-4",
+      "title": "OpenAI deep research now connects to external apps and sites",
+      "source": "x",
+      "sourceName": "@OpenAI",
+      "url": "https://x.com/OpenAI/status/2021299936948781095",
+      "insight": "Deep research gets app integrations and real-time progress — agentic research step",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 1476,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Tue Feb 10 19:07:13 +0000 2026"
+    },
+    {
+      "id": "item-1770904963790-5",
+      "title": "OpenAI deep research upgraded to GPT-5.2",
+      "source": "x",
+      "sourceName": "@OpenAI",
+      "url": "https://x.com/OpenAI/status/2021299935678026168",
+      "insight": "Deep research now on GPT-5.2 — OpenAI's agentic research product gets flagship model",
+      "relevance": 7,
+      "tags": [
+        "models",
+        "agentic"
+      ],
+      "category": "models",
+      "engagement": {
+        "likes": 5163,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Tue Feb 10 19:07:13 +0000 2026"
+    },
+    {
+      "id": "item-1770904963791-6",
+      "title": "OpenAI begins testing ads in ChatGPT for free users",
+      "source": "x",
+      "sourceName": "@OpenAI",
+      "url": "https://x.com/OpenAI/status/2020936703763153010",
+      "insight": "ChatGPT monetization via ads begins — signals freemium business model shift",
+      "relevance": 7,
+      "tags": [
+        "business",
+        "contrarian"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 3550,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Mon Feb 09 19:03:52 +0000 2026"
+    },
+    {
+      "id": "item-1770904963791-7",
+      "title": "Sam Altman: Codex winning faster than expected",
+      "source": "x",
+      "sourceName": "@sama",
+      "url": "https://x.com/sama/status/2021606985469211065",
+      "insight": "Altman bullish on Codex as coding agent — competitive signal for agentic dev tools",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "claude-code",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 6120,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Feb 11 15:27:19 +0000 2026"
+    },
+    {
+      "id": "item-1770904974739-11",
+      "title": "Gemini Deep Research as AI research collaborator",
+      "source": "x",
+      "sourceName": "@GoogleDeepMind",
+      "url": "https://x.com/GoogleDeepMind/status/2021632302070026581",
+      "insight": "Google shows Gemini Deep Research acting as scientific collaborator — signals where agentic research tools are heading",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "research",
+        "models"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 1372,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Feb 11 17:07:55 +0000 2026"
+    },
+    {
+      "id": "item-1770904974739-12",
+      "title": "Agent observability vs traditional software observability",
+      "source": "x",
+      "sourceName": "@LangChain",
+      "url": "https://x.com/LangChain/status/2021722976769765734",
+      "insight": "LangChain frames why debugging agents requires fundamentally different observability than traditional software",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 3,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Feb 11 23:08:14 +0000 2026"
+    },
+    {
+      "id": "item-1770904974739-13",
+      "title": "LangSmith ships memory as first-class agent feature",
+      "source": "x",
+      "sourceName": "@LangChain",
+      "url": "https://x.com/LangChain/status/2021646666739413450",
+      "insight": "LangChain built memory into Agent Builder from day one — bet that stateful agents are the default, not the exception",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "multi-agent",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 66,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Feb 11 18:05:00 +0000 2026"
+    },
+    {
+      "id": "item-1770904984468-14",
+      "title": "Cursor raises limits 3x for Auto and Composer 1.5",
+      "source": "x",
+      "sourceName": "@cursor_ai",
+      "url": "https://x.com/cursor_ai/status/2021765377085308938",
+      "insight": "Cursor triples usage limits for individual plans — signals aggressive push to lock in developer workflows",
+      "relevance": 7,
+      "tags": [
+        "tools",
+        "agentic"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 931,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Feb 12 01:56:43 +0000 2026"
+    },
+    {
+      "id": "item-1770904984468-16",
+      "title": "Karpathy simplifies micrograd further — dramatic reduction",
+      "source": "x",
+      "sourceName": "@karpathy",
+      "url": "https://x.com/karpathy/status/2021862247568642485",
+      "insight": "Karpathy iterating on minimal LLM impl reveals how much complexity in modern ML is accidental",
+      "relevance": 7,
+      "tags": [
+        "research",
+        "tutorials",
+        "contrarian"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 409,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Feb 12 08:21:38 +0000 2026"
+    },
+    {
+      "id": "item-1770904996146-21",
+      "title": "Claude Code output styles: configure tone and format via /config",
+      "source": "x",
+      "sourceName": "@bcherny",
+      "url": "https://x.com/bcherny/status/2021701379409273093",
+      "insight": "Practical tip: use /config output styles to tailor Claude Code responses to your workflow",
+      "relevance": 7,
+      "tags": [
+        "claude-code",
+        "tutorials"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 89,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Feb 11 21:42:24 +0000 2026"
+    },
+    {
+      "id": "item-1770905008235-22",
+      "title": "Claude Code Hooks for Lifecycle Automation",
+      "source": "x",
+      "sourceName": "@bcherny",
+      "url": "https://x.com/bcherny/status/2021701059253874861",
+      "insight": "Hooks let you deterministically intercept Claude Code's lifecycle — routing, validation, custom workflows",
+      "relevance": 7,
+      "tags": [
+        "claude-code",
+        "agentic",
+        "tools"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 87,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Feb 11 21:41:08 +0000 2026"
+    },
+    {
+      "id": "item-1770905031832-24",
+      "title": "Voice-first AI coding is becoming the norm",
+      "source": "x",
+      "sourceName": "@alliekmiller",
+      "url": "https://x.com/alliekmiller/status/2021814741522686298",
+      "insight": "Allie Miller reports voice+screenshots approach to Claude Code is replacing typing — signals UX shift",
+      "relevance": 7,
+      "tags": [
+        "claude-code",
+        "tools"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 149,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Feb 12 05:12:52 +0000 2026"
+    },
+    {
+      "id": "item-1770905031832-25",
+      "title": "swyx: writing <5% of own code now",
+      "source": "x",
+      "sourceName": "@swyx",
+      "url": "https://x.com/swyx/status/2021881819671785782",
+      "insight": "Experienced dev hitting existential crisis on IDE usage — signals how fast AI coding is displacing manual work",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "claude-code",
+        "contrarian"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 5,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Feb 12 09:39:25 +0000 2026"
+    },
+    {
+      "id": "item-1770905031832-26",
+      "title": "GLM-5 open weights model at 1.5TB released",
+      "source": "x",
+      "sourceName": "@simonw",
+      "url": "https://x.com/simonw/status/2021665936328306924",
+      "insight": "Simon Willison tests massive new open-weights model — significant for open-source AI landscape",
+      "relevance": 7,
+      "tags": [
+        "models"
+      ],
+      "category": "models",
+      "engagement": {
+        "likes": 52,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Feb 11 19:21:34 +0000 2026"
+    },
+    {
+      "id": "item-1770905049383-29",
+      "title": "Cursor acquisition rumored — OpenAI or Meta bidding war",
+      "source": "x",
+      "sourceName": "@mckaywrigley",
+      "url": "https://x.com/mckaywrigley/status/2021793573960921268",
+      "insight": "McKay Wrigley interprets Lex Fridman pod as signaling imminent Cursor acquisition by OpenAI or Meta",
+      "relevance": 7,
+      "tags": [
+        "business",
+        "tools"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 81,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Feb 12 03:48:45 +0000 2026"
+    },
+    {
+      "id": "item-1770905077692-34",
+      "title": "Correlation Between Productivity Growth and AI Adoption",
+      "source": "x",
+      "sourceName": "@adam_tooze",
+      "url": "https://x.com/adam_tooze/status/2021943460412936466",
+      "insight": "Adam Tooze flags emerging data linking reported AI use to actual productivity gains at macro level",
+      "relevance": 7,
+      "tags": [
+        "business",
+        "research"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 6,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Feb 12 13:44:21 +0000 2026"
+    },
+    {
+      "id": "item-1770905077692-35",
+      "title": "Claude Now Offers Free Skills, File Creation & Connectors",
+      "source": "x",
+      "sourceName": "@itsafiz",
+      "url": "https://x.com/itsafiz/status/2021940554972770425",
+      "insight": "Anthropic expanding free tier with file creation, connectors and skills — lowers barrier to entry",
+      "relevance": 7,
+      "tags": [
+        "tools",
+        "models"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 2,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Feb 12 13:32:48 +0000 2026"
+    },
+    {
+      "id": "item-1770905088380-37",
+      "title": "Building quality AGENTS.md files for consistent AI coding workflows",
+      "source": "x",
+      "sourceName": "@dan325",
+      "url": "https://x.com/dan325/status/2021941802765525308",
+      "insight": "Practical tip: investing in structured agent instruction files pays off in consistent code output",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "claude-code"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Feb 12 13:37:46 +0000 2026"
+    },
+    {
+      "id": "item-1770905088380-38",
+      "title": "Scoring AI agents with 7 metrics in daily automated performance reviews",
+      "source": "x",
+      "sourceName": "@Sefytof",
+      "url": "https://x.com/Sefytof/status/2021941028475883987",
+      "insight": "Novel ops pattern: automated daily agent evals with scored metrics for execution quality",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "multi-agent"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Feb 12 13:34:41 +0000 2026"
+    },
+    {
+      "id": "item-1770905097812-41",
+      "title": "AI secretary for small businesses handling high message volume",
+      "source": "x",
+      "sourceName": "@Allende_SF",
+      "url": "https://x.com/Allende_SF/status/2021940358217973959",
+      "insight": "Real builder shipping AI agent for SMB customer comms — practical agentic use case",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "business"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 3,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Feb 12 13:32:01 +0000 2026"
+    },
+    {
+      "id": "item-1770905097812-42",
+      "title": "The part most people miss about vibe-coding",
+      "source": "x",
+      "sourceName": "@adambhighfill",
+      "url": "https://x.com/adambhighfill/status/2021940023520583708",
+      "insight": "Contrarian take on hidden costs/risks of AI-generated code that hype ignores",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "contrarian"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Feb 12 13:30:42 +0000 2026"
+    },
+    {
+      "id": "item-1770905107818-45",
+      "title": "21 strategy & product books turned into agent skills",
+      "source": "x",
+      "sourceName": "@jaskol_ski",
+      "url": "https://x.com/jaskol_ski/status/2021947086061629519",
+      "insight": "Practical pattern: encoding domain knowledge from books into reusable agent skills",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Feb 12 13:58:45 +0000 2026"
+    },
+    {
+      "id": "item-1770905131495-47",
+      "title": "Skills in OpenAI API",
+      "source": "rss",
+      "sourceName": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Feb/11/skills-in-openai-api/#atom-everything",
+      "insight": "OpenAI adds skills abstraction to API — signals convergence toward agentic tool-use patterns across providers",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "tools",
+        "models"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-02-11T19:19:22+00:00"
+    },
+    {
+      "id": "item-1770905131495-49",
+      "title": "Showboat and Rodney: Agents That Demo What They Built",
+      "source": "rss",
+      "sourceName": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Feb/10/showboat-and-rodney/#atom-everything",
+      "insight": "Tools for agents to present their own work — key UX pattern for agentic system adoption",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "multi-agent",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-02-10T17:45:29+00:00"
+    },
+    {
+      "id": "item-1770905147973-54",
+      "title": "What's next for Chinese open-source AI",
+      "source": "rss",
+      "sourceName": "MIT Tech Review AI",
+      "url": "https://www.technologyreview.com/2026/02/12/1132811/whats-next-for-chinese-open-source-ai/",
+      "insight": "Strategic look at China's open-source AI trajectory — competitive intelligence for model selection decisions",
+      "relevance": 7,
+      "tags": [
+        "models",
+        "business"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu, 12 Feb 2026 10:00:00 +0000"
+    },
+    {
+      "id": "item-1770904963790-0",
+      "title": "Anthropic pushes for AI policy before adoption window closes",
+      "source": "x",
+      "sourceName": "@AnthropicAI",
+      "url": "https://x.com/AnthropicAI/status/2021921419026657362",
+      "insight": "Anthropic lobbying on AI policy timing — signals regulatory acceleration ahead",
+      "relevance": 6,
+      "tags": [
+        "business"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 627,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Feb 12 12:16:46 +0000 2026"
+    },
+    {
+      "id": "item-1770904963791-8",
+      "title": "GPT-5.2 instant model updated in ChatGPT",
+      "source": "x",
+      "sourceName": "@sama",
+      "url": "https://x.com/sama/status/2021452911511998557",
+      "insight": "Incremental GPT-5.2 update — OpenAI iterating fast on instant-tier models",
+      "relevance": 6,
+      "tags": [
+        "models"
+      ],
+      "category": "models",
+      "engagement": {
+        "likes": 7004,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Feb 11 05:15:05 +0000 2026"
+    },
+    {
+      "id": "item-1770904996146-19",
+      "title": "Claude Code team debugging a Twitter thread-posting bug live",
+      "source": "x",
+      "sourceName": "@bcherny",
+      "url": "https://x.com/bcherny/status/2021702423895736492",
+      "insight": "Anthropic engineer shows real-time debugging process — rare transparency from a frontier lab",
+      "relevance": 6,
+      "tags": [
+        "claude-code",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 93,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Feb 11 21:46:33 +0000 2026"
+    },
+    {
+      "id": "item-1770905008235-23",
+      "title": "Claude Code Custom Status Lines",
+      "source": "x",
+      "sourceName": "@bcherny",
+      "url": "https://x.com/bcherny/status/2021700784019452195",
+      "insight": "Status lines below composer show model, directory, remaining context — useful for power users managing multiple projects",
+      "relevance": 6,
+      "tags": [
+        "claude-code",
+        "tools"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 193,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Feb 11 21:40:02 +0000 2026"
+    },
+    {
+      "id": "item-1770905058321-31",
+      "title": "Perplexity fixes search over conversation history",
+      "source": "x",
+      "sourceName": "@AravSrinivas",
+      "url": "https://x.com/AravSrinivas/status/2021322540904481163",
+      "insight": "Perplexity improving UX for persistent context across threads — table stakes for AI search tools",
+      "relevance": 6,
+      "tags": [
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 433,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Tue Feb 10 20:37:02 +0000 2026"
+    },
+    {
+      "id": "item-1770905088380-36",
+      "title": "Parallel AI coding agents working on different features simultaneously",
+      "source": "x",
+      "sourceName": "@syndgofficial",
+      "url": "https://x.com/syndgofficial/status/2021943598439444758",
+      "insight": "Practical pattern: running 4 AI coding agents in parallel on separate features to ship faster",
+      "relevance": 6,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 1,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Feb 12 13:44:54 +0000 2026"
+    },
+    {
+      "id": "item-1770905088380-39",
+      "title": "Fundamentals still matter more than vibe coding",
+      "source": "x",
+      "sourceName": "@DINESHVERM578",
+      "url": "https://x.com/DINESHVERM578/status/2021944465393692716",
+      "insight": "Contrarian take: everyone's vibe coding but few understand the fundamentals underneath",
+      "relevance": 6,
+      "tags": [
+        "contrarian",
+        "agentic"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 1,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Feb 12 13:48:21 +0000 2026"
+    },
+    {
+      "id": "item-1770905097812-40",
+      "title": "\"Vibe coding\" is a slur — it's \"agentic engineering\"",
+      "source": "x",
+      "sourceName": "@JohnMalagise",
+      "url": "https://x.com/JohnMalagise/status/2021934183900123421",
+      "insight": "Pushback on trivializing AI-assisted dev: reframing as serious engineering discipline",
+      "relevance": 6,
+      "tags": [
+        "agentic",
+        "contrarian"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Feb 12 13:07:29 +0000 2026"
+    },
+    {
+      "id": "item-1770905107818-43",
+      "title": "AI can't replace specialized complex work — pushback on automation hype",
+      "source": "x",
+      "sourceName": "@phire7",
+      "url": "https://x.com/phire7/status/2021946589280084140",
+      "insight": "Contrarian take: specialists pushing back on assumption that AI replaces deep domain expertise",
+      "relevance": 6,
+      "tags": [
+        "contrarian",
+        "business"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Feb 12 13:56:47 +0000 2026"
+    },
+    {
+      "id": "item-1770905117901-46",
+      "title": "Developer uses AI to implement unfamiliar domain (animation rendering)",
+      "source": "x",
+      "sourceName": "@markessien",
+      "url": "https://x.com/markessien/status/2021947051706085568",
+      "insight": "Real-world example of AI-assisted development in unknown domains — practical agentic coding pattern",
+      "relevance": 6,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 2,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Feb 12 13:58:37 +0000 2026"
+    },
+    {
+      "id": "item-1770905131495-52",
+      "title": "Brands Bringing Ads to ChatGPT",
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/877148/openai-chatgpt-advertisers-target-adobe-audible",
+      "insight": "OpenAI monetizing via ads signals platform shift — changes competitive dynamics for AI business models",
+      "relevance": 6,
+      "tags": [
+        "business"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-02-11T11:08:03-05:00"
+    },
+    {
+      "id": "item-1770905147973-53",
+      "title": "AI is already making online crimes easier — and it could get much worse",
+      "source": "rss",
+      "sourceName": "MIT Tech Review AI",
+      "url": "https://www.technologyreview.com/2026/02/12/1132386/ai-already-making-online-swindles-easier/",
+      "insight": "Practical breakdown of how AI lowers the bar for cybercrime; essential risk awareness for any AI deployer",
+      "relevance": 6,
+      "tags": [
+        "agentic",
+        "business"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu, 12 Feb 2026 11:00:00 +0000"
+    },
+    {
+      "id": "item-1770905147973-56",
+      "title": "QuitGPT campaign urges people to cancel ChatGPT subscriptions",
+      "source": "rss",
+      "sourceName": "MIT Tech Review AI",
+      "url": "https://www.technologyreview.com/2026/02/10/1132577/a-quitgpt-campaign-is-urging-people-to-cancel-chatgpt-subscriptions/",
+      "insight": "Organized consumer pushback against OpenAI — contrarian signal on AI adoption sentiment",
+      "relevance": 6,
+      "tags": [
+        "contrarian",
+        "business"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Tue, 10 Feb 2026 17:00:24 +0000"
+    }
+  ],
+  "stats": {
+    "rawFetched": 282,
+    "kept": 60,
+    "sourceBreakdown": {
+      "x": 242,
+      "rss": 40
+    }
+  }
+}

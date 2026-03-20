@@ -1,0 +1,1411 @@
+{
+  "date": "2026-03-07",
+  "generatedAt": "2026-03-07T15:05:07.117Z",
+  "bigPicture": "AI agents are escaping the chat window into always-on autonomous roles — finding vulnerabilities, monitoring codebases, and running factories — but the infrastructure to make them remember, improve, and stay secure is barely keeping up.",
+  "dataPoints": [
+    {
+      "stat": "22 Firefox vulnerabilities",
+      "context": "Claude Opus 4.6 found real security bugs in a production browser, proving AI-driven security auditing works today"
+    },
+    {
+      "stat": "56,000 employees",
+      "context": "Toyota deployed AI agents at enterprise scale via LangChain — not a pilot, full production"
+    },
+    {
+      "stat": "4B parameters matching GPT-4o",
+      "context": "Qwen 3.5 4B scores competitively with a model 100x+ its size, collapsing the cost of frontier-level capability"
+    },
+    {
+      "stat": "33% training speedup in one month",
+      "context": "nanochat trains GPT-2 in 2hrs on a single node — open-source efficiency is compounding fast"
+    }
+  ],
+  "tldr": [
+    "GPT-5.4 launches across ChatGPT, API, and Codex with a focus on factuality, efficiency, and agentic workflows — the frontier model race intensifies",
+    "AI security auditing goes production: Claude finds 22 Firefox vulns, OpenAI ships a Codex Security agent, but models are better at finding bugs than fixing them",
+    "Coding agents evolve from copilots to autonomous operators — Cursor Automations run background agents, Claude Code adds recurring task loops",
+    "Persistent memory emerges as the critical unsolved problem: CrewAI and LangChain both ship cognitive memory and skill evaluation to stop agents from repeating mistakes",
+    "Small open models close the gap with frontier labs — Qwen 3.5 4B matching GPT-4o signals capability is commoditizing faster than pricing can adapt"
+  ],
+  "items": [
+    {
+      "id": "item-1772895859180-44",
+      "title": "OpenAI launches GPT-5.4",
+      "source": "hackernews",
+      "sourceName": "mudkipdev",
+      "url": "https://openai.com/index/introducing-gpt-5-4/",
+      "insight": "Major model release from OpenAI — benchmark leap, need to evaluate cost/performance vs Claude for production use",
+      "relevance": 10,
+      "tags": [
+        "models",
+        "business"
+      ],
+      "category": "models",
+      "engagement": {
+        "likes": 998,
+        "comments": 788,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-05T18:08:10.000Z"
+    },
+    {
+      "id": "item-1772895735113-2",
+      "title": "Claude Opus 4.6 finds 22 Firefox vulnerabilities with Mozilla",
+      "source": "x",
+      "sourceName": "@AnthropicAI",
+      "url": "https://x.com/AnthropicAI/status/2029978909207617634",
+      "insight": "Concrete proof AI is production-ready for security auditing — 22 real vulns in a major browser",
+      "relevance": 9,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 13014,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri Mar 06 17:54:21 +0000 2026"
+    },
+    {
+      "id": "item-1772895735113-6",
+      "title": "GPT-5.4: most factual and efficient OpenAI model yet",
+      "source": "x",
+      "sourceName": "@OpenAI",
+      "url": "https://x.com/OpenAI/status/2029620623199326334",
+      "insight": "Fewer tokens, faster speed, better factuality — direct cost and quality impact for API users",
+      "relevance": 9,
+      "tags": [
+        "models",
+        "business"
+      ],
+      "category": "models",
+      "engagement": {
+        "likes": 2803,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Mar 05 18:10:39 +0000 2026"
+    },
+    {
+      "id": "item-1772895735113-7",
+      "title": "GPT-5.4 Thinking and Pro rolling out in ChatGPT, API, and Codex",
+      "source": "x",
+      "sourceName": "@OpenAI",
+      "url": "https://x.com/OpenAI/status/2029620619743219811",
+      "insight": "Major model release across all OpenAI surfaces — the flagship launch post",
+      "relevance": 9,
+      "tags": [
+        "models",
+        "tools"
+      ],
+      "category": "models",
+      "engagement": {
+        "likes": 22989,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Mar 05 18:10:38 +0000 2026"
+    },
+    {
+      "id": "item-1772895749995-15",
+      "title": "Cursor Automations — always-on background agents",
+      "source": "x",
+      "sourceName": "@cursor_ai",
+      "url": "https://x.com/cursor_ai/status/2029604184002269662",
+      "insight": "Cursor moves from copilot to autonomous codebase monitor. Shifts coding agent paradigm.",
+      "relevance": 9,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 419,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Mar 05 17:05:20 +0000 2026"
+    },
+    {
+      "id": "item-1772895749995-16",
+      "title": "Cursor Automations launch — trigger-based autonomous agents",
+      "source": "x",
+      "sourceName": "@cursor_ai",
+      "url": "https://x.com/cursor_ai/status/2029604182286856663",
+      "insight": "Always-on agents watching your codebase = new category. Not pair programming, autonomous ops.",
+      "relevance": 9,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 6965,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Mar 05 17:05:19 +0000 2026"
+    },
+    {
+      "id": "item-1772895761110-19",
+      "title": "Karpathy: The real benchmark is the research agent that improves models",
+      "source": "x",
+      "sourceName": "@karpathy",
+      "url": "https://x.com/karpathy/status/2029702379034267985",
+      "insight": "Reframes AGI benchmark as automated ML research — agents that improve their own training",
+      "relevance": 9,
+      "tags": [
+        "agentic",
+        "research"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 918,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Mar 05 23:35:31 +0000 2026"
+    },
+    {
+      "id": "item-1772895771797-25",
+      "title": "How CrewAI built Cognitive Memory for Agentic Systems",
+      "source": "x",
+      "sourceName": "@joaomdmoura",
+      "url": "https://x.com/joaomdmoura/status/2029625327778156682",
+      "insight": "Technical deep-dive on persistent memory for agents — directly relevant to multi-agent system design.",
+      "relevance": 9,
+      "tags": [
+        "multi-agent",
+        "agentic",
+        "research"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 489,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Mar 05 18:29:21 +0000 2026"
+    },
+    {
+      "id": "item-1772895786620-29",
+      "title": "Qwen 3.5 4B outscores GPT-4o on classic benchmarks",
+      "source": "x",
+      "sourceName": "@simonw",
+      "url": "https://x.com/simonw/status/2030067107371831757",
+      "insight": "A 4B param open model matching GPT-4o on benchmarks — massive cost/access implications",
+      "relevance": 9,
+      "tags": [
+        "models",
+        "contrarian"
+      ],
+      "category": "models",
+      "engagement": {
+        "likes": 456,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri Mar 06 23:44:49 +0000 2026"
+    },
+    {
+      "id": "item-1772895859180-47",
+      "title": "Clinejection: Compromising Cline via prompt injection in issue triager",
+      "source": "rss",
+      "sourceName": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Mar/6/clinejection/#atom-everything",
+      "insight": "Production AI coding tool compromised through prompt injection — critical security lesson for agentic systems",
+      "relevance": 9,
+      "tags": [
+        "agentic",
+        "contrarian",
+        "tools"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-06T02:39:04+00:00"
+    },
+    {
+      "id": "item-1772895873579-52",
+      "title": "OpenAI launches GPT-5.4 with focus on autonomous agents",
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/889926/openai-gpt-5-4-model-release-ai-agents",
+      "insight": "New frontier model explicitly targeting agentic workflows — direct competitor benchmark for Claude",
+      "relevance": 9,
+      "tags": [
+        "models",
+        "agentic"
+      ],
+      "category": "models",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-05T13:00:00-05:00"
+    },
+    {
+      "id": "item-1772895885180-60",
+      "title": "Introducing GPT-5.4",
+      "source": "rss",
+      "sourceName": "OpenAI Blog",
+      "url": "https://openai.com/index/introducing-gpt-5-4",
+      "insight": "New flagship model launch — competitive landscape shift for anyone choosing between frontier models",
+      "relevance": 9,
+      "tags": [
+        "models"
+      ],
+      "category": "models",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu, 05 Mar 2026 10:00:00 GMT"
+    },
+    {
+      "id": "item-1772895735113-1",
+      "title": "Frontier models as vulnerability researchers — better at finding than fixing",
+      "source": "x",
+      "sourceName": "@AnthropicAI",
+      "url": "https://x.com/AnthropicAI/status/2029978911099244944",
+      "insight": "Key insight: AI finds vulns faster than it patches them. Shapes how teams should deploy AI in security",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "research",
+        "contrarian"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 987,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri Mar 06 17:54:22 +0000 2026"
+    },
+    {
+      "id": "item-1772895735113-4",
+      "title": "OpenAI launches Codex Security agent in research preview",
+      "source": "x",
+      "sourceName": "@OpenAI",
+      "url": "https://x.com/OpenAI/status/2029985250512920743",
+      "insight": "Dedicated AI agent for appsec — direct competition to human pen-testers and SAST tools",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 2248,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri Mar 06 18:19:33 +0000 2026"
+    },
+    {
+      "id": "item-1772895735113-5",
+      "title": "OpenAI publishes Chain-of-Thought Controllability research",
+      "source": "x",
+      "sourceName": "@OpenAI",
+      "url": "https://x.com/OpenAI/status/2029650046002811280",
+      "insight": "New eval suite for steering reasoning chains — matters for anyone building on thinking models",
+      "relevance": 8,
+      "tags": [
+        "research",
+        "models"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 2721,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Mar 05 20:07:34 +0000 2026"
+    },
+    {
+      "id": "item-1772895749995-11",
+      "title": "Toyota equipped 56,000 employees with AI agents via LangChain",
+      "source": "x",
+      "sourceName": "@LangChain",
+      "url": "https://x.com/LangChain/status/2030035358994554916",
+      "insight": "Enterprise-scale agent deployment case study — 56K users is real production, not a demo.",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "business"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 24,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri Mar 06 21:38:40 +0000 2026"
+    },
+    {
+      "id": "item-1772895749995-13",
+      "title": "LangSmith Skills + CLI — coding agents improve themselves",
+      "source": "x",
+      "sourceName": "@LangChain",
+      "url": "https://x.com/LangChain/status/2029272199073354105",
+      "insight": "Meta-level: agents that write their own skill improvements. LangSmith betting on agent-driven dev loops.",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "tools",
+        "claude-code"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 308,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Mar 04 19:06:08 +0000 2026"
+    },
+    {
+      "id": "item-1772895749995-14",
+      "title": "GPT 5.4 now available in Cursor",
+      "source": "x",
+      "sourceName": "@cursor_ai",
+      "url": "https://x.com/cursor_ai/status/2029620689905365081",
+      "insight": "New frontier model drop — described as more assertive. Direct competitor benchmark for Claude in coding.",
+      "relevance": 8,
+      "tags": [
+        "models",
+        "tools"
+      ],
+      "category": "models",
+      "engagement": {
+        "likes": 3337,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Mar 05 18:10:55 +0000 2026"
+    },
+    {
+      "id": "item-1772895761110-20",
+      "title": "nanochat trains GPT-2 in 2hrs on single 8xH100 node",
+      "source": "x",
+      "sourceName": "@karpathy",
+      "url": "https://x.com/karpathy/status/2029701092347630069",
+      "insight": "Open-source LLM training efficiency improving fast — 33% speedup in one month",
+      "relevance": 8,
+      "tags": [
+        "research",
+        "models"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 5709,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Mar 05 23:30:25 +0000 2026"
+    },
+    {
+      "id": "item-1772895771797-22",
+      "title": "Claude Code launches /loop for recurring tasks",
+      "source": "x",
+      "sourceName": "@bcherny",
+      "url": "https://x.com/bcherny/status/2030193932404150413",
+      "insight": "New agentic coding primitive: schedule recurring tasks up to 3 days. Shows where autonomous dev tools are heading.",
+      "relevance": 8,
+      "tags": [
+        "claude-code",
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 6582,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Sat Mar 07 08:08:47 +0000 2026"
+    },
+    {
+      "id": "item-1772895771797-24",
+      "title": "Agentic systems trapped in Groundhog Day — case for cognitive memory",
+      "source": "x",
+      "sourceName": "@joaomdmoura",
+      "url": "https://x.com/joaomdmoura/status/2029965290558345578",
+      "insight": "CrewAI founder on why agents repeat mistakes without persistent memory. Core agentic architecture problem.",
+      "relevance": 8,
+      "tags": [
+        "multi-agent",
+        "agentic",
+        "research"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 45,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri Mar 06 17:00:14 +0000 2026"
+    },
+    {
+      "id": "item-1772895797296-30",
+      "title": "LangChain on evaluating whether agent skills actually help",
+      "source": "x",
+      "sourceName": "@hwchase17",
+      "url": "https://x.com/hwchase17/status/2029627634674716889",
+      "insight": "Practical framework for measuring if agent skills improve performance — key gap most teams skip",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 115,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Mar 05 18:38:31 +0000 2026"
+    },
+    {
+      "id": "item-1772895843241-39",
+      "title": "LLMs work best when users define acceptance criteria first",
+      "source": "hackernews",
+      "sourceName": "dnw",
+      "url": "https://blog.katanaquant.com/p/your-llm-doesnt-write-correct-code",
+      "insight": "Practical framework: treat LLM prompts like test-driven dev — define pass/fail before generating",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "tutorials"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 309,
+        "comments": 221,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-07T01:17:57.000Z"
+    },
+    {
+      "id": "item-1772895843241-41",
+      "title": "Anthropic red-teams Firefox security with Claude",
+      "source": "hackernews",
+      "sourceName": "todsacerdoti",
+      "url": "https://www.anthropic.com/news/mozilla-firefox-security",
+      "insight": "Anthropic partnered with Mozilla to harden Firefox — concrete enterprise use case for AI security auditing",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 588,
+        "comments": 163,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-06T11:53:18.000Z"
+    },
+    {
+      "id": "item-1772895859180-46",
+      "title": "Agentic manual testing — Simon Willison",
+      "source": "rss",
+      "sourceName": "Simon Willison",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/agentic-manual-testing/#atom-everything",
+      "insight": "Practical patterns for using AI agents as manual testers — directly applicable to agentic engineering",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "tutorials"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-06T05:43:54+00:00"
+    },
+    {
+      "id": "item-1772895859180-48",
+      "title": "Simon Willison's take on GPT-5.4",
+      "source": "rss",
+      "sourceName": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Mar/5/introducing-gpt54/#atom-everything",
+      "insight": "Independent technical analysis of GPT-5.4 capabilities and limitations — cuts through marketing hype",
+      "relevance": 8,
+      "tags": [
+        "models",
+        "contrarian"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-05T23:56:09+00:00"
+    },
+    {
+      "id": "item-1772895859180-49",
+      "title": "Can coding agents relicense open source via clean room implementation?",
+      "source": "rss",
+      "sourceName": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Mar/5/chardet/#atom-everything",
+      "insight": "Legal minefield: AI agents rewriting OSS code may not escape copyleft — huge risk for enterprises",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "contrarian",
+        "business"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-05T16:49:33+00:00"
+    },
+    {
+      "id": "item-1772895873579-51",
+      "title": "Pentagon formally labels Anthropic a supply-chain risk",
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/890347/pentagon-anthropic-supply-chain-risk",
+      "insight": "Major signal for enterprise AI procurement — gov classification could ripple into corporate vendor assessments",
+      "relevance": 8,
+      "tags": [
+        "business",
+        "contrarian"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-05T18:02:22-05:00"
+    },
+    {
+      "id": "item-1772895873579-57",
+      "title": "OpenAI Codex Security: research preview",
+      "source": "rss",
+      "sourceName": "OpenAI Blog",
+      "url": "https://openai.com/index/codex-security-now-in-research-preview",
+      "insight": "AI for code vulnerability detection — directly relevant to agentic coding workflows and CI/CD pipelines",
+      "relevance": 8,
+      "tags": [
+        "tools",
+        "agentic",
+        "claude-code"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri, 06 Mar 2026 10:00:00 GMT"
+    },
+    {
+      "id": "item-1772895885180-59",
+      "title": "GPT-5.4 Thinking System Card",
+      "source": "rss",
+      "sourceName": "OpenAI Blog",
+      "url": "https://openai.com/index/gpt-5-4-thinking-system-card",
+      "insight": "Safety/capability details for OpenAI's latest reasoning model — essential for eval and deployment decisions",
+      "relevance": 8,
+      "tags": [
+        "models",
+        "research"
+      ],
+      "category": "models",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu, 05 Mar 2026 10:00:00 GMT"
+    },
+    {
+      "id": "item-1772895885180-61",
+      "title": "Reasoning models struggle to control their chains of thought",
+      "source": "rss",
+      "sourceName": "OpenAI Blog",
+      "url": "https://openai.com/index/reasoning-models-chain-of-thought-controllability",
+      "insight": "CoT controllability research — directly relevant to prompt engineering and agentic system design",
+      "relevance": 8,
+      "tags": [
+        "research",
+        "agentic"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu, 05 Mar 2026 10:00:00 GMT"
+    },
+    {
+      "id": "item-1772895735113-0",
+      "title": "Claude Opus 4.6 BrowseComp evaluation insights",
+      "source": "x",
+      "sourceName": "@AnthropicAI",
+      "url": "https://x.com/AnthropicAI/status/2029999833717838016",
+      "insight": "Anthropic shares engineering details on how Opus 4.6 handles complex web browsing tasks",
+      "relevance": 7,
+      "tags": [
+        "models",
+        "research"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 1721,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri Mar 06 19:17:30 +0000 2026"
+    },
+    {
+      "id": "item-1772895735114-8",
+      "title": "Sam Altman on GPT-5.4 launch — 'much' improved across the board",
+      "source": "x",
+      "sourceName": "@sama",
+      "url": "https://x.com/sama/status/2029622732594499630",
+      "insight": "CEO framing: efficiency + quality leap. Signals OpenAI competing hard on cost-performance",
+      "relevance": 7,
+      "tags": [
+        "models",
+        "business"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 12865,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Mar 05 18:19:02 +0000 2026"
+    },
+    {
+      "id": "item-1772895735114-9",
+      "title": "Google recap: Gemini 3.1 Flash-Lite and weekly launches",
+      "source": "x",
+      "sourceName": "@GoogleAI",
+      "url": "https://x.com/GoogleAI/status/2030037949287391724",
+      "insight": "Flash-Lite as most cost-efficient Gemini yet — relevant for budget-conscious API builders",
+      "relevance": 7,
+      "tags": [
+        "models",
+        "business"
+      ],
+      "category": "models",
+      "engagement": {
+        "likes": 183,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri Mar 06 21:48:58 +0000 2026"
+    },
+    {
+      "id": "item-1772895749995-10",
+      "title": "Google Nano Banana 2 — from image gen to deployable software",
+      "source": "x",
+      "sourceName": "@GoogleAI",
+      "url": "https://x.com/GoogleAI/status/2030003316520861835",
+      "insight": "Google positioning on-device models for code generation, not just media. Watch for edge AI shift.",
+      "relevance": 7,
+      "tags": [
+        "models",
+        "agentic"
+      ],
+      "category": "models",
+      "engagement": {
+        "likes": 453,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri Mar 06 19:31:20 +0000 2026"
+    },
+    {
+      "id": "item-1772895749995-12",
+      "title": "LangChain: How to evaluate coding agent skills",
+      "source": "x",
+      "sourceName": "@LangChain",
+      "url": "https://x.com/LangChain/status/2029618086374944771",
+      "insight": "Eval frameworks for coding agents becoming critical as skill-based architectures emerge.",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 240,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Mar 05 18:00:34 +0000 2026"
+    },
+    {
+      "id": "item-1772895749995-17",
+      "title": "Cursor now in JetBrains via Agent Client Protocol",
+      "source": "x",
+      "sourceName": "@cursor_ai",
+      "url": "https://x.com/cursor_ai/status/2029222015736197205",
+      "insight": "Agent Client Protocol becoming the USB-C of AI coding tools. Interop play worth tracking.",
+      "relevance": 7,
+      "tags": [
+        "tools",
+        "agentic"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 1821,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Mar 04 15:46:44 +0000 2026"
+    },
+    {
+      "id": "item-1772895761110-18",
+      "title": "Karpathy: GPT training is ~1,000 lines of code",
+      "source": "x",
+      "sourceName": "@karpathy",
+      "url": "https://x.com/karpathy/status/2029957088022254014",
+      "insight": "Demystifies LLM training complexity — the code is simple, the compute and data are hard",
+      "relevance": 7,
+      "tags": [
+        "research",
+        "contrarian"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 81,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri Mar 06 16:27:39 +0000 2026"
+    },
+    {
+      "id": "item-1772895761110-21",
+      "title": "Karpathy: Open research discussion on Twitter is dying",
+      "source": "x",
+      "sourceName": "@karpathy",
+      "url": "https://x.com/karpathy/status/2029696850366971921",
+      "insight": "AI research going behind closed doors — less open knowledge sharing, more corporate silos",
+      "relevance": 7,
+      "tags": [
+        "contrarian",
+        "research"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 4295,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Mar 05 23:13:33 +0000 2026"
+    },
+    {
+      "id": "item-1772895771797-23",
+      "title": "Claude Code is 100% written by Claude Code",
+      "source": "x",
+      "sourceName": "@bcherny",
+      "url": "https://x.com/bcherny/status/2030109840555790357",
+      "insight": "AI writing its own tooling is a milestone — self-improving dev tools are here.",
+      "relevance": 7,
+      "tags": [
+        "claude-code",
+        "agentic"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 2789,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Sat Mar 07 02:34:38 +0000 2026"
+    },
+    {
+      "id": "item-1772895777797-26",
+      "title": "Step-by-step guide to setting up Claude Code",
+      "source": "x",
+      "sourceName": "@alliekmiller",
+      "url": "https://x.com/alliekmiller/status/2029962288531193936",
+      "insight": "Practical onboarding guide for Claude Code by Allie K Miller — useful for teams adopting agentic coding",
+      "relevance": 7,
+      "tags": [
+        "claude-code",
+        "tutorials"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 26,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri Mar 06 16:48:19 +0000 2026"
+    },
+    {
+      "id": "item-1772895786620-27",
+      "title": "Simon Willison suspects Qwen trained on OpenAI model outputs",
+      "source": "x",
+      "sourceName": "@simonw",
+      "url": "https://x.com/simonw/status/2030139125656080876",
+      "insight": "Raises data provenance concerns — small model beating GPT-4o may indicate training on proprietary outputs",
+      "relevance": 7,
+      "tags": [
+        "models",
+        "contrarian"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 53,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Sat Mar 07 04:31:00 +0000 2026"
+    },
+    {
+      "id": "item-1772895786620-28",
+      "title": "Qwen 3.5 4B runs on iPhone via local app",
+      "source": "x",
+      "sourceName": "@simonw",
+      "url": "https://x.com/simonw/status/2030073829788377475",
+      "insight": "3GB model running locally on phone — edge AI getting real for mobile-first markets",
+      "relevance": 7,
+      "tags": [
+        "models",
+        "tools"
+      ],
+      "category": "models",
+      "engagement": {
+        "likes": 72,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Sat Mar 07 00:11:32 +0000 2026"
+    },
+    {
+      "id": "item-1772895797296-31",
+      "title": "LangSmith CLI + skills for teaching agents to use it",
+      "source": "x",
+      "sourceName": "@hwchase17",
+      "url": "https://x.com/hwchase17/status/2029282021533729244",
+      "insight": "Meta-pattern: agents that learn to use dev tools themselves — tracing and evals via CLI",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 115,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Mar 04 19:45:10 +0000 2026"
+    },
+    {
+      "id": "item-1772895797296-32",
+      "title": "LangChain releases agent skills for LangGraph and DeepAgents",
+      "source": "x",
+      "sourceName": "@hwchase17",
+      "url": "https://x.com/hwchase17/status/2029274371710501049",
+      "insight": "260♥ — skills-based agent architecture gaining serious traction as standard pattern",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 260,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Mar 04 19:14:46 +0000 2026"
+    },
+    {
+      "id": "item-1772895805237-34",
+      "title": "Perplexity Computer: World Radio demo by Arav Srinivas",
+      "source": "x",
+      "sourceName": "@AravSrinivas",
+      "url": "https://x.com/AravSrinivas/status/2030112272597881056",
+      "insight": "Perplexity ships 'Computer' — agentic product that builds apps. Shows where search-native AI is heading.",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 487,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Sat Mar 07 02:44:18 +0000 2026"
+    },
+    {
+      "id": "item-1772895831285-36",
+      "title": "New Course: Build and Train an LLM with JAX (Andrew Ng + Google)",
+      "source": "x",
+      "sourceName": "@AndrewYNg",
+      "url": "https://x.com/AndrewYNg/status/2029266102178693378",
+      "insight": "Hands-on LLM training course using JAX — relevant for practitioners wanting to go beyond API-only usage",
+      "relevance": 7,
+      "tags": [
+        "tutorials",
+        "models"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 2288,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Mar 04 18:41:55 +0000 2026"
+    },
+    {
+      "id": "item-1772895831285-37",
+      "title": "AI-Generated Slop Security Reports Flooding Open Source Projects",
+      "source": "x",
+      "sourceName": "@steipete",
+      "url": "https://x.com/steipete/status/2030279464098074839",
+      "insight": "AI-generated fake security reports wasting maintainer time — real signal on AI misuse costs",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "contrarian"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 396,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Sat Mar 07 13:48:39 +0000 2026"
+    },
+    {
+      "id": "item-1772895843241-38",
+      "title": "60-year-old developer reignited by Claude Code",
+      "source": "hackernews",
+      "sourceName": "shannoncc",
+      "url": "https://news.ycombinator.com/item?id=47282777",
+      "insight": "Viral HN thread shows Claude Code lowering barriers for experienced non-daily coders — market signal",
+      "relevance": 7,
+      "tags": [
+        "claude-code",
+        "agentic"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 712,
+        "comments": 595,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-07T00:05:06.000Z"
+    },
+    {
+      "id": "item-1772895859180-43",
+      "title": "Claude-replay: Video-like player for Claude Code sessions",
+      "source": "hackernews",
+      "sourceName": "es617",
+      "url": "https://github.com/es617/claude-replay",
+      "insight": "Replay and review Claude Code sessions like video — useful for teams auditing agentic coding workflows",
+      "relevance": 7,
+      "tags": [
+        "claude-code",
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 89,
+        "comments": 30,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-06T15:57:27.000Z"
+    },
+    {
+      "id": "item-1772895859180-45",
+      "title": "Anthropic and the Pentagon",
+      "source": "rss",
+      "sourceName": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Mar/6/anthropic-and-the-pentagon/#atom-everything",
+      "insight": "Anthropic's defense contracting moves — signals enterprise/gov AI market direction and trust dynamics",
+      "relevance": 7,
+      "tags": [
+        "business",
+        "contrarian"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-06T17:26:50+00:00"
+    },
+    {
+      "id": "item-1772895859180-50",
+      "title": "Grammarly using expert identities without permission for AI features",
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/890921/grammarly-ai-expert-reviews",
+      "insight": "Grammarly caught using people's identities for AI — trust erosion pattern repeating across AI companies",
+      "relevance": 7,
+      "tags": [
+        "business",
+        "contrarian"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-06T15:58:24-05:00"
+    },
+    {
+      "id": "item-1772895873579-53",
+      "title": "Meta AI glasses send footage to human reviewers in Kenya",
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "url": "https://www.theverge.com/tech/889637/meta-ai-smart-glasses-human-reviewers-kenya",
+      "insight": "AI labor supply chain exposed — privacy and ethics risk for any company using outsourced annotation",
+      "relevance": 7,
+      "tags": [
+        "business",
+        "contrarian"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-05T11:37:52-05:00"
+    },
+    {
+      "id": "item-1772895873579-54",
+      "title": "AI tools can unmask anonymous online accounts",
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/889395/ai-agents-unmask-anonymous-online-accounts",
+      "insight": "New attack surface: AI-powered deanonymization has real implications for security and privacy models",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "research"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-05T08:30:00-05:00"
+    },
+    {
+      "id": "item-1772895873579-55",
+      "title": "Anthropic makes last-ditch effort to salvage Pentagon deal",
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/889782/anthropic-pentagon-discussions-ai-deal",
+      "insight": "Context for the supply-chain risk story — Anthropic's gov strategy is a bellwether for AI enterprise sales",
+      "relevance": 7,
+      "tags": [
+        "business"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-05T06:46:46-05:00"
+    },
+    {
+      "id": "item-1772895873579-58",
+      "title": "How Descript enables multilingual video dubbing with OpenAI",
+      "source": "rss",
+      "sourceName": "OpenAI Blog",
+      "url": "https://openai.com/index/descript",
+      "insight": "Production case study of AI dubbing at scale — relevant for LATAM content localization strategies",
+      "relevance": 7,
+      "tags": [
+        "tools",
+        "latam"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri, 06 Mar 2026 10:00:00 GMT"
+    },
+    {
+      "id": "item-1772895885180-63",
+      "title": "Interview: Gregory Allen on Anthropic and the U.S. Government",
+      "source": "rss",
+      "sourceName": "Ben Thompson (Stratechery)",
+      "url": "https://stratechery.com/2026/an-interview-with-gregory-allen-about-anthropic-and-the-u-s-government/",
+      "insight": "Anthropic's government strategy — critical context for AI policy and enterprise procurement decisions",
+      "relevance": 7,
+      "tags": [
+        "business"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu, 05 Mar 2026 11:00:00 +0000"
+    },
+    {
+      "id": "item-1772895885180-64",
+      "title": "Don't trust GenAI to do your taxes — or with people's lives",
+      "source": "rss",
+      "sourceName": "Gary Marcus",
+      "url": "https://garymarcus.substack.com/p/dont-trust-generative-ai-to-do-your",
+      "insight": "Marcus on reliability gaps in high-stakes domains — useful counterweight for deployment risk assessment",
+      "relevance": 7,
+      "tags": [
+        "contrarian"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu, 05 Mar 2026 17:53:02 GMT"
+    },
+    {
+      "id": "item-1772895735113-3",
+      "title": "Dario Amodei statement",
+      "source": "x",
+      "sourceName": "@AnthropicAI",
+      "url": "https://x.com/AnthropicAI/status/2029719864533721481",
+      "insight": "CEO-level signal on Anthropic direction — worth reading for strategic context",
+      "relevance": 6,
+      "tags": [
+        "business"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 4864,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri Mar 06 00:45:00 +0000 2026"
+    },
+    {
+      "id": "item-1772895797296-33",
+      "title": "GPU provenance: should inference providers disclose bitcoin-mining hardware?",
+      "source": "x",
+      "sourceName": "@jxnlco",
+      "url": "https://x.com/jxnlco/status/2030119319431200892",
+      "insight": "Contrarian question on infrastructure transparency — hardware history affecting AI reliability",
+      "relevance": 6,
+      "tags": [
+        "contrarian",
+        "business"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 51,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Sat Mar 07 03:12:18 +0000 2026"
+    },
+    {
+      "id": "item-1772895823370-35",
+      "title": "Yann LeCun vs François Chollet: Self-Supervised Learning Defense",
+      "source": "x",
+      "sourceName": "@ylecun",
+      "url": "https://x.com/ylecun/status/2029873591353835890",
+      "insight": "LeCun doubles down on self-supervised learning as key paradigm, pushing back on Chollet's criticism",
+      "relevance": 6,
+      "tags": [
+        "contrarian",
+        "research",
+        "models"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 192,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri Mar 06 10:55:52 +0000 2026"
+    },
+    {
+      "id": "item-1772895843241-40",
+      "title": "Sarvam 105B — first competitive Indian open-source LLM",
+      "source": "hackernews",
+      "sourceName": "logicchains",
+      "url": "https://www.sarvam.ai/blogs/sarvam-30b-105b",
+      "insight": "Non-Western open-source LLM hitting competitive benchmarks — signals global model diversification",
+      "relevance": 6,
+      "tags": [
+        "models",
+        "latam"
+      ],
+      "category": "models",
+      "engagement": {
+        "likes": 117,
+        "comments": 31,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-07T07:43:57.000Z"
+    },
+    {
+      "id": "item-1772895859180-42",
+      "title": "OBLITERATUS: Tool to remove censorship from open-weight LLMs",
+      "source": "hackernews",
+      "sourceName": "mvdwoord",
+      "url": "https://github.com/elder-plinius/OBLITERATUS",
+      "insight": "Open-weight model uncensoring tool gaining traction — signals growing demand for unrestricted local AI",
+      "relevance": 6,
+      "tags": [
+        "models",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 189,
+        "comments": 82,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-06T14:27:55.000Z"
+    },
+    {
+      "id": "item-1772895873579-56",
+      "title": "Online harassment enters its AI era",
+      "source": "rss",
+      "sourceName": "MIT Tech Review AI",
+      "url": "https://www.technologyreview.com/2026/03/05/1133962/online-harassment-is-entering-its-ai-era/",
+      "insight": "AI-powered harassment at scale is a real product liability risk for anyone building user-facing AI tools",
+      "relevance": 6,
+      "tags": [
+        "contrarian",
+        "business"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu, 05 Mar 2026 10:00:00 +0000"
+    },
+    {
+      "id": "item-1772895885180-62",
+      "title": "ChatGPT for Excel and financial data integrations",
+      "source": "rss",
+      "sourceName": "OpenAI Blog",
+      "url": "https://openai.com/index/chatgpt-for-excel",
+      "insight": "AI-native spreadsheet play — signals where tool integration is heading for enterprise workflows",
+      "relevance": 6,
+      "tags": [
+        "tools",
+        "business"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu, 05 Mar 2026 00:00:00 GMT"
+    }
+  ],
+  "stats": {
+    "rawFetched": 237,
+    "kept": 65,
+    "sourceBreakdown": {
+      "x": 190,
+      "hackernews": 10,
+      "rss": 37
+    }
+  }
+}

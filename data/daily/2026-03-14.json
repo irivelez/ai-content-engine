@@ -1,0 +1,1367 @@
+{
+  "date": "2026-03-14",
+  "generatedAt": "2026-03-14T15:07:17.376Z",
+  "bigPicture": "The IDE is becoming the operating system for AI-augmented work — and the infrastructure underneath it is already buckling under the weight of what we're building on top.",
+  "dataPoints": [
+    {
+      "stat": "9,849 likes",
+      "context": "Karpathy's 'bigger IDE' post is the most resonant signal of the day — the industry knows the tooling layer is the real battleground"
+    },
+    {
+      "stat": "1M token context now GA",
+      "context": "Anthropic ships 1M context as default for Claude Code — agentic coding just got full-codebase awareness"
+    },
+    {
+      "stat": "6,530 likes",
+      "context": "Karpathy's 'intelligence brownouts' post — autoresearch labs wiped by a single OAuth outage exposes how fragile AI-heavy workflows actually are"
+    },
+    {
+      "stat": "2,789 likes",
+      "context": "Cursor's agentic coding benchmark becomes instant industry reference — whoever defines the eval defines the market"
+    }
+  ],
+  "tldr": [
+    "The IDE wars are heating up: Cursor ships benchmarks, plugins (Hugging Face, Datadog), and eval methodology while Karpathy argues the IDE must evolve into an agent orchestrator — not die",
+    "Anthropic goes all-in on agentic: 1M context GA, Opus 4.6 as Claude Code default, generative UI, and explicit signals that knowledge work is next after coding",
+    "Infrastructure fragility is the elephant in the room — Karpathy's autoresearch labs wiped by an OAuth outage proves AI-heavy workflows need the same resilience engineering as traditional production systems",
+    "Real enterprise AI is quietly shipping: Honeywell runs air-gapped RAG for field techs, Google puts Gemini in Maps, Perplexity rolls out agentic Computer to all iOS users",
+    "The agent tooling stack is maturing fast: context compression (Context Gateway), agent memory debates (filesystem vs graphs vs embeddings), visual multi-agent collaboration (Spine Swarm), and early 'SEO for agents' playbooks"
+  ],
+  "items": [
+    {
+      "id": "item-1773500509915-1",
+      "title": "Claude launches Generative UI",
+      "source": "x",
+      "sourceName": "@alexalbert__",
+      "url": "https://x.com/alexalbert__/status/2032161705506324936",
+      "insight": "Anthropic ships generative UI for Claude — AI generating interactive interfaces, not just text",
+      "relevance": 9,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 940,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Mar 12 18:28:00 +0000 2026"
+    },
+    {
+      "id": "item-1773500524781-8",
+      "title": "Cursor releases agentic coding model benchmark",
+      "source": "x",
+      "sourceName": "@cursor_ai",
+      "url": "https://x.com/cursor_ai/status/2032148125448610145",
+      "insight": "New scoring method for models on agentic coding tasks — 2.8K likes, instant industry reference point",
+      "relevance": 9,
+      "tags": [
+        "agentic",
+        "models",
+        "tools"
+      ],
+      "category": "models",
+      "engagement": {
+        "likes": 2789,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Mar 12 17:34:03 +0000 2026"
+    },
+    {
+      "id": "item-1773500543002-15",
+      "title": "Karpathy: 'We're going to need a bigger IDE' — the IDE isn't dead, it's evolving",
+      "source": "x",
+      "sourceName": "@karpathy",
+      "url": "https://x.com/karpathy/status/2031767720933634100",
+      "insight": "Contrarian to 'IDE is dead' hype — future IDE orchestrates agents, not just code",
+      "relevance": 9,
+      "tags": [
+        "agentic",
+        "contrarian",
+        "tools"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 9849,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Mar 11 16:22:27 +0000 2026"
+    },
+    {
+      "id": "item-1773500787268-40",
+      "title": "1M context now GA for Claude Opus 4.6 and Sonnet 4.6",
+      "source": "hackernews",
+      "sourceName": "meetpateltech",
+      "url": "https://claude.com/blog/1m-context-ga",
+      "insight": "Anthropic doubles down on long-context — massive for agentic workflows and large codebase analysis",
+      "relevance": 9,
+      "tags": [
+        "models",
+        "agentic"
+      ],
+      "category": "models",
+      "engagement": {
+        "likes": 906,
+        "comments": 352,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-13T17:19:01.000Z"
+    },
+    {
+      "id": "item-1773500820068-59",
+      "title": "Ethan Mollick: The Shape of the Thing",
+      "source": "rss",
+      "sourceName": "One Useful Thing (Ethan Mollick)",
+      "url": "https://www.oneusefulthing.org/p/the-shape-of-the-thing",
+      "insight": "Mollick's latest on AI capability curve shape — essential for practitioners calibrating expectations",
+      "relevance": 9,
+      "tags": [
+        "models",
+        "business"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu, 12 Mar 2026 14:10:07 GMT"
+    },
+    {
+      "id": "item-1773500820068-60",
+      "title": "Dylan Patel: 3 big bottlenecks to scaling AI compute",
+      "source": "rss",
+      "sourceName": "Dwarkesh Patel",
+      "url": "https://www.dwarkesh.com/p/dylan-patel",
+      "insight": "Deep infrastructure analysis on what's actually limiting AI scaling — power, chips, interconnect",
+      "relevance": 9,
+      "tags": [
+        "models",
+        "research"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri, 13 Mar 2026 16:00:42 GMT"
+    },
+    {
+      "id": "item-1773500509915-0",
+      "title": "Claude Code ships Opus 4.6 1M as default + major improvements",
+      "source": "x",
+      "sourceName": "@alexalbert__",
+      "url": "https://x.com/alexalbert__/status/2032522722551689363",
+      "insight": "Opus 4.6 1M now default for Claude Code on Max/Team — signals agentic coding getting serious upgrades",
+      "relevance": 8,
+      "tags": [
+        "claude-code",
+        "models"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 1579,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri Mar 13 18:22:34 +0000 2026"
+    },
+    {
+      "id": "item-1773500524781-5",
+      "title": "Honeywell: RAG agent for field technicians (air-gapped)",
+      "source": "x",
+      "sourceName": "@LangChain",
+      "url": "https://x.com/LangChain/status/2032167165617750302",
+      "insight": "Enterprise RAG running fully air-gapped for industrial field ops — real production agentic use case",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "business"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 19,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Mar 12 18:49:42 +0000 2026"
+    },
+    {
+      "id": "item-1773500543002-12",
+      "title": "Karpathy: autoresearch labs wiped by OAuth outage, needs failovers",
+      "source": "x",
+      "sourceName": "@karpathy",
+      "url": "https://x.com/karpathy/status/2031792523187040643",
+      "insight": "AI-heavy workflows hitting real infra fragility — 'intelligence brownouts' framing is prescient",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "contrarian"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 6530,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Mar 11 18:01:01 +0000 2026"
+    },
+    {
+      "id": "item-1773500573738-24",
+      "title": "Filesystem vs knowledge graphs vs embeddings for AI memory",
+      "source": "x",
+      "sourceName": "@joaomdmoura",
+      "url": "https://x.com/joaomdmoura/status/2031862630210818220",
+      "insight": "CrewAI founder's thread: the real debate isn't storage type but what each approach teaches about agent memory",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "multi-agent",
+        "contrarian"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 112,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Mar 11 22:39:35 +0000 2026"
+    },
+    {
+      "id": "item-1773500606253-29",
+      "title": "Simon Willison analyzes Tobi Lütke's autoresearch PR for Liquid benchmarks",
+      "source": "x",
+      "sourceName": "@simonw",
+      "url": "https://x.com/simonw/status/2032305546129485851",
+      "insight": "Shopify CEO using AI-assisted coding to improve core infra — high-signal example of executive-level agentic coding",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "claude-code",
+        "business"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 681,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri Mar 13 03:59:35 +0000 2026"
+    },
+    {
+      "id": "item-1773500629849-35",
+      "title": "Perplexity Computer rolls out to all iOS users",
+      "source": "x",
+      "sourceName": "@AravSrinivas",
+      "url": "https://x.com/AravSrinivas/status/2032495364088238147",
+      "insight": "Full rollout of agentic 'Computer' tool — launch jobs from any conversation, no new session needed",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 724,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri Mar 13 16:33:51 +0000 2026"
+    },
+    {
+      "id": "item-1773500663239-39",
+      "title": "Yann LeCun: History and fundamentals of world models",
+      "source": "x",
+      "sourceName": "@ylecun",
+      "url": "https://x.com/ylecun/status/2031777268008108223",
+      "insight": "LeCun traces world models from 1960s optimal control to modern AI — foundational context for agentic planning systems",
+      "relevance": 8,
+      "tags": [
+        "research",
+        "agentic",
+        "contrarian"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 1117,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Mar 11 17:00:23 +0000 2026"
+    },
+    {
+      "id": "item-1773500787268-43",
+      "title": "Optimizing Content for Agents",
+      "source": "hackernews",
+      "sourceName": "vinhnx",
+      "url": "https://cra.mr/optimizing-content-for-agents/",
+      "insight": "How to structure web content so AI agents can consume it — early SEO-for-agents playbook",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 61,
+        "comments": 22,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-14T02:27:00.000Z"
+    },
+    {
+      "id": "item-1773500787268-45",
+      "title": "Spine Swarm (YC S23) — AI agents collaborating on a visual canvas",
+      "source": "hackernews",
+      "sourceName": "a24venka",
+      "url": "https://www.getspine.ai/",
+      "insight": "Multi-agent visual collaboration tool — novel UX pattern for agent orchestration",
+      "relevance": 8,
+      "tags": [
+        "multi-agent",
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 103,
+        "comments": 69,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-13T13:22:40.000Z"
+    },
+    {
+      "id": "item-1773500787268-46",
+      "title": "Context Gateway — Compress agent context before it hits the LLM",
+      "source": "hackernews",
+      "sourceName": "ivzak",
+      "url": "https://github.com/Compresr-ai/Context-Gateway",
+      "insight": "Open-source context compression for agents — directly reduces cost and latency",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 85,
+        "comments": 50,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-13T17:58:22.000Z"
+    },
+    {
+      "id": "item-1773500820068-57",
+      "title": "How Lenny Rachitsky built a 1M+ subscriber newsletter and top 10 podcast",
+      "source": "rss",
+      "sourceName": "Lenny Rachitsky",
+      "url": "https://www.lennysnewsletter.com/p/how-i-built-a-1m-subscriber-newsletter",
+      "insight": "Playbook from 0→1M subscribers — directly applicable to Irina's newsletter strategy",
+      "relevance": 8,
+      "tags": [
+        "business"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu, 12 Mar 2026 12:32:15 GMT"
+    },
+    {
+      "id": "item-1773500820068-58",
+      "title": "Stratechery: Winners, Losers, and the Unknown",
+      "source": "rss",
+      "sourceName": "Ben Thompson (Stratechery)",
+      "url": "https://stratechery.com/2026/winners-losers-and-the-unknown/",
+      "insight": "Ben Thompson's macro analysis on who's winning/losing in current AI landscape",
+      "relevance": 8,
+      "tags": [
+        "business",
+        "models"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri, 13 Mar 2026 17:00:00 +0000"
+    },
+    {
+      "id": "item-1773500820068-61",
+      "title": "The most important question nobody's asking about AI",
+      "source": "rss",
+      "sourceName": "Dwarkesh Patel",
+      "url": "https://www.dwarkesh.com/p/dow-anthropic",
+      "insight": "Dwarkesh + Anthropic on underexplored AI risk/capability questions",
+      "relevance": 8,
+      "tags": [
+        "models",
+        "contrarian"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed, 11 Mar 2026 18:55:20 GMT"
+    },
+    {
+      "id": "item-1773500509915-2",
+      "title": "Claude for knowledge work following agentic coding trajectory",
+      "source": "x",
+      "sourceName": "@alexalbert__",
+      "url": "https://x.com/alexalbert__/status/2031832967845462452",
+      "insight": "Anthropic exec signals Claude expanding from coding agents to broad knowledge work agents",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "contrarian"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 475,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Mar 11 20:41:43 +0000 2026"
+    },
+    {
+      "id": "item-1773500509915-3",
+      "title": "Gemini models now power Google Maps with natural language queries",
+      "source": "x",
+      "sourceName": "@GoogleAI",
+      "url": "https://x.com/GoogleAI/status/2032553427297878068",
+      "insight": "Google integrating Gemini into Maps — real-world AI deployment at massive consumer scale",
+      "relevance": 7,
+      "tags": [
+        "models",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 410,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri Mar 13 20:24:34 +0000 2026"
+    },
+    {
+      "id": "item-1773500524781-6",
+      "title": "LangChain Day 0 support for Nvidia Nemotron 3 Super",
+      "source": "x",
+      "sourceName": "@LangChain",
+      "url": "https://x.com/LangChain/status/2031784791251525934",
+      "insight": "New open-source model from Nvidia with immediate LangChain integration — 110 likes signals strong interest",
+      "relevance": 7,
+      "tags": [
+        "models",
+        "tools"
+      ],
+      "category": "models",
+      "engagement": {
+        "likes": 110,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Mar 11 17:30:17 +0000 2026"
+    },
+    {
+      "id": "item-1773500524781-7",
+      "title": "Cursor: offline + online evals for model quality scoring",
+      "source": "x",
+      "sourceName": "@cursor_ai",
+      "url": "https://x.com/cursor_ai/status/2032148129038950779",
+      "insight": "Cursor's eval methodology combines offline benchmarks with online metrics for more realistic model comparison",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 279,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Mar 12 17:34:04 +0000 2026"
+    },
+    {
+      "id": "item-1773500543002-10",
+      "title": "Cursor launches Hugging Face plugin for model training",
+      "source": "x",
+      "sourceName": "@cursor_ai",
+      "url": "https://x.com/cursor_ai/status/2031780053726740776",
+      "insight": "IDE-native ML workflow: train, evaluate, deploy models without leaving the editor",
+      "relevance": 7,
+      "tags": [
+        "tools",
+        "agentic"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 44,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Mar 11 17:11:28 +0000 2026"
+    },
+    {
+      "id": "item-1773500543002-11",
+      "title": "Cursor launches Datadog plugin for natural language observability",
+      "source": "x",
+      "sourceName": "@cursor_ai",
+      "url": "https://x.com/cursor_ai/status/2031780052028047520",
+      "insight": "Querying logs/metrics/traces in natural language from IDE — observability meets agentic coding",
+      "relevance": 7,
+      "tags": [
+        "tools",
+        "agentic"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 131,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Mar 11 17:11:27 +0000 2026"
+    },
+    {
+      "id": "item-1773500543002-13",
+      "title": "Karpathy: human orgs aren't legible, CEOs can't see real-time activity",
+      "source": "x",
+      "sourceName": "@karpathy",
+      "url": "https://x.com/karpathy/status/2031774631498273005",
+      "insight": "Agentic orgs will demand new observability layers humans never built for themselves",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "business"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 1053,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Mar 11 16:49:55 +0000 2026"
+    },
+    {
+      "id": "item-1773500543002-14",
+      "title": "Karpathy: org patterns are 'org code' — IDE helps build and manage them",
+      "source": "x",
+      "sourceName": "@karpathy",
+      "url": "https://x.com/karpathy/status/2031770607466291393",
+      "insight": "Framing organizational design as code you run/debug — shifts how we think about agent orchestration",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "multi-agent"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 3062,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Mar 11 16:33:55 +0000 2026"
+    },
+    {
+      "id": "item-1773500553748-17",
+      "title": "ServiceNow CEO: AI agents could push college grad unemployment over 30%",
+      "source": "x",
+      "sourceName": "@gregisenberg",
+      "url": "https://x.com/gregisenberg/status/2032511905684664485",
+      "insight": "Major enterprise CEO making bold claim about AI agent impact on entry-level jobs — signals real workforce disruption ahead",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "business",
+        "contrarian"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 238,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri Mar 13 17:39:35 +0000 2026"
+    },
+    {
+      "id": "item-1773500573738-19",
+      "title": "Stop rewriting AI feedback — build persistent agent memory",
+      "source": "x",
+      "sourceName": "@joaomdmoura",
+      "url": "https://x.com/joaomdmoura/status/2032124525476004079",
+      "insight": "Argues agents need persistent correction memory so you stop repeating the same feedback weekly",
+      "relevance": 7,
+      "tags": [
+        "agentic"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 35,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Mar 12 16:00:16 +0000 2026"
+    },
+    {
+      "id": "item-1773500573738-23",
+      "title": "AI memory debate: filesystem beats flat retrieval for agents (1/4)",
+      "source": "x",
+      "sourceName": "@joaomdmoura",
+      "url": "https://x.com/joaomdmoura/status/2031862631662080018",
+      "insight": "File paths give agents hierarchical context that vector similarity scores can't — discovery > retrieval",
+      "relevance": 7,
+      "tags": [
+        "agentic"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 11,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Mar 11 22:39:36 +0000 2026"
+    },
+    {
+      "id": "item-1773500573738-25",
+      "title": "AI productivity paradox: more output means more scrutiny",
+      "source": "x",
+      "sourceName": "@alliekmiller",
+      "url": "https://x.com/alliekmiller/status/2032578822294429781",
+      "insight": "AI superusers find productivity gains raise the bar — more bandwidth means higher expectations, not less work",
+      "relevance": 7,
+      "tags": [
+        "business",
+        "contrarian"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 70,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri Mar 13 22:05:29 +0000 2026"
+    },
+    {
+      "id": "item-1773500573738-26",
+      "title": "Don't trust 'SaaS is dead' takes from non-users",
+      "source": "x",
+      "sourceName": "@alliekmiller",
+      "url": "https://x.com/alliekmiller/status/2032218933055336906",
+      "insight": "Pushback on AI-kills-SaaS narrative — only trust disruption claims from people who actually use the product",
+      "relevance": 7,
+      "tags": [
+        "business",
+        "contrarian"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 46,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Mar 12 22:15:25 +0000 2026"
+    },
+    {
+      "id": "item-1773500573738-27",
+      "title": "Claude now supports 600+ images per conversation",
+      "source": "x",
+      "sourceName": "@swyx",
+      "url": "https://x.com/swyx/status/2032653234301710807",
+      "insight": "swyx exploring use cases for Claude's 600-image context — video frames and beyond",
+      "relevance": 7,
+      "tags": [
+        "models",
+        "claude-code"
+      ],
+      "category": "models",
+      "engagement": {
+        "likes": 17,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Sat Mar 14 03:01:10 +0000 2026"
+    },
+    {
+      "id": "item-1773500606253-28",
+      "title": "Designer becomes better prompter than developer — spec-driven development emerges naturally",
+      "source": "x",
+      "sourceName": "@swyx",
+      "url": "https://x.com/swyx/status/2032572751173853234",
+      "insight": "Non-engineers independently discovering spec-driven dev patterns signals mainstreaming of agentic workflows",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "claude-code"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 57,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri Mar 13 21:41:21 +0000 2026"
+    },
+    {
+      "id": "item-1773500606253-30",
+      "title": "Simon Willison: small models more likely to go rogue than big ones",
+      "source": "x",
+      "sourceName": "@simonw",
+      "url": "https://x.com/simonw/status/2032176573609374104",
+      "insight": "Contrarian safety take — smaller models harder to align, challenges 'small = safe' narrative",
+      "relevance": 7,
+      "tags": [
+        "models",
+        "contrarian",
+        "research"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 28,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Mar 12 19:27:05 +0000 2026"
+    },
+    {
+      "id": "item-1773500606253-31",
+      "title": "Gemini API now usable in CI and by agents",
+      "source": "x",
+      "sourceName": "@simonw",
+      "url": "https://x.com/simonw/status/2032144016268279950",
+      "insight": "Google opening Gemini for automated pipelines — lowers barrier for multi-model agent architectures",
+      "relevance": 7,
+      "tags": [
+        "models",
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 126,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Mar 12 17:17:43 +0000 2026"
+    },
+    {
+      "id": "item-1773500618479-32",
+      "title": "LangChain investing heavily in agent UI/UX frontend hooks",
+      "source": "x",
+      "sourceName": "@hwchase17",
+      "url": "https://x.com/hwchase17/status/2032123062548861414",
+      "insight": "Agent UX is the hard unsolved problem — LangChain shifting investment to frontend hooks for agent interfaces",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 83,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Mar 12 15:54:27 +0000 2026"
+    },
+    {
+      "id": "item-1773500629849-33",
+      "title": "MCP is not dead — defense of the protocol's longevity",
+      "source": "x",
+      "sourceName": "@mckaywrigley",
+      "url": "https://x.com/mckaywrigley/status/2032242047110037613",
+      "insight": "Strong contrarian take from Takeoff founder: dismissing MCP will age poorly, signaling protocol's staying power",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "tools",
+        "contrarian"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 87,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Mar 12 23:47:15 +0000 2026"
+    },
+    {
+      "id": "item-1773500629849-34",
+      "title": "Perplexity Computer positioned as AI digital lawyer",
+      "source": "x",
+      "sourceName": "@AravSrinivas",
+      "url": "https://x.com/AravSrinivas/status/2032556572279554304",
+      "insight": "Perplexity CEO frames Computer agent as autonomous legal/admin worker — signals agentic product direction",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 356,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri Mar 13 20:37:04 +0000 2026"
+    },
+    {
+      "id": "item-1773500652157-36",
+      "title": "Ryan Carson: No multi-agent needed, just iterating with Codex",
+      "source": "x",
+      "sourceName": "@ryancarson",
+      "url": "https://x.com/ryancarson/status/2032507079919833274",
+      "insight": "Practitioner finds single-agent iteration beats multi-agent orchestration for frontend work",
+      "relevance": 7,
+      "tags": [
+        "contrarian",
+        "multi-agent",
+        "agentic"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 120,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri Mar 13 17:20:24 +0000 2026"
+    },
+    {
+      "id": "item-1773500652157-37",
+      "title": "Yann LeCun asks for references on differentiable system identification",
+      "source": "x",
+      "sourceName": "@ylecun",
+      "url": "https://x.com/ylecun/status/2032806788475568390",
+      "insight": "LeCun exploring training systems from data with flexibility — signals shift toward learned simulators",
+      "relevance": 7,
+      "tags": [
+        "research",
+        "models"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 60,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Sat Mar 14 13:11:20 +0000 2026"
+    },
+    {
+      "id": "item-1773500663239-38",
+      "title": "Yann LeCun on world models being action-conditioned and causal",
+      "source": "x",
+      "sourceName": "@ylecun",
+      "url": "https://x.com/ylecun/status/2032240197132247292",
+      "insight": "LeCun clarifies world models for planning are causal and action-conditioned — key distinction for agentic AI architectures",
+      "relevance": 7,
+      "tags": [
+        "research",
+        "agentic"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 581,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Mar 12 23:39:54 +0000 2026"
+    },
+    {
+      "id": "item-1773500787268-41",
+      "title": "Can I Run AI Locally? — Hardware compatibility checker",
+      "source": "hackernews",
+      "sourceName": "ricardbejarano",
+      "url": "https://www.canirun.ai/",
+      "insight": "Practical tool for evaluating local model deployment — useful for cost-conscious teams",
+      "relevance": 7,
+      "tags": [
+        "tools",
+        "models"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 1304,
+        "comments": 321,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-13T12:46:10.000Z"
+    },
+    {
+      "id": "item-1773500787268-42",
+      "title": "Qatar helium shutdown puts chip supply chain on two-week clock",
+      "source": "hackernews",
+      "sourceName": "johnbarron",
+      "url": "https://www.tomshardware.com/tech-industry/qatar-helium-shutdown-puts-chip-supply-chain-on-a-two-week-clock",
+      "insight": "Direct threat to semiconductor fab — could impact GPU availability and pricing near-term",
+      "relevance": 7,
+      "tags": [
+        "business"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 647,
+        "comments": 567,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-13T12:31:09.000Z"
+    },
+    {
+      "id": "item-1773500787268-44",
+      "title": "Elon Musk pushes out more xAI founders as AI coding effort falters",
+      "source": "hackernews",
+      "sourceName": "merksittich",
+      "url": "https://www.ft.com/content/e5fbc6c2-d5a6-4b97-a105-6a96ea849de5",
+      "insight": "xAI internal turmoil signals execution problems — competitive landscape shifting",
+      "relevance": 7,
+      "tags": [
+        "business",
+        "contrarian"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 467,
+        "comments": 711,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-13T16:40:42.000Z"
+    },
+    {
+      "id": "item-1773500787268-48",
+      "title": "John Carmack on open source and anti-AI activists",
+      "source": "hackernews",
+      "sourceName": "tzury",
+      "url": "https://twitter.com/id_aa_carmack/status/2032460578669691171",
+      "insight": "Carmack pushes back on anti-AI movement — high-signal contrarian voice from legendary builder",
+      "relevance": 7,
+      "tags": [
+        "contrarian"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 336,
+        "comments": 441,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-13T17:51:34.000Z"
+    },
+    {
+      "id": "item-1773500801837-49",
+      "title": "Coding After Coders: The End of Computer Programming as We Know It",
+      "source": "rss",
+      "sourceName": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Mar/12/coding-after-coders/#atom-everything",
+      "insight": "Reframes what 'programming' becomes post-AI — relevant for anyone deciding team structure and hiring",
+      "relevance": 7,
+      "tags": [
+        "contrarian",
+        "agentic"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-12T19:23:44+00:00"
+    },
+    {
+      "id": "item-1773500801837-50",
+      "title": "Gemini's task automation is here and it's wild",
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "url": "https://www.theverge.com/tech/893820/gemini-task-automation-samsung-s26-google-pixel-10",
+      "insight": "Google ships agentic task automation on-device — signals where mobile AI agents are heading",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-12T12:59:43-04:00"
+    },
+    {
+      "id": "item-1773500801837-51",
+      "title": "Anthropic's Claude AI can now respond with charts, diagrams, and visuals",
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/893625/anthropic-claude-ai-charts-diagrams",
+      "insight": "Claude gets native visual output — expands use cases for data analysis and reporting workflows",
+      "relevance": 7,
+      "tags": [
+        "claude-code",
+        "tools"
+      ],
+      "category": "models",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-12T12:00:00-04:00"
+    },
+    {
+      "id": "item-1773500801837-53",
+      "title": "Perplexity's Personal Computer turns your spare Mac into an AI agent",
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/893536/perplexitys-personal-computer-turns-your-spare-mac-into-an-ai-agent",
+      "insight": "Perplexity ships local agentic compute on Mac hardware — desktop agents getting real",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-12T08:00:34-04:00"
+    },
+    {
+      "id": "item-1773500820068-54",
+      "title": "Physical AI is becoming manufacturing's next advantage",
+      "source": "rss",
+      "sourceName": "MIT Tech Review AI",
+      "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
+      "insight": "Physical AI (robotics+manufacturing) emerging as competitive moat beyond software-only AI plays",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "business"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri, 13 Mar 2026 15:16:55 +0000"
+    },
+    {
+      "id": "item-1773500820068-55",
+      "title": "How AI chatbots could be used for military targeting decisions",
+      "source": "rss",
+      "sourceName": "MIT Tech Review AI",
+      "url": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/",
+      "insight": "Defense official reveals AI chatbot use in targeting — raises safety/policy stakes for foundation models",
+      "relevance": 7,
+      "tags": [
+        "models",
+        "agentic"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri, 13 Mar 2026 12:16:56 +0000"
+    },
+    {
+      "id": "item-1773500820068-56",
+      "title": "Pragmatic by design: Engineering AI for the real world",
+      "source": "rss",
+      "sourceName": "MIT Tech Review AI",
+      "url": "https://www.technologyreview.com/2026/03/12/1133675/pragmatic-by-design-engineering-ai-for-the-real-world/",
+      "insight": "MIT on practical AI engineering patterns — bridging lab-to-production gap",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "business"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu, 12 Mar 2026 13:00:00 +0000"
+    },
+    {
+      "id": "item-1773500820068-62",
+      "title": "Is the US military actually afraid of Claude? Gary Marcus on Anthropic as supply chain risk",
+      "source": "rss",
+      "sourceName": "Gary Marcus",
+      "url": "https://garymarcus.substack.com/p/is-the-us-military-actually-afraid",
+      "insight": "Marcus theory on why Pentagon labeled Anthropic a risk — contrarian take on AI safety politics",
+      "relevance": 7,
+      "tags": [
+        "models",
+        "contrarian"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu, 12 Mar 2026 20:25:17 GMT"
+    },
+    {
+      "id": "item-1773500524781-4",
+      "title": "LangChain CEO on post-cloud AI infrastructure",
+      "source": "x",
+      "sourceName": "@LangChain",
+      "url": "https://x.com/LangChain/status/2032181880846782637",
+      "insight": "LangChain CEO discusses what AI infra looks like beyond traditional cloud — relevant for architecture decisions",
+      "relevance": 6,
+      "tags": [
+        "agentic",
+        "business"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 22,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Mar 12 19:48:11 +0000 2026"
+    },
+    {
+      "id": "item-1773500543002-9",
+      "title": "Cursor launches MongoDB plugin for natural language queries",
+      "source": "x",
+      "sourceName": "@cursor_ai",
+      "url": "https://x.com/cursor_ai/status/2031780057270956499",
+      "insight": "Cursor expanding plugin ecosystem — DB management via natural language is practical for dev teams",
+      "relevance": 6,
+      "tags": [
+        "tools",
+        "agentic"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 59,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Mar 11 17:11:28 +0000 2026"
+    },
+    {
+      "id": "item-1773500543002-16",
+      "title": "Boris Cherny explains Ultrathink vs /effort max in Claude Code",
+      "source": "x",
+      "sourceName": "@bcherny",
+      "url": "https://x.com/bcherny/status/2032672929733861501",
+      "insight": "Ultrathink = max effort single turn; /effort max = persistent setting. Key for power users",
+      "relevance": 6,
+      "tags": [
+        "claude-code"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 4,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Sat Mar 14 04:19:26 +0000 2026"
+    },
+    {
+      "id": "item-1773500553748-18",
+      "title": "CrewAI hosting AI builder events during NVIDIA GTC week",
+      "source": "x",
+      "sourceName": "@joaomdmoura",
+      "url": "https://x.com/joaomdmoura/status/2032486920790724881",
+      "insight": "CrewAI expanding community presence at GTC — multi-agent ecosystem maturing fast",
+      "relevance": 6,
+      "tags": [
+        "multi-agent",
+        "agentic"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 31,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri Mar 13 16:00:18 +0000 2026"
+    },
+    {
+      "id": "item-1773500573738-20",
+      "title": "AI memory debate: storage type matters less than scale and data type (4/4)",
+      "source": "x",
+      "sourceName": "@joaomdmoura",
+      "url": "https://x.com/joaomdmoura/status/2031862635873124547",
+      "insight": "Concludes filesystem vs KG vs embeddings is a distraction — scale and data type dictate the right choice",
+      "relevance": 6,
+      "tags": [
+        "agentic",
+        "contrarian"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 7,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Mar 11 22:39:37 +0000 2026"
+    },
+    {
+      "id": "item-1773500573738-21",
+      "title": "AI memory debate: embeddings are OG semantic search (3/4)",
+      "source": "x",
+      "sourceName": "@joaomdmoura",
+      "url": "https://x.com/joaomdmoura/status/2031862634463838342",
+      "insight": "Embeddings win when you don't know exactly what you're looking for — semantic search proven at scale",
+      "relevance": 6,
+      "tags": [
+        "agentic"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 7,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Mar 11 22:39:36 +0000 2026"
+    },
+    {
+      "id": "item-1773500573738-22",
+      "title": "AI memory debate: knowledge graphs prove relationships matter (2/4)",
+      "source": "x",
+      "sourceName": "@joaomdmoura",
+      "url": "https://x.com/joaomdmoura/status/2031862633150955881",
+      "insight": "KGs show metadata and fact relationships can matter more than raw content for agent reasoning",
+      "relevance": 6,
+      "tags": [
+        "agentic"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 5,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Mar 11 22:39:36 +0000 2026"
+    },
+    {
+      "id": "item-1773500787268-47",
+      "title": "Captain (YC W26) — Automated RAG for Files",
+      "source": "hackernews",
+      "sourceName": "CMLewis",
+      "url": "https://www.runcaptain.com/",
+      "insight": "Turnkey RAG pipeline — relevant for anyone building knowledge-heavy AI apps",
+      "relevance": 6,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 53,
+        "comments": 35,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-13T15:45:33.000Z"
+    },
+    {
+      "id": "item-1773500801837-52",
+      "title": "Anthropic doesn't trust the Pentagon, and neither should you",
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "url": "https://www.theverge.com/podcast/893370/anthropic-pentagon-ai-mass-surveillance-nsa-privacy-spying",
+      "insight": "Anthropic's stance on military AI use — important for understanding safety positioning and enterprise trust",
+      "relevance": 6,
+      "tags": [
+        "contrarian",
+        "business"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-12T10:00:00-04:00"
+    }
+  ],
+  "stats": {
+    "rawFetched": 225,
+    "kept": 63,
+    "sourceBreakdown": {
+      "x": 182,
+      "hackernews": 12,
+      "rss": 31
+    }
+  }
+}

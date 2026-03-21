@@ -36,7 +36,22 @@
     "minViews": 5000,
     "minLikes": 100,
     "minFollowers": 10000,
-    "bioKeywords": ["AI", "ML", "machine learning", "deep learning", "LLM", "agent", "founder", "researcher", "engineer", "professor", "PhD", "CTO", "CEO", "VP"]
+    "bioKeywords": [
+      "AI",
+      "ML",
+      "machine learning",
+      "deep learning",
+      "LLM",
+      "agent",
+      "founder",
+      "researcher",
+      "engineer",
+      "professor",
+      "PhD",
+      "CTO",
+      "CEO",
+      "VP"
+    ]
   },
   "queries": [
     "AI productivity tools",
@@ -62,8 +77,9 @@
     "agents"
   ],
   "hotThreshold": {
-    "views": 1000000,
-    "label": "🔥 HOT"
+    "likes": 10000,
+    "label": "\ud83d\udd25 HOT",
+    "note": "10K likes \u2248 1M+ views based on viral post ratios"
   },
   "maxResults": 20,
   "subreddits": [

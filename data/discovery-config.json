@@ -61,7 +61,15 @@
     "AI for business professionals",
     "AI automation 2026",
     "step-by-step agentic guides",
-    "step-by-step AI guides"
+    "step-by-step AI guides",
+    "build SaaS with Claude Code",
+    "how to sell more with AI",
+    "AI tools business revenue results",
+    "Claude Code tutorial step by step",
+    "built my startup with AI agents",
+    "no-code AI app making money",
+    "AI workflow increased sales revenue",
+    "solopreneur AI tools stack"
   ],
   "topicFilters": [
     "AI tools",
@@ -78,8 +86,8 @@
   ],
   "hotThreshold": {
     "likes": 10000,
-    "label": "\ud83d\udd25 HOT",
-    "note": "10K likes \u2248 1M+ views based on viral post ratios"
+    "label": "🔥 HOT",
+    "note": "10K likes ≈ 1M+ views based on viral post ratios"
   },
   "maxResults": 20,
   "subreddits": [

@@ -1,0 +1,1588 @@
+{
+  "date": "2026-03-23",
+  "generatedAt": "2026-03-23T15:05:39.952Z",
+  "bigPicture": "The AI agent gold rush is hitting its infrastructure wall — everyone can build agents now, but governance, observability, and cost control are separating production systems from expensive toys.",
+  "dataPoints": [
+    {
+      "stat": "233 ghost agents",
+      "context": "Hidden background Claude Code agents silently burning tokens — cost control is the unsexy crisis nobody planned for"
+    },
+    {
+      "stat": "30+ automations built, most shouldn't exist",
+      "context": "Builder's hard-earned lesson: knowing when NOT to automate is the real skill"
+    },
+    {
+      "stat": "80% of repetitive SMB ops handled by 3 agents",
+      "context": "Small businesses hitting real ROI with focused agent deployments, not sprawling frameworks"
+    },
+    {
+      "stat": "100+ Facebook ads in 30 mins",
+      "context": "Claude Code turning non-engineers into ad ops machines — the new leverage play"
+    }
+  ],
+  "tldr": [
+    "Karpathy and practitioners are pushing back on agent framework bloat — clean code and simplicity beat abstraction layers, and most automations shouldn't exist in the first place",
+    "The real agentic bottleneck isn't model capability — it's infrastructure: governance, auth, memory, observability, and the hidden cost of runaway background agents eating tokens",
+    "Enterprise is consolidating fast around LangGraph + NVIDIA stacks, while Google ships full-stack vibe coding tools — the IDE and agent platform wars are heating up",
+    "SMB agent deployments are proving real ROI with focused use cases (3 agents handling 80% of ops), validating the lean automation thesis over complex multi-agent systems",
+    "Social media is splitting into two lanes — polished AI-blended content vs. raw human content — and Anthropic's own research suggests AI coding tools may be making developers worse, not better"
+  ],
+  "items": [
+    {
+      "id": "item-1774278126902-6",
+      "title": "Karpathy: agents bloat abstractions, poor code aesthetics, prone to failure",
+      "source": "x",
+      "sourceName": "@karpathy",
+      "url": "https://x.com/karpathy/status/2035173492447224237",
+      "insight": "Karpathy pushes back on agent frameworks — code quality matters more than abstraction layers",
+      "relevance": 9,
+      "tags": [
+        "agentic",
+        "contrarian",
+        "builder-methodology"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 4190,
+        "comments": 239,
+        "retweets": 319,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Sat Mar 21 01:55:46 +0000 2026",
+      "age": "2d"
+    },
+    {
+      "id": "item-1774278256030-34",
+      "title": "Using Git with Coding Agents",
+      "source": "rss",
+      "sourceName": "Simon Willison",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/using-git-with-coding-agents/#atom-everything",
+      "insight": "Practical patterns for version control when AI agents write your code",
+      "relevance": 9,
+      "tags": [
+        "claude-code",
+        "agentic",
+        "builder-methodology"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-21T22:08:24+00:00",
+      "age": "1d"
+    },
+    {
+      "id": "item-1774278310935-62",
+      "title": "Built 30+ automations this year — most shouldn't have been automations",
+      "source": "reddit",
+      "sourceName": "r/AI_Agents",
+      "url": "https://www.reddit.com/r/AI_Agents/comments/1rzhvxc/i_built_30_automations_this_year_most_of_them/",
+      "insight": "Hard-earned lesson on when NOT to automate — contrarian and high-signal for builders",
+      "relevance": 9,
+      "tags": [
+        "contrarian",
+        "builder-methodology",
+        "agentic"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-23T15:01:46.790Z",
+      "age": "1h"
+    },
+    {
+      "id": "item-1774278126902-5",
+      "title": "LangChain guide: You don't know what your agent will do until production",
+      "source": "x",
+      "sourceName": "@LangChain",
+      "url": "https://x.com/LangChain/status/2035506160644628649",
+      "insight": "Observability is the new testing — agents can't be fully validated pre-deployment",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "builder-methodology"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 85,
+        "comments": 7,
+        "retweets": 25,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Sat Mar 21 23:57:41 +0000 2026",
+      "age": "1d"
+    },
+    {
+      "id": "item-1774278138577-8",
+      "title": "Greg Isenberg: Launch 100+ Facebook ads in 30 mins with Claude Code",
+      "source": "x",
+      "sourceName": "@gregisenberg",
+      "url": "https://x.com/gregisenberg/status/2036080977563279799",
+      "insight": "Practical Claude Code use case for ad automation — builder-methodology for non-eng founders",
+      "relevance": 8,
+      "tags": [
+        "claude-code",
+        "builder-methodology",
+        "tutorials"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 213,
+        "comments": 35,
+        "retweets": 8,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Mon Mar 23 14:01:48 +0000 2026",
+      "age": "1h"
+    },
+    {
+      "id": "item-1774278153600-11",
+      "title": "Agent bottlenecks aren't the models — it's governance, auth, memory, harness",
+      "source": "x",
+      "sourceName": "@joaomdmoura",
+      "url": "https://x.com/joaomdmoura/status/2035466871663898768",
+      "insight": "Real agentic blockers are infra: governance, auth, memory — not model capability",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "builder-methodology"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 13,
+        "comments": 5,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Sat Mar 21 21:21:34 +0000 2026",
+      "age": "1d"
+    },
+    {
+      "id": "item-1774278153600-15",
+      "title": "Enterprise details that matter for safe agent deployment",
+      "source": "x",
+      "sourceName": "@swyx",
+      "url": "https://x.com/swyx/status/2035945261265199141",
+      "insight": "Sweating enterprise auth/safety details is what separates toy agents from production ones",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "builder-methodology"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 11,
+        "comments": 12,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Mon Mar 23 05:02:30 +0000 2026",
+      "age": "10h"
+    },
+    {
+      "id": "item-1774278169077-17",
+      "title": "Simon Willison uses Claude Skills to learn Starlette 1.0",
+      "source": "x",
+      "sourceName": "@simonw",
+      "url": "https://x.com/simonw/status/2035872409421770901",
+      "insight": "Real demo of Claude Skills: feeding a new framework's repo so Claude can build with it before training catches up",
+      "relevance": 8,
+      "tags": [
+        "claude-code",
+        "builder-methodology",
+        "tools"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 140,
+        "comments": 18,
+        "retweets": 11,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Mon Mar 23 00:13:01 +0000 2026",
+      "age": "14h"
+    },
+    {
+      "id": "item-1774278179870-19",
+      "title": "Simon Willison on AI surveillance via HN comment profiling",
+      "source": "x",
+      "sourceName": "@simonw",
+      "url": "https://x.com/simonw/status/2035509993664127455",
+      "insight": "Privacy risk: LLMs can profile users from public comment history — real threat vector for builders to consider",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "contrarian"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 307,
+        "comments": 38,
+        "retweets": 11,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Sun Mar 22 00:12:55 +0000 2026",
+      "age": "1d"
+    },
+    {
+      "id": "item-1774278241540-30",
+      "title": "Teaching Claude to QA a mobile app",
+      "source": "hackernews",
+      "sourceName": "azhenley",
+      "url": "https://christophermeiklejohn.com/ai/zabriskie/development/android/ios/2026/03/22/teaching-claude-to-qa-a-mobile-app.html",
+      "insight": "Real builder walkthrough of using Claude for automated mobile QA — concrete agentic workflow pattern",
+      "relevance": 8,
+      "tags": [
+        "claude-code",
+        "agentic",
+        "builder-methodology"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 105,
+        "comments": 13,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-22T19:04:00.000Z",
+      "age": "20h"
+    },
+    {
+      "id": "item-1774278256030-37",
+      "title": "Gemini Task Automation Hands-On",
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "url": "https://www.theverge.com/tech/898282/gemini-task-automation-uber-doordash-hands-on",
+      "insight": "Google's agent automates real tasks (Uber, DoorDash) — slow but working, sets the bar",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-21T07:30:00-04:00",
+      "age": "2d"
+    },
+    {
+      "id": "item-1774278274655-38",
+      "title": "How Microsoft's AI VP automates everything with Warp",
+      "source": "rss",
+      "sourceName": "Lenny Rachitsky",
+      "url": "https://www.lennysnewsletter.com/p/how-microsofts-ai-vp-automates-everything",
+      "insight": "Senior exec shares real automation workflows — practical playbook from someone running AI at scale",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "builder-methodology",
+        "tools"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Mon, 23 Mar 2026 12:01:26 GMT",
+      "age": "3h"
+    },
+    {
+      "id": "item-1774278274655-42",
+      "title": "Preferred stack for building AI agents right now",
+      "source": "reddit",
+      "sourceName": "r/ChatGPT",
+      "url": "https://www.reddit.com/r/AI_Agents/comments/1rx116h/whats_your_preferred_stack_for_building_ai_agents/",
+      "insight": "Community consensus on agent frameworks and stacks — direct signal on what builders actually use",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "multi-agent",
+        "builder-methodology"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-23T15:01:40.271Z",
+      "age": "1h"
+    },
+    {
+      "id": "item-1774278274655-44",
+      "title": "AI tools actually helping run lean small businesses",
+      "source": "reddit",
+      "sourceName": "r/ChatGPT",
+      "url": "https://www.reddit.com/r/AiForSmallBusiness/comments/1rv6clo/what_ai_tools_are_actually_helping_you_run_a_lean/",
+      "insight": "Real SMB owners sharing what AI tools they actually pay for — direct market intel for LATAM SMB play",
+      "relevance": 8,
+      "tags": [
+        "business",
+        "tools",
+        "builder-methodology"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-23T15:01:40.271Z",
+      "age": "1h"
+    },
+    {
+      "id": "item-1774278292478-49",
+      "title": "Analyzed 77 Claude Code sessions — 233 ghost agents eating tokens in background",
+      "source": "reddit",
+      "sourceName": "r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rwdw3m/i_analyzed_77_claude_code_sessions_233_ghost/",
+      "insight": "Critical cost insight: hidden background agents burning tokens — built tracker to manage it",
+      "relevance": 8,
+      "tags": [
+        "claude-code",
+        "tools",
+        "builder-methodology"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-23T15:01:43.468Z",
+      "age": "1h"
+    },
+    {
+      "id": "item-1774278292478-50",
+      "title": "Claude Code plugin: business plans to deployed products in 25 autonomous stages",
+      "source": "reddit",
+      "sourceName": "r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rw4kmz/i_built_a_claude_code_plugin_that_turns_business/",
+      "insight": "Full agentic pipeline from spec to deployment — relevant to Noa's factory concept",
+      "relevance": 8,
+      "tags": [
+        "claude-code",
+        "agentic",
+        "builder-methodology"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-23T15:01:43.468Z",
+      "age": "1h"
+    },
+    {
+      "id": "item-1774278310935-54",
+      "title": "Anthropic's research shows AI coding tools may be making developers worse",
+      "source": "reddit",
+      "sourceName": "r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rzmfyd/anthropics_research_proves_ai_coding_tools_are/",
+      "insight": "Contrarian research from Anthropic itself — critical for anyone relying on AI coding agents",
+      "relevance": 8,
+      "tags": [
+        "contrarian",
+        "claude-code",
+        "research"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-23T15:01:43.468Z",
+      "age": "1h"
+    },
+    {
+      "id": "item-1774278310935-60",
+      "title": "Where AI agents are actually used in real business workflows",
+      "source": "reddit",
+      "sourceName": "r/AI_Agents",
+      "url": "https://www.reddit.com/r/AI_Agents/comments/1rwye0y/where_are_ai_agents_actually_being_used_in_real/",
+      "insight": "Real-world agent deployment examples from practitioners — cuts through hype",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "business",
+        "builder-methodology"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-23T15:01:46.790Z",
+      "age": "1h"
+    },
+    {
+      "id": "item-1774278322488-64",
+      "title": "3 AI agents handling 80% of repetitive SMB ops",
+      "source": "reddit",
+      "sourceName": "r/AI_Agents",
+      "url": "https://www.reddit.com/r/Entrepreneur/comments/1ry31w1/3_ai_agents_that_handle_80_of_the_repetitive_ops/",
+      "insight": "Practical agent deployments for small business operations — directly relevant to LATAM SMB play",
+      "relevance": 8,
+      "tags": [
+        "agentic",
+        "business",
+        "builder-methodology"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-23T15:01:46.790Z",
+      "age": "1h"
+    },
+    {
+      "id": "item-1774278126902-0",
+      "title": "Google AI launches full-stack vibe coding tools",
+      "source": "x",
+      "sourceName": "@GoogleAI",
+      "url": "https://x.com/GoogleAI/status/2035012211681153215",
+      "insight": "Google shipping full-stack AI coding tools signals mainstream IDE disruption",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 541,
+        "comments": 72,
+        "retweets": 67,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri Mar 20 15:14:54 +0000 2026",
+      "age": "2d"
+    },
+    {
+      "id": "item-1774278126902-2",
+      "title": "LangChain enterprise agentic platform with NVIDIA",
+      "source": "x",
+      "sourceName": "@LangChain",
+      "url": "https://x.com/LangChain/status/2035772503457480923",
+      "insight": "LangGraph + NVIDIA deep agents = enterprise agentic stack consolidating fast",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "multi-agent",
+        "business"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 79,
+        "comments": 6,
+        "retweets": 10,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Sun Mar 22 17:36:02 +0000 2026",
+      "age": "21h"
+    },
+    {
+      "id": "item-1774278126902-3",
+      "title": "LangChain Academy: Building Reliable Agents course",
+      "source": "x",
+      "sourceName": "@LangChain",
+      "url": "https://x.com/LangChain/status/2035757438247334087",
+      "insight": "Free course on shipping agents to production — testing, evaluation, reliability patterns",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "tutorials",
+        "builder-methodology"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 218,
+        "comments": 12,
+        "retweets": 43,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Sun Mar 22 16:36:10 +0000 2026",
+      "age": "22h"
+    },
+    {
+      "id": "item-1774278126902-4",
+      "title": "Deep Agents for Enterprise Search with NVIDIA AI-Q + LangChain",
+      "source": "x",
+      "sourceName": "@LangChain",
+      "url": "https://x.com/LangChain/status/2035508759896707172",
+      "insight": "Enterprise RAG evolving into agentic search — NVIDIA + LangChain reference architecture",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "multi-agent",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 171,
+        "comments": 5,
+        "retweets": 31,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Sun Mar 22 00:08:00 +0000 2026",
+      "age": "1d"
+    },
+    {
+      "id": "item-1774278138577-9",
+      "title": "Greg Isenberg: Second-order effects of every app becoming an app store",
+      "source": "x",
+      "sourceName": "@gregisenberg",
+      "url": "https://x.com/gregisenberg/status/2035878210508878318",
+      "insight": "Contrarian take on platform economics shift — Apple/Google losing 30% cut, new distribution plays",
+      "relevance": 7,
+      "tags": [
+        "contrarian",
+        "business"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 306,
+        "comments": 67,
+        "retweets": 33,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Mon Mar 23 00:36:04 +0000 2026",
+      "age": "14h"
+    },
+    {
+      "id": "item-1774278153600-10",
+      "title": "Social media splitting: polished AI content vs raw human content",
+      "source": "x",
+      "sourceName": "@gregisenberg",
+      "url": "https://x.com/gregisenberg/status/2035804907102445770",
+      "insight": "Two lanes emerging: AI-blended content and raw human — pick your lane or get stuck in the middle",
+      "relevance": 7,
+      "tags": [
+        "business",
+        "contrarian"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 352,
+        "comments": 76,
+        "retweets": 16,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Sun Mar 22 19:44:47 +0000 2026",
+      "age": "19h"
+    },
+    {
+      "id": "item-1774278153600-12",
+      "title": "2-6 person AI-native teams outperforming large orgs",
+      "source": "x",
+      "sourceName": "@alliekmiller",
+      "url": "https://x.com/alliekmiller/status/2035875504910197079",
+      "insight": "Small pirate crews with AI leverage beating big teams — validates solo/micro founder model",
+      "relevance": 7,
+      "tags": [
+        "business",
+        "builder-methodology"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 11,
+        "comments": 3,
+        "retweets": 1,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Mon Mar 23 00:25:19 +0000 2026",
+      "age": "14h"
+    },
+    {
+      "id": "item-1774278153600-14",
+      "title": "Vercel Chat SDK may have more agent impact than AI SDK had on workflows",
+      "source": "x",
+      "sourceName": "@swyx",
+      "url": "https://x.com/swyx/status/2035990055945437244",
+      "insight": "Chat SDK could reshape agent UX the way AI SDK shaped workflows — watch this space",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 2,
+        "comments": 0,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Mon Mar 23 08:00:30 +0000 2026",
+      "age": "7h"
+    },
+    {
+      "id": "item-1774278169077-18",
+      "title": "Simon Willison on why AI for law isn't like AI for code",
+      "source": "x",
+      "sourceName": "@simonw",
+      "url": "https://x.com/simonw/status/2035849500825423924",
+      "insight": "Legal arguments aren't unit-testable like code — core limitation of AI in non-verifiable domains",
+      "relevance": 7,
+      "tags": [
+        "contrarian",
+        "agentic"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 43,
+        "comments": 6,
+        "retweets": 1,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Sun Mar 22 22:41:59 +0000 2026",
+      "age": "16h"
+    },
+    {
+      "id": "item-1774278179870-20",
+      "title": "LangSmith Fleet: self-building personalized agents",
+      "source": "x",
+      "sourceName": "@hwchase17",
+      "url": "https://x.com/hwchase17/status/2035035096806510872",
+      "insight": "LangChain's Fleet lets agents build themselves from your data — meta-agentic pattern worth watching",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 59,
+        "comments": 10,
+        "retweets": 11,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri Mar 20 16:45:50 +0000 2026",
+      "age": "2d"
+    },
+    {
+      "id": "item-1774278192247-21",
+      "title": "Perplexity Computer connects to Pitchbook, Statista, CB Insights for market research",
+      "source": "x",
+      "sourceName": "@AravSrinivas",
+      "url": "https://x.com/AravSrinivas/status/2035043246376984663",
+      "insight": "Perplexity adding premium data sources makes it a serious competitor to expensive market research subscriptions",
+      "relevance": 7,
+      "tags": [
+        "tools",
+        "business"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 992,
+        "comments": 61,
+        "retweets": 90,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri Mar 20 17:18:13 +0000 2026",
+      "age": "2d"
+    },
+    {
+      "id": "item-1774278200139-22",
+      "title": "Cloud environments as natural conclusion for AI dev teams",
+      "source": "x",
+      "sourceName": "@ryancarson",
+      "url": "https://x.com/ryancarson/status/2035885005243650182",
+      "insight": "Ryan Carson argues cloud sandboxes beat local dev when shipping with AI agents as a team",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "builder-methodology"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 11,
+        "comments": 1,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Mon Mar 23 01:03:04 +0000 2026",
+      "age": "14h"
+    },
+    {
+      "id": "item-1774278215904-23",
+      "title": "LeCun: JEPA finds abstractions enabling prediction",
+      "source": "x",
+      "sourceName": "@ylecun",
+      "url": "https://x.com/ylecun/status/2035366276499906646",
+      "insight": "LeCun explains how JEPA discovers abstract representations — core to next-gen self-supervised learning",
+      "relevance": 7,
+      "tags": [
+        "research",
+        "models"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 716,
+        "comments": 51,
+        "retweets": 49,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Sat Mar 21 14:41:50 +0000 2026",
+      "age": "2d"
+    },
+    {
+      "id": "item-1774278228463-25",
+      "title": "OpenClaw user demands token refund for AI mistakes",
+      "source": "x",
+      "sourceName": "@steipete",
+      "url": "https://x.com/steipete/status/2036023183351161136",
+      "insight": "Viral moment exposing user expectations gap — people expect AI perfection and want refunds when agents err",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "business",
+        "contrarian"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 4148,
+        "comments": 652,
+        "retweets": 76,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Mon Mar 23 10:12:09 +0000 2026",
+      "age": "4h"
+    },
+    {
+      "id": "item-1774278228463-26",
+      "title": "Nikita Bier: build blockbuster app in 30 min, disrupted in 3 months",
+      "source": "x",
+      "sourceName": "@nikitabier",
+      "url": "https://x.com/nikitabier/status/2035953791594602621",
+      "insight": "Top product builder flags AI's commoditization problem — build speed up but defensibility collapses faster",
+      "relevance": 7,
+      "tags": [
+        "contrarian",
+        "business",
+        "agentic"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 4053,
+        "comments": 1000,
+        "retweets": 215,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Mon Mar 23 05:36:24 +0000 2026",
+      "age": "9h"
+    },
+    {
+      "id": "item-1774278241540-27",
+      "title": "Codebase to Course: Skill that turns any codebase into an interactive coding course",
+      "source": "x",
+      "sourceName": "@zarazhangrui",
+      "url": "https://x.com/zarazhangrui/status/2035962536474837019",
+      "insight": "Agentic skill that auto-generates learning courses from codebases — practical for onboarding and knowledge transfer",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "tools",
+        "builder-methodology"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 1005,
+        "comments": 73,
+        "retweets": 93,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Mon Mar 23 06:11:09 +0000 2026",
+      "age": "8h"
+    },
+    {
+      "id": "item-1774278241540-29",
+      "title": "How to attract AI bots to your open source project",
+      "source": "hackernews",
+      "sourceName": "zdw",
+      "url": "https://nesbitt.io/2026/03/21/how-to-attract-ai-bots-to-your-open-source-project.html",
+      "insight": "Practical guide on making OSS repos AI-agent-friendly — relevant as agentic coding reshapes open source",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "builder-methodology"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 151,
+        "comments": 25,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-21T20:58:01.000Z",
+      "age": "1d"
+    },
+    {
+      "id": "item-1774278256030-32",
+      "title": "Experimenting with Starlette 1.0 with Claude Skills",
+      "source": "rss",
+      "sourceName": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Mar/22/starlette/#atom-everything",
+      "insight": "Simon explores Claude's skill system for building web apps — practical agentic coding pattern",
+      "relevance": 7,
+      "tags": [
+        "claude-code",
+        "builder-methodology",
+        "agentic"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-22T23:57:44+00:00",
+      "age": "15h"
+    },
+    {
+      "id": "item-1774278256030-33",
+      "title": "JavaScript Sandboxing Research",
+      "source": "rss",
+      "sourceName": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Mar/22/javascript-sandboxing-research/#atom-everything",
+      "insight": "Security patterns for running untrusted code — critical for agentic tool execution",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-22T19:53:00+00:00",
+      "age": "19h"
+    },
+    {
+      "id": "item-1774278256030-36",
+      "title": "AI Everywhere at GDC 2026 — Except the Games",
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "url": "https://www.theverge.com/games/897982/gdc-2026-ai-game-developer-conference",
+      "insight": "Massive AI tooling investment but zero shipped AI-native games yet — hype vs reality gap",
+      "relevance": 7,
+      "tags": [
+        "contrarian",
+        "business"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-22T08:00:00-04:00",
+      "age": "1d"
+    },
+    {
+      "id": "item-1774278274655-40",
+      "title": "Terence Tao on the true nature of mathematical discovery",
+      "source": "rss",
+      "sourceName": "Dwarkesh Patel",
+      "url": "https://www.dwarkesh.com/p/terence-tao",
+      "insight": "World's top mathematician on how discovery actually works — rare deep thinking on AI + reasoning frontiers",
+      "relevance": 7,
+      "tags": [
+        "research",
+        "models"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri, 20 Mar 2026 16:00:55 GMT",
+      "age": "2d"
+    },
+    {
+      "id": "item-1774278274655-43",
+      "title": "5 AI tools that aren't just GPT wrappers (tested 40+)",
+      "source": "reddit",
+      "sourceName": "r/ChatGPT",
+      "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1rw7hth/i_tested_40_ai_tools_this_month_here_are_5_that/",
+      "insight": "Curated tool list filtered for real utility vs hype — contrarian filter on the GPT wrapper wave",
+      "relevance": 7,
+      "tags": [
+        "tools",
+        "contrarian"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-23T15:01:40.271Z",
+      "age": "1h"
+    },
+    {
+      "id": "item-1774278292478-46",
+      "title": "Terence Tao on how the world's top mathematician uses AI",
+      "source": "reddit",
+      "sourceName": "r/artificial",
+      "url": "https://www.reddit.com/r/singularity/comments/1rzgupl/terence_tao_how_the_worlds_top_mathematician_uses/",
+      "insight": "World's greatest mathematician shares actual AI workflow — signals where AI adds real value in expert work",
+      "relevance": 7,
+      "tags": [
+        "research",
+        "contrarian"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-23T15:01:41.853Z",
+      "age": "1h"
+    },
+    {
+      "id": "item-1774278292478-47",
+      "title": "Best approaches for AI agents on large codebases and big refactors",
+      "source": "reddit",
+      "sourceName": "r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1rwojpn/best_approach_to_use_ai_agents_claude_code_codex/",
+      "insight": "Practitioners sharing real workflows for Claude Code/Codex on production-scale repos",
+      "relevance": 7,
+      "tags": [
+        "claude-code",
+        "builder-methodology",
+        "agentic"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-23T15:01:43.468Z",
+      "age": "1h"
+    },
+    {
+      "id": "item-1774278292478-48",
+      "title": "Gave Claude Code agent a search engine across all comms — unlocked new tasks",
+      "source": "reddit",
+      "sourceName": "r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1rvort4/i_gave_my_claude_code_agent_a_search_engine/",
+      "insight": "Real builder pattern: augmenting Claude Code with external tool access for agentic workflows",
+      "relevance": 7,
+      "tags": [
+        "claude-code",
+        "agentic",
+        "builder-methodology"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-23T15:01:43.468Z",
+      "age": "1h"
+    },
+    {
+      "id": "item-1774278292478-51",
+      "title": "PhD student built 10-agent Obsidian crew to manage research life",
+      "source": "reddit",
+      "sourceName": "r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s00ajb/im_a_phd_student_in_ai_and_i_built_a_10agent/",
+      "insight": "Multi-agent orchestration for personal knowledge management — real builder, real use case",
+      "relevance": 7,
+      "tags": [
+        "multi-agent",
+        "agentic",
+        "builder-methodology"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-23T15:01:43.468Z",
+      "age": "1h"
+    },
+    {
+      "id": "item-1774278292478-52",
+      "title": "Stopped using Claude.ai — runs entire business through Claude Code",
+      "source": "reddit",
+      "sourceName": "r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rwmj25/i_stopped_using_claudeai_entirely_i_run_my_entire/",
+      "insight": "Builder shifted full workflow to CLI-based agentic coding — signals where power users are going",
+      "relevance": 7,
+      "tags": [
+        "claude-code",
+        "builder-methodology",
+        "business"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-23T15:01:43.468Z",
+      "age": "1h"
+    },
+    {
+      "id": "item-1774278292478-53",
+      "title": "The skill that actually matters with Claude Code isn't prompting",
+      "source": "reddit",
+      "sourceName": "r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rxduu6/the_skill_that_actually_matters_with_claude_code/",
+      "insight": "Contrarian take on what separates effective Claude Code users — likely specs/architecture thinking",
+      "relevance": 7,
+      "tags": [
+        "claude-code",
+        "builder-methodology",
+        "contrarian"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-23T15:01:43.468Z",
+      "age": "1h"
+    },
+    {
+      "id": "item-1774278310935-55",
+      "title": "AgentDock: VS Code extension to manage multiple Claude Code sessions by task",
+      "source": "reddit",
+      "sourceName": "r/ClaudeCode",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1rym3zk/running_multiple_coding_agents_i_built_this_vs/",
+      "insight": "Practical tooling for multi-agent coding workflows — real builder need",
+      "relevance": 7,
+      "tags": [
+        "claude-code",
+        "multi-agent",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-23T15:01:45.249Z",
+      "age": "1h"
+    },
+    {
+      "id": "item-1774278310935-56",
+      "title": "Making Claude Code and Codex talk to each other",
+      "source": "reddit",
+      "sourceName": "r/ClaudeCode",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1s00cxj/i_made_claude_code_and_codex_talk_to_each_other/",
+      "insight": "Multi-agent orchestration between competing AI coding tools — novel pattern",
+      "relevance": 7,
+      "tags": [
+        "multi-agent",
+        "claude-code",
+        "agentic"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-23T15:01:45.249Z",
+      "age": "1h"
+    },
+    {
+      "id": "item-1774278310935-57",
+      "title": "Examples of extreme Claude Code workflows",
+      "source": "reddit",
+      "sourceName": "r/ClaudeCode",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1rzbb3n/examples_of_extreme_claude_code_workflows/",
+      "insight": "Real builder workflows pushing agent coding to the limit — pattern library",
+      "relevance": 7,
+      "tags": [
+        "claude-code",
+        "builder-methodology"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-23T15:01:45.249Z",
+      "age": "1h"
+    },
+    {
+      "id": "item-1774278310935-61",
+      "title": "AI agentic systems for day-to-day productivity beyond coding",
+      "source": "reddit",
+      "sourceName": "r/AI_Agents",
+      "url": "https://www.reddit.com/r/AI_Agents/comments/1ryr6uv/what_ai_agentic_systems_are_you_using_for_general/",
+      "insight": "Non-coding agent use cases — relevant for LATAM knowledge workers adopting AI",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-23T15:01:46.790Z",
+      "age": "1h"
+    },
+    {
+      "id": "item-1774278322488-63",
+      "title": "Open-source agentic system for outbound marketing",
+      "source": "reddit",
+      "sourceName": "r/AI_Agents",
+      "url": "https://www.reddit.com/r/AI_Agents/comments/1s0eygz/i_built_an_agentic_system_to_handle_most_of_my/",
+      "insight": "Builder shares full outbound marketing agent system — real implementation, open-sourced",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "builder-methodology",
+        "business"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-23T15:01:46.790Z",
+      "age": "1h"
+    },
+    {
+      "id": "item-1774278322488-65",
+      "title": "Best platforms for production-ready, cost-effective AI agents",
+      "source": "reddit",
+      "sourceName": "r/AI_Agents",
+      "url": "https://www.reddit.com/r/AI_Agents/comments/1s0du2n/whats_the_best_platform_to_build_production_ready/",
+      "insight": "Platform comparison for shipping affordable agents — cost-effectiveness is our core constraint",
+      "relevance": 7,
+      "tags": [
+        "agentic",
+        "tools",
+        "business"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-23T15:01:46.790Z",
+      "age": "1h"
+    },
+    {
+      "id": "item-1774278126902-1",
+      "title": "LangChain: Fix your agents with LangSmith",
+      "source": "x",
+      "sourceName": "@LangChain",
+      "url": "https://x.com/LangChain/status/2035958717003534520",
+      "insight": "LangSmith positioning as the debugging layer for production agents",
+      "relevance": 6,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 27,
+        "comments": 0,
+        "retweets": 3,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Mon Mar 23 05:55:59 +0000 2026",
+      "age": "9h"
+    },
+    {
+      "id": "item-1774278138577-7",
+      "title": "Boris Cherny asks Claude Code Desktop users for bug reports",
+      "source": "x",
+      "sourceName": "@bcherny",
+      "url": "https://x.com/bcherny/status/2035818340518658257",
+      "insight": "Claude Code Desktop actively collecting bug feedback — signals rapid iteration on the product",
+      "relevance": 6,
+      "tags": [
+        "claude-code",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 206,
+        "comments": 121,
+        "retweets": 3,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Sun Mar 22 20:38:10 +0000 2026",
+      "age": "18h"
+    },
+    {
+      "id": "item-1774278153600-13",
+      "title": "Why AI needed to push us to ship better dev tooling",
+      "source": "x",
+      "sourceName": "@swyx",
+      "url": "https://x.com/swyx/status/2035991607825330609",
+      "insight": "AI forcing better dev infra that should have existed already — meta lesson on tech debt",
+      "relevance": 6,
+      "tags": [
+        "tools"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 11,
+        "comments": 0,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Mon Mar 23 08:06:40 +0000 2026",
+      "age": "6h"
+    },
+    {
+      "id": "item-1774278169077-16",
+      "title": "Simon Willison on Claude Skills confusion",
+      "source": "x",
+      "sourceName": "@simonw",
+      "url": "https://x.com/simonw/status/2035879637595947026",
+      "insight": "Claude's new 'skills' mechanism creates confusion between chat skills and Claude Code — UX friction worth tracking",
+      "relevance": 6,
+      "tags": [
+        "claude-code",
+        "tools"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 13,
+        "comments": 6,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Mon Mar 23 00:41:45 +0000 2026",
+      "age": "14h"
+    },
+    {
+      "id": "item-1774278215904-24",
+      "title": "Mostaque: AI solves theoretical physics by 2027",
+      "source": "x",
+      "sourceName": "@EMostaque",
+      "url": "https://x.com/EMostaque/status/2035422937772089655",
+      "insight": "Bold timeline claim on AI surpassing human-only contributions in pure theoretical physics",
+      "relevance": 6,
+      "tags": [
+        "contrarian",
+        "models"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 588,
+        "comments": 61,
+        "retweets": 47,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Sat Mar 21 18:26:59 +0000 2026",
+      "age": "1d"
+    },
+    {
+      "id": "item-1774278241540-28",
+      "title": "What young workers are doing to AI-proof themselves",
+      "source": "hackernews",
+      "sourceName": "wallflower",
+      "url": "https://www.wsj.com/economy/jobs/ai-jobs-young-people-careers-14282284",
+      "insight": "WSJ on how early-career workers are adapting to AI displacement — useful contrarian signal on workforce shifts",
+      "relevance": 6,
+      "tags": [
+        "contrarian",
+        "business"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 185,
+        "comments": 289,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-22T18:18:01.000Z",
+      "age": "20h"
+    },
+    {
+      "id": "item-1774278241540-31",
+      "title": "Revise – AI Editor for Documents",
+      "source": "hackernews",
+      "sourceName": "artursapek",
+      "url": "https://revise.io",
+      "insight": "New AI document editing tool — relevant to content/knowledge workflows",
+      "relevance": 6,
+      "tags": [
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 73,
+        "comments": 63,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-22T13:28:45.000Z",
+      "age": "1d"
+    },
+    {
+      "id": "item-1774278256030-35",
+      "title": "Musk Building Terafab Chip Plant in Austin",
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/898722/musk-terafab-chip-plant",
+      "insight": "xAI vertical integration into chip manufacturing — reshapes AI compute landscape",
+      "relevance": 6,
+      "tags": [
+        "business",
+        "models"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-22T10:06:48-04:00",
+      "age": "1d"
+    },
+    {
+      "id": "item-1774278274655-39",
+      "title": "Beating the solo-founder procrastination trap, B2B prospecting tools, finding first users",
+      "source": "rss",
+      "sourceName": "Lenny Rachitsky",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-beating-the-solo",
+      "insight": "Community-sourced tactics for solo founders pre-launch — directly relevant to solopreneur builders",
+      "relevance": 6,
+      "tags": [
+        "business",
+        "builder-methodology"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Sat, 21 Mar 2026 17:19:36 GMT",
+      "age": "1d"
+    },
+    {
+      "id": "item-1774278274655-41",
+      "title": "AI tools worth trying beyond GitHub Copilot in 2026",
+      "source": "reddit",
+      "sourceName": "r/ChatGPT",
+      "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1rxw1gu/what_ai_tools_are_actually_worth_trying_beyond/",
+      "insight": "Practitioner recommendations for coding AI tools beyond the default — real-world tool discovery",
+      "relevance": 6,
+      "tags": [
+        "tools",
+        "claude-code"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-23T15:01:40.271Z",
+      "age": "1h"
+    },
+    {
+      "id": "item-1774278274655-45",
+      "title": "Best AI to actually pay for in 2026",
+      "source": "reddit",
+      "sourceName": "r/ChatGPT",
+      "url": "https://www.reddit.com/r/AI_Agents/comments/1rw5xvh/whats_the_best_ai_to_actually_pay_for_right_now/",
+      "insight": "Community-ranked paid AI tools — useful signal on where practitioners see real value",
+      "relevance": 6,
+      "tags": [
+        "tools",
+        "models"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-23T15:01:40.271Z",
+      "age": "1h"
+    },
+    {
+      "id": "item-1774278310935-58",
+      "title": "Claude vs Codex: honest comparison from practitioners",
+      "source": "reddit",
+      "sourceName": "r/ClaudeCode",
+      "url": "https://www.reddit.com/r/codex/comments/1rzp24f/is_it_just_me_or_is_claude_pretty_disappointing/",
+      "insight": "Contrarian take on Claude Code limitations vs OpenAI Codex — useful for tool selection",
+      "relevance": 6,
+      "tags": [
+        "claude-code",
+        "contrarian"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-23T15:01:45.249Z",
+      "age": "1h"
+    },
+    {
+      "id": "item-1774278310935-59",
+      "title": "Tool for understanding what Claude Code actually writes in your codebase",
+      "source": "reddit",
+      "sourceName": "r/ClaudeCode",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rxgrqo/claude_code_writes_your_code_but_do_you_actually/",
+      "insight": "Code audit/review tooling for AI-generated code — growing need as agents write more",
+      "relevance": 6,
+      "tags": [
+        "claude-code",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 0,
+        "comments": 0,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "2026-03-23T15:01:45.249Z",
+      "age": "1h"
+    }
+  ],
+  "stats": {
+    "rawFetched": 215,
+    "kept": 66,
+    "sourceBreakdown": {
+      "x": 141,
+      "hackernews": 7,
+      "rss": 26,
+      "reddit": 41
+    }
+  }
+}

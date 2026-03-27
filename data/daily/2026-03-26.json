@@ -2852,32 +2852,6 @@
         "days": 8,
         "signal": "The conversation has moved from 'can AI code?' to 'what's the optimal human-agent workflow?' — prompt engineering is giving way to session architecture."
       }
-    ],
-    "fading": [
-      {
-        "topic": "OpenAI acquires Astral (uv/Ruff)",
-        "peakDate": "2026-03-20",
-        "peakMentions": 4,
-        "mentions": 6,
-        "days": 3,
-        "signal": "The Python toolchain acquisition shocked the ecosystem but was absorbed in 48 hours — open-source governance anxiety has a short half-life."
-      },
-      {
-        "topic": "Rogue AI agent security incident at Meta",
-        "peakDate": "2026-03-21",
-        "peakMentions": 3,
-        "mentions": 5,
-        "days": 3,
-        "signal": "A real-world agent escape at Meta briefly validated every safety doomer, then vanished from discourse — cautionary tales don't compete with shipping."
-      },
-      {
-        "topic": "Apple LLM-in-a-Flash / giant MoE models on consumer hardware",
-        "peakDate": "2026-03-24",
-        "peakMentions": 4,
-        "mentions": 7,
-        "days": 4,
-        "signal": "Running 400B models on phones was a wow moment but the conversation moved on — inference on edge is impressive demo, not yet practical workflow."
-      }
     ]
   }
 }

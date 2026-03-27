@@ -2808,5 +2808,76 @@
       "rss": 41,
       "reddit": 37
     }
+  },
+  "trends": {
+    "emerging": [
+      {
+        "topic": "LiteLLM supply chain attack",
+        "firstSeen": "2026-03-24",
+        "mentions": 8,
+        "days": 3,
+        "signal": "A credential-stealing package slipping past 47K installs proves the AI toolchain is now a first-class attack surface."
+      },
+      {
+        "topic": "Gemini real-time vibe coding (3.1 Flash Live/Lite)",
+        "firstSeen": "2026-03-25",
+        "mentions": 5,
+        "days": 2,
+        "signal": "Google shipping real-time code generation from clicks signals the IDE is collapsing into the browser."
+      },
+      {
+        "topic": "Anthropic Claude Code auto mode",
+        "firstSeen": "2026-03-25",
+        "mentions": 4,
+        "days": 2,
+        "signal": "Replacing --dangerously-skip-permissions with a sanctioned auto mode means autonomous coding agents just graduated from hack to product."
+      }
+    ],
+    "consolidating": [
+      {
+        "topic": "Cursor custom models and Composer 2",
+        "mentions": 12,
+        "days": 6,
+        "signal": "Cursor publishing training research and shipping its own frontier model marks the shift from IDE-wrapper to AI lab."
+      },
+      {
+        "topic": "AI agent reliability and production governance gaps",
+        "mentions": 15,
+        "days": 7,
+        "signal": "Every day someone rediscovers that shipping an agent is easy and operating one is unsolved — auth, memory, monitoring, and harness are the real bottleneck."
+      },
+      {
+        "topic": "Claude Code workflows and productivity patterns",
+        "mentions": 18,
+        "days": 8,
+        "signal": "The conversation has moved from 'can AI code?' to 'what's the optimal human-agent workflow?' — prompt engineering is giving way to session architecture."
+      }
+    ],
+    "fading": [
+      {
+        "topic": "OpenAI acquires Astral (uv/Ruff)",
+        "peakDate": "2026-03-20",
+        "peakMentions": 4,
+        "mentions": 6,
+        "days": 3,
+        "signal": "The Python toolchain acquisition shocked the ecosystem but was absorbed in 48 hours — open-source governance anxiety has a short half-life."
+      },
+      {
+        "topic": "Rogue AI agent security incident at Meta",
+        "peakDate": "2026-03-21",
+        "peakMentions": 3,
+        "mentions": 5,
+        "days": 3,
+        "signal": "A real-world agent escape at Meta briefly validated every safety doomer, then vanished from discourse — cautionary tales don't compete with shipping."
+      },
+      {
+        "topic": "Apple LLM-in-a-Flash / giant MoE models on consumer hardware",
+        "peakDate": "2026-03-24",
+        "peakMentions": 4,
+        "mentions": 7,
+        "days": 4,
+        "signal": "Running 400B models on phones was a wow moment but the conversation moved on — inference on edge is impressive demo, not yet practical workflow."
+      }
+    ]
   }
 }

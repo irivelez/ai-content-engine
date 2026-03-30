@@ -98,8 +98,16 @@
     "built my startup with AI agents",
     "no-code AI app making money",
     "AI workflow increased sales revenue",
-    "solopreneur AI tools stack"
+    "solopreneur AI tools stack",
+    "site:bloomberglinea.com AI inteligencia artificial tecnología"
   ],
+  "braveSourceOverrides": {
+    "bloomberglinea.com": {
+      "name": "Bloomberg Línea",
+      "signalWeight": 1.5,
+      "tier": "latam"
+    }
+  },
   "topicFilters": [
     "AI tools",
     "prompts",
@@ -153,7 +161,33 @@
     },
     {
       "name": "Ben Thompson (Stratechery)",
-      "url": "https://stratechery.com/feed/"
+      "url": "https://stratechery.com/feed/",
+      "signalWeight": 1.3,
+      "tier": "enterprise"
+    },
+    {
+      "name": "McKinsey Insights",
+      "url": "https://www.mckinsey.com/insights/rss.aspx",
+      "signalWeight": 1.5,
+      "tier": "enterprise"
+    },
+    {
+      "name": "MIT Sloan Management Review",
+      "url": "https://sloanreview.mit.edu/feed/",
+      "signalWeight": 1.3,
+      "tier": "enterprise"
+    },
+    {
+      "name": "Benedict Evans",
+      "url": "https://www.ben-evans.com/benedictevans?format=rss",
+      "signalWeight": 1.2,
+      "tier": "enterprise"
+    },
+    {
+      "name": "Rest of World",
+      "url": "https://restofworld.org/feed/",
+      "signalWeight": 1.3,
+      "tier": "latam"
     },
     {
       "name": "One Useful Thing (Ethan Mollick)",

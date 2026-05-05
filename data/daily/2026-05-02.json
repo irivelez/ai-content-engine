@@ -1,0 +1,1835 @@
+{
+  "date": "2026-05-02",
+  "generatedAt": "2026-05-02T15:09:48.054Z",
+  "bigPicture": "The AI industry is no longer debating whether agents work — it's fighting over who controls the harness, with OpenAI, Google, and Cursor all racing to become the default orchestration layer while Harrison Chase warns that's exactly where lock-in lives.",
+  "dataPoints": [
+    {
+      "stat": "6% of all Claude conversations are people seeking personal life guidance",
+      "context": "Anthropic's 1M-conversation analysis reveals LLMs are becoming de facto life coaches — a use case most builders aren't designing for"
+    },
+    {
+      "stat": "Google DeepMind's AI co-clinician matched physicians in 68 out of 140 clinical areas",
+      "context": "Dual-agent architecture (planner + executor) achieved near-parity with doctors, establishing a safety pattern for high-stakes AI"
+    },
+    {
+      "stat": "Anthropic's Opus 4.7 cut sycophancy rate by 50% on real conversation stress tests",
+      "context": "First concrete, measurable improvement in model honesty — critical differentiator for advisory and coaching applications"
+    },
+    {
+      "stat": "Google's 8th-gen TPUs explicitly designed for 'Agentic Era' workloads",
+      "context": "Hardware roadmaps now shaped by agent compute patterns, confirming agentic AI isn't a trend — it's driving chip architecture"
+    }
+  ],
+  "tldr": [
+    "OpenAI is repositioning Codex from coding tool to universal work agent — plugins for Slack/Google, role-based workflows, cross-app summaries signal enterprise platform ambitions",
+    "The real AI lock-in isn't the model, it's the orchestration layer: Harrison Chase and Cursor both revealed how harness design determines cost, speed, and vendor dependency",
+    "Science benchmarks are getting serious — Claude beat domain experts on real biology problems and Anthropic launched creative bioinformatics evals, moving beyond synthetic benchmark gaming",
+    "LATAM Airlines shipping production agents with LangChain is the rarest thing in AI: a real enterprise case study from Latin America, not a demo or pilot",
+    "Karpathy's 'LLMs as new computing paradigm' framing at Sequoia (42K+ likes) is setting the intellectual agenda — builders who treat LLMs as features instead of platforms will get disrupted"
+  ],
+  "items": [
+    {
+      "id": "item-1777734368694-1",
+      "title": "OpenAI: GPT-5.5 is strongest model launch yet, API revenue growing fast",
+      "source": "x",
+      "sourceName": "@OpenAI",
+      "url": "https://x.com/OpenAI/status/2050250926888468929",
+      "insight": "Builders should benchmark GPT-5.5 against current stack. API revenue growth signals enterprise adoption wave.",
+      "relevance": 8,
+      "contentScore": 4,
+      "tags": [
+        "models",
+        "business"
+      ],
+      "category": "models",
+      "engagement": {
+        "likes": 7579,
+        "comments": 482,
+        "retweets": 342,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri May 01 16:28:07 +0000 2026",
+      "age": "22h"
+    },
+    {
+      "id": "item-1777734368694-3",
+      "title": "Karpathy's Sequoia fireside chat: LLMs as a new computing paradigm",
+      "source": "x",
+      "sourceName": "@karpathy",
+      "url": "https://x.com/karpathy/status/2049903821095354523",
+      "insight": "Karpathy framing LLMs as paradigm shift, not just tools. Founders should watch for strategic framing on building around LLMs.",
+      "relevance": 8,
+      "contentScore": 7,
+      "tags": [
+        "agentic",
+        "builder-methodology"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 5122,
+        "comments": 206,
+        "retweets": 674,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Apr 30 17:28:50 +0000 2026",
+      "age": "1d",
+      "contentAngle": "Framework: Karpathy's mental model for building on LLMs as a new computing layer"
+    },
+    {
+      "id": "item-1777734368694-5",
+      "title": "Anthropic analyzed 1M Claude conversations to understand how people seek guidance",
+      "source": "x",
+      "sourceName": "@AnthropicAI",
+      "url": "https://x.com/AnthropicAI/status/2049927618397614466",
+      "insight": "Research on real usage patterns. Product builders should study this for UX/prompt design in conversational AI.",
+      "relevance": 8,
+      "contentScore": 7,
+      "tags": [
+        "research",
+        "agentic"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 3259,
+        "comments": 340,
+        "retweets": 294,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Apr 30 19:03:24 +0000 2026",
+      "age": "1d",
+      "contentAngle": "Deep dive: What 1M real conversations reveal about how humans actually use AI assistants"
+    },
+    {
+      "id": "item-1777734368694-7",
+      "title": "Anthropic: Claude scored against domain experts on 99 real biology problems",
+      "source": "x",
+      "sourceName": "@AnthropicAI",
+      "url": "https://x.com/AnthropicAI/status/2049624600741560340",
+      "insight": "Rigorous benchmark vs humans on real data. Key evidence for AI-in-science adoption decisions.",
+      "relevance": 8,
+      "contentScore": 7,
+      "tags": [
+        "research",
+        "models"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 2394,
+        "comments": 195,
+        "retweets": 235,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Apr 29 22:59:19 +0000 2026",
+      "age": "2d",
+      "contentAngle": "Teardown: How Claude performs vs domain experts on real biological data — implications for AI in science"
+    },
+    {
+      "id": "item-1777734368695-9",
+      "title": "Google releases Gemini Embedding 2 — first natively multimodal embedding model",
+      "source": "x",
+      "sourceName": "@GoogleAI",
+      "url": "https://x.com/GoogleAI/status/2049903687016063456",
+      "insight": "Multimodal embeddings unlock image+text RAG without separate pipelines. Builders should test for search/retrieval use cases.",
+      "relevance": 8,
+      "contentScore": 7,
+      "tags": [
+        "models",
+        "tools"
+      ],
+      "category": "models",
+      "engagement": {
+        "likes": 2300,
+        "comments": 81,
+        "retweets": 311,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Apr 30 17:28:19 +0000 2026",
+      "age": "1d",
+      "contentAngle": "How-to: Building multimodal RAG with Gemini Embedding 2 | Comparison: Gemini Embedding 2 vs text-only embeddings for retrieval"
+    },
+    {
+      "id": "item-1777734368695-11",
+      "title": "Cursor launches always-on Security Review agents for Teams and Enterprise",
+      "source": "x",
+      "sourceName": "@cursor_ai",
+      "url": "https://x.com/cursor_ai/status/2049926283061035254",
+      "insight": "Agentic security scanning baked into IDE. Teams should evaluate vs standalone SAST tools — potential cost savings.",
+      "relevance": 8,
+      "contentScore": 7,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 1788,
+        "comments": 82,
+        "retweets": 171,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Apr 30 18:58:06 +0000 2026",
+      "age": "1d",
+      "contentAngle": "Comparison: Cursor Security Review agents vs traditional SAST — when agentic beats static"
+    },
+    {
+      "id": "item-1777734406521-20",
+      "title": "Greg Isenberg: How to build an entire company with AI agents using Paperclip",
+      "source": "x",
+      "sourceName": "@gregisenberg",
+      "url": "https://x.com/gregisenberg/status/2050205362356134054",
+      "insight": "Non-tech founders: full company-building-with-agents walkthrough from Greg — high signal for the 'agents as employees' playbook.",
+      "relevance": 8,
+      "contentScore": 8,
+      "tags": [
+        "agentic",
+        "builder-methodology",
+        "business"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 326,
+        "comments": 63,
+        "retweets": 30,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri May 01 13:27:04 +0000 2026",
+      "age": "1d",
+      "contentAngle": "Framework: Building a company with AI agents as functional teams | Use case: Paperclip for non-tech founder automation"
+    },
+    {
+      "id": "item-1777734444775-37",
+      "title": "Harrison Chase: model providers lock you in via harness, need open harnesses",
+      "source": "x",
+      "sourceName": "@hwchase17",
+      "url": "https://x.com/hwchase17/status/2050470473310572849",
+      "insight": "Agent architects: critical insight — the lock-in isn't the model, it's the orchestration layer. Choose harnesses carefully.",
+      "relevance": 8,
+      "contentScore": 7,
+      "tags": [
+        "agentic",
+        "contrarian",
+        "builder-methodology"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 71,
+        "comments": 11,
+        "retweets": 8,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Sat May 02 07:00:31 +0000 2026",
+      "age": "8h",
+      "contentAngle": "Framework: Evaluating agent harness lock-in vs model portability"
+    },
+    {
+      "id": "item-1777734469541-43",
+      "title": "LATAM Airlines built two production agents with LangChain",
+      "source": "x",
+      "sourceName": "@LangChain",
+      "url": "https://x.com/LangChain/status/2050303140822732849",
+      "insight": "Largest LATAM airline shipping agents in production — rare real enterprise case study, directly relevant to LATAM AI adoption",
+      "relevance": 8,
+      "contentScore": 6,
+      "tags": [
+        "agentic",
+        "business",
+        "latam"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 27,
+        "comments": 2,
+        "retweets": 4,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri May 01 19:55:36 +0000 2026",
+      "age": "19h"
+    },
+    {
+      "id": "item-1777734368693-0",
+      "title": "Karpathy shares his most-cited quote on LLMs",
+      "source": "x",
+      "sourceName": "@karpathy",
+      "url": "https://x.com/karpathy/status/2049907410303865030",
+      "insight": "Context needed to evaluate — likely a key framing on where LLMs are headed. Watch for the actual quote in replies.",
+      "relevance": 7,
+      "contentScore": 3,
+      "tags": [],
+      "category": "opinion",
+      "engagement": {
+        "likes": 42199,
+        "comments": 613,
+        "retweets": 3860,
+        "views": 0
+      },
+      "hot": true,
+      "publishedAt": "Thu Apr 30 17:43:06 +0000 2026",
+      "age": "1d"
+    },
+    {
+      "id": "item-1777734368694-2",
+      "title": "OpenAI: Codex now supports role-based workflows with app integrations",
+      "source": "x",
+      "sourceName": "@OpenAI",
+      "url": "https://x.com/OpenAI/status/2049928776147230886",
+      "insight": "Codex becoming IDE-as-agent. Builders should test role+app combos for automating repetitive dev workflows.",
+      "relevance": 7,
+      "contentScore": 6,
+      "tags": [
+        "agentic",
+        "tools",
+        "claude-code"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 5599,
+        "comments": 327,
+        "retweets": 421,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Apr 30 19:08:00 +0000 2026",
+      "age": "1d"
+    },
+    {
+      "id": "item-1777734368694-4",
+      "title": "Andrew Ng launches new prompting course for 2026 best practices",
+      "source": "x",
+      "sourceName": "@AndrewYNg",
+      "url": "https://x.com/AndrewYNg/status/2049886895530967534",
+      "insight": "Ng's courses set industry baseline. Check curriculum for what changed — useful for training teams and content angles.",
+      "relevance": 7,
+      "contentScore": 7,
+      "tags": [
+        "tutorials"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 4041,
+        "comments": 122,
+        "retweets": 719,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Apr 30 16:21:35 +0000 2026",
+      "age": "1d",
+      "contentAngle": "How-to: 2026 prompting techniques vs 2022 — what changed and why"
+    },
+    {
+      "id": "item-1777734368695-10",
+      "title": "Emad Mostaque: OpenAI may have cracked recursive self-improvement for Codex",
+      "source": "x",
+      "sourceName": "@EMostaque",
+      "url": "https://x.com/EMostaque/status/2050074699284054523",
+      "insight": "If true, massive implications for AI dev tools. Watch for evidence — could reshape build-vs-buy decisions.",
+      "relevance": 7,
+      "contentScore": 3,
+      "tags": [
+        "agentic"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 2075,
+        "comments": 75,
+        "retweets": 88,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri May 01 04:47:51 +0000 2026",
+      "age": "1d"
+    },
+    {
+      "id": "item-1777734368695-12",
+      "title": "Cursor explains their agent harness: making models faster, smarter, more token-efficient",
+      "source": "x",
+      "sourceName": "@cursor_ai",
+      "url": "https://x.com/cursor_ai/status/2049901436918436249",
+      "insight": "Cursor sharing how they optimize model performance inside IDE agents. Builders designing agent harnesses should study this.",
+      "relevance": 7,
+      "contentScore": 8,
+      "tags": [
+        "agentic",
+        "builder-methodology",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 1239,
+        "comments": 49,
+        "retweets": 98,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Apr 30 17:19:22 +0000 2026",
+      "age": "1d",
+      "contentAngle": "Teardown: Cursor's agent harness architecture — how to make models faster and cheaper inside agents"
+    },
+    {
+      "id": "item-1777734368695-13",
+      "title": "Google DeepMind launches AI co-clinician research initiative for healthcare agents",
+      "source": "x",
+      "sourceName": "@GoogleDeepMind",
+      "url": "https://x.com/GoogleDeepMind/status/2049867061279457761",
+      "insight": "Multimodal agents in clinical settings. Healthcare AI builders should track this for architecture patterns.",
+      "relevance": 7,
+      "contentScore": 5,
+      "tags": [
+        "agentic",
+        "research"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 1141,
+        "comments": 73,
+        "retweets": 213,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Apr 30 15:02:46 +0000 2026",
+      "age": "2d"
+    },
+    {
+      "id": "item-1777734368695-14",
+      "title": "Google announces 8th generation TPUs for the Agentic Era",
+      "source": "x",
+      "sourceName": "@GoogleAI",
+      "url": "https://x.com/GoogleAI/status/2049546885371670895",
+      "insight": "Google naming the era 'Agentic' at hardware level. Infra signal: agentic workloads driving chip design now.",
+      "relevance": 7,
+      "contentScore": 5,
+      "tags": [
+        "agentic",
+        "models"
+      ],
+      "category": "models",
+      "engagement": {
+        "likes": 897,
+        "comments": 35,
+        "retweets": 135,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Apr 29 17:50:30 +0000 2026",
+      "age": "2d"
+    },
+    {
+      "id": "item-1777734406521-15",
+      "title": "Zig project's rationale for banning AI-assisted contributions",
+      "source": "x",
+      "sourceName": "@simonw",
+      "url": "https://x.com/simonw/status/2049661673427042509",
+      "insight": "OSS maintainers: shows principled reasoning for AI code bans — useful counterpoint when setting your own team's AI policy.",
+      "relevance": 7,
+      "contentScore": 6,
+      "tags": [
+        "contrarian",
+        "agentic"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 498,
+        "comments": 43,
+        "retweets": 55,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Apr 30 01:26:38 +0000 2026",
+      "age": "2d"
+    },
+    {
+      "id": "item-1777734406521-16",
+      "title": "Anthropic: 6% of Claude conversations are personal guidance requests",
+      "source": "x",
+      "sourceName": "@AnthropicAI",
+      "url": "https://x.com/AnthropicAI/status/2049927619915976789",
+      "insight": "AI product builders: real usage data showing people treat LLMs as life coaches — design for this or deliberately constrain it.",
+      "relevance": 7,
+      "contentScore": 6,
+      "tags": [
+        "models",
+        "research"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 467,
+        "comments": 17,
+        "retweets": 32,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Apr 30 19:03:25 +0000 2026",
+      "age": "1d"
+    },
+    {
+      "id": "item-1777734406521-17",
+      "title": "OpenAI Codex: plugin setup for Slack, Google, and role-based onboarding",
+      "source": "x",
+      "sourceName": "@OpenAI",
+      "url": "https://x.com/OpenAI/status/2049928777480974606",
+      "insight": "Teams adopting Codex: plugin ecosystem approach signals OpenAI wants Codex as universal work agent, not just code tool.",
+      "relevance": 7,
+      "contentScore": 7,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 435,
+        "comments": 10,
+        "retweets": 19,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Apr 30 19:08:01 +0000 2026",
+      "age": "1d",
+      "contentAngle": "How-to: Setting up Codex as a cross-app work assistant with plugins"
+    },
+    {
+      "id": "item-1777734406521-19",
+      "title": "Crabbox 0.3.0: remote Linux sandbox runs for dirty worktrees",
+      "source": "x",
+      "sourceName": "@steipete",
+      "url": "https://x.com/steipete/status/2050490163810230579",
+      "insight": "Devs using AI coding agents: sandboxed remote runs for uncommitted code — solves the 'test without committing' problem.",
+      "relevance": 7,
+      "contentScore": 7,
+      "tags": [
+        "tools",
+        "claude-code"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 342,
+        "comments": 11,
+        "retweets": 31,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Sat May 02 08:18:45 +0000 2026",
+      "age": "6h",
+      "contentAngle": "How-to: Using Crabbox for safe remote execution of AI-generated code"
+    },
+    {
+      "id": "item-1777734406521-22",
+      "title": "Anthropic launches BioMysteryBench for creative bioinformatics problem-solving",
+      "source": "x",
+      "sourceName": "@AnthropicAI",
+      "url": "https://x.com/AnthropicAI/status/2049624602486383078",
+      "insight": "ML researchers: new eval for open-ended scientific reasoning — signals shift from benchmark-gaming to creative problem-solving evals.",
+      "relevance": 7,
+      "contentScore": 6,
+      "tags": [
+        "research",
+        "models"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 319,
+        "comments": 20,
+        "retweets": 33,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Apr 29 22:59:20 +0000 2026",
+      "age": "2d"
+    },
+    {
+      "id": "item-1777734406521-23",
+      "title": "OpenAI Codex: personal assistant that summarizes cross-app data and plans next steps",
+      "source": "x",
+      "sourceName": "@OpenAI",
+      "url": "https://x.com/OpenAI/status/2049928779083219105",
+      "insight": "Knowledge workers: Codex positioning as universal work assistant, not just coding — watch for enterprise workflow disruption.",
+      "relevance": 7,
+      "contentScore": 5,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 309,
+        "comments": 9,
+        "retweets": 13,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Apr 30 19:08:01 +0000 2026",
+      "age": "1d"
+    },
+    {
+      "id": "item-1777734406521-27",
+      "title": "Anthropic: Opus 4.7 cuts sycophancy rate in half on real conversation stress tests",
+      "source": "x",
+      "sourceName": "@AnthropicAI",
+      "url": "https://x.com/AnthropicAI/status/2049927629420245494",
+      "insight": "AI builders: concrete measurable improvement in model honesty — relevant if choosing between models for advisory/coaching apps.",
+      "relevance": 7,
+      "contentScore": 6,
+      "tags": [
+        "models",
+        "research"
+      ],
+      "category": "models",
+      "engagement": {
+        "likes": 166,
+        "comments": 18,
+        "retweets": 9,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Apr 30 19:03:27 +0000 2026",
+      "age": "1d"
+    },
+    {
+      "id": "item-1777734444775-28",
+      "title": "LangChain Deep Agents: search, fetch, and browser subagents",
+      "source": "x",
+      "sourceName": "@LangChain",
+      "url": "https://x.com/LangChain/status/2050274421114376565",
+      "insight": "Agent builders: LangChain ships browser-capable subagents. Check if this replaces your custom scraping/browsing infra.",
+      "relevance": 7,
+      "contentScore": 7,
+      "tags": [
+        "agentic",
+        "multi-agent",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 144,
+        "comments": 13,
+        "retweets": 18,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri May 01 18:01:28 +0000 2026",
+      "age": "21h",
+      "contentAngle": "How-to: Build web-browsing agents with LangChain Deep Agents"
+    },
+    {
+      "id": "item-1777734444775-30",
+      "title": "Google DeepMind AI co-clinician matches physicians in 68/140 areas",
+      "source": "x",
+      "sourceName": "@GoogleDeepMind",
+      "url": "https://x.com/GoogleDeepMind/status/2049867063808679983",
+      "insight": "AI-in-healthcare builders: dual-agent architecture (planner + executor) is a safety pattern worth stealing for any high-stakes domain.",
+      "relevance": 7,
+      "contentScore": 7,
+      "tags": [
+        "research",
+        "multi-agent"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 130,
+        "comments": 5,
+        "retweets": 9,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Apr 30 15:02:47 +0000 2026",
+      "age": "2d",
+      "contentAngle": "Framework: Dual-agent safety architecture for high-stakes AI applications | Deep dive: AI clinical decision support benchmarks"
+    },
+    {
+      "id": "item-1777734444775-31",
+      "title": "DeepMind AI co-clinician uses live video/audio for physical symptom analysis",
+      "source": "x",
+      "sourceName": "@GoogleDeepMind",
+      "url": "https://x.com/GoogleDeepMind/status/2049867066501451845",
+      "insight": "Multimodal builders: real-time video+audio processing for diagnosis — watch this pattern spread beyond healthcare.",
+      "relevance": 7,
+      "contentScore": 6,
+      "tags": [
+        "research",
+        "models"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 123,
+        "comments": 7,
+        "retweets": 15,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Apr 30 15:02:47 +0000 2026",
+      "age": "2d"
+    },
+    {
+      "id": "item-1777734444775-33",
+      "title": "Greg Isenberg: AI creates explosion of entrepreneurship, not permanent underclass",
+      "source": "x",
+      "sourceName": "@gregisenberg",
+      "url": "https://x.com/gregisenberg/status/2050582257971163530",
+      "insight": "Business strategists: contrarian take — AI lowers barriers so dramatically that MORE people build businesses, not fewer.",
+      "relevance": 7,
+      "contentScore": 5,
+      "tags": [
+        "contrarian",
+        "business"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 95,
+        "comments": 43,
+        "retweets": 5,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Sat May 02 14:24:42 +0000 2026",
+      "age": "1h"
+    },
+    {
+      "id": "item-1777734444775-35",
+      "title": "LangChain DeepAgents Deploy: config-driven agent deployment to cloud",
+      "source": "x",
+      "sourceName": "@hwchase17",
+      "url": "https://x.com/hwchase17/status/2049858892637892739",
+      "insight": "Agent builders: TOML-based agent deployment removes infra friction. Evaluate vs your current deploy pipeline.",
+      "relevance": 7,
+      "contentScore": 8,
+      "tags": [
+        "agentic",
+        "tools",
+        "builder-methodology"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 86,
+        "comments": 8,
+        "retweets": 16,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Apr 30 14:30:19 +0000 2026",
+      "age": "2d",
+      "contentAngle": "How-to: Deploy agents to cloud with deepagents.toml config | Comparison: LangChain Deploy vs manual agent infrastructure"
+    },
+    {
+      "id": "item-1777734444775-38",
+      "title": "Cursor ships customizable security review agents",
+      "source": "x",
+      "sourceName": "@cursor_ai",
+      "url": "https://x.com/cursor_ai/status/2049926285518848093",
+      "insight": "Dev teams: automated security agents in IDE = shift-left on steroids. Check if this replaces your SAST pipeline.",
+      "relevance": 7,
+      "contentScore": 7,
+      "tags": [
+        "tools",
+        "agentic"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 69,
+        "comments": 5,
+        "retweets": 1,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Apr 30 18:58:06 +0000 2026",
+      "age": "1d",
+      "contentAngle": "How-to: Configure Cursor security agents for your team's requirements"
+    },
+    {
+      "id": "item-1777734469541-42",
+      "title": "LangChain on sandboxing agents: what can go wrong",
+      "source": "x",
+      "sourceName": "@LangChain",
+      "url": "https://x.com/LangChain/status/2050185220154950039",
+      "insight": "Agent builders need sandbox patterns — security failures in production agents are costly and underreported",
+      "relevance": 7,
+      "contentScore": 7,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 34,
+        "comments": 9,
+        "retweets": 4,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri May 01 12:07:01 +0000 2026",
+      "age": "1d",
+      "contentAngle": "Deep dive: Agent sandboxing patterns and failure modes"
+    },
+    {
+      "id": "item-1777734469541-44",
+      "title": "Madrigal Pharma's agentic future — biopharma production agents",
+      "source": "x",
+      "sourceName": "@hwchase17",
+      "url": "https://x.com/hwchase17/status/2049620223477903438",
+      "insight": "Biopharma enterprise deploying agents — signals agentic AI crossing into regulated industries with real ROI",
+      "relevance": 7,
+      "contentScore": 5,
+      "tags": [
+        "agentic",
+        "business"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 25,
+        "comments": 5,
+        "retweets": 6,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Apr 29 22:41:56 +0000 2026",
+      "age": "2d"
+    },
+    {
+      "id": "item-1777734469541-45",
+      "title": "Karpathy on synthetic data: slop still leaks through",
+      "source": "x",
+      "sourceName": "@karpathy",
+      "url": "https://x.com/karpathy/status/2050240810403410211",
+      "insight": "Even with good synthetic data pipelines, quality control remains unsolved — temper expectations on self-improving loops",
+      "relevance": 7,
+      "contentScore": 4,
+      "tags": [
+        "models",
+        "contrarian"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 20,
+        "comments": 9,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri May 01 15:47:55 +0000 2026",
+      "age": "23h"
+    },
+    {
+      "id": "item-1777734469541-47",
+      "title": "Long-running agents need self-evaluation mechanisms",
+      "source": "x",
+      "sourceName": "@joaomdmoura",
+      "url": "https://x.com/joaomdmoura/status/2049953184882266521",
+      "insight": "Key pattern: agents that run long need built-in self-eval loops — practical design principle for production multi-agent systems",
+      "relevance": 7,
+      "contentScore": 7,
+      "tags": [
+        "agentic",
+        "builder-methodology"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 12,
+        "comments": 5,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Apr 30 20:45:00 +0000 2026",
+      "age": "1d",
+      "contentAngle": "Framework: Designing self-evaluation loops for long-running agents"
+    },
+    {
+      "id": "item-1777734496367-49",
+      "title": "DeepAgents now supports sandboxed execution via Modal, Daytona, and Runloop",
+      "source": "x",
+      "sourceName": "@hwchase17",
+      "url": "https://x.com/hwchase17/status/2049858896580530238",
+      "insight": "Agent infra builders: sandbox integration is table stakes now. Evaluate these providers for your own agent deployments.",
+      "relevance": 7,
+      "contentScore": 6,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 5,
+        "comments": 1,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Apr 30 14:30:20 +0000 2026",
+      "age": "2d"
+    },
+    {
+      "id": "item-1777734496367-52",
+      "title": "UI/UX is a surprisingly big part of building agents — streaming, thread history, input handling",
+      "source": "x",
+      "sourceName": "@hwchase17",
+      "url": "https://x.com/hwchase17/status/2049858900435079492",
+      "insight": "Agent builders: don't underestimate frontend work. Streaming + thread UX can take as long as the agent logic itself.",
+      "relevance": 7,
+      "contentScore": 7,
+      "tags": [
+        "agentic",
+        "builder-methodology"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 4,
+        "comments": 1,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Apr 30 14:30:21 +0000 2026",
+      "age": "2d",
+      "contentAngle": "Framework: The hidden UI/UX checklist for production agent apps"
+    },
+    {
+      "id": "item-1777734496367-53",
+      "title": "Multi-tenant auth is critical for production agent deployment",
+      "source": "x",
+      "sourceName": "@hwchase17",
+      "url": "https://x.com/hwchase17/status/2049858898677625023",
+      "insight": "Shipping agents to prod? Auth/multi-tenancy is the gap between demo and product. Plan it early, not after.",
+      "relevance": 7,
+      "contentScore": 7,
+      "tags": [
+        "agentic",
+        "builder-methodology"
+      ],
+      "category": "tutorials",
+      "engagement": {
+        "likes": 4,
+        "comments": 1,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Apr 30 14:30:20 +0000 2026",
+      "age": "2d",
+      "contentAngle": "How-to: Adding multi-tenant auth to your agent deployment"
+    },
+    {
+      "id": "item-1777734496367-54",
+      "title": "Simon Willison: reviewing someone else's LLM output is harder than reviewing their code",
+      "source": "x",
+      "sourceName": "@simonw",
+      "url": "https://x.com/simonw/status/2050205070696808532",
+      "insight": "Engineering leads: LLM-generated work creates review bottlenecks. Factor this into team workflows — tokens are cheap, review isn't.",
+      "relevance": 7,
+      "contentScore": 5,
+      "tags": [
+        "contrarian",
+        "builder-methodology"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 3,
+        "comments": 0,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri May 01 13:25:54 +0000 2026",
+      "age": "1d"
+    },
+    {
+      "id": "item-1777734368694-6",
+      "title": "OpenAI: Import workflows, plugins, and agents into Codex in a few clicks",
+      "source": "x",
+      "sourceName": "@OpenAI",
+      "url": "https://x.com/OpenAI/status/2050290618187055175",
+      "insight": "Codex lowering migration friction. Teams using other IDEs should evaluate switching cost now.",
+      "relevance": 6,
+      "contentScore": 5,
+      "tags": [
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 2800,
+        "comments": 189,
+        "retweets": 155,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri May 01 19:05:50 +0000 2026",
+      "age": "20h"
+    },
+    {
+      "id": "item-1777734368694-8",
+      "title": "OpenAI launches Advanced Account Security for high-risk ChatGPT users",
+      "source": "x",
+      "sourceName": "@OpenAI",
+      "url": "https://x.com/OpenAI/status/2049902506881462613",
+      "insight": "Security hardening for AI tools signals enterprise readiness. Relevant for regulated industries adopting AI.",
+      "relevance": 6,
+      "contentScore": 3,
+      "tags": [
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 2371,
+        "comments": 162,
+        "retweets": 230,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Apr 30 17:23:37 +0000 2026",
+      "age": "1d"
+    },
+    {
+      "id": "item-1777734406521-18",
+      "title": "Karpathy on VPT (Video PreTraining) and its lasting impact",
+      "source": "x",
+      "sourceName": "@karpathy",
+      "url": "https://x.com/karpathy/status/2049920650765377928",
+      "insight": "ML practitioners: Karpathy flagging VPT as foundational — worth revisiting if building game/sim agents.",
+      "relevance": 6,
+      "contentScore": 5,
+      "tags": [
+        "research",
+        "models"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 378,
+        "comments": 12,
+        "retweets": 21,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Apr 30 18:35:43 +0000 2026",
+      "age": "1d"
+    },
+    {
+      "id": "item-1777734406521-21",
+      "title": "Anthropic: Claude shows sycophancy in only 9% of guidance conversations",
+      "source": "x",
+      "sourceName": "@AnthropicAI",
+      "url": "https://x.com/AnthropicAI/status/2049927621891534874",
+      "insight": "AI safety/product teams: quantified sycophancy rates — benchmark your own models against this baseline.",
+      "relevance": 6,
+      "contentScore": 5,
+      "tags": [
+        "models",
+        "research"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 319,
+        "comments": 11,
+        "retweets": 21,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Apr 30 19:03:25 +0000 2026",
+      "age": "1d"
+    },
+    {
+      "id": "item-1777734406521-24",
+      "title": "OpenAI Codex: real-time file editing with iterative review workflow",
+      "source": "x",
+      "sourceName": "@OpenAI",
+      "url": "https://x.com/OpenAI/status/2049928782019256561",
+      "insight": "Builders: Codex's review-in-loop UX is the pattern — human stays in control while agent iterates. Design your agents this way.",
+      "relevance": 6,
+      "contentScore": 6,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 295,
+        "comments": 15,
+        "retweets": 16,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Apr 30 19:08:02 +0000 2026",
+      "age": "1d"
+    },
+    {
+      "id": "item-1777734406521-25",
+      "title": "OpenAI Codex: task progress visibility with files, tools, and reasoning traces",
+      "source": "x",
+      "sourceName": "@OpenAI",
+      "url": "https://x.com/OpenAI/status/2049929697921003809",
+      "insight": "Agent builders: transparency UX (show files touched, tools used, reasoning) — copy this pattern for trust in your own agents.",
+      "relevance": 6,
+      "contentScore": 7,
+      "tags": [
+        "agentic",
+        "builder-methodology"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 246,
+        "comments": 19,
+        "retweets": 22,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Apr 30 19:11:40 +0000 2026",
+      "age": "1d",
+      "contentAngle": "Framework: Designing transparent agent UX — progress, files, reasoning traces"
+    },
+    {
+      "id": "item-1777734406521-26",
+      "title": "OpenAI Codex: migration path from existing tools via app and CLI",
+      "source": "x",
+      "sourceName": "@OpenAI",
+      "url": "https://x.com/OpenAI/status/2049928780588966270",
+      "insight": "Dev teams: Codex now has direct migration tooling — signals confidence in replacing existing coding assistants.",
+      "relevance": 6,
+      "contentScore": 5,
+      "tags": [
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 215,
+        "comments": 5,
+        "retweets": 10,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Apr 30 19:08:01 +0000 2026",
+      "age": "1d"
+    },
+    {
+      "id": "item-1777734444775-29",
+      "title": "Harrison Chase on models powering web-browsing agents",
+      "source": "x",
+      "sourceName": "@hwchase17",
+      "url": "https://x.com/hwchase17/status/2050300474927292883",
+      "insight": "Agent architects: browser agents becoming viable signals a shift from API-only to full web interaction patterns.",
+      "relevance": 6,
+      "contentScore": 5,
+      "tags": [
+        "agentic",
+        "models"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 142,
+        "comments": 8,
+        "retweets": 16,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri May 01 19:45:00 +0000 2026",
+      "age": "19h"
+    },
+    {
+      "id": "item-1777734444775-32",
+      "title": "Ryan Carson: idea to production in 4.5 days with AI coding",
+      "source": "x",
+      "sourceName": "@ryancarson",
+      "url": "https://x.com/ryancarson/status/2050285800168833263",
+      "insight": "Builder-CEOs: concrete timeline benchmark for AI-assisted shipping speed. Compare against your own cycle times.",
+      "relevance": 6,
+      "contentScore": 6,
+      "tags": [
+        "builder-methodology"
+      ],
+      "category": "business",
+      "engagement": {
+        "likes": 115,
+        "comments": 22,
+        "retweets": 1,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri May 01 18:46:41 +0000 2026",
+      "age": "20h"
+    },
+    {
+      "id": "item-1777734444775-34",
+      "title": "swyx: uninstalled ChatGPT app, Codex is strict superset now",
+      "source": "x",
+      "sourceName": "@swyx",
+      "url": "https://x.com/swyx/status/2050391638166622222",
+      "insight": "AI power users: OpenAI Codex replacing ChatGPT for daily use signals the coding-first interface is winning.",
+      "relevance": 6,
+      "contentScore": 4,
+      "tags": [
+        "tools",
+        "claude-code"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 94,
+        "comments": 28,
+        "retweets": 5,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Sat May 02 01:47:15 +0000 2026",
+      "age": "13h"
+    },
+    {
+      "id": "item-1777734444775-36",
+      "title": "Simon Willison on WebMCP as accessibility technology",
+      "source": "x",
+      "sourceName": "@simonw",
+      "url": "https://x.com/simonw/status/2049565758720749691",
+      "insight": "MCP builders: WebMCP enabling accessibility is a non-obvious use case that expands the TAM for MCP tooling.",
+      "relevance": 6,
+      "contentScore": 5,
+      "tags": [
+        "tools",
+        "agentic"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 79,
+        "comments": 8,
+        "retweets": 6,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Apr 29 19:05:30 +0000 2026",
+      "age": "2d"
+    },
+    {
+      "id": "item-1777734444775-39",
+      "title": "Cursor Security Review: improving runtime, harness, and models",
+      "source": "x",
+      "sourceName": "@cursor_ai",
+      "url": "https://x.com/cursor_ai/status/2049926287439929475",
+      "insight": "Dev teams using Cursor: security review improving out-of-box — revisit if you dismissed it earlier.",
+      "relevance": 6,
+      "contentScore": 4,
+      "tags": [
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 63,
+        "comments": 4,
+        "retweets": 4,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Apr 30 18:58:07 +0000 2026",
+      "age": "1d"
+    },
+    {
+      "id": "item-1777734444775-40",
+      "title": "Simon Willison on rationale for AI code review beyond quality concerns",
+      "source": "x",
+      "sourceName": "@simonw",
+      "url": "https://x.com/simonw/status/2049665014391570473",
+      "insight": "Engineering leads: nuanced take on WHY to review AI code — not because it's bad, but because review serves other purposes.",
+      "relevance": 6,
+      "contentScore": 5,
+      "tags": [
+        "contrarian",
+        "builder-methodology"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 63,
+        "comments": 2,
+        "retweets": 1,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Apr 30 01:39:55 +0000 2026",
+      "age": "2d"
+    },
+    {
+      "id": "item-1777734469541-41",
+      "title": "CrewAI founder says Claude keeps getting worse",
+      "source": "x",
+      "sourceName": "@joaomdmoura",
+      "url": "https://x.com/joaomdmoura/status/2050234214948470848",
+      "insight": "Contrarian signal from agent framework builder — worth tracking if you're betting on Claude for production agents",
+      "relevance": 6,
+      "contentScore": 3,
+      "tags": [
+        "contrarian",
+        "models"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 39,
+        "comments": 13,
+        "retweets": 1,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Fri May 01 15:21:43 +0000 2026",
+      "age": "23h"
+    },
+    {
+      "id": "item-1777734469541-46",
+      "title": "CrewAI's Iris: internal playground for cutting-edge agent hypotheses",
+      "source": "x",
+      "sourceName": "@joaomdmoura",
+      "url": "https://x.com/joaomdmoura/status/2049711728892784963",
+      "insight": "Agent framework builders dogfooding experimental architectures internally — watch for patterns that graduate to product",
+      "relevance": 6,
+      "contentScore": 5,
+      "tags": [
+        "agentic",
+        "multi-agent"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 13,
+        "comments": 2,
+        "retweets": 2,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Apr 30 04:45:32 +0000 2026",
+      "age": "2d"
+    },
+    {
+      "id": "item-1777734469541-48",
+      "title": "CrewAI founder's daily agent stack: Iris, OpenClaw, Claude Code, Claude app",
+      "source": "x",
+      "sourceName": "@joaomdmoura",
+      "url": "https://x.com/joaomdmoura/status/2049602624996208898",
+      "insight": "Real builder showing full daily agent toolkit — signals multi-agent workflows are becoming standard for AI-native teams",
+      "relevance": 6,
+      "contentScore": 6,
+      "tags": [
+        "multi-agent",
+        "builder-methodology",
+        "agentic"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 10,
+        "comments": 4,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Wed Apr 29 21:32:00 +0000 2026",
+      "age": "2d"
+    },
+    {
+      "id": "item-1777734496367-50",
+      "title": "LangSmith DeepAgents: agent deployment naming and configuration",
+      "source": "x",
+      "sourceName": "@hwchase17",
+      "url": "https://x.com/hwchase17/status/2049858894529454264",
+      "insight": "Teams deploying agents: LangSmith's deployment model ties agent names to observability. Useful pattern for multi-agent ops.",
+      "relevance": 6,
+      "contentScore": 6,
+      "tags": [
+        "agentic",
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 5,
+        "comments": 1,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Apr 30 14:30:19 +0000 2026",
+      "age": "2d"
+    },
+    {
+      "id": "item-1777734496367-51",
+      "title": "Codex outperforms Slack's native AI search",
+      "source": "x",
+      "sourceName": "@swyx",
+      "url": "https://x.com/swyx/status/2050432398161264664",
+      "insight": "Teams drowning in Slack: try Codex as search layer — real user finding it beats the native tool. Test before paying for Slack AI.",
+      "relevance": 6,
+      "contentScore": 5,
+      "tags": [
+        "tools"
+      ],
+      "category": "tools",
+      "engagement": {
+        "likes": 4,
+        "comments": 5,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Sat May 02 04:29:13 +0000 2026",
+      "age": "10h"
+    },
+    {
+      "id": "item-1777734496367-55",
+      "title": "Steipete: my agent wants to run tests locally before pushing garbage",
+      "source": "x",
+      "sourceName": "@steipete",
+      "url": "https://x.com/steipete/status/2050488123520401893",
+      "insight": "Agent-assisted coding needs local test loops. Agents that push without testing create more work than they save.",
+      "relevance": 6,
+      "contentScore": 5,
+      "tags": [
+        "claude-code",
+        "builder-methodology"
+      ],
+      "category": "opinion",
+      "engagement": {
+        "likes": 3,
+        "comments": 0,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Sat May 02 08:10:39 +0000 2026",
+      "age": "6h"
+    },
+    {
+      "id": "item-1777734496367-56",
+      "title": "Yann LeCun traces 'world model' concept back to 2016 NIPS keynote",
+      "source": "x",
+      "sourceName": "@ylecun",
+      "url": "https://x.com/ylecun/status/2049896683744498078",
+      "insight": "Researchers tracking world models lineage: LeCun claims priority from 2016. Useful context for the ongoing world-model debate.",
+      "relevance": 6,
+      "contentScore": 4,
+      "tags": [
+        "research",
+        "models"
+      ],
+      "category": "research",
+      "engagement": {
+        "likes": 2,
+        "comments": 3,
+        "retweets": 0,
+        "views": 0
+      },
+      "hot": false,
+      "publishedAt": "Thu Apr 30 17:00:29 +0000 2026",
+      "age": "1d"
+    }
+  ],
+  "contentFuel": [
+    {
+      "id": "cf-1777734541462-2",
+      "author": "AndrewYNg",
+      "content": "How we prompt AI is very different in 2026 than 2022 when ChatGPT came out.\n\nI'm teaching a new course, AI Prompting for Everyone, to help you become an AI power user — whatever your current skill level.\n\nIt covers skills that apply across ChatGPT, Gemini, Claude, and other AI tools. How to use deep research mode for well-researched reports on complex questions. How to give AI the right context, including more documents and images than most people realize you can provide. When to ask AI to think",
+      "url": "https://x.com/AndrewYNg/status/2049886895530967534",
+      "repurposeScore": 9,
+      "format": "how-to",
+      "whyKeep": "Andrew Ng's prompting course covering specific 2026 techniques: deep research mode, context-setting methods, applicable across ChatGPT/Gemini/Claude.",
+      "engagement": {
+        "likes": 4041,
+        "retweets": 719,
+        "views": 0
+      },
+      "publishedAt": "Thu Apr 30 16:21:35 +0000 2026",
+      "age": "1d"
+    },
+    {
+      "id": "cf-1777734541463-7",
+      "author": "nikitabier",
+      "content": "@shawmakesmagic Tap 👎 and tap AI-generated",
+      "url": "https://x.com/nikitabier/status/2050088152837296365",
+      "repurposeScore": 9,
+      "format": "step-by-step",
+      "whyKeep": "Breaks down Anthropic's official 6-element prompt structure from their applied AI team's workshop — specific framework most people are missing.",
+      "engagement": {
+        "likes": 1016,
+        "retweets": 25,
+        "views": 0
+      },
+      "publishedAt": "Fri May 01 05:41:19 +0000 2026",
+      "age": "1d"
+    },
+    {
+      "id": "cf-1777734560762-9",
+      "author": "rubenhassid",
+      "content": "Your $20/month Claude subscription is enough. \nBut only if you climb all 14 of these levels:\n\n✦ Level 1: SIGN UP\nGo to claude .ai. Pay $20 for Pro.\nThe free plan has daily caps and no Cowork.\nClaude 101: https://t.co/Vn60ElPrcK\n\n✦ Level 2: PICK THE MODEL\nOpus 4.7 + Extended Thinking for real work.\nSonnet for quick tasks. Haiku for short answers.\nMost people use the wrong model 80% of the time.\n\n✦ Level 3: PROMPT BETTER\nBe specific. Give examples of good output.\nEdit your message when something's",
+      "url": "https://x.com/rubenhassid/status/2050515641904288232",
+      "repurposeScore": 9,
+      "format": "step-by-step",
+      "whyKeep": "14 progressive levels of Claude usage with specific model picks, features, and workflows at each level",
+      "engagement": {
+        "likes": 148,
+        "retweets": 27,
+        "views": 0
+      },
+      "publishedAt": "Sat May 02 10:00:00 +0000 2026",
+      "age": "5h"
+    },
+    {
+      "id": "cf-1777734560762-11",
+      "author": "cyrilXBT",
+      "content": "DEVELOPERS JUST FIGURED OUT HOW TO RUN CLAUDE CODE FOR FREE USING LOCAL AI MODELS AND THE INTERNET IS LOSING ITS MIND.\n\nNo API key.\n\nNo monthly bill.\n\nNo token counter bleeding your budget dry every time you start a new session.\n\nHere is the exact setup.\n\nInstall Ollama on your machine.\n\nPull Gemma 4 or any other open source model locally.\n\nRoute Claude Code through Ollama instead of the Anthropic API.\n\nClaude Code now runs entirely on your local GPU.\n\nEvery build. Every refactor. Every debuggin",
+      "url": "https://x.com/cyrilXBT/status/2050486548005806335",
+      "repurposeScore": 9,
+      "format": "how-to",
+      "whyKeep": "Exact setup to run Claude Code locally for free using Ollama + Gemma 4 with step-by-step commands",
+      "engagement": {
+        "likes": 111,
+        "retweets": 20,
+        "views": 0
+      },
+      "publishedAt": "Sat May 02 08:04:23 +0000 2026",
+      "age": "7h"
+    },
+    {
+      "id": "cf-1777734541462-0",
+      "author": "OpenAI",
+      "content": "It's never been easier to do everyday work with Codex.\n\nChoose your role, connect the apps you use every day, and try suggested prompts.\n\nCodex helps with everything from research and planning to docs, slides, spreadsheets, and more. https://t.co/zDtYnMSqvn",
+      "url": "https://x.com/OpenAI/status/2049928776147230886",
+      "repurposeScore": 8,
+      "format": "tool-demo",
+      "whyKeep": "Shows exactly how to set up Codex with roles, app connections, and suggested prompts for everyday work tasks like research, docs, slides, and spreadsheets.",
+      "engagement": {
+        "likes": 5599,
+        "retweets": 421,
+        "views": 0
+      },
+      "publishedAt": "Thu Apr 30 19:08:00 +0000 2026",
+      "age": "1d"
+    },
+    {
+      "id": "cf-1777734541462-1",
+      "author": "karpathy",
+      "content": "Fireside chat at Sequoia Ascent 2026 from a ~week ago. Some highlights:\n\nThe first theme I tried to push on is that LLMs are about a lot more than just speeding up what existed before (e.g. coding). Three examples of new horizons:\n\n1. menugen: an app that can be fully engulfed by LLMs, with no classical code needed: input an image, output an image and an LLM can natively do the thing.\n2. install .md skills instead of install .sh scripts. Why create a complex Software 1.0 bash script for e.g. ins",
+      "url": "https://x.com/karpathy/status/2049903821095354523",
+      "repurposeScore": 8,
+      "format": "teardown",
+      "whyKeep": "Karpathy walks through 3 concrete examples of new LLM use cases (menugen, install-based apps) with specific architectural patterns beyond just coding speedup.",
+      "engagement": {
+        "likes": 5122,
+        "retweets": 674,
+        "views": 0
+      },
+      "publishedAt": "Thu Apr 30 17:28:50 +0000 2026",
+      "age": "1d"
+    },
+    {
+      "id": "cf-1777734541462-4",
+      "author": "karpathy",
+      "content": "@VBarsoum Haha yeah I call it cozy coding :)\nUsage: “This valentines, cozy code with someone you love”",
+      "url": "https://x.com/karpathy/status/2049650641010921979",
+      "repurposeScore": 8,
+      "format": "how-to",
+      "whyKeep": "Google breaks down what embedding models are and how developers built video analysis tools and visual shopping assistants with Gemini Embedding 2.",
+      "engagement": {
+        "likes": 2335,
+        "retweets": 47,
+        "views": 0
+      },
+      "publishedAt": "Thu Apr 30 00:42:48 +0000 2026",
+      "age": "2d"
+    },
+    {
+      "id": "cf-1777734541462-5",
+      "author": "nikitabier",
+      "content": "@alexworkmode @X Welcome to the mental hospital. We’re lucky to have you.",
+      "url": "https://x.com/nikitabier/status/2050447499446599855",
+      "repurposeScore": 8,
+      "format": "workflow",
+      "whyKeep": "Cursor's two always-on security agents: PR vulnerability reviewer and scheduled codebase scanner with Slack integration — specific setup for Teams/Enterprise.",
+      "engagement": {
+        "likes": 2039,
+        "retweets": 64,
+        "views": 0
+      },
+      "publishedAt": "Sat May 02 05:29:13 +0000 2026",
+      "age": "9h"
+    },
+    {
+      "id": "cf-1777734560762-8",
+      "author": "cyrilXBT",
+      "content": "EVERY TIME YOU ACCEPTED A SALARY OR WALKED INTO A NEGOTIATION THE OTHER PERSON WAS RUNNING GAME THEORY IN THEIR HEAD.\n\nYou were guessing.\n\nGame Theory is the mathematical science of strategic decision-making.\n\nEvery salary negotiation. Every pricing conversation. Every partnership deal. Every time two people want different things and have to reach an outcome.\n\nThe person who understands Game Theory sees the entire structure of the situation.\n\nThe person who does not is just hoping.\n\nYale Profess",
+      "url": "https://x.com/cyrilXBT/status/2050449958512542116",
+      "repurposeScore": 8,
+      "format": "listicle-with-steps",
+      "whyKeep": "Game theory frameworks applied to salary negotiation, pricing, and partnerships with specific strategic patterns to follow",
+      "engagement": {
+        "likes": 203,
+        "retweets": 48,
+        "views": 0
+      },
+      "publishedAt": "Sat May 02 05:39:00 +0000 2026",
+      "age": "9h"
+    },
+    {
+      "id": "cf-1777734560762-10",
+      "author": "cyrilXBT",
+      "content": "MIT just quietly dropped 10 free AI and tech courses online.\n\nNo tuition. No application. No excuses.\n\nThese are the same courses taught to students paying $80,000 a year. You can take them right now for free.\n\nHere's what's available:\n\nComputer Science and Programming in Python\nThe foundation. What computation actually means, algorithms, data structures, and Python in practice.\n→ https://t.co/cAhU43NuQA\n\nMachine Learning in Python\nBuild and evaluate real ML models. Full workflow from training t",
+      "url": "https://x.com/cyrilXBT/status/2050465334424170674",
+      "repurposeScore": 8,
+      "format": "listicle-with-steps",
+      "whyKeep": "10 free MIT AI/CS courses with direct links and descriptions of what each covers",
+      "engagement": {
+        "likes": 127,
+        "retweets": 38,
+        "views": 0
+      },
+      "publishedAt": "Sat May 02 06:40:06 +0000 2026",
+      "age": "8h"
+    },
+    {
+      "id": "cf-1777734560762-15",
+      "author": "aiedge_",
+      "content": "The BEST way to vibe code offline:\n\n- Download Ollama\n- Download Gemma 4 by Google\n- Choose a model size\n- Start coding\n\nFully open-sourced and easy to use! https://t.co/kk5frqoAor",
+      "url": "https://x.com/aiedge_/status/2050062822466527360",
+      "repurposeScore": 8,
+      "format": "step-by-step",
+      "whyKeep": "Offline vibe coding setup: Ollama + Gemma 4 download and configuration steps",
+      "engagement": {
+        "likes": 38,
+        "retweets": 6,
+        "views": 0
+      },
+      "publishedAt": "Fri May 01 04:00:39 +0000 2026",
+      "age": "1d"
+    },
+    {
+      "id": "cf-1777734560762-16",
+      "author": "aiedge_",
+      "content": "Most people have no clue this exists, and it's killing the quality of their Claude outputs.\n\nTake <30 seconds to make this small Claude adjustment - and you'll instantly start getting better Claude responses.\n\nGo to Settings → Memory.\n\nThis is the most overlooked page in all of Claude, and one that most people have never checked.\n\nWhat you will find is everything Claude has stored about you (preferences, facts, habits, working styles, etc.) - accumulated passively across every conversation you h",
+      "url": "https://x.com/aiedge_/status/2050447708411015643",
+      "repurposeScore": 8,
+      "format": "how-to",
+      "whyKeep": "Claude Memory settings adjustment in under 30 seconds to improve output quality",
+      "engagement": {
+        "likes": 33,
+        "retweets": 2,
+        "views": 0
+      },
+      "publishedAt": "Sat May 02 05:30:03 +0000 2026",
+      "age": "9h"
+    },
+    {
+      "id": "cf-1777734541462-3",
+      "author": "OpenAI",
+      "content": "Bring your workflow to Codex in just a few clicks.\n\nImport settings, plugins, agents, project configuration, and more so you can keep working with fewer interruptions.\n\nYour move. https://t.co/uRu5VSeWuz",
+      "url": "https://x.com/OpenAI/status/2050290618187055175",
+      "repurposeScore": 7,
+      "format": "workflow",
+      "whyKeep": "Shows exact steps to import settings, plugins, agents, and project config into Codex to replicate your existing dev workflow.",
+      "engagement": {
+        "likes": 2800,
+        "retweets": 155,
+        "views": 0
+      },
+      "publishedAt": "Fri May 01 19:05:50 +0000 2026",
+      "age": "20h"
+    },
+    {
+      "id": "cf-1777734541463-6",
+      "author": "sama",
+      "content": "/hatch clippy",
+      "url": "https://x.com/sama/status/2050402088266694689",
+      "repurposeScore": 7,
+      "format": "teardown",
+      "whyKeep": "Cursor explains how they test, monitor, and repair their agent harness to make models faster and more token-efficient — reproducible optimization methodology.",
+      "engagement": {
+        "likes": 1548,
+        "retweets": 47,
+        "views": 0
+      },
+      "publishedAt": "Sat May 02 02:28:47 +0000 2026",
+      "age": "12h"
+    },
+    {
+      "id": "cf-1777734560762-12",
+      "author": "cyrilXBT",
+      "content": "CLAUDE CODE WENT FROM RESEARCH PREVIEW TO A $1 BILLION PRODUCT IN 6 MONTHS.\n\nAnthropic just did the same thing for people who do not code.\n\nIt is called Cowork.\n\nAnd this free 18-minute video teaches you how to set it up from scratch.\n\nNo code. No prior experience. No $500 course upsell at the end.\n\nHere is why this matters more than most people realize.\n\nClaude Code changed everything for developers. One person with Claude Code now builds what used to require a team of five.\n\nCowork is that sam",
+      "url": "https://x.com/cyrilXBT/status/2050415984830288185",
+      "repurposeScore": 7,
+      "format": "how-to",
+      "whyKeep": "Free 18-minute video walkthrough to set up Claude Cowork from scratch for non-coders",
+      "engagement": {
+        "likes": 71,
+        "retweets": 13,
+        "views": 0
+      },
+      "publishedAt": "Sat May 02 03:24:00 +0000 2026",
+      "age": "11h"
+    },
+    {
+      "id": "cf-1777734560762-13",
+      "author": "cyrilXBT",
+      "content": "MOST PEOPLE ARE USING CLAUDE LIKE A YES MACHINE.\n\nAsk a question. Get validation. Feel confident. Make the wrong decision.\n\nClaude will agree with you more than it should.\n\nNot because it is broken.\n\nBecause you are asking one voice for an answer that needs five.\n\nThere is a skill that fixes this permanently.\n\nIt is called The LLM Council.\n\nAnd it turns one Claude into five independent AI advisors that attack your question from completely different angles, grade each other's reasoning anonymousl",
+      "url": "https://x.com/cyrilXBT/status/2050524714423238658",
+      "repurposeScore": 7,
+      "format": "how-to",
+      "whyKeep": "LLM Council technique: turning one Claude into five independent advisors to avoid confirmation bias",
+      "engagement": {
+        "likes": 68,
+        "retweets": 10,
+        "views": 0
+      },
+      "publishedAt": "Sat May 02 10:36:03 +0000 2026",
+      "age": "4h"
+    },
+    {
+      "id": "cf-1777734560762-14",
+      "author": "zodchiii",
+      "content": "The .gitignore That Saves Your Career (Full File Included)",
+      "url": "https://x.com/zodchiii/status/2050505359584788850",
+      "repurposeScore": 7,
+      "format": "step-by-step",
+      "whyKeep": ".gitignore template and security workflow to prevent API key leaks with specific steps",
+      "engagement": {
+        "likes": 58,
+        "retweets": 9,
+        "views": 0
+      },
+      "publishedAt": "Sat May 02 09:19:08 +0000 2026",
+      "age": "5h"
+    }
+  ],
+  "enterpriseSignals": [
+    {
+      "id": "es-1777734608324-2",
+      "title": "The Rise of the Human-AI Workforce",
+      "source": "rss",
+      "sourceName": "McKinsey Insights",
+      "url": "https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-rise-of-the-human-ai-workforce",
+      "strategicRelevance": 8,
+      "category": "strategy",
+      "insight": "McKinsey frames the human-AI workforce model — critical for LATAM CXOs designing org structures, roles, and change management around AI adoption.",
+      "tags": [
+        "workforce-transformation",
+        "organizational-change",
+        "mckinsey",
+        "enterprise-ai"
+      ],
+      "signalWeight": 1.5,
+      "publishedAt": "Thu, 30 Apr 2026",
+      "age": "2d"
+    },
+    {
+      "id": "es-1777734608324-3",
+      "title": "How AI Agents Threaten Retail Banks' Customer Relationships",
+      "source": "rss",
+      "sourceName": "McKinsey Insights",
+      "url": "https://www.mckinsey.com/industries/financial-services/our-insights/how-gen-ai-agents-threaten-retail-banks-customer-relationships",
+      "strategicRelevance": 8,
+      "category": "strategy",
+      "insight": "AI agents may disintermediate banks from customers — urgent strategic signal for LATAM financial services leaders to rethink digital channels.",
+      "tags": [
+        "ai-agents",
+        "banking",
+        "financial-services",
+        "disintermediation"
+      ],
+      "signalWeight": 1.5,
+      "publishedAt": "Thu, 30 Apr 2026",
+      "age": "2d"
+    },
+    {
+      "id": "es-1777734608324-0",
+      "title": "Amazon Earnings: Trainium Custom Silicon and the Commodity Cloud Market",
+      "source": "rss",
+      "sourceName": "Ben Thompson (Stratechery)",
+      "url": "https://stratechery.com/2026/amazon-earnings-trainium-and-commodity-markets-additional-amazon-notes/",
+      "strategicRelevance": 7,
+      "category": "vendor",
+      "insight": "Amazon's Trainium chips signal cloud AI compute becoming commodity — LATAM CTOs should watch pricing pressure across AWS/Azure/GCP for AI workloads.",
+      "tags": [
+        "cloud-compute",
+        "aws",
+        "ai-infrastructure",
+        "vendor-strategy"
+      ],
+      "signalWeight": 1.3,
+      "publishedAt": "Thu, 30 Apr 2026 10:00:00 +0000",
+      "age": "2d"
+    },
+    {
+      "id": "es-1777734608324-4",
+      "title": "Audit Yourself to Get More From GenAI",
+      "source": "rss",
+      "sourceName": "MIT Sloan Management Review",
+      "url": "https://sloanreview.mit.edu/article/audit-yourself-to-get-more-from-genai/",
+      "strategicRelevance": 7,
+      "category": "strategy",
+      "insight": "MIT Sloan proposes self-audit framework to maximize GenAI value — actionable methodology for LATAM enterprises struggling with adoption ROI.",
+      "tags": [
+        "genai-adoption",
+        "mit-sloan",
+        "enterprise-ai",
+        "roi-framework"
+      ],
+      "signalWeight": 1.3,
+      "publishedAt": "Thu, 30 Apr 2026 11:00:06 +0000",
+      "age": "2d"
+    },
+    {
+      "id": "es-1777734608324-1",
+      "title": "Transforming Factories: Continuous Connected Insights with AI",
+      "source": "rss",
+      "sourceName": "McKinsey Insights",
+      "url": "https://www.mckinsey.com/capabilities/operations/our-insights/transforming-factories-the-power-of-continuous-connected-insights",
+      "strategicRelevance": 6,
+      "category": "adoption",
+      "insight": "McKinsey maps how AI-driven continuous monitoring transforms manufacturing ops — relevant framework for LATAM industrial leaders evaluating AI ROI.",
+      "tags": [
+        "manufacturing",
+        "ai-operations",
+        "mckinsey",
+        "digital-transformation"
+      ],
+      "signalWeight": 1.5,
+      "publishedAt": "Fri, 01 May 2026",
+      "age": "1d"
+    }
+  ],
+  "trends": {
+    "emerging": [
+      {
+        "topic": "AI for biology and drug discovery",
+        "firstSeen": "2026-04-18",
+        "mentions": 6,
+        "days": 3,
+        "signal": "OpenAI launched a dedicated life-sciences model (GPT-Rosalind) and Anthropic benchmarked Claude against domain experts on real biology problems — frontier labs are racing to prove AI can replace wet-lab expertise, not just assist it."
+      },
+      {
+        "topic": "Developer role shift to AI output reviewer",
+        "firstSeen": "2026-04-18",
+        "mentions": 8,
+        "days": 3,
+        "signal": "Cursor's study showing review as the fastest-growing developer task, combined with Boris Cherny's 'give Claude a way to verify its work' mantra, confirms the developer job is becoming quality assurance over AI-generated code — writing is the shrinking part."
+      },
+      {
+        "topic": "Coding agent harness as competitive moat",
+        "firstSeen": "2026-04-20",
+        "mentions": 7,
+        "days": 3,
+        "signal": "Harrison Chase warns model providers lock you in via harness, Emad Mostaque calls wrapper products the real enterprise play, Cursor details their harness optimizations — the war has shifted from who has the best model to who controls the orchestration layer around it."
+      }
+    ],
+    "consolidating": []
+  },
+  "stats": {
+    "rawFetched": 376,
+    "kept": 57,
+    "contentFuelCount": 17,
+    "enterpriseSignalCount": 5,
+    "sourceBreakdown": {
+      "x": 276,
+      "hackernews": 10,
+      "rss": 51,
+      "reddit": 39
+    },
+    "tierBreakdown": {
+      "trusted": 186,
+      "creator": 89,
+      "broad": 1,
+      "unknown": 49,
+      "rss": 35,
+      "enterprise": 12,
+      "latam": 4
+    }
+  }
+}
